@@ -1,0 +1,65 @@
+<div class="login">
+<form class="form-1">
+    <p class="field">
+        <input type="text" name="login" id="username" placeholder="<?php echo $dil["kullanici_adi"]; ?>">
+        <i class="icon-user icon-large"></i>
+    </p>
+        <p class="field">
+            <input type="password" id="password" name="password" placeholder="<?php echo $dil["sifre"]; ?>">
+            <i class="icon-lock icon-large"></i>
+    </p>
+    <p class="submit">
+        <button type="submit" id="submitbutton" name="submit"><i class="icon-arrow-right icon-large"></i></button>
+    </p>
+</form>
+<a href="#" class="closeit"><i class="icon-remove"></i> <?php echo $dil["kapat"]; ?></a>
+</div>
+<div class="login_error"></div>
+<div class="topbar">
+	<div class="topbarleft">
+    <!--<a class="facebooktop" href="https://www.facebook.com/Workviewer"><i class="icon-facebook"></i> Facebook</a>
+    <a class="twittertop" href="https://twitter.com/workviewer"><i class="icon-twitter"></i> Twitter</a> -->
+    <a href="javascript:void(0)"><img src="img/callcenter.jpg" width="32" style="float:left; position:relative; top:4px; margin-right:5px;"  /><i class="icon-phone"></i><?php if($_SESSION["dil"]!="tr" || $_SESSION["dil"]=="") { echo " +90";} else{ echo " 0";} ?> 212 876 2 444</a>
+    </div>
+	<div class="topbar_menu">
+    	<ul>
+        	<li><a class="loginbutton" href="login/"><?php echo $dil["Webde_oturum_acin"]; ?></a></li>
+            <li><a href="#">
+            <?php 
+           	if(!isset($_SESSION["dil"])){ echo '<img src="img/Turkey.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Turkce"];}
+            if($_SESSION["dil"]=="tr"){ echo '<img src="img/Turkey.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Turkce"];} 
+            if($_SESSION["dil"]=="en"){ echo '<img src="img/England.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Ingilizce"];} 
+            if($_SESSION["dil"]=="alm"){ echo '<img src="img/Germany.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Almanca"];} 
+            if($_SESSION["dil"]=="it"){ echo '<img src="img/Italy.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Italyanca"];} 
+            if($_SESSION["dil"]=="sp"){ echo '<img src="img/Spain.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Ispanyolca"];} 
+            if($_SESSION["dil"]=="fr"){ echo '<img src="img/France.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Fransizca"];} 
+            if($_SESSION["dil"]=="ch"){ echo '<img src="img/China.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Cince"];} 
+            if($_SESSION["dil"]=="ar"){ echo '<img src="img/Arabi.png" style=" position:relative; top:7px; right:5px;" />'.$dil["Arapca"];}
+            ?>
+            <i class="icon-chevron-down"></i></a>
+            	<ul>
+                	<li><img src="img/Turkey.png" /><a href="http://www.workviewer.com/dil.php?dil=tr&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Turkce"]; ?></a></li>
+                    <li><img src="img/England.png" /><a href="http://www.workviewer.com/dil.php?dil=en&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Ingilizce"]; ?></a></li>
+                    <li><img src="img/Germany.png" /><a href="http://www.workviewer.com/dil.php?dil=alm&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Almanca"]; ?></a></li>
+                    <li><img src="img/Italy.png" /><a href="http://www.workviewer.com/dil.php?dil=it&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Italyanca"]; ?></a></li>
+                    <li><img src="img/Spain.png" /><a href="http://www.workviewer.com/dil.php?dil=sp&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Ispanyolca"]; ?></a></li>
+                    <li><img src="img/France.png" /><a href="http://www.workviewer.com/dil.php?dil=fr&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Fransizca"]; ?></a></li>
+                    <li><img src="img/China.png" /><a href="http://www.workviewer.com/dil.php?dil=ch&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Cince"]; ?></a></li>
+                    <li><img src="img/Arabi.png" /><a href="http://www.workviewer.com/dil.php?dil=ar&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>"><?php echo $dil["Arapca"]; ?></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="loading_overlay">
+<div class="overlay_loading"></div>
+<div class="loading_text">
+<div class="loading_text_header"><?php echo $dil["satin_al_small"]; ?></div>
+<div style="padding:10px;">
+<img src="img/secpa_logo.png" style="float:left; margin-right:10px;" />
+<?php echo $dil["satis_text"]; ?>
+<a class="satinalbutton" href="https://www.secpayazilim.com/satinal"><?php echo $dil["devam_et"]; ?></a>
+</div>
+<div class="close">X</div>
+</div>
+</div>

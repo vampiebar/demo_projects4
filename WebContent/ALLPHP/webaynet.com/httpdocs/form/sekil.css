@@ -1,0 +1,36 @@
+
+body, td, div{
+	font:12px "Trebuchet MS",Georgia
+}
+
+div{
+	margin-bottom:10px;
+}
+
+#main{
+	border-style:solid;
+	border-color:#DCECA6; 
+	border-width:1px 0xp 0px 1px; 
+	background-color:#FFF; 
+	padding:0px 7px 11px 25px;
+	margin-top:5px; 
+	min-height:450px;
+}
+#articles{float:right;width:250px;border:1px solid #F2BFFF;background-color:#FFF9FF;margin:10px;font:11px Verdana, Helvetica, Sans-Serif; padding:5px;color:#666;}
+h1{color:#F60;font:18px "Trebuchet MS",Georgia;margin-bottom:0px;margin-top:5px;}
+h2{color:#333;font:18px Georgia;margin-bottom:2px}
+hr {height:1px}
+.hd{display:none}
+a{font:11px "Trebuchet MS",Georgia;color:#F30;font-weight:bold}
+a:hover{text-decoration:none}
+
+#articles a{font-weight:normal;}
+#articles h2{color:#C0F; border:solid #CCC;padding-bottom:0px;border-width:0px 0px 1px 0px;}
+a img{border:0px}
+.desc{font:11px Tahoma; color:#333;margin-bottom:10px;};
+h3{font:14px Tahoma; color:#333;margin:0px;font-weight:bold;color:#333}
+/*#cont img{
+	border:solid 1px #666;
+	float:left;
+	margin:5px;
+}*/

@@ -1,0 +1,31 @@
+To: "{#name|lower|capitalize#}" <{#email#}>
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: Multi Page Dependency Form - Demo | Sales
+
+Dear {#name|lower|capitalize#},
+Here is information that you have filled in on Multi Page Dependency Form - Demo at Email-Form.com
+
+------------------------------------
+Time and Date of Submission: {#%DATE#}
+
+Name: {#name|lower|capitalize#}
+Contact eMail: {#email#}
+Phone: {#Phone#}
+Department: {#department#}
+
+What product are you interested in?: {#product#}
+Question:
+{#question#}
+
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to see you as our valuable client!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/buy-now.html
+
+-- 
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by Web-Site-Scripts.com. http://web-site-scripts.com

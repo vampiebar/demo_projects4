@@ -1,0 +1,684 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.workviewer.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2694                
+POS_VISITOR 10957               
+POS_DAY 17952               
+POS_DOMAIN 3595                
+POS_LOGIN 3832                
+POS_ROBOT 3987                
+POS_WORMS 4614                
+POS_EMAILSENDER 4745                
+POS_EMAILRECEIVER 4888                
+POS_SESSION 18076               
+POS_SIDER 18285               
+POS_FILETYPES 5023                
+POS_DOWNLOADS 5316                
+POS_OS 5364                
+POS_BROWSER 5557                
+POS_SCREENSIZE 6147                
+POS_UNKNOWNREFERER 6221                
+POS_UNKNOWNREFERERBROWSER 6370                
+POS_ORIGIN 6514                
+POS_SEREFERRALS 6662                
+POS_PAGEREFS 6819                
+POS_SEARCHWORDS 7390                
+POS_KEYWORDS 8755                
+POS_MISC 2358                
+POS_ERRORS 9742                
+POS_CLUSTER 3688                
+POS_SIDER_404 9904                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140302042014 83165 22122780 0
+FirstTime 20140301000008
+LastTime 20140302042014
+LastUpdate 20140302042019 83165 0 83135 29 1
+TotalVisits 215                 
+TotalUnique 160                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 163                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2056 2135 253974192 7 62 154973
+1 1729 1729 206775160 5 9 66300
+2 828 837 48105735 17 87 1874677
+3 562 605 1200052 12 16 199211
+4 157 157 54539 10 13 260228
+5 1 1 8191 1 2 44836
+6 0 0 0 6 7 7696
+7 1 1 20612 2 4 46714
+8 65 139 5102827 10 12 58761
+9 610 710 8991177 106 115 711149
+10 11132 11991 655482344 74 139 1537904
+11 21190 21649 607784359 28 62 406841
+12 8588 9515 192941637 140 282 41503427
+13 348 1034 59282778 10 76 51103211
+14 157 194 1168605 5 9 111716
+15 237 299 69367455 9 25 999115
+16 67 67 85515 5 6 118195
+17 2942 3063 171654344 18 73 329412
+18 5088 5216 367976811 6 28 158435
+19 2268 2393 171985862 246 252 976215
+20 9615 9679 214633307 9 19 282644
+21 7216 7581 346126969 35 75 730151
+22 4061 4275 228703953 41 47 440212
+23 1089 1168 76573368 11 34 243579
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 80007 84438 3687999792
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+bot[\s_+:,\.\;\/\\-] 52 1706972 20140302021340 0
+crawl 27 512534 20140301095959 1
+googlebot 26 90130026 20140301222043 2
+bingbot 14 161341 20140302011751 7
+no_user_agent 10 32184 20140302030116 1
+yandex 10 163646 20140302041129 4
+wget 6 113446 20140301213444 0
+ezoom 5 29677 20140302034519 4
+msnbot 4 57210 20140301164611 2
+facebook 4 114072 20140301130503 0
+spider 2 28680 20140301040640 1
+favicon 1 28254 20140301131644 0
+w3c_validator 1 28216 20140301120644 0
+nutch 2 28564 20140302022210 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 40 1757009 0 0
+css 771 11216685 0 0
+png 1802 35834970 0 0
+ttf 4 2323659 0 0
+woff 72 7562195 0 0
+php 79788 3161757675 0 0
+js 1090 17461576 0 0
+jpg 711 46239891 0 0
+Unknown 91 1729166 0 0
+exe 12 402020434 0 0
+gif 57 96532 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 1024 984
+linuxandroid 8505 7849
+winxp 22596 21809
+win8 208 24
+Unknown 1 1
+linux 4 4
+winvista 10303 9523
+win7 41797 39813
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+msie6.0 243 243
+safari7.0 1021 982
+opera9.70 1 1
+android 71 6
+firefox26.0 1 1
+chrome28.0.1500.94 6547 6257
+firefox21.0 11 11
+chrome12.0.742.30 623 579
+chrome31.0.1650.63 33 2
+firefox7.0.1 1 1
+firefox3.5.3 1 1
+firefox2.0.0.13 3 3
+iphone 1 0
+msie8.0 1015 835
+mozilla 6342 6010
+firefox1.5.0.5 1 1
+chrome33.0.1750.117 65066 63062
+chrome30.0.1599.12785 33 2
+firefox23.0 1 1
+msie10.0 765 291
+chrome31.0.1650.16 1 1
+msie9.0 97 6
+firefox27.0 643 121
+chrome33.0.1750.135 868 764
+Unknown 1 1
+chrome33.0.1750.136 1019 822
+safari 2 2
+firefox11.0 27 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20140301150746
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20140301150746
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1191 1195
+From1 0 0
+From2 66 66
+From3 12 12
+From4 78738 83165
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 66 66
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://googleads.g.doubleclick.net/pagead/ads 3 3
+http://www.gezginler.net/indir/engoper-personel-takip-programi.html 3 3
+http://localhost:8080/js/jsonpexample/2D6CB75D07C19442A8ECF8E7E30CF15E.cache.html 2 2
+http://domainsigma.com/whois/workviewer.com 1 1
+http://www.gezginler.net/indir/i/3078/ 1 1
+http://www.secpayazilim.com/indir 1 1
+http://localhost:8080/js/jsonpexample/1B849B743807C2982D8E2136262D44FC.cache.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 34
+workwiewer 7
+facede+30+g%c3%bcnl%c3%bck+engel+kald%c4%b1rma 3
+a%c4%9f+trafi%c4%9fini+kontrol+etmek 2
+sistem+gizli+pc+g%c3%b6r%c3%bcnt%c3%bcleme 2
+site+giri%c5%9fi+engelleme+program%c4%b1 2
+g%c3%bcvenlik+kameras%c4%b1n%c4%b1+internetten+izleme 2
+telefon+sinyal+takip+programlar%c4%b1 2
+bilgisayar+takip 1
+turkcell+internet+engelleme+nas%c4%b1l+yap%c4%b1l%c4%b1r 1
+uygunsuz+sitelere+giri%c5%9fi+engelleme 1
+izin+takip+defteri 1
+bilgisayar%c4%b1+takip+etme+programlar%c4%b1 1
+%c3%b6zel+numara+engelleme 1
+maa%c5%9f+takip 1
+bilgisayar+g%c3%bcvenli+modda+nas%c4%b1l+a%c3%a7%c4%b1l%c4%b1r 1
+a%c4%9fdaki+bilgisayarlar%c4%b1+izleme+program%c4%b1 1
+sitelerde+reklam+engelleme 1
+zararl%c4%b1+siteleri+engellemek 1
+pornografik+site+engelleme 1
+uzaktan+takip+programlar%c4%b1 1
+network+trafik+kontrol 1
+wifi+pin+takip+pc+program%c4%b1 1
+internet+filtre+program%c4%b1 1
+handycafe+filtre 1
+workwiever 1
+pcden+istemeyen+sitelere+grilnmesini+%c3%b6nleme 1
+workwiver 1
+bilgisayar+kontrol+program%c4%b1 1
+windows+7+site+yasaklama+program%c4%b1 1
+personel+yoklama+%c3%a7izelgesi 1
+site+engelleme 1
+internette+baz%c4%b1+siteler+nas%c4%b1l+engellenir 1
+18+sitelere+giri%c5%9fi+engelleme 1
+plaka+takip+program%c4%b1+indir+gezginler 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 78
+takip 9
+engelleme 9
+program%c4%b1 8
+workwiewer 7
+site 5
+kontrol 4
+giri%c5%9fi 4
+programlar%c4%b1 4
+izleme 3
+facede 3
+defteri 1
+7 1
+izin 1
+indir 1
+internetten 2
+18 1
+siteleri 1
+engellenir 1
+g%c3%bcvenlik 2
+zararl%c4%b1 1
+etme 1
+trafik 1
+a%c4%9f 2
+yoklama 1
+sitelere 3
+bilgisayar 3
+a%c3%a7%c4%b1l%c4%b1r 1
+pc 3
+telefon 2
+filtre 2
+g%c3%b6r%c3%bcnt%c3%bcleme 2
+etmek 2
+siteler 1
+reklam 1
+sitelerde 1
+g%c3%bcvenli 1
+gezginler 1
+grilnmesini 1
+modda 1
+personel 1
+plaka 1
+pin 1
+network 1
+baz%c4%b1 1
+windows 1
+bilgisayarlar%c4%b1 1
+kald%c4%b1rma 3
+gizli 2
+30 3
+pornografik 1
+nas%c4%b1l 3
+internet 2
+internette 1
+kameras%c4%b1n%c4%b1 2
+trafi%c4%9fini 2
+sinyal 2
+istemeyen 1
+%c3%b6zel 1
+maa%c5%9f 1
+uzaktan 1
+wifi 1
+a%c4%9fdaki 1
+yap%c4%b1l%c4%b1r 1
+%c3%b6nleme 1
+yasaklama 1
+engel 3
+workwiever 1
+turkcell 1
+handycafe 1
+numara 1
+sistem 2
+%c3%a7izelgesi 1
+workwiver 1
+pcden 1
+uygunsuz 1
+bilgisayar%c4%b1 1
+engellemek 1
+g%c3%bcnl%c3%bck 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 289 3609517
+206 160 3179674
+400 21 22071
+500 380 2171079
+301 2 1127
+404 196 247312
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 31
+/apple-touch-icon-precomposed.png 85 -
+/phpmyadmin/INSTALL 1 -
+/mysqladmin/scripts/setup.php 1 -
+/admin/phpmyadmin/INSTALL 1 -
+/apple-touch-icon.png 77 -
+/admin.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 1 -
+/cgi-bin/php 2 -
+/setup.exe 1 -
+/kankbonabrjt.html 1 -
+/phpMyAdmin/INSTALL 1 -
+/web/phpMyAdmin/INSTALL 1 -
+/cgi-bin/php5 2 -
+/MyAdmin/scripts/setup.php 1 -
+/cgi-bin/php4 2 -
+/phpadmin/INSTALL 1 -
+/mysqladmin/INSTALL 1 -
+/HNAP1/ 1 -
+/pma/INSTALL 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/pma/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 1 -
+/administrator/ 1 -
+/admin/INSTALL 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/fish.jpg 1 -
+/browserconfig.xml 1 -
+/db/INSTALL 1 -
+/wp-login.php 1 -
+/cgi-bin/php-cgi 2 -
+/cgi-bin/php.cgi 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 163
+88.227.6.204 31805 31817 245086491 20140301151404
+78.165.27.167 16842 17056 1076251662 20140301225917
+46.196.3.247 7337 7395 15683222 20140301211632
+81.213.183.99 6003 6188 758108695 20140301120317
+94.123.200.2 4850 5024 781249499 20140302021929
+88.251.63.54 2493 2504 664410 20140302042014 20140302000001 /login/getclients.php
+85.104.123.103 1697 1769 1455129 20140301165708
+88.251.193.52 1479 1725 3746090 20140301231652
+178.240.35.170 949 953 36006577 20140301182151
+78.135.17.93 931 1183 2511158 20140302035851 20140302035837 /login/getclients.php
+85.96.67.74 4 111 3081793 20140301133223
+78.164.230.32 2 32 934658 20140301135439
+5.46.75.233 31 35 222342 20140301115435
+150.70.173.56 24 24 3360 20140301204120
+150.70.172.209 25 25 12835 20140301210930
+64.40.159.237 2 21 806590 20140301080215
+150.70.97.40 2 2 16224 20140301233216
+178.240.3.197 1 1 2557 20140301174644
+78.184.188.206 3 3 591 20140301133130
+150.70.97.119 15 15 2100 20140301205430
+150.70.75.36 25 25 346401 20140301210906
+78.177.138.192 3 37 1053087 20140301123624
+46.155.39.114 39 39 11364 20140301121346
+150.70.173.54 29 29 4060 20140301205319
+95.8.209.204 4 34 969320 20140301132342
+88.249.202.189 4 55 1568631 20140301103224
+81.213.247.6 4 40 535669 20140301105230
+78.167.45.16 2 32 934654 20140301125826
+150.70.97.124 13 13 1820 20140301205139
+150.70.173.50 17 17 2380 20140301231020
+150.70.97.115 20 20 344279 20140301210827
+67.214.182.122 1 1 28175 20140301152501
+95.9.131.79 2 32 934654 20140301103156
+150.70.64.193 22 22 4331 20140301205633
+88.248.110.85 1 7 149580 20140301144100
+78.184.43.197 12 144 70408400 20140301101154
+150.70.97.126 17 17 2380 20140301204651
+78.186.150.163 4 111 2553991 20140301125004
+78.166.221.19 2 33 818963 20140301103900
+150.70.97.117 19 19 2660 20140301205335
+78.166.190.143 8 124 5371027 20140301133821
+150.70.173.45 23 23 3220 20140301205325
+150.70.97.122 16 16 2240 20140301205224
+95.65.230.112 2 32 934654 20140301113015
+95.8.212.109 9 58 4366272 20140301125858
+150.70.97.113 16 16 2240 20140301204534
+150.70.172.110 2 2 16224 20140301233217
+176.219.144.6 16 16 4661 20140301125426
+88.191.145.80 1 1 28197 20140301161443
+92.44.234.51 2 32 940803 20140301110225
+188.40.60.225 1 1 28197 20140301203808
+5.24.168.205 36 94 2488011 20140301214520
+150.70.97.120 17 17 2380 20140301205227
+88.230.82.235 2 33 944830 20140301103323
+95.9.7.6 6 110 4855149 20140301133907
+150.70.173.46 17 17 2380 20140301205016
+86.121.70.95 7 7 199336 20140301203409
+88.228.21.236 2 33 944830 20140301102021
+150.70.172.104 51 51 598703 20140302040452 20140302040431 /login/
+192.96.204.42 1 1 316 20140301160808
+95.10.194.164 1 9 270790 20140301135720
+150.70.172.108 28 28 13427 20140301231133
+150.70.64.211 21 21 47817 20140301205610
+199.217.119.4 1 1 28197 20140301150746
+185.21.196.22 7 46 65819564 20140301103556
+150.70.173.52 36 36 5040 20140301205512
+88.253.3.66 8 86 1789970 20140301122420
+95.15.176.31 18 78 41408723 20140301122618
+88.251.196.84 24 29 1416198 20140301120524
+95.7.180.227 2 33 944830 20140301131340
+78.184.134.120 3 37 1053351 20140301124919
+176.9.25.25 1 1 28175 20140301182211
+78.162.201.126 1 27 862459 20140301130151
+88.251.219.9 86 127 6828251 20140301175735
+150.70.173.42 20 20 2800 20140301204812
+88.198.227.103 1 1 28175 20140301152403
+150.70.173.40 26 26 3640 20140301205408
+85.102.75.19 9 9 73719 20140302035806 20140302035806 /login/
+150.70.97.96 16 16 2240 20140301205438
+141.212.121.199 1 1 28254 20140301105050
+95.8.57.187 2 33 944840 20140301130843
+150.70.97.98 19 19 46341 20140301205226
+176.219.169.183 1 6 2557 20140301232729
+78.180.208.153 12 77 28113652 20140301132859
+88.254.240.192 3 36 1049323 20140301121403
+150.70.97.125 18 18 2520 20140301204842
+88.249.197.23 5 122 5308409 20140301110152
+88.230.191.219 2 33 944830 20140301104650
+88.248.130.197 2 32 934654 20140301135734
+78.161.239.88 2 31 882063 20140301122053
+150.70.97.97 25 25 3500 20140301205532
+150.70.97.43 13 13 10476 20140301235619
+178.240.234.141 2 2 5114 20140301182813
+150.70.97.127 12 12 1680 20140301204936
+94.123.189.200 2 32 934390 20140301220542
+78.175.91.61 225 230 133771 20140301090544
+176.219.144.69 196 220 10425944 20140301101720
+198.199.74.127 11 11 225018 20140301210813
+78.164.33.114 1 1 20671 20140301221619
+78.190.109.191 2 33 944830 20140301115657
+95.9.87.48 2 32 934658 20140301132825
+176.219.149.223 6 6 15341 20140301212511
+88.243.73.57 7 7 144632 20140302004259
+176.42.159.145 579 623 1960804 20140301104608
+178.240.107.132 0 3 415248 
+150.70.173.44 25 25 584251 20140301210816
+78.170.39.53 181 276 6917493 20140301115055
+69.31.103.48 4 54 4020825 20140301080247
+78.161.148.104 2 32 851853 20140301100359
+88.225.222.9 2 32 934654 20140301101201
+176.217.116.140 21 21 6121 20140301115559
+150.70.173.48 24 24 3360 20140301205514
+150.70.173.55 34 34 4760 20140301210822
+64.74.215.93 1 1 28254 20140301232709
+157.55.43.24 0 2 11810 
+150.70.173.58 25 25 19488 20140302040034 20140302040034 /login/
+95.9.47.143 2 33 944566 20140301140844
+88.229.2.80 3 49 4160886 20140301131011
+78.171.118.170 2 33 935945 20140301134052
+150.70.173.41 25 25 3500 20140301205226
+176.41.51.17 34 34 929300 20140301003938
+178.240.4.6 578 694 85085487 20140301121235
+88.250.67.51 274 563 110884338 20140301130638
+199.68.218.250 567 707 4342081 20140301222026
+150.70.97.123 31 31 4340 20140301205132
+150.70.173.49 17 17 2380 20140301205115
+66.249.82.224 1 31 896661 20140301120246
+176.219.149.186 30 30 8750 20140301122729
+78.184.138.160 2 32 934654 20140301115546
+78.185.201.169 3 36 1049217 20140301100724
+178.240.47.49 2 33 944848 20140301115411
+176.219.147.79 108 120 3825728 20140301095127
+150.70.75.31 22 22 4331 20140301204638
+176.42.113.12 2 33 944830 20140301104728
+150.70.173.47 13 13 1820 20140301204907
+150.70.97.121 14 14 1960 20140301205534
+88.255.153.122 13 15 279288 20140301090550
+74.217.148.76 1 1 39493987 20140302000636
+150.70.172.204 32 32 42192 20140301205837
+150.70.173.59 17 17 10374 20140301205017
+150.70.173.51 19 19 2660 20140301205317
+150.70.173.53 32 32 4480 20140302035918 20140302035918 /login/getclients.php
+85.107.89.31 320 333 21095064 20140301130111
+72.238.127.248 2 33 944566 20140302035742 20140302035738 /font/fontawesome-webfont.woff
+178.240.116.22 829 829 119110010 20140301021541
+188.38.26.249 26 26 7581 20140301120432
+150.70.173.57 25 25 31557 20140301205410
+150.70.97.116 18 18 2520 20140301205443
+176.219.170.24 1 2 2557 20140301134516
+88.247.167.177 79 141 67122233 20140301153443
+150.70.173.43 21 21 2940 20140301205306
+150.70.97.114 14 14 1960 20140301204833
+150.70.97.112 22 22 3080 20140301205344
+184.173.94.28 3 3 84591 20140301120643
+95.14.36.97 0 1 15249 
+85.106.240.3 2 33 944830 20140301124456
+46.196.200.105 2 33 944830 20140301112254
+150.70.97.118 10 10 1400 20140301205542
+85.102.111.140 13 13 106482 20140301185559
+95.6.97.90 2 33 944830 20140301124405
+208.88.226.73 1 1 373 20140302000945
+66.249.81.68 4 51 4193389 20140301110118
+150.70.97.99 21 21 2940 20140301204839
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20140301 77326 81694 3557938899 200
+20140302 2681 2744 130060893 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 64
+5mn-15mn 7
+2mn-5mn 8
+30s-2mn 9
+15mn-30mn 10
+0s-30s 101
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 74
+/login/getclientscreen.php 16971 3111387972 1 2
+/login/livecpustats.php 14685 3687883 0 3
+/login/livememstats.php 14623 3682659 0 0
+/login/liveactivescreen.php 14556 3443776 0 2
+/login/getclients.php 12392 2851220 51 64
+/login/uptime.php 2554 600632 0 0
+/login/getinactiveclients.php 2536 485744 10 8
+/login/getfilterport.php 190 41833 0 0
+/login/getportnumber.php 188 41350 0 0
+/login/resetport.php 152 53817 0 1
+/login/fonts/fontello.woff 21 5466597 0 2
+/ 122 3402599 82 28
+/sendclientuserdata.php 1 197 0 0
+/login/getprogramusagereport.php 1 2641 0 0
+/font/fontawesome-webfont.woff 49 2062092 2 16
+/login/getwinrlist.php 2 25996 0 0
+/login/createprgusagereport.php 1 4926 0 0
+/indir 38 783491 6 11
+/login/srs.php 10 6970 0 0
+/login/getoldscreenid.php 2 933 0 0
+/sendmanageruserdata.php 1 197 0 0
+/download.php 1 21616 1 0
+/kayit.php 15 3500 0 1
+/login/getdates.php 3 4281 0 0
+/musterilerimiz 9 158830 1 2
+/register 3 61909 0 0
+/login/websiterestrictions.php 8 5600 0 0
+/login/getuseractivityreport.php 1 2781 0 0
+/mobile/ 44 112492 9 6
+/login/srsprocess.php 6 69216 0 0
+/application/setup_client.exe 1 39493987 0 0
+/login/getwsrlist.php 2 30832 0 0
+/login/fonts/fontello.ttf 4 2323659 0 2
+/login/resetctrlport.php 17 6019 0 0
+/password 2 8331 0 0
+/login/ 126 1031035 49 40
+/login/apprestrictions.php 8 11761 0 0
+/login/getuserstatistics.php 1 2686 0 0
+/login/getoldscreen.php 68 7823390 0 0
+/application/workviewer_yonetici.exe 4 100450061 0 1
+/login/createuserstatisticsreport.php 1 10390 0 0
+/login/internettimerestrictions.php 4 2817 0 0
+/login/windowsrestrictions.php 7 4963 0 0
+/login/pctimerestrictions.php 4 2828 0 0
+/login/applywinrule.php 3 963 0 0
+/iletisim 7 94139 0 2
+/mobile/getitr.php 1 248 0 0
+/login/setscreenperiodday.php 1 216 0 0
+/login/getsearched.php 2 25656 0 0
+/application/workviewer_kullanici.exe 6 236963917 1 1
+/login/createuseractivityreport.php 1 1615 0 0
+/mobile/home.php 142 8050059 1 0
+/login/fonts/fontello.eot 15 1162268 0 0
+/login/datetime.php 6 87492 0 0
+/login/getpctrlist.php 1 15432 0 0
+/login/userstatistics.php 5 3486 0 0
+/ozellikler 14 298953 0 2
+/login/useractivityreport.php 6 4184 0 0
+/login/getarlist.php 1 4888 0 0
+/login/getuserinfo.php 112 24845 0 0
+/font/fontawesome-webfont.eot 23 565935 0 10
+/login/getitrlist.php 1 15341 0 0
+/login/forgotpassword.php 3 1000 0 0
+/ekran-goruntuleri 13 187529 1 1
+/login/programusagereport.php 5 3480 0 0
+/bayi-basvurusu 1 22889 0 1
+/login/authority.php 79 28312 0 0
+/application/setup_manager.exe 1 25112469 0 0
+/login/getdrives.php 1 8806 0 0
+/anasayfa 4 113095 0 0
+/login/fonts/glyphicons-halflings-regular.woff 2 33506 0 0
+/features.php 6 128317 0 1
+/login/home.php 109 14485783 0 1
+/login/fonts/glyphicons-halflings-regular.eot 2 28806 0 0
+END_SIDER

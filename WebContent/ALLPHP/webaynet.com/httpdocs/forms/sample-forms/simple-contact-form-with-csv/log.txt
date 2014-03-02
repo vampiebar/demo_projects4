@@ -1,0 +1,2 @@
+../sample-forms/simple-contact-form-with-csv/simple.csv
+{#firstname#};{#lastname#};{#subject#};{#gender#}

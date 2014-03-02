@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="bankhavccform.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="375"
+ height="659"
+ bkcolor="0xFFFFFF"
+ transparent="t"
+ fontcolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="true"
+ verifymessage="E-Mail Adresinizi Boş Bırakmayınız !"
+ reqmessage="Kırmızı Alanları Boş Bırakmayınız Lütfen !"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="t"
+ autoresponseaddtotop="f"
+ usephp="true"
+disableclicktoactiveprompt="false"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="thankyoupage"
+ value="http://www.webaynet.com/tr/thanks_new.php"
+></hidden>
+
+<hidden
+ name="subject"
+ value="NetPATRON TİB Onaylı (Havale Formu)"
+></hidden>
+
+<radiobutton
+ name="Finansbank"
+ x="53"
+ y="31"
+ w="85"
+ h="19"
+ label="Finans Bank"
+ required="true"
+ fontbold="bold"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Garanti Bankas"
+ x="160"
+ y="31"
+ w="106"
+ h="19"
+ label="Garanti Bankası"
+ required="true"
+ fontbold="bold"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<radiobutton
+ name="Akbank"
+ x="281"
+ y="31"
+ w="59"
+ h="19"
+ label="Akbank"
+ required="true"
+ fontbold="bold"
+ labelPos="right"
+ groupname="Group 1"
+ value="radiobutton1"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></radiobutton>
+
+<textinput
+ name="Dekont no"
+ x="200"
+ y="55"
+ w="110"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+  restrict="num"
+>
+</textinput>
+
+<textinput
+ name="Ad"
+ x="136"
+ y="92"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Cafe Ad"
+ x="136"
+ y="136"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Ip Adresi"
+ x="136"
+ y="164"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFF0000"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+  restrict="num"
+>
+</textinput>
+
+<textinput
+ name="Pc Sayisi"
+ x="136"
+ y="194"
+ w="45"
+ h="22"
+ initvalue=""
+ maxchars="3"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Email"
+ x="136"
+ y="223"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+ emailvalidatebox="true"
+  restrict="email"
+>
+</textinput>
+
+<textinput
+ name="Telefon"
+ x="136"
+ y="266"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="11"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+  restrict="phone"
+>
+</textinput>
+
+<textinput
+ name="Cep Telefon"
+ x="136"
+ y="297"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="11"
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ editable="true"
+  restrict="phone"
+>
+</textinput>
+
+<textinput
+ name="Vergi Dairesi"
+ x="136"
+ y="327"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="Vergi No"
+ x="136"
+ y="357"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="10"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+  restrict="num"
+>
+</textinput>
+
+<textinput
+ name="Sehir"
+ x="136"
+ y="387"
+ w="175"
+ h="22"
+ initvalue=""
+ maxchars="25"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textarea
+ name="Adres"
+ x="136"
+ y="419"
+ w="224"
+ h="70"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ editable="true"
+ bkcolor="0xFF0000"
+ fontbold="bold"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textarea
+ name="Mesaj"
+ x="136"
+ y="498"
+ w="225"
+ h="68"
+ initvalue=""
+ wordwrap="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<submitbutton
+ name="Upload File Button"
+ x="13"
+ y="602"
+ w="351"
+ h="49"
+ label="FORMU GÖNDER"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="16"
+></submitbutton>
+
+<resetbutton
+ name="Reset Button"
+ x="13"
+ y="574"
+ w="351"
+ h="23"
+ label="FORMU TEMİZLE"
+ fontname="Arial"
+ fontcolor="0xFF0000"
+ fontbold="bold"
+  fontsize="12"
+></resetbutton>
+
+<label
+ name="My Text 1"
+ x="13"
+ y="97"
+ w="116"
+ h="16"
+ text="Adınız ve Soyadınız :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 2"
+ x="88"
+ y="227"
+ w="41"
+ h="16"
+ text="E-Mail :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 3"
+ x="5"
+ y="499"
+ w="124"
+ h="16"
+ text="(Varsa) Özel Notunuz :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 6"
+ x="135"
+ y="247"
+ w="226"
+ h="16"
+ text="(Lütfen çalışır durumdaki bir mail yazınız)"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0xC0C0C0"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 4"
+ x="49"
+ y="5"
+ w="292"
+ h="18"
+ text="LÜTFEN ÖDEMEYİ YAPTIĞINIZ BANKAYI SEÇİNİZ"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 5"
+ x="77"
+ y="57"
+ w="119"
+ h="16"
+ text="(VARSA) DEKONT NO :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 7"
+ x="65"
+ y="137"
+ w="64"
+ h="18"
+ text="Cafe Adı :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 8"
+ x="70"
+ y="269"
+ w="59"
+ h="18"
+ text="Telefon :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 9"
+ x="43"
+ y="298"
+ w="86"
+ h="18"
+ text="Cep Telefon :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 10"
+ x="133"
+ y="115"
+ w="178"
+ h="16"
+ text="(Şirket iseniz Ünvanınızı Yazınız)"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0xC0C0C0"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 11"
+ x="84"
+ y="387"
+ w="45"
+ h="18"
+ text="Şehir :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 12"
+ x="81"
+ y="419"
+ w="48"
+ h="18"
+ text="Adres :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 13"
+ x="7"
+ y="166"
+ w="122"
+ h="18"
+ text="Sabit IP Adresiniz :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 14"
+ x="53"
+ y="196"
+ w="76"
+ h="18"
+ text="Pc Sayınız :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 15"
+ x="29"
+ y="328"
+ w="100"
+ h="18"
+ text="Vergi Daireniz :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+<label
+ name="My Text 16"
+ x="13"
+ y="359"
+ w="116"
+ h="18"
+ text="Vergi Numaranız :"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="13"
+></label>
+
+</form>

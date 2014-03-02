@@ -1,0 +1,796 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.kidsviewer.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2692                
+POS_VISITOR 14274               
+POS_DAY 24425               
+POS_DOMAIN 3498                
+POS_LOGIN 3728                
+POS_ROBOT 3883                
+POS_WORMS 4552                
+POS_EMAILSENDER 4683                
+POS_EMAILRECEIVER 4826                
+POS_SESSION 25193               
+POS_SIDER 25372               
+POS_FILETYPES 4961                
+POS_DOWNLOADS 5177                
+POS_OS 5225                
+POS_BROWSER 5404                
+POS_SCREENSIZE 5832                
+POS_UNKNOWNREFERER 5906                
+POS_UNKNOWNREFERERBROWSER 6188                
+POS_ORIGIN 6411                
+POS_SEREFERRALS 6549                
+POS_PAGEREFS 6725                
+POS_SEARCHWORDS 7162                
+POS_KEYWORDS 7354                
+POS_MISC 2356                
+POS_ERRORS 7453                
+POS_CLUSTER 3584                
+POS_SIDER_404 7556                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140201005630 44 5993 7311829436895
+FirstTime 20140101010925
+LastTime 20140131225942
+LastUpdate 20140201031929 44 0 43 0 0
+TotalVisits 593                 
+TotalUnique 260                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 260                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 14 146852 121 133 271117
+1 30 30 314558 46 65 230739
+2 12 12 125808 27 39 133080
+3 29 38 316423 40 48 87800
+4 21 21 220107 20 27 96795
+5 31 31 325023 24 30 91368
+6 8 8 83872 33 41 162212
+7 38 38 398259 40 60 192021
+8 17 26 181832 42 62 216760
+9 31 31 325023 18 37 127794
+10 18 18 188788 24 39 116393
+11 41 41 422366 67 81 208828
+12 18 18 188693 23 37 125132
+13 40 40 355449 17 36 131009
+14 23 41 317360 30 42 131565
+15 28 28 293514 81 97 293182
+16 25 43 338403 29 41 113011
+17 29 29 286304 41 58 167642
+18 6 6 45559 20 38 121255
+19 42 42 440347 30 46 178278
+20 18 18 188731 29 43 136932
+21 36 36 355859 31 54 217185
+22 17 17 178266 30 44 151595
+23 51 53 418204 60 73 226483
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 623 679 6455600
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+yandex 156 826145 20140130100137 0
+no_user_agent 104 221606 20140130191357 0
+msnbot 103 582571 20140131224804 0
+bingbot 80 675983 20140131175046 0
+googlebot 46 327385 20140130220430 0
+baiduspider 29 83302 20140131171059 0
+python 12 125808 20140123230826 0
+spider 7 73654 20140127005829 0
+bot[\s_+:,\.\;\/\\-] 6 62846 20140122130441 0
+surveybot 3 31452 20140129212144 0
+archive\.org_bot 1 10484 20140104165942 0
+wget 3 31566 20140121092833 0
+curl 1 10465 20140116125630 0
+netcraft 3 11016 20140111070746 0
+nutch 2 20968 20140110003848 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 10 60751 0 0
+png 14 42775 0 0
+pl 1 1411 0 0
+php 588 6120044 0 0
+html 28 106307 0 0
+py 1 1315 0 0
+shtml 1 1852 0 0
+fcgi 4 5384 0 0
+gif 32 115761 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+blackberry 1 1
+winlong 509 509
+winxp 47 29
+win2003 11 9
+win8 19 1
+macosx9 19 1
+Unknown 5 5
+linux 17 17
+win7 51 51
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+msie6.0 14 5
+blackberry 1 1
+chrome5.0.381 1 1
+firefox3.5.6 1 1
+firefox20.0 6 6
+chrome21.0.1180.75 5 5
+firefox21.0 1 1
+firefox10.0.1 1 1
+chrome31.0.1650.63 25 7
+firefox7.0.1 2 2
+minefield 2 2
+firefox3.6.15 1 1
+msie8.0 1 1
+mozilla 2 2
+firefox14.0.1 10 10
+msie7.0 545 543
+firefox5.0.1 1 1
+msie10.0 19 1
+firefox3.6.12 30 21
+firefox3.6.3 1 1
+msie9.0 1 1
+firefox19.0 6 6
+Unknown 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+http://blog.erratasec.com 20140107072739
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20140118044034
+c3.sh/0.01 20140118003245
+Mozilla/3.0_(compatible;_Indy_Library) 20140110045946
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+http://blog.erratasec.com 20140107072739
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20140118044034
+c3.sh/0.01 20140118003245
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 580 582
+From1 1 1
+From2 34 34
+From3 6 24
+From4 2 38
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+baidu 3 3
+soso 29 29
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://ns2.secpasoft.com/test/php/test.html 2 2
+http://ns2.secpasoft.com/test/fcgi/test.html 2 9
+http://ns2.secpasoft.com/test/perl/test.html 1 8
+http://name911.com/research/kidsviewer.com 1 1
+http://ns2.secpasoft.com/test/perl/test.pl 0 2
+http://ns2.secpasoft.com/test/fcgi/test.fcgi 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+ns2.secpasoft.com 2
+domaindefaultpage 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+ns2.secpasoft.com 2
+domaindefaultpage 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+400 40 19907
+404 668 802972
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 193
+//phpMyAdmin-2.8.0-beta1/scripts/setup.php 1 -
+/admin.php 3 -
+//phpMyAdmin-2.6.4-pl1/scripts/setup.php 1 -
+//sqlweb/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 1 -
+//MyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.2-beta1/scripts/setup.php 1 -
+/sql/ 1 -
+/phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+/tntexpress.sis 2 -
+//phpMyAdmin-2.6.2-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+//phpmanager/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/pma/ 1 -
+/msd1.24stable 3 -
+/cgi-bin/php.cgi/%63%67%69%6E/%70%68%70 1 -
+/phpMyAdmin2/ 1 -
+//phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//wp-login.php 3 -
+//webdb/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0/scripts/setup.php 1 -
+/myadmin/ 1 -
+/HNAP1/ 7 http://159.253.136.25/
+/mysql 6 -
+//mysql-admin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+/administrator/ 1 kidsviewer.com
+/phpMyAdmin-2.8.0.2/scripts/setup.php 1 -
+/cgi-bin/php/%63%67%69%6E/%70%68%70 4 -
+/mysql-admin/scripts/setup.php 1 -
+/phpMyAdmin/scripts/setup.php 12 -
+/wp-login.php 4 kidsviewer.com
+/phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.3-rc1/scripts/setup.php 1 -
+//pma/scripts/setup.php 2 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/SQlite/main.php 3 -
+/cgi-bin/php 27 -
+/phpMyAdmin-2.8.0.1/scripts/setup.php 1 -
+//webadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.5.1/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta1/scripts/setup.php 1 -
+/Blog/wp-login.php 3 -
+//phpMyAdmin-2.6.2-rc1/scripts/setup.php 2 -
+/SQLiteManager/main.php 3 -
+//mysqladmin/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0-rc2/scripts/setup.php 1 -
+/SQLite/SQLiteManager-1.2.4/main.php 3 -
+/components/com_content/router.php 1 -
+//myadmin/scripts/setup.php 1 -
+/websql/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+/mySqlDumper 3 -
+/admin/scripts/setup.php 1 -
+/PMA/ 1 -
+//phpMyAdmin-2.6.3-pl1/scripts/setup.php 1 -
+/sqlitemanager/main.php 3 -
+//pma2005/scripts/setup.php 1 -
+/phpMyAdmin 3 -
+//phpMyAdmin-2.5.6-rc1/scripts/setup.php 1 -
+//dbadmin/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+//cgi-bin/php.cgi 1 -
+//phpMyAdmin-2.6.0-pl2/scripts/setup.php 1 -
+/administrator/index.php 3 -
+//phpMyAdmin-2.8.0.3/scripts/setup.php 1 -
+/cgi-bin/php4/%63%67%69%6E/%70%68%70 1 -
+/php-myadmin/ 1 -
+//phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/wordpress/wp-admin/ 1 -
+//phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4/scripts/setup.php 1 -
+//cgi-bin/php-cgi 1 -
+//phpMyAdmin-2.6.2/scripts/setup.php 1 -
+/phpmyadmin 3 -
+//phpMyAdmin-2.6.0-alpha/scripts/setup.php 1 -
+/msd1.24.4 3 -
+/phpMyAdmin-2.6.0-rc1/scripts/setup.php 1 -
+//mysqlmanager/scripts/setup.php 1 -
+/robots.txt 205 -
+/jmx-console 3 -
+/phpMyAdmin-2.6.0-rc2/scripts/setup.php 1 -
+/sqlweb/scripts/setup.php 1 -
+/user 1 kidsviewer.com
+//phpMyAdmin-2.8.1-rc1/scripts/setup.php 1 -
+//php-myadmin/scripts/setup.php 1 -
+/sqlmanager/scripts/setup.php 1 -
+/phpMyAdmin-2.8.2/scripts/setup.php 1 -
+/wordpress/wp-login.php 3 -
+/MySQLDumper 3 -
+//phpMyAdmin-2.6.0-beta2/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.1/scripts/setup.php 1 -
+/wp-admin/ 1 -
+//php-my-admin/scripts/setup.php 1 -
+/cms/administrator 3 -
+/joomla/administrator 3 -
+//phpMyAdmin-2.8.0-rc1/scripts/setup.php 1 -
+/phpmyadmin/ 1 kidsviewer.com/phpmyadmin
+/webdav/ 1 -
+/sql 6 -
+/websql/ 1 -
+//administrator 3 -
+//PMA2005/scripts/setup.php 1 -
+/webdav 3 -
+//phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.2.3/scripts/setup.php 1 -
+/phpMyAdmin-2.6.0-alpha2/scripts/setup.php 1 -
+/phpmyadmin2/ 1 -
+//admin/scripts/setup.php 1 -
+//phpmy-admin/scripts/setup.php 1 -
+/myadmin/scripts/setup.php 10 -
+//p/m/a/scripts/setup.php 1 -
+/blog/wp-admin/ 1 -
+/administrator 1 -
+//phpMyAdmin2/scripts/setup.php 1 -
+/blog/wp-login.php 4 -
+/PMA/scripts/setup.php 1 -
+//%63%67%69%2d%62%69%6e/%70%68%70 1 -
+/phpMyAdmin-2.5.7-pl1/scripts/setup.php 1 -
+/msd 3 -
+/admin/ 1 -
+/cgi-bin/php.cgi 19 -
+//sqlmanager/scripts/setup.php 1 -
+/webdb/scripts/setup.php 1 -
+/mysqladmin/scripts/setup.php 1 -
+//websql/scripts/setup.php 1 -
+/apple-touch-icon.png 4 -
+//phpmyadmin2/scripts/setup.php 1 -
+//phpMyAdmin-2.8.0.4/scripts/setup.php 1 -
+//cgi-bin/php5 1 -
+//phpMyAdmin-2.5.7/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-pl1/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 10 -
+//phpMyAdmin-2.7.0/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5-rc2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl1/scripts/setup.php 1 -
+//phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/cgi-bin/php5 21 -
+/MyAdmin/scripts/setup.php 10 -
+/cgi-bin/php4 20 -
+/SQLiteManager-1.2.4/main.php 3 -
+/phpmyadmin/scripts/setup.php 9 -
+//phpMyAdmin-2.5.4/scripts/setup.php 1 -
+http://85.17.141.182/proxychecker/check.cgi 1 http://www.google.com/search
+/myadmin 3 -
+/muieblackcat 1 -
+//phpMyAdmin-2.6.0-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.0-rc3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-rc1/scripts/setup.php 1 -
+/cgi-bin/php5/%63%67%69%6E/%70%68%70 1 -
+/cgi-bin/php-cgi 21 -
+/wp/wp-login.php 3 -
+/phppath/php 3 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.5.6-rc2/scripts/setup.php 1 -
+/phpMyAdmin-2.5.5/scripts/setup.php 1 -
+/Wordpress/wp-login.php 3 -
+http://www.daydaydata.com/proxy.txt 1 -
+//phpMyAdmin-2.6.3/scripts/setup.php 2 -
+/mysqldumper 3 -
+//cgi-bin/php 1 -
+/phpMyAdmin-2.6.4/scripts/setup.php 1 -
+/sqlmanager/ 1 -
+/Joomla/administrator 3 -
+//phpMyAdmin-2.5.6/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/pma/scripts/setup.php 12 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+/manager/html 22 -
+//cgi-bin/php4 1 -
+//mysql/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+/sqlite/main.php 3 -
+/phpMyAdmin/ 1 -
+/cgi-bin/php-cgi/%63%67%69%6E/%70%68%70 1 -
+/dbadmin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 260
+119.63.193.195 52 52 545168 20140131225942
+119.63.193.194 48 48 503232 20140131190216
+119.63.193.130 45 45 471780 20140129144606
+119.63.193.131 40 40 419360 20140131105805
+119.63.193.132 37 37 387908 20140131024550
+119.63.193.196 32 32 335488 20140131204659
+69.58.178.57 11 11 51413 20140112133123
+38.100.21.68 9 11 50060 20140121231323
+212.174.45.178 6 6 34082 20140103230606
+202.46.48.12 5 5 52420 20140131144704
+54.194.181.153 1 1 10484 20140107192032
+202.46.62.202 1 1 10484 20140127125603
+202.46.58.31 1 1 10484 20140124204508
+202.46.62.18 1 1 10484 20140111110304
+202.46.56.56 1 1 10484 20140116051304
+107.170.0.125 1 1 10522 20140120182349
+202.46.48.25 3 3 31452 20140114090527
+202.46.63.70 1 1 10484 20140105091131
+50.23.237.141 1 1 10465 20140123173256
+202.46.53.36 1 1 10484 20140103231024
+202.46.50.12 2 2 20968 20140130144629
+202.46.54.35 1 1 10484 20140109130714
+123.180.34.85 1 1 10465 20140116143247
+220.181.108.173 1 1 1644 20140106172749
+202.46.56.49 1 1 10484 20140113190709
+202.197.199.253 2 2 20930 20140118194936
+202.46.62.34 1 1 10484 20140112051020
+202.46.54.48 1 1 10484 20140101231046
+202.46.56.46 1 1 10484 20140128144643
+202.46.48.15 1 1 10484 20140128190348
+202.46.57.60 1 1 10484 20140124044408
+202.46.50.19 1 1 10484 20140129190023
+54.221.68.180 1 1 10522 20140112191531
+192.81.213.140 1 1 10522 20140130201239
+146.185.163.91 2 2 21044 20140119110610
+111.226.138.115 1 1 10465 20140129054024
+202.46.51.45 2 2 20968 20140127225719
+61.135.190.223 1 1 10522 20140130113408
+202.46.55.50 2 2 20968 20140110090552
+202.46.56.40 3 3 31452 20140127204526
+202.46.54.110 4 4 41936 20140130225844
+202.46.53.33 1 1 10484 20140104151255
+202.46.54.39 1 1 10484 20140124104839
+117.222.196.0 1 1 10465 20140104085435
+202.46.55.193 1 1 10484 20140131204646
+162.243.216.124 1 1 10522 20140112105422
+78.25.145.175 1 1 10522 20140108010520
+202.46.63.90 1 1 10484 20140113230412
+115.250.212.44 1 1 10465 20140102085537
+202.46.63.73 2 2 20968 20140110110316
+202.46.55.53 1 1 10484 20140123164420
+202.46.52.33 1 1 10484 20140109070631
+202.46.60.12 2 2 20968 20140115130438
+202.46.60.60 1 1 10484 20140131225855
+202.46.55.20 1 1 10484 20140108050712
+80.243.191.98 1 1 10465 20140129042826
+202.46.60.11 1 1 10484 20140108151134
+202.46.62.21 1 1 10484 20140105130808
+184.72.82.95 1 1 3316 20140110213332
+202.46.54.52 1 1 10484 20140102211213
+202.46.53.63 3 3 31452 20140131084505
+209.126.230.77 1 1 10484 20140107072739
+95.31.124.3 1 1 10465 20140124211329
+202.46.63.43 1 1 10484 20140128045624
+202.46.62.92 1 1 10484 20140103151321
+192.241.181.147 2 2 21044 20140131111058
+202.46.63.122 3 3 31452 20140106211207
+202.46.60.64 1 1 10484 20140116090513
+202.46.63.78 1 1 10484 20140109170013
+202.46.55.59 1 1 10484 20140112230441
+202.46.54.43 2 2 20968 20140114130401
+202.46.63.48 2 2 20968 20140130125616
+87.103.173.93 1 1 10522 20140107140640
+202.46.58.28 1 1 10484 20140127070346
+202.46.57.61 1 1 10484 20140127024514
+109.251.14.7 1 1 10484 20140114011722
+202.46.58.35 2 2 20968 20140113150751
+202.46.62.27 2 2 20968 20140108010920
+202.46.57.83 1 1 10484 20140111190818
+202.46.49.11 1 1 10484 20140115050234
+202.46.53.62 1 1 10484 20140131105723
+202.46.50.11 4 4 41936 20140128125620
+202.46.63.76 3 3 31452 20140111210628
+202.46.55.29 3 3 31452 20140129024431
+202.46.63.71 1 1 10484 20140128005655
+60.161.141.228 1 1 10465 20140116231809
+202.46.54.44 1 1 10484 20140125104311
+176.14.10.226 3 12 35094 20140110083328
+111.254.243.174 1 1 10465 20140103070206
+202.46.62.14 1 1 10484 20140127144514
+202.46.53.179 2 2 20968 20140126225750
+202.46.57.68 1 1 10484 20140127005615
+115.253.186.197 1 1 10465 20140118070559
+202.46.62.25 2 2 20968 20140130165043
+202.46.56.50 2 2 20968 20140128065923
+112.239.239.1 1 1 10465 20140110074630
+202.46.63.129 2 2 20968 20140129045608
+202.46.48.28 1 1 10484 20140128024535
+193.105.210.174 1 1 10465 20140113114639
+107.170.31.152 1 1 10522 20140128101642
+107.170.28.90 1 1 10522 20140131040754
+202.46.63.69 1 1 10484 20140111050106
+202.46.55.23 1 1 10484 20140102110915
+202.46.54.121 1 1 10484 20140130045321
+202.46.55.54 2 2 20968 20140109050121
+112.237.158.27 1 1 10465 20140120043420
+202.46.57.84 1 1 10484 20140108170217
+202.46.49.72 1 1 10484 20140129065859
+202.46.54.178 1 1 10484 20140127165406
+202.46.54.51 1 1 10484 20140103211211
+202.46.62.20 2 2 20968 20140115010444
+202.46.58.23 2 2 20968 20140128204541
+162.243.14.211 1 1 10522 20140116234739
+202.46.61.26 1 1 10484 20140106130909
+202.46.63.125 1 1 10484 20140124124921
+202.46.63.44 1 1 10484 20140115110152
+202.46.60.15 1 1 10484 20140113050044
+202.46.54.49 1 1 10484 20140125064450
+202.46.62.207 1 1 10484 20140116130249
+78.187.89.187 1 19 86749 20140107162731
+202.46.51.43 1 1 10484 20140111070529
+202.46.56.43 1 1 10484 20140104130912
+146.185.176.243 1 1 10522 20140120224613
+117.218.48.136 1 1 10465 20140123141646
+112.233.93.104 1 1 10465 20140123072356
+202.46.55.35 1 1 10484 20140130204528
+202.46.49.14 2 2 20968 20140125124507
+220.181.108.142 1 1 1630 20140106172748
+202.46.57.80 1 1 10484 20140106091300
+202.46.63.40 1 1 10484 20140105230947
+202.46.62.13 1 1 10484 20140129125721
+202.46.63.74 2 2 20968 20140131010603
+202.46.57.67 1 1 10484 20140109230346
+202.46.51.44 1 1 10484 20140107211147
+162.243.246.72 1 1 10522 20140111172338
+202.46.48.14 1 1 10484 20140105010838
+202.46.55.25 2 2 20968 20140125024548
+202.46.51.48 1 1 10484 20140113110233
+202.46.52.23 2 2 20968 20140131024539
+162.243.220.47 1 1 10522 20140129111121
+202.46.53.68 2 2 20968 20140128105717
+124.227.123.32 1 1 10465 20140103203254
+198.199.76.198 1 1 10484 20140108164222
+206.180.255.244 1 1 10465 20140113212717
+122.246.239.168 1 1 10465 20140106091158
+107.170.18.209 1 1 10522 20140128111424
+202.46.55.55 1 1 10484 20140110210609
+202.46.48.23 1 1 10484 20140109210800
+219.91.170.15 1 1 10465 20140121152512
+202.46.62.22 1 1 10484 20140113130258
+202.46.48.27 1 1 10484 20140104071233
+123.150.199.37 1 1 10465 20140103072923
+202.46.55.191 1 1 10484 20140105170500
+202.46.60.17 1 1 10484 20140104110853
+67.198.175.242 1 1 248 20140119183645
+202.46.55.22 3 3 31452 20140110190645
+202.46.61.20 1 1 10484 20140129144554
+192.241.172.58 1 1 10522 20140127002051
+202.46.60.13 4 4 41936 20140114050317
+202.46.50.16 1 1 10484 20140104010840
+115.28.138.128 1 1 10484 20140118063549
+82.166.239.37 1 1 10465 20140109041051
+174.129.159.121 1 1 10522 20140108003000
+202.46.62.94 1 1 10484 20140111030455
+117.199.233.42 1 1 10465 20140121214731
+202.46.62.28 1 1 10484 20140114150829
+175.154.120.170 1 1 10465 20140120151355
+202.46.63.93 2 2 20968 20140125144748
+123.194.151.105 1 1 10465 20140101145412
+202.46.52.34 1 1 10484 20140130065823
+202.46.53.31 1 1 10484 20140105151236
+202.46.52.27 1 1 10484 20140101071047
+202.46.57.69 2 2 20968 20140109110348
+202.46.52.26 1 1 10484 20140102191400
+174.129.130.225 1 1 3308 20140118210822
+196.41.214.66 1 19 86750 20140113142051
+202.46.54.53 3 3 31452 20140130005720
+202.46.48.17 1 1 10484 20140108090905
+191.235.137.27 1 1 10484 20140129191336
+202.46.49.76 1 1 10484 20140127190004
+202.46.50.14 1 1 10484 20140102071142
+202.46.49.18 1 1 10484 20140104230925
+202.46.51.40 2 2 20968 20140129204627
+54.199.191.98 1 1 10484 20140130144114
+202.46.63.75 2 2 20968 20140128084552
+202.46.54.122 1 1 10484 20140110010520
+202.46.58.32 1 1 10484 20140104170458
+202.46.51.51 1 1 10484 20140115030734
+202.46.55.27 2 2 20968 20140127084607
+202.46.55.26 1 1 10484 20140112130827
+64.120.214.178 1 1 10465 20140105173631
+192.241.245.150 1 1 10522 20140125051200
+202.46.54.50 4 4 41936 20140131125730
+202.46.52.20 1 1 10484 20140106151347
+202.46.55.34 1 1 10484 20140125004347
+202.46.56.52 2 2 20968 20140111230325
+110.231.232.110 1 1 10465 20140110072449
+67.212.80.16 1 1 10484 20140118003245
+202.46.55.56 1 1 10484 20140109190724
+188.40.39.204 1 1 10465 20140129174810
+202.46.57.81 2 2 20968 20140106191234
+50.19.30.169 1 1 3318 20140110184208
+202.46.61.23 2 2 20968 20140129084528
+202.46.55.36 3 3 31452 20140126144536
+202.46.55.52 2 2 20968 20140126204537
+176.195.172.8 2 11 33355 20140109033224
+202.46.48.26 3 3 31452 20140128225802
+202.46.49.15 1 1 10484 20140114190812
+202.46.48.22 1 1 10484 20140126125601
+50.17.52.104 1 1 3320 20140113210141
+202.46.52.31 1 1 10484 20140129225734
+212.174.45.179 4 4 13020 20140103230441
+202.46.50.17 1 1 10484 20140109030620
+107.170.18.207 1 1 10522 20140128162348
+162.243.86.230 1 1 10484 20140112074430
+202.46.51.41 2 2 20968 20140126165414
+202.46.56.51 2 2 20968 20140131190121
+202.46.54.54 1 1 10484 20140101091047
+202.46.62.93 2 2 20968 20140112070618
+202.46.58.36 1 1 10484 20140116070614
+202.46.63.124 1 1 10484 20140103031025
+202.46.52.22 2 2 20968 20140124084731
+202.46.51.124 1 1 10484 20140106170610
+85.105.147.119 2 2 20930 20140111114438
+202.46.63.92 1 1 10484 20140131165201
+202.46.60.14 1 1 10484 20140102011001
+162.243.246.6 1 1 10522 20140114110112
+202.46.55.190 1 1 10484 20140116110338
+203.187.210.33 1 1 10465 20140127143718
+61.163.83.50 2 2 20930 20140120040608
+202.46.58.21 1 1 10484 20140124004458
+202.46.62.201 2 2 20968 20140114070625
+202.46.53.32 1 1 10484 20140116010332
+202.46.55.28 1 1 10484 20140129105611
+202.46.63.91 1 1 10484 20140103110905
+198.199.79.217 1 1 10484 20140107005620
+202.46.58.29 3 3 31452 20140108031236
+202.46.57.65 2 2 20968 20140114230503
+202.46.62.31 2 2 20968 20140128165451
+202.46.49.71 2 2 20968 20140123144502
+162.243.100.200 1 1 10484 20140104120552
+202.46.49.73 1 1 10484 20140105031114
+202.46.61.31 1 1 10484 20140124024640
+60.252.232.195 1 1 10465 20140127172907
+202.46.55.24 1 1 10484 20140102130838
+162.243.225.142 1 1 10484 20140114194013
+202.46.52.30 1 1 10484 20140113210609
+27.186.110.157 1 1 10465 20140119070357
+202.46.55.30 2 2 20968 20140108210809
+202.46.63.47 2 2 20968 20140130084529
+202.46.49.16 1 1 10484 20140110165803
+212.174.45.176 2 2 6522 20140103230518
+194.95.72.110 1 1 10484 20140118044034
+202.46.62.11 1 1 10484 20140115070627
+118.123.13.189 1 1 2816 20140102115018
+193.253.219.180 1 1 10465 20140110045946
+202.46.60.65 2 2 20968 20140114030711
+202.46.63.77 1 1 10484 20140114170116
+198.199.76.203 1 1 10484 20140115115609
+202.46.60.61 2 2 20968 20140116030812
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20140101 25 25 262081 25
+20140102 27 27 275362 27
+20140103 33 33 273731 24
+20140104 26 26 272565 26
+20140105 25 25 262081 25
+20140106 24 24 233903 24
+20140107 20 38 285983 20
+20140108 25 25 262176 25
+20140109 27 36 295436 26
+20140110 32 41 324739 30
+20140111 24 24 251635 24
+20140112 32 32 271653 22
+20140113 24 42 320680 24
+20140114 27 27 283106 27
+20140115 15 15 157260 15
+20140116 17 17 178228 17
+20140118 8 8 76620 8
+20140119 4 4 31757 4
+20140120 5 5 52439 5
+20140121 11 13 70990 3
+20140123 11 11 115267 11
+20140124 20 20 209699 20
+20140125 17 17 178266 17
+20140126 14 14 146776 14
+20140127 27 27 283068 27
+20140128 27 27 283182 27
+20140129 27 27 283049 27
+20140130 25 25 262176 25
+20140131 24 24 251692 24
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+30s-2mn 1
+2mn-5mn 1
+0s-30s 590
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 555 5809257 551 548
+http://www.soso.com/ 29 303485 29 29
+/test/perl/test.html 6 19698 3 2
+/test/fcgi/test.html 6 19767 2 1
+/test/python/test.html 5 16408 2 1
+/test/php/test.html 5 16368 1 2
+/test/fcgi/test.fcgi 4 5384 0 1
+/test/ssi/test.html 4 13080 0 1
+/test/php/test.php 3 4542 2 3
+http://www.baidu.com/ 2 20930 2 2
+http://www.bob-n.com/ 1 2816 1 1
+/test/ssi/test.shtml 1 1852 0 1
+/test/python/test.py 1 1315 0 0
+/test/perl/test.pl 1 1411 0 1
+END_SIDER

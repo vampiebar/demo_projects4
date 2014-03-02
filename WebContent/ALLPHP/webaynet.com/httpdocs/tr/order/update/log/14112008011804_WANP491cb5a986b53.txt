@@ -1,0 +1,6 @@
+Order ID : WANP491cb5a986b53
+Order Type : WANP
+Customer Name : Bülent þeker
+SQL Actions : success
+Payment Date : 14-11-2008 01:18:04
+Error Codes : none

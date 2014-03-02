@@ -1,0 +1,70 @@
+<html> 
+<head>
+<title>Comet Programlama</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+	body { margin:0px; padding:0px; overflow:hidden; }
+	#msg { margin:0px; padding:10px;width : 700px; height:300px; overflow-y:scroll; border:1px solid #000; }
+	#send{ width: 700px; height:100px; overflow-y:scroll; }
+</style>
+
+<script src="jquery.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+// COMET kýsmý
+var timestamp = null;
+function comet() {
+	$.ajax({
+		type : 'get',
+		url  : 'oku.php?timestamp=' + timestamp,
+		async : true,
+		cache : false,
+		
+		success : function(data) {
+					var json = eval('(' + data + ')');
+					if(json['msg'] == ''){
+						$('#msg').html('Mesaj Yok!');					
+					}else { 
+						$('#msg').html(json['msg']);
+						$('#msg').animate({scrollTop: $('#msg').get(0).scrollHeight},1000);
+					}
+					timestamp  = json['timestamp'];
+					setTimeout('comet()', 1000);
+		},
+		error : function(XMLHttpRequest, textstatus, error) { 
+					alert(error);
+					setTimeout('comet()', 15000);
+		}		
+	});
+}
+
+// Mesaj Gönderme ve sonrasýnda veri dosyamýza yazma kýsmý
+$(function() {
+	comet();
+	$('#send').bind('keyup', function(e) {
+		var msg = $(this).val();
+		if(e.keyCode == 13 && e.shiftKey) { 
+			return ; 
+		}else if(msg!='' && e.keyCode == 13) {
+			$.ajax({
+				type : 'GET',
+				url  : 'yaz.php?msg='+ msg.replace(/\n/g,'<br />'),
+				async : true,
+				cache : false
+			});
+			$(this).val('')
+		}
+	})
+});
+</script>
+</head>
+<body>
+<div id="msg"> </div>
+ <br />
+ Mesaj :
+ <br />
+<textarea id="send" name="msg"></textarea>	
+</body>
+</html>

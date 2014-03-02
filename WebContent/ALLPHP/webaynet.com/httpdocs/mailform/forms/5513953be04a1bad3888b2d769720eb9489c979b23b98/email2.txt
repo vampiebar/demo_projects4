@@ -1,0 +1,94 @@
+To: [re_Email]
+Bcc: bulent@webaynet.com
+From: info@webaynet.com
+Format: html
+Subject: Teşekkürler ! Formunuz Bize Ulaştı ...
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 11px;
+	font-weight: bold;
+}
+.style3 {
+	color: #000000;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style7 {font-size: 12px; font-weight: bold; }
+.style8 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style9 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+ <p class="style2">İLGİNİZ İÇİN ÇOK TEŞEKKÜR EDERİZ.</p>
+ <p><span class="style2">SİTEMİZDEN GÖNDERMİŞ OLDUĞUNUZ İRTİBAT FORMU BİZE ULAŞTI.<br>
+EN KISA SÜREDE SİZE YANIT VERİLECEKTİR...</span></p>
+ <p><span class="style2">BİZE İLETTİĞİNİZ BİLGİLER :</span></p>
+ <table width="500" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="140"><span class="style7">Adınız ve Soyadınız </span></td>
+     <td width="29"><div align="center" class="style3">:</div></td>
+     <td width="331"><span class="style8">[r_AdveSoyad]</span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Firma Adınız</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[FirmaAdi]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Telefon Numaranız</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[Tel]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">E-Mail Adresiniz</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[re_Email]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Mesajınız</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[rw_Mesaj]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+ </table>
+ <p>Saygılarımızla ...</p>
+ <p><span class="style7">WEBAYNET YAZILIM<br>
+  www.webaynet.com</span><br>
+ </p>
+</body>
+</html>

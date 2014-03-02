@@ -1,0 +1,7 @@
+Order ID : NPCC4949068309415
+Order Type : WACC
+Customer Name : uðu yaldýz
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 17-12-2008 16:02:45
+Error Codes : no_empty_key_data

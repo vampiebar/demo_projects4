@@ -1,0 +1,16 @@
+Sayýn %%NAME%%,
+
+"%%SUBJECT%%" konulu talebinize yöneticilerimiz tarafýndan bir cevap yazýldý.
+
+Talebinizi ve cevabý buradan okuyabilirsiniz :
+%%TRACK_URL%%
+
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Bu e-posta mesajýný cevaplamayýn, çünkü mesajýnýz yöneticilerimize ulaþmayacaktýr. Ýrtibat için aþaðýdaki linkleri kullanabilirsiniz!
+
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,7 @@
+Order ID : NPCC4981870fb4de1
+Order Type : WACC
+Customer Name : SEYHAN UYAN
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 29-01-2009 12:38:12
+Error Codes : no_empty_key_data

@@ -1,0 +1,6 @@
+Order ID : WAND496f634eed9f0
+Order Type : WAND
+Customer Name : Buðra Kaan KAVUÞTUK
+SQL Actions : failed
+Payment Date : 15-01-2009 18:24:50
+Error Codes : no_empty_key_data

@@ -1,0 +1,11 @@
+#ALL BOTS
+User-agent: *
+Disallow: /resseler/
+Disallow: /randim/
+Disallow: /scripts/
+Disallow: /NetPatronCyberCafe/
+Disallow: /highslide/
+Disallow: /form/
+Disallow: /NetPatronCyberCafe/
+Disallow: /mailform/
+Sitemap: http://www.webaynet.com/sitemap.xml

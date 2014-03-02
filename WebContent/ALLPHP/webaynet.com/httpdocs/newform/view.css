@@ -1,0 +1,522 @@
+#main_body
+{
+	background:#fffff;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:small;
+	margin:8px 0 16px;
+	text-align:center;
+}
+
+#form_container
+{
+	background:#fff;
+	border:1px solid #ccc;
+	margin:0 auto;
+	text-align:left;
+	width:640px;
+}
+
+#top
+{
+	display:block;
+	height:10px;
+	margin:10px auto 0;
+	width:650px;
+}
+
+#footer
+{
+	width:640px;
+	clear:both;
+	color:#999999;
+	text-align:center;
+	width:640px;
+	padding-bottom: 15px;
+	font-size: 85%;
+}
+
+#footer a{
+	color:#999999;
+	text-decoration: none;
+	border-bottom: 1px dotted #999999;
+}
+
+#bottom
+{
+	display:block;
+	height:10px;
+	margin:0 auto;
+	width:650px;
+}
+
+form.appnitro
+{
+	margin:20px 20px 0;
+	padding:0 0 20px;
+}
+
+/**** Logo Section  *****/
+#main_body h1
+{
+	background-color:#dedede;
+	margin:0;
+	min-height:0;
+	padding:0;
+	text-decoration:none;
+	text-indent:-8000px;
+	background-image: url('../../../images/machform.gif'); 
+	background-repeat: no-repeat; 
+}
+
+#main_body h1 a
+{
+	
+	display:block;
+	height:100%;
+	min-height:40px;
+	overflow:hidden;
+}
+
+
+#main_body img
+{
+	behavior:url(css/iepngfix.htc);
+	border:none;
+}
+
+
+/**** Form Section ****/
+.appnitro
+{
+	font-family:Lucida Grande, Tahoma, Arial, Verdana, sans-serif;
+	font-size:small;
+}
+
+.appnitro li
+{
+	width:61%;
+}
+
+#main_body  form ul
+{
+	font-size:100%;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+#main_body form li
+{
+	display:block;
+	margin:0;
+	padding:4px 5px 2px 9px;
+	position:relative;
+}
+
+#main_body form li:after
+{
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+#main_body .buttons:after
+{
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+#main_body .buttons
+{
+	clear:both;
+	display:block;
+	margin-top:10px;
+}
+
+#main_body html form li div
+{
+	display:inline-block;
+}
+
+#main_body form li div
+{
+	color:#444;
+	margin:0 4px 0 0;
+	padding:0 0 8px;
+}
+
+#main_body form li span
+{
+	color:#444;
+	float:left;
+	margin:0 4px 0 0;
+	padding:0 0 8px;
+}
+
+#main_body form li div.left
+{
+	display:inline;
+	float:left;
+	width:48%;
+}
+
+#main_body form li div.right
+{
+	display:inline;
+	float:right;
+	width:48%;
+}
+
+#main_body form li div.left .medium
+{
+	width:100%;
+}
+
+#main_body form li div.right .medium
+{
+	width:100%;
+}
+
+#main_body .clear
+{
+	clear:both;
+}
+
+#main_body form li div label
+{
+	clear:both;
+	color:#444;
+	display:block;
+	font-size:9px;
+	line-height:9px;
+	margin:0;
+	padding-top:3px;
+}
+
+#main_body form li span label
+{
+	clear:both;
+	color:#444;
+	display:block;
+	font-size:9px;
+	line-height:9px;
+	margin:0;
+	padding-top:3px;
+}
+
+#main_body form li .datepicker
+{
+	cursor:pointer !important;
+	float:left;
+	height:16px;
+	margin:.1em 5px 0 0;
+	padding:0;
+	width:16px;
+}
+
+#main_body .form_description
+{
+	border-bottom:1px dotted #ccc;
+	clear:both;
+	display:inline-block;
+	margin:0 0 1em;
+}
+
+#main_body .form_description[class]
+{
+	display:block;
+}
+
+#main_body .form_description h2
+{
+	clear:left;
+	font-size:160%;
+	font-weight:400;
+	margin:0 0 3px;
+}
+
+#main_body .form_description p
+{
+	font-size:95%;
+	line-height:130%;
+	margin:0 0 12px;
+}
+
+#main_body form hr
+{
+	display:none;
+}
+
+#main_body form li.section_break
+{
+	border-top:1px dotted #ccc;
+	margin-top:9px;
+	padding-bottom:0;
+	padding-left:9px;
+	padding-top:13px;
+	width:97% !important;
+}
+
+#main_body form ul li.first
+{
+	border-top:none !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+
+#main_body form .section_break h3
+{
+	font-size:110%;
+	font-weight:400;
+	line-height:130%;
+	margin:0 0 2px;
+}
+
+#main_body form .section_break p
+{
+	font-size:85%;
+
+	margin:0 0 10px;
+}
+
+/**** Buttons ****/
+#main_body input.button_text
+{
+	overflow:visible;
+	padding:0 7px;
+	width:auto;
+}
+
+#main_body .buttons input
+{
+	font-size:120%;
+	margin-right:5px;
+}
+
+/**** Inputs and Labels ****/
+#main_body label.description
+{
+	border:none;
+	color:#222;
+	display:block;
+	font-size:95%;
+	font-weight:700;
+	line-height:150%;
+	padding:0 0 1px;
+}
+
+#main_body span.symbol
+{
+	font-size:115%;
+	line-height:130%;
+}
+
+#main_body input.text
+{
+	background:#fff url(../../../images/shadow.gif) repeat-x top;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-top:1px solid #7c7c7c;
+	color:#333;
+	font-size:100%;
+	margin:0;
+	padding:2px 0;
+}
+
+#main_body input.file
+{
+	color:#333;
+	font-size:100%;
+	margin:0;
+	padding:2px 0;
+}
+
+#main_body textarea.textarea
+{
+	background:#fff url(../../../images/shadow.gif) repeat-x top;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-top:1px solid #7c7c7c;
+	color:#333;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:100%;
+	margin:0;
+	width:99%;
+}
+
+#main_body select.select
+{
+	color:#333;
+	font-size:100%;
+	margin:1px 0;
+	padding:1px 0 0;
+	background:#fff url(../../../images/shadow.gif) repeat-x top;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #c3c3c3;
+	border-right:1px solid #c3c3c3;
+	border-top:1px solid #7c7c7c;
+}
+
+
+#main_body input.currency
+{
+	text-align:right;
+}
+
+#main_body input.checkbox
+{
+	display:block;
+	height:13px;
+	line-height:1.4em;
+	margin:6px 0 0 3px;
+	width:13px;
+}
+
+#main_body input.radio
+{
+	display:block;
+	height:13px;
+	line-height:1.4em;
+	margin:6px 0 0 3px;
+	width:13px;
+}
+
+#main_body label.choice
+{
+	color:#444;
+	display:block;
+	font-size:100%;
+	line-height:1.4em;
+	margin:-1.55em 0 0 25px;
+	padding:4px 0 5px;
+	width:90%;
+}
+
+#main_body select.select[class]
+{
+	margin:0;
+	padding:1px 0;
+}
+
+*:first-child+html select.select[class]
+{
+	margin:1px 0;
+}
+
+#main_body .safari select.select
+{
+	font-size:120% !important;
+	margin-bottom:1px;
+}
+
+#main_body input.small
+{
+	width:25%;
+}
+
+#main_body select.small
+{
+	width:25%;
+}
+
+#main_body input.medium
+{
+	width:50%;
+}
+
+#main_body select.medium
+{
+	width:50%;
+}
+
+#main_body input.large
+{
+	width:99%;
+}
+
+#main_body select.large
+{
+	width:100%;
+}
+
+#main_body textarea.small
+{
+	height:5.5em;
+}
+
+#main_body textarea.medium
+{
+	height:10em;
+}
+
+#main_body textarea.large
+{
+	height:20em;
+}
+
+/**** Errors ****/
+#error_message
+{
+	background:#fff;
+	border:1px dotted red;
+	margin-bottom:1em;
+	padding-left:0;
+	padding-right:0;
+	padding-top:4px;
+	text-align:center;
+	width:97%;
+}
+
+#error_message_title
+{
+	color:#DF0000;
+	font-size:125%;
+	margin:7px 0 5px !important;
+	padding:0 !important;
+}
+
+#error_message_desc
+{
+	color:#000;
+	font-size:100%;
+	margin:0 0 .8em !important;
+}
+
+#error_message_desc strong
+{
+	background-color:#FFDFDF;
+	color:red;
+	padding:2px 3px;
+}
+
+#main_body form li.error
+{
+	background-color:#FFDFDF !important;
+	border-bottom:1px solid #EACBCC;
+	border-right:1px solid #EACBCC;
+	margin:3px 0;
+}
+
+#main_body form li.error label
+{
+	color:#DF0000 !important;
+}
+
+#main_body form p.error
+{
+	clear:both;
+	color:red;
+	font-size:10px;
+	font-weight:700;
+	margin:0 0 5px !important;
+}
+
+#main_body form .re

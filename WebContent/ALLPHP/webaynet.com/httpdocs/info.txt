@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: netdadi.com/
+site_owner: Webaynet Software and internet Teknolocies
+address1: Cihangir Mah. OrmanlÄ± Cad. KayÄ±sÄ± Sok
+address2: No:9 D:9 AVCILAR
+city: ISTANBUL
+state: TR
+country: TURKIYE
+postal_code: 34310
+phone_number:  902126953542
+display_email: info@webaynet.com
+site_name: 
+site_description: GenÃ§leri ve Ã§ocuklarÄ± internetteki aktivitelerini kontrol altÄ±nda tutabilen. Bilgisayar kullanÄ±mlarda dÃ¼zeni saÄlayabilen. Sevdiklerinizi internetin ve BilgisayarÄ±n olumsuzluklarÄ±ndan koruyan Ã¶zel olarak geliÅtirilmiÅ b

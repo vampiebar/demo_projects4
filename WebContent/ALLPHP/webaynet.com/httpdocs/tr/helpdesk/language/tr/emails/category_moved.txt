@@ -1,0 +1,20 @@
+Merhaba,
+
+Yetkiniz dahilinde bulunan bir kategoriye yeni bir talep taþýndý. Talep Detaylarý Aþaðýdadýr :
+
+Talep Konusu : %%SUBJECT%%
+Takip Numarasý : %%TRACK_ID%%
+
+Talebe Buradan Ulaþabilirsiniz :
+%%TRACK_URL%%
+
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Lütfen bu e-posta mesajýný cevaplamayýn, yazdýðýnýz mesaj hiçbir yere ulaþmayacaktýr!
+
+E-Posta bildirim seçeneklerinizi, Destek Masasýna giriþ yapýp, "Profil" bölümünden deðiþtirebilirsiniz.
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

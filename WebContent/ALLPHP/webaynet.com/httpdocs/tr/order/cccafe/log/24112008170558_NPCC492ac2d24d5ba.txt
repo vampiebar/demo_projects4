@@ -1,0 +1,6 @@
+Order ID : NPCC492ac2d24d5ba
+Order Type : WACC
+Customer Name : 
+SQL Actions : success
+Payment Date : 24-11-2008 17:05:58
+Error Codes : none

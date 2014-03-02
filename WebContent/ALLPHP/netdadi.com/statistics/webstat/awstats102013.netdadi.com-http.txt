@@ -1,0 +1,1274 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.netdadi.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2012                
+POS_TIME 2684                
+POS_VISITOR 39151               
+POS_DAY 48088               
+POS_DOMAIN 3556                
+POS_LOGIN 3788                
+POS_ROBOT 3943                
+POS_WORMS 4988                
+POS_EMAILSENDER 5119                
+POS_EMAILRECEIVER 5262                
+POS_SESSION 48922               
+POS_SIDER 49125               
+POS_FILETYPES 5397                
+POS_DOWNLOADS 5573                
+POS_OS 5689                
+POS_BROWSER 5992                
+POS_SCREENSIZE 7079                
+POS_UNKNOWNREFERER 7153                
+POS_UNKNOWNREFERERBROWSER 7585                
+POS_ORIGIN 7715                
+POS_SEREFERRALS 7859                
+POS_PAGEREFS 8055                
+POS_SEARCHWORDS 8795                
+POS_KEYWORDS 9179                
+POS_MISC 2346                
+POS_ERRORS 9469                
+POS_CLUSTER 3644                
+POS_SIDER_404 9612                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101001724 536 106668 10197162234155
+FirstTime 0
+LastTime 20131031171653
+LastUpdate 20131101032246 536 0 535 0 0
+TotalVisits 243                 
+TotalUnique 222                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 223                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 141 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 27 797141 84 174 357341
+1 7 62 1065413 72 154 368283
+2 23 174 4007932 80 176 558942
+3 12 83 1817489 88 154 537797
+4 5 19 491470 65 143 331066
+5 18 125 2279912 51 141 316910
+6 19 89 9451774 131 206 435212
+7 4 30 674909 93 166 389540
+8 14 56 1279335 82 144 313088
+9 18 183 4004683 104 230 431485
+10 15 160 9266758 83 178 269701
+11 22 118 2569143 267 588 1263790
+12 12 95 2354431 94 236 540222
+13 38 274 5871318 98 371 5256217
+14 16 100 2360190 129 253 584291
+15 33 229 5159345 113 246 458852
+16 15 129 3382577 73 229 380000
+17 28 221 4546127 97 253 351602
+18 13 107 2216206 66 222 442793
+19 5 20 480058 73 186 357340
+20 16 123 2855320 83 210 439577
+21 12 80 2512133 101 237 392266
+22 12 61 1399513 97 282 479773
+23 11 69 1793316 78 217 539129
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 374 2634 72636493
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+googlebot 147 6479671 20131031230145 0
+yandex 138 1418537 20131030221116 0
+bingbot 70 1092539 20131031062400 0
+baiduspider 22 195591 20131030141640 0
+msnbot\-media 19 471703 20131025163133 0
+crawl 18 186509 20131027055800 0
+sogou 16 14955 20131029152332 0
+bingpreview 10 360496 20131026031238 0
+^java\/[0-9] 9 40483 20131025013520 0
+seznambot 8 35155 20131030114952 0
+exabot 1 22250 20131007130207 0
+no_user_agent 4 19864 20131007014632 0
+spider 4 97745 20131030180936 0
+yeti 4 19940 20131028113304 0
+mail\.ru 2 33760 20131008195256 0
+ezoom 2 9932 20131025113956 0
+robot 8 87832 20131018133013 0
+surveybot 3 14955 20131029091935 0
+favicon 1 4966 20131018054822 0
+bot[\s_+:,\.\;\/\\-] 6 55736 20131013033609 0
+^mozilla\/5\.0$ 1 4966 20131003104745 0
+ netseer  2 10045 20131031060411 0
+mj12bot 8 87897 20131023120243 0
+netcraft 1 4985 20131011195428 0
+voila 4 19940 20131026072200 0
+nutch 6 29910 20131024191238 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 1 8078 0 0
+php 371 4738298 0 0
+wmv 8 13209120 0 0
+png 677 9110557 0 0
+html 3 5619 0 0
+jpg 1574 45564821 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/tr/press/dosttv.wmv 5 0 11519534
+/tr/press/SKYTURK.wmv 4 0 6176000
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 1 1
+blackberry 1 1
+winlong 30 4
+macosx6 6 6
+winxp 691 100
+win2000 1 1
+win2003 2 2
+j2me 18 1
+linuxdebian 1 1
+win8 369 55
+java 2 2
+winnt 1 1
+macosx5 1 1
+linux 17 10
+win7 1448 173
+macosx 1 1
+win16 1 1
+Unknown 13 9
+macosx8 30 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+msie6.0 16 9
+firefox15.0 16 2
+chrome21.0.1180.90 1 1
+bonecho 1 1
+firefox4.0.1 2 2
+firefox3.6 4 4
+chrome29.0.1547.76 123 12
+android 1 1
+chrome12.0.742.91 16 2
+firefox3.6.6 1 1
+msie4.01 1 1
+firefox4.0 1 1
+chrome29.0.1547.62 20 1
+firefox18.0 9 8
+chrome12.0.742.112 23 2
+firefox24.0 298 29
+chrome17.0.963.47 8 1
+opera9.80 45 3
+firefox3.6.15 9 9
+safari5.0.2 1 1
+msie8.0 218 26
+opera7.60 1 1
+firefox6.0.2 3 3
+msie7.0 5 5
+firefox23.0 29 3
+firefox16.0 1 1
+chrome10.0.648.204 2 2
+chrome30.0.1599.66 54 7
+msie5.0 1 1
+msie9.0 86 9
+chrome29.0.1547.66 9 2
+chrome10.0.648.134 23 2
+Unknown 2 2
+chrome24.0.1312.52 2 2
+chrome30.0.1599.101 533 60
+firefox11.0 28 2
+chrome6.0.428.0 8 1
+blackberry 1 1
+nsplayer 4 0
+firefox3.0.11 1 1
+firefox7.0.1 6 6
+firefox12.0 1 1
+chrome30.0.1599.69 436 49
+safari6.0.5 28 2
+mozilla 9 9
+firefox25.0 2 2
+chrome26.0.1410.64 8 1
+firefox22.0 23 2
+firefox14.0.1 5 5
+chrome25.0.1364.172 24 3
+msie10.0 431 60
+chrome22.0.1229.94 25 6
+chrome27.0.1453.116 2 0
+firefox8.0.1 8 1
+chrome23.0.1271.97 8 1
+safari 9 2
+chrome29.0.1547.2 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+NSPlayer/11.0.5721.5262 20131031060117
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131014171205
+NSPlayer/11.0.5721.5275_WMFSDK/11.0 20131031060117
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20131026151819
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20131022221141
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.3_(java_1.5) 20131014145923
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 130 135
+From1 0 0
+From2 102 103
+From3 64 68
+From4 78 2328
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 87 87
+baidu 13 14
+yandex 1 1
+metacrawler 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://forum.donanimhaber.com/m_24264279/tm.htm 35 35
+http://forum.thgtr.com/ag-internet/agdaki-internet-trafigini-takip-etmek/ 16 16
+http://dreamonload.com 5 5
+http://www.yandex.com.tr/clck/jsredir 2 2
+http://www2.delta-search.com 1 1
+http://www.serdarb.com/tools-programs/netdadi-internet-filtreleme-programi/ 1 1
+http://mail.baskent.edu.tr/~20394475/Hakkimizda/hakkimizda_makaleler.html 1 1
+http://forum.donanimhaber.com/m_16929479/tm.htm 1 1
+http://www.inndir.com/NetDADI-36779p.html 1 1
+http://www.gezginler.net/indir/netdadi-free.html 1 1
+http://www.webaynet.com/tr/basindabiz.php 0 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+netdadiinternetfiltres%810%902anasayfasi 9
+http+//netdadi.com/ 2
+netdadi.com 2
+http+//www.netdadi.com/ 1
+net+dad%c4%b1 1
+dunyadaki+cocuk+pornolari+videosu+indirilen+siteler 1
+netdad%c4%b1+fitre+k%c4%b1rma 1
+netdad%c4%b1 1
+netdadi 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 17
+netdadiinternetfiltres%810%902anasayfasi 9
+http 3
+//netdadi.com/ 2
+netdadi.com 2
+netdad%c4%b1 2
+dunyadaki 1
+net 1
+netdadi 1
+indirilen 1
+siteler 1
+videosu 1
+//www.netdadi.com/ 1
+dad%c4%b1 1
+cocuk 1
+fitre 1
+k%c4%b1rma 1
+pornolari 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 1147 254903
+206 10 78437
+400 1 1289
+301 6 3092
+404 3577 4431904
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 628
+/tr/images/screncapture/netpatron/anamenu_smal.png 2 -
+/TR/images/screncapture/netdadi3/programkisitlama.jpg 2 -
+/webalizer/ 1 http://netdadi.com/webalizer/
+/admin/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/tr/NDHELP/GUVENLIMOD.html 3 -
+/supernews.css 1 http://www.baidu.com
+/fckeditor/fckeditor.js 1 http://www.baidu.com
+/tr/images/screentablealt_3.png 2 -
+/install/db_init.sql 1 http://www.baidu.com
+/gbook/_notes/dwsync.xml 1 http://www.baidu.com
+/extmail/README 1 http://www.baidu.com
+/tr/freenetdadi.php 4 -
+/footer.php 1 http://www.baidu.com
+/images/screncapture/netdadi/webreport.png 2 -
+/install/sql/db_settings_lite.sql 1 http://www.baidu.com
+/stop.jpg 821 http://ccs.infospace.com/ClickHandler.ashx
+/TR/images/screncapture/netdadi/yontanadres_smal.png 1 -
+/images/alt.jpg 3 -
+/TR/images/netdfreealt.png 1 -
+/Resource/Cache/City.xml 1 http://www.baidu.com
+/keke_client/ucenter/log.txt 1 http://www.baidu.com
+/wp-content/themes/twentyten/style.css 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/progrest.png 2 -
+/download/netdadikur.exe 17 -
+/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/en/veriupddetay.html 2 -
+/admin/kindeditor/license.txt 1 http://www.baidu.com
+/en/support.html 3 -
+/TR/ 2 -
+/update.txt 1 http://www.baidu.com
+/ThinkPHP/README.txt 1 http://www.baidu.com
+/templet/default/guestbook.jsp 1 http://www.baidu.com
+/install/templates/default/footer.php 1 http://www.baidu.com
+/editor/Include/Editor.js 1 http://www.baidu.com
+/images/screncapture/netdadi/suresinir_smal.png 1 -
+/userapi_readme.txt 1 http://www.baidu.com
+/tr/goruntulukulkaydi.html 13 -
+/tr/images/screncapture/netpatron/userreport.png 1 -
+/hotspots.xml 1 http://www.baidu.com
+/phpmyadmin/Documentation.txt 1 http://www.baidu.com
+/web2/css/css0/webmail.css 1 http://www.baidu.com
+/TR/images/stopicerikmsg_smal.png 2 -
+/en/guvalandetay.html 2 -
+/data 1 http://www.baidu.com
+/license.txt 1 http://www.baidu.com
+/images/icsayfa_menu.jpg 1 -
+/TR/images/screncapture/netdadi/anamenu_smal.png 1 -
+/plus/public/setting.xml 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/webreport_small.png 2 -
+/tr/images/screncapture/netdadi/filtersettings.png 2 -
+/plugin/kindeditor/license.txt 1 http://www.baidu.com
+/history.txt 1 http://www.baidu.com
+/virtuemart.xml 1 http://www.baidu.com
+/lang/install_wind.sql 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/usercapture.png 2 -
+/Admin/Include/version.xml 1 http://www.baidu.com
+/HX_login.asp 1 http://www.baidu.com
+/system/language/zh-cn.xml 1 http://www.baidu.com
+/TR/images/screncapture/netdadi/usercapturereport_smal.png 1 -
+/TR/hsipform.html 1 -
+/include/bottom.asp 1 http://www.baidu.com
+/js/index.htm 1 http://www.baidu.com
+/TR/images/OK.png 1 -
+/tr/netdfreeinfo.php 2 -
+/data/js/config.js 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/progrest.png 2 -
+/tr/images/screentableust_2.png 1 -
+/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/edoas2/edoas2_test.jsp 1 http://www.baidu.com
+/TR/images/screncapture/netdadi/filtersettings_smal.png 1 -
+/tr/images/screentablealt_2.png 1 -
+/archive/archive.css 1 http://www.baidu.com
+/dede/login.php 1 http://www.baidu.com
+/inc/style2.css 1 http://www.baidu.com
+/<a%20href='http://www.mircturkish.com'>download</a>/freeNetDKur.exe& 2 -
+/TR/images/stopicerikmsg.png 1 -
+/noexist_00af420479c629cc.html 2 -
+/tr/images/supportbaslik.png 2 -
+/en/pad_file_EN.xml 306 http://padtools.org/pad_translator/
+/TR/images/screncapture/netdadi/webreport_small.png 1 -
+/modules/article/toplist.php 1 http://www.baidu.com
+/install/phpdisk.sql 1 http://www.baidu.com
+/templates/default/footer.php 1 http://www.baidu.com
+/Documentation.txt 1 http://www.baidu.com
+/themes/default/style.css 1 http://www.baidu.com
+/editor/dialog/fck_about.html 11 http://www.netdadi.com/editor/dialog/fck_about.html
+/en/irtibatform.html 2 -
+/lib/fckeditor/fckconfig.js 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/ayarlar.png 2 -
+/docs/changelog.txt 1 http://www.baidu.com
+/FCK/editor/filemanager/connectors/php/connector.php 1 -
+/app/code/core/Mage/Admin/etc/config.xml 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/suresinir_smal.png 1 -
+/admin/template/foot.htm 1 http://www.baidu.com
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/templet/default/ 1 http://www.baidu.com
+/themes/purple/info.xml 1 http://www.baidu.com
+/TR/images/stoptibmsg_smal.png 2 -
+/images/menu.jpg 3 -
+/js/admin-dnd.js 1 http://www.baidu.com
+/images/screncapture/netdadi/suresinir.png 3 -
+/tr/images/screncapture/netdadi3/goruntuizleme.jpg 7 -
+/TR/images/screncapture/netdadi3/downkisitlama_small.jpg 1 -
+/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/core/modules/article/assistant/templates/article_list.htm 1 http://www.baidu.com
+/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/templates/default/header.php 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/suresinirlamalari_small.jpg 3 -
+/cgi-bin/login.cgi 1 http://www.baidu.com
+/tr/progkisitdetay.html 14 -
+/TR/images/screncapture/netdadi3/filterayar_small.jpg 2 -
+/TR/images/netpccsssbaslik.png 2 -
+/images/screncapture/netdadi/downrest.png 3 -
+/apple-touch-icon.png 1 -
+/App_Themes/AdminDefaultTheme/xtree.css 1 http://www.baidu.com
+/admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/tr/images/yukle_a.jpg 1 -
+/tr/images/screncapture/netdadi/kapatkaldir_smal.png 2 -
+/kindeditor/license.txt 1 http://www.baidu.com
+/application/Plugin/Example/View/admin/index.tpl 1 http://www.baidu.com
+/mails/en/bankwire.txt 1 http://www.baidu.com
+/images/screncapture/netdadi/winrest_smal.png 2 -
+/TR/images/screncapture/netdadi3/downkisitlama.jpg 2 -
+/tr/images/screncapture/netpatron/ayarlar_smal.png 2 -
+/manage/FCKeditor/editor/dialog/fck_about.html 11 http://www.netdadi.com/manage/FCKeditor/editor/dialog/fck_about.html
+/tr/images/screncapture/netpatron/kapatveyakaldir_smal.png 1 -
+/tr/helpnd/index.html 9 http://www.netdadi.com/tr/ndinfo.php
+/minica_down.php 1 http://www.baidu.com
+/templates/default/en/public/footer.html 1 http://www.baidu.com
+/themes/purple/theme.xml 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/ayarlar_smal.png 1 -
+/ask 1 http://www.baidu.com
+/tr/images/orderpagenetdadi.png 2 -
+/tr/images/bayilerimiz_a.jpg 2 -
+/data/subscriptionmail.txt 1 http://www.baidu.com
+/tr/images/screncapture/netdadi3/downkisitlama.jpg 14 -
+/static/js/common.js 1 http://www.baidu.com
+/admin 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/yontanadresler_smal.png 1 -
+/admin/login.aspx 1 http://www.baidu.com
+/images/mailimages/Mail2ust.jpg 2 -
+/helpnd/index.html 3 -
+/FCK/editor/dialog/fck_about.html 11 http://www.netdadi.com/FCK/editor/dialog/fck_about.html
+/ThinkPHP/Extend/README.txt 1 http://www.baidu.com
+/file/script/config.js 1 http://www.baidu.com
+/fckeditor/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/%3Ca%20href= 5 -
+/images/icsayfa_ust.jpg 2 -
+/plugins/tinymce_plugin/tiny_mce/plugins/more/editor_plugin.js 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/downrest_smal.png 2 -
+/TR/images/sssbaslik.jpg 2 -
+/admin/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/TR/images/sssaltbar.png 2 -
+/css/eyou.css 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/filtersettings_smal.png 1 -
+/tr/npinfo_tib.php 1 -
+/tr/images/irtformorta.png 1 -
+/tr/images/screncapture/netdadi/ayarlar_smal.png 2 -
+/press.php 4 -
+/admin/tpl/footer.htm 1 http://www.baidu.com
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/tr/images/KUTU.jpg 4 -
+/images/screncapture/netdadi/filtersettings_smal.png 1 -
+/templates/classik/css/classik.css 1 http://www.baidu.com
+/tr/images/screncapture/netdadi3/gkayitayarlari.jpg 7 -
+/download/freeNetDKur.exe 7 -
+/tr/images/screncapture/netdadi3/webreports.jpg 6 -
+/install/data/sql/db_full.sql 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/progrest_smal.png 1 -
+/readme_gbk.txt 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/goruntuizleme.jpg 2 -
+/tr/images/orderptableust.png 1 -
+/images/freedadi.jpg 2 -
+/tr/images/baby.jpg 4 http://avira.search.ask.com/picdetails
+/cuteeditor_files/Help/default.htm 1 http://www.baidu.com
+/README-VIRTUEMART.txt 1 http://www.baidu.com
+/member/template/homepage.htm 1 http://www.baidu.com
+/FS_Inc/FS_CSS.css 1 http://www.baidu.com
+/images/mailimages/Mail2orta2.jpg 1 -
+/custom/README 1 http://www.baidu.com
+/Include/Editor.js 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/suresinirlamalari.jpg 2 -
+/tr/images/screncapture/netdadi/usercapturereport_smal.png 2 -
+/install/frcms_db.sql 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/gkayitayarlari_small.jpg 2 -
+/images/screncapture/netdadi/webreport_small.png 2 -
+/docs/index.html 1 http://www.baidu.com
+/images/screncapture/netdadi/kapatkaldir.png 2 -
+/TR/images/screncapture/netdadi3/filterayar.jpg 3 -
+http://www.netdadi.com/en/pad_file_EN.xml 24 -
+/install/templates/step-1.html 2 http://www.baidu.com
+/NetGSer.asmx 4 -
+/TR/images/incebar.png 2 -
+/CSS/atom.css 1 http://www.baidu.com
+/images/mailimages/Mail2orta.jpg 1 -
+/css.css 1 http://www.baidu.com
+/LiveSearchSiteAuth.xml 4 -
+/TR/sss/netpcc20sss.php 2 -
+/wp-content/plugins/wp-property/readme.txt 1 http://www.baidu.com
+/wp-content/plugins/wp-property/js/wp-property-backend-global.js 1 http://www.baidu.com
+/tr/NDHELP/netdadikurulum_controller.swf 1 -
+/tr/images/screncapture/netdadi3/suresinirlamalari.jpg 7 http://www.netdadi.com/tr/sreencapture.php
+/help.html 1 http://www.baidu.com
+/self_adherent.php 1 http://www.baidu.com
+/editor/Help/default.htm 1 http://www.baidu.com
+/\xe7\xa8\x8b\xe5\xba\x8f\xe8\xaf\xb4\xe6\x98\x8e.txt 1 http://www.baidu.com
+/e/master/login.aspx 1 http://www.baidu.com
+/install/zcncms_default.sql 1 http://www.baidu.com
+/stats/usage_201309.html 1 http://NETDADI.COM/stats/usage_201309.html
+/images/ONTOP.png 1 -
+/tr/images/screncapture/netdadi/yontanadres_smal.png 1 -
+/<a%20href= 5 -
+/tr/altmenu2.php 2 -
+/en/filterdetay.html 4 -
+/en/bayiform.html 1 -
+/tr/cafelist/ 1 -
+/tr/images/screncapture/netdadi3/programkisitlama.jpg 10 http://www.netdadi.com/tr/sreencapture.php
+/en/nginfo.html 2 -
+/js/changejobtype.js 1 http://www.baidu.com
+/admin/login.asp 1 http://www.baidu.com
+/tr/sss/netdadi20sss.php 2 -
+/TR/images/screncapture/netdadi/downrest_smal.png 1 -
+/en/goruntulukulkaydi.html 4 -
+/lionsky_client/WebHtmlEditor/1_7_2006_1020/Theme/Office_Tinge/WebHtmlEditor.css 1 http://www.baidu.com
+/admin/js/command.js 1 http://www.baidu.com
+/images/otherproduct.jpg 3 -
+/tr/images/screncapture/netdadi/winrest_smal.png 1 -
+/tr/images/screncapture/netdadi/kapatkaldir.png 2 -
+/fckeditor.js 1 http://www.baidu.com
+/mthemes/default/images/style.css 1 http://www.baidu.com
+/URLRewrite/Nginx.txt 1 http://www.baidu.com
+/edoas2_test.jsp 1 http://www.baidu.com
+/phpmyadmin/docs.css 1 http://www.baidu.com
+/tr/images/hakkimizda_a.jpg 2 -
+/TR/helpnd/index.html 3 -
+/TR/altmenu2.php 2 -
+/sitemap.xml 26 -
+/install/templates/header.htm 1 http://www.baidu.com
+/en/screencapture.html 2 -
+/sreencapture.php 9 -
+/data/xml/supply.xml 1 http://www.baidu.com
+/Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx 1 http://www.baidu.com
+/admin/views/style/default/style.css 1 http://www.baidu.com
+/editor/Dialog/about.htm 1 http://www.baidu.com
+/tr/images/iletisim_a.jpg 1 -
+/templates/default/header.htm 1 http://www.baidu.com
+/5107/chat/js/chat.js 1 http://www.baidu.com
+/TR/images/screncapture/netdadi/progrest_smal.png 1 -
+/licence.txt 1 http://www.baidu.com
+/plugin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/xweibo_upload/css/default/base.css 1 http://www.baidu.com
+/%3Ca%20href='http:/www.mircturkish.com'%3Edownload%3C/a%3E/freeNetDKur.exe%E2%80%9D%3Eburaya%3C/a%3E%20tiklayiniz.%3C/p%3E%3Cp%3E%3Cfont%20color= 2 -
+/changelog.txt 1 http://www.baidu.com
+/images/screncapture/netdadi/anamenu_smal.png 1 -
+/admin/licence 1 http://www.baidu.com
+/static/alpa.css 1 http://www.baidu.com
+/fck/editor/filemanager/connectors/php/connector.php 1 -
+/TR/images/icsayfa_menu.jpg 1 -
+/Scripts/spell.js 1 http://www.baidu.com
+/templates/default/auction_detail.html 1 http://www.baidu.com
+/tr/images/yasaluyaribaslik.png 2 -
+/images/screncapture/netdadi/kapatkaldir_smal.png 1 -
+/admin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/TR/images/screncapturebaslik.jpg 3 -
+/TR/images/stopytamsg_smal.png 1 -
+/ueditor/editor_config.js 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/kapatveyakaldir.png 1 -
+/en/rapordetay.html 1 -
+/tr/images/screncapture/netpatron/filtersettings_smal.png 2 -
+/TR/images/stoptibmsg.png 2 -
+/install.txt 1 http://www.baidu.com
+/skin/frontend/default/spy/css/styles.css 1 http://www.baidu.com
+/URLRewrite/httpd.ini 1 http://www.baidu.com
+/install/data.sql 1 http://www.baidu.com
+/usr/themes/default/sytle.css 1 http://www.baidu.com
+/install/install.jsp 1 http://www.baidu.com
+/tr/guvalandetay.html 12 -
+/TR/images/screncapture/netdadi3/ayarlar_small.jpg 2 -
+/TR/images/screncapture/netdadi/winrest_smal.png 1 -
+/tr/images/screentableust_1.png 2 -
+/tr/downkisitdetay.html 12 -
+/tr/index.php 1 -
+/pla 1 http://www.baidu.com
+/TR/images/yasaluyarialt.png 2 -
+/editor/editor/dialog/fck_about.html 11 http://www.netdadi.com/editor/editor/dialog/fck_about.html
+/phpmyadmin/ChangeLog 1 http://www.baidu.com
+/catalog/view/theme/default/stylesheet/carousel.css 1 http://www.baidu.com
+/docs/README 1 http://www.baidu.com
+/langs/nl/lang.txt 1 http://www.baidu.com
+/tr/images/downnetp.png 1 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 http://www.baidu.com
+/admin/template/article_more/config.htm 1 http://www.baidu.com
+/tr/function.include 2 -
+/tr/images/screncapture/netpatron/userreport_smal.png 2 -
+/manage/login.aspx 1 http://www.baidu.com
+/CHANGELOG.txt 1 http://www.baidu.com
+/TR/images/stopytamsg.png 2 -
+/announcement/index.html 1 http://www.baidu.com
+/user/ 2 -
+/js/PublicJS.js 1 http://www.baidu.com
+/install/t_thinksns_com.sql 1 http://www.baidu.com
+/wp-content/plugins/wp-property/js/wp-property-global.js 1 http://www.baidu.com
+/\xe6\x98\x93\xe8\xb4\xb4\xe7\x94\x9f\xe6\xb4\xbb\xe4\xbf\xa1\xe6\x81\xaf\xe7\xbd\x91\xe4\xbb\x8b\xe7\xbb\x8d.txt 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/webreports_small.jpg 2 -
+/hack/gather/template/edit_title.htm 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/usercapturereport.png 2 -
+/en/buynow.html 10 -
+/xml_language/lang[arabic].xml 1 http://www.baidu.com
+/special 1 http://www.baidu.com
+/tr/NDHELP/netdadikurulum_preload.swf 1 -
+/Inc/Southidc.js 1 http://www.baidu.com
+/tr/NDHELP/netdadikurulum.html 3 -
+/board/default/board_view.html 1 http://www.baidu.com
+/admin/tpl/backup.htm 1 http://www.baidu.com
+/\xe5\xae\x89\xe8\xa3\x85\xe8\xaf\xb4\xe6\x98\x8e.txt 1 http://www.baidu.com
+/TR/images/ustorta_2.png 1 -
+/en/progkisitdetay.html 2 -
+/admin/list.html 1 http://www.baidu.com
+/common/common.js 1 http://www.baidu.com
+/tr/images/sitekulsartbaslik.png 2 -
+/admin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/suresinir.png 2 -
+/images/edit/edit.js 1 http://www.baidu.com
+/plugins/googlemap/view/admin_googlemap.htm 1 http://www.baidu.com
+/theme/default/style.css 1 http://www.baidu.com
+/public/themes/newstyle/layout.css 1 http://www.baidu.com
+/plugins/autolinks_plugin/definitions.default.txt 1 http://www.baidu.com
+/agent/templates/Smarty/utf-8/footer.html 1 http://www.baidu.com
+/administrator/manifests/files/joomla.xml 1 http://www.baidu.com
+/images/screncapture/netdadi/usercapture_smal.png 2 -
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/admin/jscripts/imodal.js 1 http://www.baidu.com
+/wcm/app/js/source/wcmlib/WCMConstants.js 1 http://www.baidu.com
+/tr/images/screentableust_3.png 2 -
+/tr/images/orderpagenetpatron.png 2 -
+/\xe6\xb3\xa8\xe6\x84\x8f\xe4\xba\x8b\xe9\xa1\xb9-\xe5\xbf\x85\xe7\x9c\x8b.txt 1 http://www.baidu.com
+/en/yonadresdetay.html 2 -
+/images/mailimages/Mail2alt.jpg 1 -
+/images/mailimages/Mail2ust2.jpg 1 -
+/tr/download.php 7 -
+/admin/inc/xml.xslt 1 http://www.baidu.com
+/wp-login.php 3 http://www.netdadi.com//wp-login.php
+/tr/images/netdadiozel.png 2 -
+/tr/images/engellenensayfa.jpg 2 -
+/readme.txt 1 http://www.baidu.com
+/pub/guiedit/guiedit.js 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/webreport.png 1 -
+/extensions/jcms/info.xml 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/programkisitlama_small.jpg 2 -
+/readme 1 http://www.baidu.com
+/themes/mall/default/footer.html 1 http://www.baidu.com
+/install/sql.txt 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/usercapture_smal.png 1 -
+/index.html 1 http://www.baidu.com
+/download/NetDKur.exe 41 -
+/tr/images/satinal_a.jpg 2 -
+/BingSiteAuth.xml 4 -
+/images/screncapture/netdadi/downrest_smal.png 1 -
+/data/licence.txt 1 http://www.baidu.com
+/cuteeditor_files/Scripts/spell.js 1 http://www.baidu.com
+/themes/lazycms/home.html 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/suresinir.png 1 -
+/cgi-bin/bugRepMailer.php 3 -
+/FCK/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/templates/default/cn/public/fotter.html 1 http://www.baidu.com
+/includes/js/common.js 1 http://www.baidu.com
+/admin/javascript/typecho.js 1 http://www.baidu.com
+/admin/bicq/system/js/window.js 1 http://www.baidu.com
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/install/oecms_v3.0.sql 1 http://www.baidu.com
+/tr/images/screencapture_baslik.png 1 -
+/media/blogs/index.html 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/npnetwork_smal.png 1 -
+/en/winrestdetay.html 1 -
+/wlwmanifest.xml 1 http://www.baidu.com
+/TR/images/icsayfaaltmenu.jpg 2 -
+/public/style_css/ipb_rtl.css 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/progrest_smal.png 1 -
+/images/ortasol.jpg 1 -
+/admin/tpl/showmessage.htm 1 http://www.baidu.com
+/tr/images/supportalt.png 2 -
+/includes/general.js 1 http://www.baidu.com
+/highslide/highslide.js 35 http://www.netdadi.com/tr/sreencapture.php
+/tr/style.css 320 http://www.netdadi.com/tr/faq.php
+/system/skins/default/system.login.htm 1 http://www.baidu.com
+/images/screncapture/netdadi/usercapturereport.png 2 -
+/TR/support_2.asp 4 -
+/admin/help/online_help_1.htm 1 http://www.baidu.com
+/images/screncapture/netdadi/ayarlar.png 3 -
+/editor/FCKeditor/editor/dialog/fck_about.html 11 http://www.netdadi.com/editor/FCKeditor/editor/dialog/fck_about.html
+/do/reg.php 1 http://www.baidu.com
+/robots.txt 602 -
+/tr/images/netdadifiyat.png 2 -
+/admin/view/template/common/header.tpl 1 http://www.baidu.com
+/templates/default/tools_main.html 1 http://www.baidu.com
+/images/homeust.jpg 1 -
+/admin/templates/aboutus.html 1 http://www.baidu.com
+/tr/images/supportust.png 2 -
+/news.txt 1 http://www.baidu.com
+/version.txt 1 http://www.baidu.com
+/tr/images/screncapture/netdadi3/filterayar.jpg 6 -
+/external/modules/datacall/templates/admin/header.html 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/ayarlar.jpg 3 -
+/99billdo.php 1 http://www.baidu.com
+/api/Request.xml 1 http://www.baidu.com
+/install/resources/mybb_theme.xml 1 http://www.baidu.com
+/message.html 1 http://www.baidu.com
+/TR/images/netdadiozel.png 1 -
+/<a%20href='http://www.webteyim.com'>download</a>/freeNetDKur.exe& 5 -
+/license_top.txt 1 http://www.baidu.com
+/TR/netpatronorder.php 1 -
+/en/index.html 2 -
+/images/screncapturebaslik.jpg 2 -
+/skins/default.css 1 http://www.baidu.com
+/plus/comment/setting.xml 1 http://www.baidu.com
+/templates/main/default/space_reviews.htm 1 http://www.baidu.com
+/template/home.htm 1 http://www.baidu.com
+/kindeditor/kindeditor.js 1 http://www.baidu.com
+/data/sql/survey.sql 1 http://www.baidu.com
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/en/images/screen/NDmainmanu.jpg 38 http://www.top4download.com/netdadi-pc-control-and-internet-filter/screenshot-vgkpnsiz.html
+/en/downkisitdetay.html 3 -
+/tr/images/screncapture/netdadi/yontanadres.png 2 -
+/core/version.txt 1 http://www.baidu.com
+/control/admin/tpl/admin_config_integration_pw.htm 1 http://www.baidu.com
+/images/default/publict.css 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/npnetwork_smal.png 2 -
+/tr/images/urunlerimiz_a.jpg 1 -
+/tr/images/screncapture/netpatron/suresinir_smal.png 1 -
+/Inc/SysProduct.asp 1 http://www.baidu.com
+/eWebEditor/Include/Editor.js 1 http://www.baidu.com
+/template/\xe8\xaf\xb7\xe5\x8b\xbf\xe5\x88\xa0\xe9\x99\xa46kbbs\xe6\xa8\xa1\xe6\x9d\xbf.txt 1 http://www.baidu.com
+/tr/filterdetay.html 16 -
+/wp-content/plugins/all-video-gallery/allvideogallery.css 1 http://www.baidu.com
+/tr/images/orderpagenetpatroncc.png 2 -
+/install/upgrade.sql 1 http://www.baidu.com
+/tr/NDHELP/uninstall.html 3 -
+/pla/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/wcm/app/login.jsp 1 http://www.baidu.com
+/admin/static/css/style.css 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/yontanadresler.png 1 -
+/template/default/styles.css 1 http://www.baidu.com
+/FCKeditor/editor/dialog/fck_about.html 11 http://www.netdadi.com/FCKeditor/editor/dialog/fck_about.html
+/tr/netpatronccbankhavform.php 2 -
+/plugin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/tr/about.php 7 -
+/statics/js/ckeditor/plugins/capture/plugin.js 1 http://www.baidu.com
+/a_d/install/data.sql 1 http://www.baidu.com
+/phpmyadmin/README 1 http://www.baidu.com
+/docs/samples.txt 1 http://www.baidu.com
+/ckeditor/ckeditor.js 1 http://www.baidu.com
+/login.php 1 http://www.baidu.com
+/admin/FCKeditor/editor/dialog/fck_about.html 11 http://www.netdadi.com/admin/FCKeditor/editor/dialog/fck_about.html
+/www/admin/templates/install/register-step.html 1 http://www.baidu.com
+/templates/default/images/style_css_1.css 1 http://www.baidu.com
+/blog/ 1 http://NETDADI.COM/blog/
+/robots 1 http://www.baidu.com
+/tr/images/netpsssustbaslik.png 1 -
+/en/ 15 -
+/tr/images/netdsipbaslik.png 2 -
+/digg.php 1 http://www.baidu.com
+/tr/images/about_alttable_ust.png 2 -
+/tr/images/screncapture/netdadi/winrest.png 2 -
+/public/home/js/main.js 1 http://www.baidu.com
+/install/en.sql 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/anamenu_smal.png 1 -
+/TR/images/screncapture/netpatron/downrest_smal.png 1 -
+/images/screncapture/netdadi/usercapturereport_smal.png 2 -
+/templates/rounded/template1.html 1 http://www.baidu.com
+/wcm/loginpage.jsp 1 http://www.baidu.com
+/ChangeLog 1 http://www.baidu.com
+/tr/product.php 1 -
+/tr/screencapture.php 3 -
+/master/login.aspx 1 http://www.baidu.com
+/templates/default/dnt.css 1 http://www.baidu.com
+/data/install.sql 1 http://www.baidu.com
+/README 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/ayarlar.png 2 -
+/images/screncapture/netdadi/filtersettings.png 2 -
+/tr/referans.php 10 -
+/member/space/commpany/info.txt 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/webreports.jpg 2 -
+/en/suresinirdetay.html 2 -
+/tr/NDHELP/index.html 10 -
+/Help/default.htm 1 http://www.baidu.com
+/tr/images/ustorta_1.png 1 -
+/_data/jcmsU1.js 1 http://www.baidu.com
+/images/screncapture/netdadi/yontanadres_smal.png 2 -
+/api/Response.xml 1 http://www.baidu.com
+/tr/images/downnetpcc.png 2 -
+/plugin/backupdb/plugin.xml 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/usercapture.png 2 -
+/FCK/fckeditor.js 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/downrest_smal.png 1 -
+/tr/images/screncapture/netpatron/downrest.png 1 -
+/admin/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/progrest_smal.png 1 -
+/data/config.js 1 http://www.baidu.com
+/templates/default/info.txt 1 http://www.baidu.com
+/tr/contact.php 4 -
+/js/api.js 1 http://www.baidu.com
+/tr/images/irttableust.png 2 -
+/editor/Scripts/spell.js 1 http://www.baidu.com
+http://www.netdadi.com/download/NetDKur.exe 1 -
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/images/screncapture/netdadi/usercapture.png 3 -
+/tr/images/downnetdfree.png 2 -
+/plugins/tinymce_plugin/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css 1 http://www.baidu.com
+/images/screncapture/netdadi/progrest_smal.png 1 -
+/phpldapadmin/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/images/admin/admin.css 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/npnetwork_big.png 1 -
+/admin/includes/stylesheet.css 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/filtersettings_smal.png 1 -
+/dede/js/album.js 1 http://www.baidu.com
+/tr/images/screentablealt_1.png 1 -
+/TR/images/ustorta_1.png 1 -
+/tr/rapordetay.html 15 -
+/common.js 1 http://www.baidu.com
+/tr/images/2yasinda.png 2 -
+/images/screncapture/netdadi/anamenu.png 2 -
+/ThinkPHP/LICENSE.txt 1 http://www.baidu.com
+/data/admin/ver.txt 1 http://www.baidu.com
+/en/contact.html 2 -
+/pub/skins/pmwiki/pmwiki.css 1 http://www.baidu.com
+/README.txt 1 http://www.baidu.com
+/language/gb2312.xml 1 http://www.baidu.com
+/\xe8\xaf\xb4\xe6\x98\x8e\xe6\x96\x87\xe4\xbb\xb6.txt 1 http://www.baidu.com
+/templates/default/en/public/fotter.html 1 http://www.baidu.com
+/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/cms4jadmin/skin/blue/css/icon.css 1 http://www.baidu.com
+/admin/tpls/tpls/main/default/index.tpl 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/gkayitayarlari.jpg 3 -
+/docs/readme_en.txt 1 http://www.baidu.com
+/FCK/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/tr/sss/netpatron20sss.php 7 -
+/install.php 1 http://www.baidu.com
+/administrator/index.php 1 -
+/view/default/wap/image.tpl 1 http://www.baidu.com
+/tr/images/butonbankhavale.png 1 -
+/TR/images/screncapture/netpatron/yontanadresler_smal.png 1 -
+/docs/DOCUMENTATION.txt 1 http://www.baidu.com
+/en/yasaluyari.html 1 -
+/plus/digg/setting.xml 1 http://www.baidu.com
+/images/screncapture/netdadi/progrest.png 3 -
+/ueditor/editor_all.js 1 http://www.baidu.com
+/tr/NDHELP/netdadikurulum.swf 2 -
+/TR/netdadiorder.php 1 -
+/templates/default/cn/public/footer.html 1 http://www.baidu.com
+/template/default/refreshto.htm 1 http://www.baidu.com
+/tr/images/indir.jpg 2 -
+/templates/admin/help.html 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/anamenu_smal.png 1 -
+/e/install/index.aspx 1 http://www.baidu.com
+/en/images/netdadi_icon.jpg 94 http://218697.kids-software-downloads.com-about.com/
+/html/head.asp 1 http://www.baidu.com
+/tr/suresinirdetay.html 15 -
+/tr/images/screncapture/netpatron/usercapturereport.png 2 -
+/phpldapadmin 1 http://www.baidu.com
+/TR/images/screncapture/netdadi3/goruntuizleme_small.jpg 2 -
+/TR/filterdetay.html 2 -
+/edoas2/install/install.jsp 1 http://www.baidu.com
+/TR/netpatronccorder.php 1 -
+/max-templates/classic/styles/app.css 1 http://www.baidu.com
+/install/templates/default/errorinfo.php 1 http://www.baidu.com
+/en/download.html 4 -
+/inc/playerKinds.xml 1 http://www.baidu.com
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/screncapture/netdadi/ayarlar_smal.png 2 -
+/faq.php 13 -
+/images/icsayfaaltmenu.jpg 2 -
+/eWebEditor/Dialog/about.htm 1 http://www.baidu.com
+/images/screncapture/netdadi/yontanadres.png 3 -
+/tr/images/screncapture/netpatron/anamenu.png 2 -
+/modules/forum/index.php 1 http://www.baidu.com
+/tr/yonadresdetay.html 16 -
+/tr/images/screncapture/netpatron/filtersettings.png 1 -
+/admin/jscripts/codepress/languages/codepress-mybb.css 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/kapatveyakaldir_smal.png 1 -
+/images/screncapture/netdadi/winrest.png 2 -
+/api/api_user.xml 1 http://www.baidu.com
+/tr/images/irtibatformbaslik.png 1 -
+/SCRIPT/common.js 1 http://www.baidu.com
+/tr/images/irtformorta2.png 1 -
+/leiame.html 1 http://www.baidu.com
+/tr/newresellerform.php 1 -
+/tr/nginfo.html 1 -
+/Dialog/about.htm 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/userreport.png 1 -
+/comm_front/email/uploadImageFile_do.jsp 1 http://www.baidu.com
+/cgi-bin/web2cgi/getpass.cgi 1 http://www.baidu.com
+/templates/default/galette.css 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/downrest.png 2 -
+/widget/oauth_login/info.txt 1 http://www.baidu.com
+/tr/download.html 2 -
+/install/css/install.css 1 http://www.baidu.com
+/tr/netpatronorder.php 2 -
+/tr/images/ustsol.png 1 -
+/tr/images/screncapture/netdadi3/ayarlar.jpg 16 http://www.netdadi.com/tr/sreencapture.php
+/highslide/graphics/zoomin.cur 36 http://www.netdadi.com/tr/sreencapture.php
+/tr/winrestdetay.html 16 -
+/data/cachefiles/config.js 1 http://www.baidu.com
+/templates/default/css/common.css 1 http://www.baidu.com
+/TR/images/screncapture/netpatron/suresinir_smal.png 1 -
+/tr/images/kutu_big.jpg 3 -
+/TR/sss/netdadi20sss.php 1 -
+/install/zcncms.sql 1 http://www.baidu.com
+/tr/images/destek_a.jpg 1 -
+/highslide/graphics/ 1 -
+/templates/cn/html/about.html 1 http://www.baidu.com
+/License.txt 1 http://www.baidu.com
+/tr/images/screncapture/netdadi/anamenu.png 2 -
+/wcm/WCMV6/login.jsp 1 http://www.baidu.com
+/cms4jadmin/login.jsp 1 http://www.baidu.com
+/tr/images/screncapture/netpatron/usercapture_smal.png 2 -
+/tr/images/screncapture/netdadi/usercapture_smal.png 1 -
+/RELEASE_NOTES.txt 1 http://www.baidu.com
+/tr/images/downust.png 2 -
+/system/templates/default12/images/js.js 1 http://www.baidu.com
+/TR/images/checkbox.png 3 -
+/install/style.css 1 http://www.baidu.com
+/plus/count/setting.xml 1 http://www.baidu.com
+/tr/images/downnetd.png 1 -
+/tr/buynow.html 24 -
+/tr/images/screncapture/netpatron/usercapturereport_smal.png 2 -
+/ndinfo.php 13 -
+/bbs/Inc/Ads.js 1 http://www.baidu.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 223
+212.154.93.134 8 38 595381 20131013134617
+78.188.136.11 7 77 1007777 20131020175630
+78.188.112.213 7 60 1066588 20131024024648
+92.46.108.198 6 44 849922 20131007154020
+88.253.78.252 6 41 1246265 20131030160316
+208.88.226.73 6 6 1824 20131025123130
+69.58.178.58 6 6 77969 20131011133705
+193.43.252.252 5 5 24925 20131022060322
+178.137.41.84 5 5 24830 20131006084136
+208.43.225.85 5 5 73291 20131014171205
+88.254.60.3 3 38 753395 20131002222131
+5.9.113.10 1 1 5022 20131012144312
+31.200.48.65 1 8 305630 20131005112054
+61.135.190.105 1 1 5022 20131019060842
+131.253.24.55 2 2 23260 20131015083615
+88.243.112.47 3 25 548370 20131005103755
+212.174.19.131 2 18 632469 20131012034100
+31.223.59.227 1 8 305630 20131008213231
+88.254.28.20 2 25 344508 20131005202032
+94.120.204.186 1 8 305631 20131019021201
+88.230.210.206 1 8 153549 20131027111533
+88.233.12.209 1 1 22249 20131030033639
+88.249.232.220 1 8 153548 20131004112712
+217.69.133.169 1 1 4966 20131021235405
+88.227.81.138 1 20 352627 20131027034916
+88.242.184.182 1 9 316236 20131016190503
+78.174.37.112 1 8 153547 20131030051420
+78.181.13.240 1 21 358281 20131017134157
+54.211.60.23 2 2 10046 20131013110115
+176.42.46.24 1 20 352625 20131026071149
+85.102.203.106 1 8 153549 20131030112439
+88.230.212.2 1 8 153547 20131021051659
+88.229.56.108 1 8 305632 20131027145417
+88.249.185.84 1 8 305626 20131030091738
+88.233.187.243 1 1 22250 20131026054208
+83.66.81.63 1 8 305631 20131027151449
+88.233.238.218 1 8 305631 20131014025823
+78.182.181.221 2 28 658258 20131023152631
+88.233.102.159 1 1 22250 20131028043413
+88.233.88.144 1 1 22249 20131026153331
+91.146.65.88 1 8 153547 20131010143154
+85.100.226.145 1 8 305631 20131006181352
+205.237.88.155 2 2 10044 20131031145743
+94.120.59.120 1 8 305631 20131011220350
+88.249.204.121 2 16 307097 20131031151841
+183.60.244.44 4 5 28018 20131031111042
+162.243.54.27 2 2 9970 20131022111632
+85.99.141.236 4 39 777506 20131027090652
+88.248.190.52 3 38 753402 20131008132803
+88.233.191.110 1 1 22250 20131023142844
+95.8.41.135 1 20 352547 20131018182804
+88.253.247.28 1 8 153548 20131021183146
+78.190.120.102 1 9 316234 20131031170540
+83.66.223.223 1 8 305630 20131003023157
+66.119.41.34 4 4 63050 20131024205330
+78.46.103.115 1 1 5023 20131008015247
+88.253.137.188 1 8 305631 20131007234431
+80.254.158.84 1 8 153548 20131024051335
+78.185.190.83 1 8 305631 20131014215336
+88.233.170.111 1 1 22250 20131027150127
+209.212.145.205 1 1 4966 20131025023755
+88.233.73.152 1 1 22249 20131020155744
+61.135.190.100 4 4 20088 20131028220028
+46.165.240.92 2 2 9970 20131013153659
+78.177.119.116 2 16 459179 20131021091559
+88.242.220.219 1 8 305631 20131027134104
+78.188.52.146 2 21 376739 20131005180404
+95.0.79.169 1 8 305630 20131013131943
+178.233.99.51 3 33 487292 20131028111109
+176.195.240.97 1 1 4985 20131026190543
+85.108.90.253 1 8 305629 20131003174548
+89.2.240.212 1 9 316236 20131026012954
+78.161.138.240 2 28 658258 20131009100449
+176.33.204.22 1 8 305631 20131008104603
+95.10.147.184 3 26 781067 20131020162207
+81.213.153.100 1 8 305631 20131020212219
+61.135.190.220 1 1 5022 20131029212656
+85.106.214.219 3 22 381764 20131004024803
+81.215.78.240 2 23 392155 20131022142957
+88.254.191.19 1 8 305630 20131003233857
+88.233.115.250 1 1 22250 20131021174217
+188.56.194.8 1 20 352625 20131003204518
+195.250.89.235 1 8 305631 20131031082454
+78.177.124.45 4 36 543435 20131017134452
+94.122.97.136 1 8 153547 20131026025728
+5.9.113.14 1 1 5022 20131014145923
+123.125.68.154 1 1 4985 20131020151741
+46.1.98.90 1 8 305631 20131012125457
+85.104.76.80 2 18 248688 20131011233635
+78.187.8.111 1 8 153548 20131028180314
+78.160.144.231 2 16 611264 20131024204038
+78.160.62.120 1 20 352627 20131019125715
+78.180.49.140 3 43 416274 20131021014404
+78.188.88.178 2 28 658257 20131010133149
+46.1.101.93 1 8 305631 20131028113750
+201.219.58.72 1 1 5023 20131004025829
+108.15.20.34 2 2 10046 20131017213706
+78.179.252.227 1 8 305631 20131027164833
+78.190.57.199 2 10 181489 20131021113900
+88.253.97.133 1 8 305631 20131029130803
+178.255.87.242 2 2 10046 20131011111127
+78.180.175.217 3 31 697784 20131016205933
+88.252.150.238 1 8 305630 20131021130245
+37.187.99.222 1 8 305630 20131013153116
+82.192.74.100 3 3 14898 20131022221141
+85.105.251.186 2 21 376741 20131010153650
+78.177.0.223 1 8 305631 20131018110535
+188.138.84.140 1 1 4985 20131019175319
+88.250.36.225 2 29 8304955 20131028080214
+88.252.105.123 1 8 153549 20131018155115
+78.191.152.3 1 8 305631 20131012211744
+88.245.168.201 1 8 305630 20131010232322
+212.156.157.42 1 21 358282 20131031061532
+217.131.214.104 2 28 658258 20131006210034
+88.198.227.103 1 1 4985 20131018033205
+131.253.38.67 4 4 20092 20131027075952
+85.104.160.254 1 8 153549 20131022110845
+65.55.213.35 1 1 5022 20131009095648
+95.14.126.55 2 24 525392 20131006104731
+78.170.158.207 1 8 305631 20131015005852
+182.252.252.211 1 1 5023 20131011041413
+95.10.75.1 1 8 153545 20131030042644
+85.108.96.198 2 23 392157 20131001183517
+88.233.127.220 1 1 22250 20131030180257
+78.177.141.88 2 23 392150 20131030052923
+208.90.57.196 2 2 9970 20131028142449
+188.57.244.76 1 8 305630 20131020131510
+78.184.190.117 1 8 305631 20131009205906
+78.168.45.223 1 8 153548 20131012235003
+82.145.208.232 1 18 346256 20131027130431
+78.188.224.82 1 20 352627 20131031095018
+96.227.124.38 1 1 4985 20131013174505
+71.254.156.7 1 1 4985 20131023081916
+88.234.139.251 2 24 397805 20131002025018
+88.247.43.207 1 1 24113 20131031171653
+93.159.230.90 1 1 5023 20131008175205
+212.253.26.89 1 8 153548 20131006133730
+213.153.210.38 1 8 153549 20131029050800
+78.161.68.195 1 8 305630 20131009230654
+217.69.133.186 1 1 4966 20131008164457
+78.173.133.69 3 37 817457 20131021141413
+64.55.45.194 1 1 247 20131021162017
+78.186.231.98 1 8 305631 20131007161047
+220.181.132.215 1 1 4985 20131022065259
+95.8.172.55 1 8 153546 20131026152948
+195.174.138.104 2 16 611262 20131002080456
+78.172.81.73 1 8 305631 20131017013242
+220.181.132.19 1 1 5022 20131022065327
+212.108.159.156 1 8 305631 20131002100354
+95.70.158.64 2 28 658270 20131020165705
+78.191.86.152 1 9 159201 20131016154309
+94.55.29.103 1 8 153547 20131009001756
+88.233.26.27 1 1 22248 20131031083359
+78.189.54.134 1 8 305627 20131002142112
+88.253.30.243 2 28 658257 20131014153257
+131.253.24.70 1 1 24113 20131015080004
+83.66.60.84 1 8 305631 20131021090021
+85.105.183.50 1 9 316237 20131001112130
+46.229.170.197 1 1 4966 20131011225105
+88.252.231.234 1 8 305631 20131029061355
+119.165.205.217 1 1 4985 20131030222637
+88.233.46.99 1 1 22248 20131024061144
+80.77.95.46 1 1 4966 20131019121350
+88.233.10.3 1 1 22247 20131029033622
+78.178.71.167 2 23 392150 20131030092110
+94.122.190.120 1 8 305631 20131007214356
+78.169.241.6 3 33 487289 20131031060414
+213.43.178.233 1 8 153548 20131020234108
+88.233.115.11 1 1 22249 20131031142938
+88.249.42.89 2 16 611260 20131028020203
+212.156.85.74 1 26 442696 20131021170336
+78.161.96.195 1 9 316237 20131013141208
+88.238.238.166 3 24 414439 20131024051354
+123.125.68.40 1 1 4985 20131019193250
+78.181.112.105 4 41 1019676 20131030170110
+88.233.31.236 1 1 22249 20131025012156
+5.47.138.197 4 41 792913 20131007032804
+93.159.230.89 1 1 5023 20131022104728
+198.27.69.78 1 1 5023 20131008124410
+81.214.39.174 1 8 153547 20131014083524
+31.200.50.94 1 8 305631 20131003225519
+88.228.149.177 4 47 1069633 20131016122004
+92.46.89.194 1 8 305630 20131007173128
+209.85.238.119 1 1 298 20131026151819
+88.240.152.24 1 8 305630 20131024045850
+78.164.205.2 2 28 658257 20131011104410
+88.233.0.114 1 1 22248 20131022085224
+85.96.2.243 1 8 305631 20131019023644
+78.164.148.19 1 8 305631 20131019181125
+123.125.68.140 1 1 4985 20131021062146
+212.174.84.20 2 22 382392 20131010134546
+61.135.190.101 3 3 15066 20131030212821
+81.213.86.62 1 9 316236 20131009201244
+85.107.104.170 1 8 305631 20131017005021
+81.213.41.18 1 1 5023 20131024134555
+64.34.169.244 1 1 4966 20131011112134
+71.20.192.144 1 14 561991 20131029094931
+81.214.3.237 3 38 753391 20131015174721
+88.243.68.106 1 8 305631 20131005120240
+78.189.153.122 3 33 487301 20131025095329
+91.93.233.231 1 8 0 20131007152751
+88.233.190.29 1 1 22249 20131022155838
+88.254.6.97 1 8 153546 20131025165252
+46.196.208.16 1 8 153548 20131018193009
+195.175.54.110 1 8 305631 20131011164824
+88.240.253.55 1 8 305631 20131023055231
+176.9.78.7 1 8 305631 20131017034413
+188.124.29.254 1 8 153549 20131028132637
+88.233.88.138 1 1 22249 20131025081245
+88.245.156.9 2 28 658257 20131029172544
+144.76.42.76 2 2 10044 20131027055303
+212.253.130.5 2 17 469782 20131002182538
+213.43.7.82 1 8 305631 20131028151934
+88.253.21.32 1 3 39524 20131014155037
+95.7.85.137 1 8 305631 20131005214108
+78.166.173.71 1 8 153548 20131028023338
+78.186.4.127 5 35 521207 20131023054527
+88.235.250.75 4 56 1316504 20131001104921
+85.107.223.192 1 8 305631 20131023122934
+131.253.24.53 1 1 22287 20131002005622
+209.85.238.153 1 1 298 20131020031548
+88.247.84.125 0 2 5296320 
+78.179.17.24 1 9 159199 20131018202149
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131001 8 91 7326241 4
+20131002 15 115 2876025 9
+20131003 5 52 1575145 5
+20131004 6 32 545358 4
+20131005 10 95 2186509 6
+20131006 9 71 1657727 5
+20131007 16 126 2865662 8
+20131008 9 58 1384698 7
+20131009 8 63 1749309 7
+20131010 8 87 1876567 5
+20131011 17 73 1616458 10
+20131012 6 43 1402301 5
+20131013 16 68 1547917 8
+20131014 12 61 1540903 7
+20131015 7 49 1106395 4
+20131016 10 97 2243158 5
+20131017 10 83 1828655 6
+20131018 7 55 1134481 7
+20131019 8 48 1289478 8
+20131020 22 162 3254789 13
+20131021 20 169 3272921 14
+20131022 17 45 650039 10
+20131023 12 82 1822984 7
+20131024 21 123 2646812 9
+20131025 8 45 690615 6
+20131026 9 57 1331366 9
+20131027 15 121 2889780 11
+20131028 15 108 2294226 11
+20131029 11 93 2415161 9
+20131030 20 140 3473203 13
+20131031 17 122 10141610 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 6
+0s-30s 199
+2mn-5mn 14
+30s-2mn 16
+15mn-30mn 3
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/tr/ 189 894251 154 137
+/tr/faq.php 81 1804538 63 54
+/tr/ndinfo.php 69 1663655 22 38
+/tr/sreencapture.php 31 360457 2 11
+/tr/press.php 2 20420 0 1
+/google00af420479c629cc.html 2 596 2 2
+END_SIDER

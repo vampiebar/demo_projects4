@@ -1,0 +1,6 @@
+Order ID : WANP4916cb65cb5c7
+Order Type : WANP
+Customer Name : 32213
+SQL Actions : failed
+Payment Date : 09-11-2008 13:37:16
+Error Codes : dbguid_not_found

@@ -1,0 +1,33 @@
+<div class="row-fluid topbar">
+	<div class="container">
+    	<a class="topbarphone" href="javascript:void(0)"><i style="margin-right:3px;" class="icon-phone"></i><?php if($_SESSION["dil"]!="tr" || $_SESSION["dil"]=="") { echo " +90";} else{ echo " 0";} ?> 212 876 2 444</a>
+        <div class="topbar_menu">
+    	<ul>
+        	<!--<li><a class="loginbutton" href="#">Webde oturum açın</a></li> -->
+            <li><a href="#">
+            <?php 
+           	if(!isset($_SESSION["dil"])){ echo '<img src="img/England.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["ingdil"];}
+            if($_SESSION["dil"]=="tr"){ echo '<img src="img/Turkey.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["trdil"];} 
+            if($_SESSION["dil"]=="en"){ echo '<img src="img/England.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["ingdil"];} 
+            if($_SESSION["dil"]=="alm"){ echo '<img src="img/Germany.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["almdil"];} 
+            if($_SESSION["dil"]=="it"){ echo '<img src="img/Italy.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["Italyanca"];} 
+            if($_SESSION["dil"]=="sp"){ echo '<img src="img/Spain.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["Ispanyolca"];} 
+            if($_SESSION["dil"]=="fr"){ echo '<img src="img/France.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["Fransizca"];} 
+            if($_SESSION["dil"]=="ch"){ echo '<img src="img/China.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["Cince"];} 
+            if($_SESSION["dil"]=="ar"){ echo '<img src="img/Arabi.png" style=" margin-right:5px; top:-1px; position:relative;" />'.$dil["Arapca"];}
+            ?><i class="icon-chevron-down"></i></a>
+            	<ul>
+                	<li><img src="img/Turkey.png"><a href="http://www.secpasoft.com/dil.php?dil=tr&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">Türkçe</a></li>
+                    <li><img src="img/England.png"><a href="http://www.secpasoft.com/dil.php?dil=en&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">İngilizce</a></li>
+                    <li><img src="img/Germany.png"><a href="http://www.secpasoft.com/dil.php?dil=alm&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">Almanca</a></li>
+                    <!--<li><img src="img/Italy.png"><a href="http://www.secpayazilim.com/test/dil.php?dil=it&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">İtalyanca</a></li>
+                    <li><img src="img/Spain.png"><a href="http://www.secpayazilim.com/test/dil.php?dil=sp&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">İspanyolca</a></li>
+                    <li><img src="img/France.png"><a href="http://www.secpayazilim.com/test/dil.php?dil=fr&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">Fransızca</a></li>
+                    <li><img src="img/China.png"><a href="http://www.secpayazilim.com/test/dil.php?dil=ch&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">Çince</a></li>
+                    <li><img src="img/Arabi.png"><a href="http://www.secpayazilim.com/test/dil.php?dil=ar&sayfa=<?php echo $_SERVER['REQUEST_URI']; ?>">Arapça</a></li> -->
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>

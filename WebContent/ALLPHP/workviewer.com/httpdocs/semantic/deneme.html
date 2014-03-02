@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bu iyiymiş la</title>
+<!--
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+ -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/basic.icon.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/icon.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/button.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/divider.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/header.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/image.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/input.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/label.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/loader.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/progress.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/segment.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/elements/step.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/breadcrumb.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/form.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/grid.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/menu.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/message.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/collections/table.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/views/comment.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/views/list.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/views/feed.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/views/item.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/views/statistic.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/modal.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/accordion.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/dropdown.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/popup.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/reveal.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/rating.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/sidebar.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/shape.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/tab.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/checkbox.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/dimmer.css">
+<link rel="stylesheet" type="text/css" class="ui" href="build/uncompressed/modules/transition.css">
+<!--
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+-->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<!--<script src="javascript/library/history.js"></script>
+<script src="javascript/library/easing.js"></script>
+<script src="javascript/library/ace/ace.js"></script>
+<script src="javascript/library/tablesort.js"></script>
+<script src="javascript/library/waypoints.js"></script> -->
+<script src="build/uncompressed/modules/behavior/api.js"></script>
+<script src="build/uncompressed/modules/behavior/state.js"></script>
+<script src="build/uncompressed/modules/accordion.js"></script>
+<script src="build/uncompressed/modules/checkbox.js"></script>
+<script src="build/uncompressed/modules/dimmer.js"></script>
+<script src="build/uncompressed/modules/dropdown.js"></script>
+<script src="build/uncompressed/modules/modal.js"></script>
+<script src="build/uncompressed/modules/popup.js"></script>
+<script src="build/uncompressed/modules/rating.js"></script>
+<script src="build/uncompressed/modules/shape.js"></script>
+<script src="build/uncompressed/modules/sidebar.js"></script>
+<script src="build/uncompressed/modules/tab.js"></script>
+<script src="build/uncompressed/modules/transition.js"></script>
+<script type="text/javascript">
+$(function(){
+$('.ui.dropdown').dropdown({
+	transition:"scale",
+	on:"hover"
+	});
+})
+</script>
+</head>
+
+<body>
+<div class="ui pointing menu">
+  <a class="active item">
+    <i class="home icon"></i> Home
+  </a>
+  <a class="item">
+    <i class="mail icon"></i> Messages
+  </a>
+  <a class="item">
+    <i class="user icon"></i> Friends
+  </a>
+  <div class="right menu">
+    <div class="item">
+      <div class="ui icon input">
+      <input type="text" placeholder="Search...">
+    </div>
+    </div>
+    <div class="ui dropdown item">
+      Language <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">English</a>
+        <a class="item">Russian</a>
+        <a class="item">Spanish</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ui secondary vertical menu">
+  <a class="active item">
+    <i class="users icon"></i>
+    Friends
+  </a>
+  <a class="item">
+    <i class="mail icon"></i> Messages
+  </a>
+  <a class="item">
+    <i class="user icon"></i> Friends
+  </a>
+  <div class="ui dropdown item">
+    More <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="item"><i class="edit icon"></i> Edit Profile</a>
+      <a class="item"><i class="globe icon"></i> Choose Language</a>
+      <a class="item"><i class="settings icon"></i> Account Settings</a>
+    </div>
+  </div>
+</div>
+<div class="ui red icon buttons">
+  <div class="ui top left pointing dropdown button">
+    <i class="user icon"></i>
+    <div class="menu">
+      <div class="item"><i class="edit icon"></i>Edit User</div>
+      <div class="item"><i class="delete icon"></i>Remove User</div>
+      <div class="item"><i class="hide icon"></i>Make Invisible</div>
+    </div>
+  </div>
+  <div class="ui top left pointing dropdown button">
+    <i class="users icon"></i>
+    <div class="menu">
+      <div class="item"><i class="edit icon"></i>Edit Group</div>
+      <div class="item"><i class="delete icon"></i>Remove Group</div>
+      <div class="item"><i class="hide icon"></i>Hide from Group</div>
+    </div>
+  </div>
+  <div class="ui top right pointing dropdown button">
+    <i class="settings icon"></i>
+    <div class="menu">
+      <div class="item"><i class="edit icon"></i>Edit</div>
+      <div class="item"><i class="delete icon"></i>Remove</div>
+      <div class="item"><i class="hide icon"></i>Hide</div>
+    </div>
+  </div>
+</div>
+<div class="container">
+
+    <h1>Register Now</h1>
+
+    <div class="ui form segment" ng-controller="RegisterController">
+      
+      <div class="ui inverted dimmer" ng-class="{true: 'active', false: 'disabled'}[loading]">
+        <div class="ui text loader">Registering you now :)</div>
+      </div>
+
+      <div class="two fields">
+        <div class="field">
+          <label for="GivenName">Given Name</label>
+          <div class="ui icon input">
+            <input id="GivenName" placeholder="Given Name" type="text" ng-model="user.givenname">
+            <i class="asterisk red icon"></i>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="Surname">Surname</label>
+          <div class="ui icon input">
+            <input id="Surname" placeholder="Surname" type="text" ng-model="user.surname">
+            <i class="asterisk red icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="Email">Email</label>
+        <div class="ui icon input">
+          <input id="Email" placeholder="Email" type="text" ng-model="user.email">
+          <i class="asterisk red icon"></i>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="Username">Username</label>
+        <div class="ui icon input">
+          <input id="Username" placeholder="Username" type="text" ng-model="user.username">
+          <i class="asterisk red icon"></i>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="Password">Password</label>
+        <div class="ui icon input">
+          <input id="Password" type="password" ng-model="user.password">
+          <i class="asterisk red icon"></i>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="PasswordConfirm">Password Confirm</label>
+        <input id="PasswordConfirm" type="password" ng-model="user.passwordConfirm">
+      </div>
+
+      <button class="ui blue button" ng-click="register()">Submit</button>
+
+      <div class="ui error message"></div>
+    </div>
+
+  </div>
+</body>
+</html>

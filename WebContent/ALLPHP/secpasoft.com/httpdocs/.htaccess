@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^homepage? index.php [NC,L]
+RewriteRule ^about? hakkimizda.php [NC,L] 
+RewriteRule ^products? urunlerimiz.php [NC,L] 
+RewriteRule ^clients? clients.php [NC,L] 
+RewriteRule ^buy? satinal.php [NC,L] 
+RewriteRule ^contact? contact.php [NC,L]  
+RewriteRule ^workviewer? workviewer.php [NC,L]  
+RewriteRule ^kidsviewer? kidsviewer.php [NC,L]  
+RewriteRule ^download? indir.php [NC,L]

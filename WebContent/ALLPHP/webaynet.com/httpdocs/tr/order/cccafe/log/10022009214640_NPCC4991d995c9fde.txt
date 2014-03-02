@@ -1,0 +1,7 @@
+Order ID : NPCC4991d995c9fde
+Order Type : WACC
+Customer Name : SEDAT ÇAÐLAYAN
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 10-02-2009 21:46:40
+Error Codes : no_empty_key_data

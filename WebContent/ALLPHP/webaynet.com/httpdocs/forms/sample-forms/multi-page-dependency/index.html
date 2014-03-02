@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Multi Page Dependency Form - Demo</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<p align="center"><b><font size="3">Multi Page Dependency Form - Demo</font></b></p>
+<p align="center" class="attention"><b>Attention:</b> Please use your valid email address. 
+This 
+  demo will send processing results to the entered email.</p>
+<form name="simple" method="post" action="../fpp/index.php">
+  <input type="hidden" name="fpp_form" value="multi_page_dependency">
+  <table border="0" align="center">
+    <tr>
+      <td colspan="3" align="center"><!-- FPP_ERROR --></td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><font color="#FF0000">*</font> - required fields</td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>Name: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="name" maxlength="64" size="45">      </td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>Contact Email: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="email" size="45" maxlength="64">      </td>
+    </tr>
+    <tr>
+      <td align="right">Phone: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="Phone" size="45" maxlength="128">      </td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>Department: </td>
+      <td>&nbsp;</td>
+      <td><font size="2">
+        <select name="department">
+          <option value="" selected>Select...</option>
+          <option value="sales">Sales Department</option>
+          <option value="support">Support Department</option>
+          <option value="billing">Billing Department</option>
+        </select>
+        </font></td>
+    </tr>
+  </table>
+  <div align="center">
+    <p><br>
+      <input type="submit" name="Submit" value="NEXT">
+      </p>
+  </div>
+</form>
+<div align="center">
+  <p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+    Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+</div>
+</form>
+</body>
+</html>

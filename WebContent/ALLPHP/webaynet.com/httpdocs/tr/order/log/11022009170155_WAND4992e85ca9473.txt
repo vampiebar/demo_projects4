@@ -1,0 +1,6 @@
+Order ID : WAND4992e85ca9473
+Order Type : WAND
+Customer Name : temel kaplan
+SQL Actions : failed
+Payment Date : 11-02-2009 17:01:55
+Error Codes : no_empty_key_data

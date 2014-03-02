@@ -1,0 +1,475 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201401 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.netdadi.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2012                
+POS_TIME 2672                
+POS_VISITOR 11026               
+POS_DAY 14210               
+POS_DOMAIN 3455                
+POS_LOGIN 3687                
+POS_ROBOT 3842                
+POS_WORMS 4554                
+POS_EMAILSENDER 4685                
+POS_EMAILRECEIVER 4828                
+POS_SESSION 14501               
+POS_SIDER 14701               
+POS_FILETYPES 4963                
+POS_DOWNLOADS 5088                
+POS_OS 5136                
+POS_BROWSER 5288                
+POS_SCREENSIZE 5640                
+POS_UNKNOWNREFERER 5714                
+POS_UNKNOWNREFERERBROWSER 5801                
+POS_ORIGIN 5933                
+POS_SEREFERRALS 6072                
+POS_PAGEREFS 6250                
+POS_SEARCHWORDS 6608                
+POS_KEYWORDS 6876                
+POS_MISC 2335                
+POS_ERRORS 7053                
+POS_CLUSTER 3543                
+POS_SIDER_404 7192                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140205222034 1 0 14847379739394
+FirstTime 0
+LastTime 20140109114639
+LastUpdate 20140206035037 1 0 0 0 0
+TotalVisits 87                  
+TotalUnique 78                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 78                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 67 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 66 1549386 39 73 138264
+1 2 9 153852 32 44 83898
+2 0 0 0 35 63 164761
+3 0 0 0 50 74 252892
+4 3 10 163497 36 62 289800
+5 5 32 979550 63 95 357250
+6 4 19 496712 35 63 132594
+7 1 1 5022 67 83 148853
+8 3 32 703440 59 81 158518
+9 5 27 932483 40 66 85458
+10 6 60 1002168 31 56 54993
+11 6 48 1068997 42 70 133385
+12 4 30 516181 44 70 109135
+13 8 131 901875 65 111 97951
+14 10 39 845219 39 65 123690
+15 6 27 775152 40 60 203133
+16 9 67 1421991 56 98 126813
+17 14 126 2628242 42 72 80974
+18 6 40 1015337 30 60 214289
+19 11 109 2449261 43 83 135586
+20 7 56 1315520 37 118 149105
+21 2 16 611260 50 93 456280
+22 7 43 952745 46 59 57978
+23 2 16 611262 39 57 130745
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 129 1004 21099152
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+yandex 49 689259 20140109212054 0
+googlebot 43 489699 20140109201621 0
+bingbot 28 390023 20140109024858 0
+baiduspider 23 157613 20140126064913 0
+bingpreview 10 320805 20140103212817 0
+msnbot\-media 9 291566 20140109043541 0
+bot[\s_+:,\.\;\/\\-] 6 72748 20140105235237 0
+mj12bot 6 72745 20140109035918 0
+crawl 6 78317 20140110050638 0
+sogou 5 0 20140110124649 0
+yeti 1 4985 20140106024257 0
+robot 3 14898 20140108140559 0
+surveybot 1 4985 20140104213923 0
+wget 2 10044 20140102163823 0
+netcraft 1 4985 20140109232901 0
+voila 1 4985 20140101070003 0
+nutch 3 14955 20140109153627 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 129 1718394 0 0
+png 257 2723899 0 0
+jpg 618 16656859 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxandroid 1 1
+winxp 232 34
+winlong 2 2
+win8 79 8
+java 2 2
+winvista 40 4
+win7 648 78
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+msie6.0 47 4
+chrome32.0.1700.72 8 1
+android 1 1
+firefox26.0 96 9
+firefox3.0.11 1 1
+chrome31.0.1650.57 8 1
+chrome31.0.1650.63 535 63
+firefox7.0.1 2 2
+firefox24.0 8 1
+firefox3.6.15 8 8
+msie8.0 173 16
+firefox25.0 1 1
+mozilla 33 3
+msie7.0 18 5
+msie10.0 9 1
+msie9.0 52 8
+chrome29.0.1547.66 2 2
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.2.3_(java_1.5) 20140101154845
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 28
+From1 0 0
+From2 59 59
+From3 16 16
+From4 26 901
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 42 42
+baidu 8 8
+yandex 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://forum.thgtr.com/ag-internet/agdaki-internet-trafigini-takip-etmek/ 8 8
+http://forum.donanimhaber.com/m_24264279/tm.htm 5 5
+http://www.serdarb.com/tools-programs/netdadi-internet-filtreleme-programi/ 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+internet+filtresi 9
+netdadiinternetfiltres%810%902anasayfasi 8
+http+//www.netdadi.com/ 1
+net+dad%c4%b1 1
+net+dadi 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+internet 9
+filtresi 9
+netdadiinternetfiltres%810%902anasayfasi 8
+net 2
+//www.netdadi.com/ 1
+dadi 1
+dad%c4%b1 1
+http 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 737 159988
+503 1 1326
+206 2 58331
+404 770 945525
+301 2 1018
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 90
+/tr/suresinirdetay.htm%0Al 1 -
+/tr/PrivacyPolicy.php 2 -
+/sitemap.xml 15 -
+/robots.txt 172 -
+/tr/support.asp 1 -
+/tr/referans.php 5 -
+/en/screencapture.html 1 -
+/en/images/netdadi_icon.jpg 24 http://bestfreesoftware.com/categories/198-best-free-other-software
+/admin.php 1 -
+/sreencapture.php 3 -
+/tr/suresinirdetay.html 4 -
+/tr/progkisitdetay.htm%0Al 1 -
+/<a%20href='http://www.mircturkish.com'>download</a>/freeNetDKur.exe& 1 -
+/tr/NDHELP/index.html 1 -
+/tr/NDHELP/GUVENLIMOD.html 3 -
+/en/pad_file_EN.xml 81 -
+/%3Ca%20href='http:/www.mircturkish.com'%3Edownload%3C/a%3E/freeNetDKur.exe%E2%80%9D%3Eburaya%3C/a%3E%20tiklayiniz.%3C/p%3E%3Cp%3E%3Cfont%20color= 1 -
+/tr/images/screncapture/netdadi3/filterayar.jpg 1 http://www.netdadi.com/tr/sreencapture.php
+/en/download.html 1 -
+/<a%20href='http://www.webteyim.com'>download</a>/freeNetDKur.exe& 1 -
+/tr/images/KUTU.jpg 2 -
+/faq.php 3 -
+/stop.jpg 121 http://ip.casalemedia.com/usermatch
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/editor/editor/filemanager/connectors/test.html 1 -
+/download/freeNetDKur.exe 3 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/en/index.html 2 -
+/tr/images/screncapture/netdadi3/webreports.jpg 1 http://www.netdadi.com/tr/sreencapture.php
+/tr/yonadresdetay.html 2 -
+/editor/editor/filemanager/connectors/uploadtest.html 1 -
+/download/netdadikur.exe 8 -
+/en/images/screen/NDmainmanu.jpg 13 -
+/en/downkisitdetay.html 3 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/TR/ 2 -
+/tr/filterdetay.html 2 -
+/tr/NDHELP/uninstall.html 3 -
+/editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/blog/wp-login.php 1 
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/tr/download.php 1 -
+/wp-login.php 1 -
+/tr/goruntulukulkaydi.html 4 -
+http://www.netdadi.com/en/pad_file_EN.xml 6 -
+/tr/progkisitdetay.html 2 -
+/NetGSer.asmx 1 -
+/tr/guvalandetay.html 3 -
+/LiveSearchSiteAuth.xml 1 -
+/tr/rapordetay.html 4 -
+/apple-touch-icon.png 1 -
+/tr/downkisitdetay.html 4 -
+/tr/about.php 5 -
+/en/contact.html 5 -
+/tr/download.html 1 -
+/tr/images/screncapture/netdadi3/suresinirlamalari.jpg 1 http://www.netdadi.com/tr/sreencapture.php
+/en/guvalandetay.html 1 -
+/download/NetDKur.exe 13 -
+/blog/ 1 -
+/BingSiteAuth.xml 1 -
+/tr/images/screncapture/netdadi3/ayarlar.jpg 6 http://www.netdadi.com/tr/sreencapture.php
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/highslide/graphics/zoomin.cur 13 http://www.netdadi.com/tr/sreencapture.php
+/en/ 7 -
+/tr/winrestdetay.html 3 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/<a%20href= 2 -
+/tr/altmenu2.php 1 -
+/tr/goruntulukulkaydi.%0Ahtml 1 -
+/tr/helpnd/index.html 3 -
+/tr/function.include 1 -
+/tr/images/screncapture/netdadi3/programkisitlama.jpg 2 http://www.netdadi.com/tr/sreencapture.php
+/tr/downkisitdetay.htm%0Al 1 -
+/TR/sss/netpatron20sss.php 1 -
+/highslide/graphics/ 1 -
+/tr/sss/netpatron20sss.php 4 -
+/administrator/index.php 1 -
+/tr/netpatronccorder.php 1 -
+/editor/editor/filemanager/upload/test.html 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/tr/images/screncapture/netdadi3/downkisitlama.jpg 2 http://www.netdadi.com/tr/sreencapture.php
+/Fckeditor/editor/filemanager/connectors/test.html 1 -
+/images/mailimages/Mail2ust.jpg 4 -
+/tr/buynow.html 9 -
+/en/yasaluyari.html 1 -
+/en/buynow.html 8 -
+/highslide/highslide.js 13 http://www.netdadi.com/tr/sreencapture.php
+/tr/style.css 124 http://www.netdadi.com/tr/ndinfo.php
+/ndinfo.php 5 -
+/tr/NDHELP/netdadikurulum.html 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 78
+88.254.101.135 6 120 801709 20140104134608
+85.103.131.29 5 48 939838 20140105001953
+78.189.35.170 5 42 804242 20140108161420
+88.254.6.152 4 38 1010068 20140103181933
+85.110.68.183 4 32 495994 20140102105655
+95.5.27.170 4 20 371694 20140107221919
+176.41.79.197 4 34 511406 20140108194456
+81.215.16.41 3 38 487283 20140106174740
+85.96.62.220 3 26 554308 20140105172631
+61.135.190.223 3 3 15066 20140106143020
+78.162.4.80 1 8 153546 20140103203410
+117.210.91.195 1 8 305630 20140104210433
+71.227.177.3 2 2 5326 20140101154845
+81.213.147.151 1 1 22288 20140106055853
+94.123.194.67 1 8 153548 20140101164612
+37.155.49.7 1 8 305630 20140107203158
+176.195.226.245 1 1 4985 20140107003124
+78.190.166.123 1 8 153549 20140106224748
+198.199.76.198 1 1 4985 20140104122714
+176.40.22.156 1 8 305630 20140105191828
+94.120.83.107 1 8 305630 20140106223312
+81.215.62.6 1 8 153546 20140105205355
+208.43.255.29 1 1 5022 20140107184734
+81.215.10.45 1 8 305631 20140105160328
+88.234.228.243 1 9 316234 20140103003108
+62.248.19.161 2 23 514789 20140101192400
+176.195.62.54 1 1 4985 20140109062414
+88.229.252.58 2 16 459178 20140107191815
+88.246.86.52 2 9 175832 20140107064255
+78.171.25.91 1 8 153546 20140102044902
+61.135.190.221 1 1 5022 20140107174755
+88.250.150.146 2 28 658257 20140101172345
+61.135.190.100 1 1 5022 20140104120808
+46.163.111.35 1 1 247 20140107185308
+78.161.21.201 1 20 352626 20140107124218
+88.241.228.68 1 8 305631 20140104141811
+88.231.189.123 1 8 305631 20140103232244
+198.27.69.78 2 2 9989 20140102143805
+88.234.52.207 1 8 153547 20140108175748
+88.242.98.234 1 8 305631 20140104175057
+176.195.81.132 2 10 320880 20140102223035
+78.161.8.196 1 8 305631 20140107195009
+78.189.19.131 1 8 305631 20140106092324
+198.199.79.217 1 1 4985 20140109042925
+78.177.7.122 1 8 153547 20140103162449
+85.98.40.8 1 8 305631 20140102155614
+85.98.116.119 1 8 305631 20140104230729
+78.186.189.65 3 24 612720 20140108105441
+78.163.13.152 2 24 397809 20140101080120
+78.164.38.252 1 8 153548 20140102142056
+24.133.191.61 2 23 392152 20140102203138
+78.187.168.175 1 8 305631 20140109114639
+78.188.180.168 1 8 305630 20140109091347
+64.34.169.244 1 1 4966 20140106044854
+78.166.155.73 1 8 305630 20140106210522
+176.195.197.212 1 1 4985 20140107111356
+88.228.9.173 1 1 5023 20140107094100
+131.253.24.64 1 1 5023 20140105130059
+81.214.168.42 2 28 658251 20140101201504
+61.135.190.104 1 1 5022 20140105171527
+176.195.89.197 1 14 493060 20140103054211
+78.191.139.162 3 38 753396 20140101110637
+176.195.202.219 2 2 9970 20140105112806
+88.248.98.195 1 20 352627 20140102102829
+131.253.38.67 1 1 5023 20140106164827
+162.243.146.199 1 1 4985 20140107143706
+88.248.115.248 1 8 153549 20140107142900
+88.249.120.3 2 16 459172 20140103174539
+81.215.163.92 1 8 153548 20140107223712
+123.122.104.85 1 8 305630 20140105002835
+176.195.57.251 1 9 315895 20140108092755
+208.88.226.73 2 2 608 20140109090407
+212.156.99.82 1 8 305631 20140109082224
+78.188.168.146 2 16 459180 20140107054838
+95.70.208.204 1 8 153548 20140109010338
+61.135.190.224 2 2 10044 20140108205431
+94.123.200.71 2 18 248691 20140107130106
+78.185.89.106 1 8 153548 20140104002614
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20140101 15 152 3146398 8
+20140102 15 112 2189389 10
+20140103 12 102 2896280 8
+20140104 15 171 2363621 9
+20140105 15 102 2409068 11
+20140106 14 85 1807517 10
+20140107 23 143 3262506 18
+20140108 13 102 1943659 6
+20140109 7 35 1080714 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+15mn-30mn 1
+30s-2mn 7
+0s-30s 72
+2mn-5mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/tr/ 62 291902 56 52
+/tr/faq.php 35 779948 24 21
+/tr/ndinfo.php 22 530408 7 7
+/tr/sreencapture.php 10 116136 0 7
+END_SIDER

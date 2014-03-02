@@ -1,0 +1,1 @@
+INSERT INTO user1_3 (`f0`,`f1`,`f2`,`f3`,`f4`,`f5`,`f6`,`f7`,`f8`,`f9`,`f10`,`f11`, ip, referer, date, time) VALUES ('[r_First_Name]','[r_cafename]','[rw_sabitip]','[r_pccount]','[r_Tel]','[gsm]','[re_Contact_Email]','[r_vdaire]','[r_vno]','[r_Com]','[r_City]','[ozelmsg]', '[%REMOTE_ADDR]', null, '[%DATE]', '[%TIME]');

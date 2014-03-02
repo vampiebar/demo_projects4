@@ -1,0 +1,134 @@
+<HTML>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+	function isFilled(str){ return (str != ""); }
+	function isEmail(string) { return (string.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)||(string==''); }
+ 	function isDigital(str)	{ return(parseFloat(str,10)==(str*1)); }
+ 	function isCurrency(val) { 	var re = /^(\$?\d+\$?|\$?\d+\.\d+\$?)$/; return (re.test(val)); }
+		function ValidForm(form) {
+		var field, i;
+		var req = new Array(4);
+		var email = new Array(1);
+		var digits = new Array(0);
+		var currs = new Array(0);
+		req[0] = "r_AdveSoyad";
+		req[1] = "re_Email";
+		req[2] = "rw_Mesaj";
+		req[3] = "r_captcha";
+		email[0] = "re_Email";
+
+		for (i=0;i<4;i++)	{
+			var field = document.getElementById(req[i]);
+			if ((field.type == 'checkbox')||(field.type == 'radio'))
+			{
+				var field = document.getElementsByName(req[i]);
+				var chk = false;
+				for(l=0;l<field.length;l++)
+				{
+					if (field[l].checked) chk = true;
+				}
+				if (!chk) {alert("'" + field[0].title + "' Lütfen Bu alanı Boş bırakmayınız."); return false; break;}
+			}
+			else
+			{
+			if (!isFilled(field.value))	{
+				alert("'" + field.title + "' Lütfen Bu alanı Boş bırakmayınız..");
+				field.focus();
+				return false;
+				break;
+			}}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(email[i]);
+			if (!isEmail(field.value)) {
+				alert("'" + field.title + "' Lütfen Bu alanı Boş bırakmayınız. Veya geçerli bir mail adresi yazınız.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(digits[i]);
+			if (!isDigital(field.value)) {
+				alert("" + field.title + " Lütfen Bu alanı Boş bırakmayınız..");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(currs[i]);
+			if (!isCurrency(field.value)) {
+				alert("" + field.title + " Lütfen Bu alanı Boş bırakmayınız..");
+				field.focus();
+				return false;
+				break;
+			}}
+		return true; }
+</SCRIPT>
+<TITLE>Kontak Form</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- ATTENTION! Do not remove this string -->
+<BASE href="http://www.webaynet.com/tr/">
+<!-- ... end of attention string -->
+
+</HEAD>
+<BODY  bgcolor="white" leftmargin="0" marginwidth="0">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+  <tr>
+    <td ><form action="http://www.webaynet.com/mailform/forms/formprocessorpro.php" method="POST" enctype="multipart/form-data" onSubmit="return ValidForm(this);">
+      <input type="hidden" name="___form_id_" value="5513953be04a1bad3888b2d769720eb9489c979b23b98">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td colspan="3" bgcolor="#CCCCCC"><strong>İLETİŞİM FORMU<br>
+            (Aşağıdaki Formu Kullanarak bize ulaşabilirsiniz.) </strong></td>
+        </tr>
+        <tr>
+          <td align="right">&nbsp;</td>
+          <td align="center" class="formField">&nbsp;</td>
+          <td class="formField">&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="298" align="right"><strong>Adınız ve Soyadınız </strong> <font color="#FF0000">*</font></td>
+          <td width="39" align="center" class="formField"><strong>:</strong></td>
+          <td width="679" class="formField"><input type="text" size="20" name="r_AdveSoyad" id = "r_AdveSoyad" value="" title="Ad ve Soyad"class="format" autocomplete="off"></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Firma Adı</strong></td>
+          <td align="center" class="formField"><strong>:</strong></td>
+          <td class="formField"><input type="text" size="20" name="FirmaAdi" id = "FirmaAdi" value="" title="FirmaAdi"class="format" autocomplete="off"></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Tel </strong></td>
+          <td align="center" class="formField"><strong>:</strong></td>
+          <td class="formField"><input type="text" size="20" name="Tel" id = "Tel" value="" title="Tel"class="format"></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Email </strong> <font color="#FF0000">*</font></td>
+          <td align="center" class="formField"><strong>:</strong></td>
+          <td class="formField"><input type="text" size="20" name="re_Email" id = "re_Email" value="" title="Email"class="format" autocomplete="off"></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Mesajınız </strong><font color="#FF0000">*</font></td>
+          <td align="center" class="formField"><p>&nbsp;</p>
+            <p><strong>:</strong></p></td>
+          <td class="formField"><textarea rows="5" cols="20" id="rw_Mesaj" name="rw_Mesaj" title="Mesaj" ></textarea></td>
+        </tr>
+        <tr>
+          <td align="right">&nbsp;</td>
+          <td align="center" class="formfield">&nbsp;</td>
+          <td class="formfield"><span class="format"><img src="http://www.webaynet.com/mailform/forms/formprocessorpro.php?captcha&t=0" style="border: 1px solid silver;" alt="Captcha Image: you will need to recognize the text in it."><br>
+            Bu kodu Aşağıya Yazınız</span></td>
+        </tr>
+        <tr>
+          <td align="right"><strong>Güvenlik Kodu </strong></td>
+          <td align="center" class="formfield"><strong>:</strong></td>
+          <td class="formfield"><input class="format" type="text" id="r_captcha" size="20" name="r_captcha" title="" value="" autocomplete="off"></td>
+        </tr>
+      </table>
+      <br />
+      <center>
+        <input type="SUBMIT" value="Gönder">
+      </center>
+    </form></td>
+  </tr>
+</table>
+</body>
+    </html>    

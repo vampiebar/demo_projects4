@@ -1,0 +1,194 @@
+<HTML>
+<HEAD>
+<title><> Bilgi Edinme Mesaj <></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="tr">
+<link href="form/sekil.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE = "JavaScript">
+	function isFilled(str){ return (str != ""); }
+	function isEmail(string) { return (string.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)||(string==''); }
+ 	function isDigital(str)	{ return(parseFloat(str,10)==(str*1)); }
+ 	function isCurrency(val) { 	var re = /^(\$?\d+\$?|\$?\d+\.\d+\$?)$/; return (re.test(val)); }
+		function ValidForm(form) {
+		var field, i;
+		var req = new Array(5);
+		var email = new Array(1);
+		var digits = new Array(1);
+		var currs = new Array(0);
+		req[0] = "r_urunsec";
+		req[1] = "r_First_Name";
+		req[2] = "re_Contact_Email";
+		req[3] = "r_Com";
+		req[4] = "r_captcha";
+		email[0] = "re_Contact_Email";
+
+		for (i=0;i<5;i++)	{
+			var field = document.getElementById(req[i]);
+			if ((field.type == 'checkbox')||(field.type == 'radio'))
+			{
+				var field = document.getElementsByName(req[i]);
+				var chk = false;
+				for(l=0;l<field.length;l++)
+				{
+					if (field[l].checked) chk = true;
+				}
+				if (!chk) {alert("SEÇİM YAPILMAMIŞ '" + field[0].title + "' HANGİ ÜRÜNÜMÜZ HAKKINDA DESTEK İSTEDİĞİNİZİ BELİRTİNİZ."); return false; break;}
+			}
+			else
+			{
+			if (!isFilled(field.value))	{
+				alert("BU ALANI GİRMELİSİNİZ '" + field.title + "' ZORUNLU DOLDURULMASI GEREKEN ALANLARI GİRMELİSİNİZ.");
+				field.focus();
+				return false;
+				break;
+			}}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(email[i]);
+			if (!isEmail(field.value)) {
+				alert("GEÇERSİZ E-MAIL '" + field.title + "' LÜTFEN GEÇERLİ BİR MAIL ADRESİ GİRİNİZ. BÜYÜK HARFLE GİRMEYİNİZ..");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(digits[i]);
+			if (!isDigital(field.value)) {
+				alert("Field " + field.title + " is required to be filled in only with digits (0-9) and decimal point before successful submission.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(currs[i]);
+			if (!isCurrency(field.value)) {
+				alert("Field " + field.title + " is required to be filled in only with digits (0-9) a decimal point, or a dollar sign before successful submission.");
+				field.focus();
+				return false;
+				break;
+			}}
+		return true; }
+</SCRIPT>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+}
+.style16 {color: #353535}
+.style17 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.style18 {font-size: 12px}
+.style19 {font-weight: bold}
+.formField {	float: left;
+	vertical-align: top;
+	padding: 10px;
+}
+.style20 {font-weight: bold}
+.style23 {font-size: 10px}
+.style24 {color: #FF0000}
+.style26 {color: #FF0000; font-weight: bold; }
+-->
+</style>
+</HEAD>
+<BODY  bgcolor="white" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    
+    <tr>
+      <td valign="top"><FORM ACTION="http://www.webaynet.com/mailform/forms/formprocessorpro.php" METHOD="POST" ENCTYPE="multipart/form-data" onSubmit="return ValidForm(this);">
+<INPUT TYPE="hidden" NAME="___form_id_" VALUE="d5f47a671330ec9c9e4949f23b30464d489d8a5155e6b">
+        <table width="100%" height="451" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="332" valign="top"><table width="100%" border="1" align="center" cellpadding="5" cellspacing="1" bordercolor="#999999">
+                <tr>
+                  <td valign="top"><table border="0" cellpadding="0" cellspacing="2" style="border-collapse: collapse" width="100%" id="AutoNumber2" align="center">
+                      <tr>
+                        <td width="49%" height="35" valign="top" class="style16"><div align="right" class="style17"><br />
+                          Destek Almak İstediğiniz Yazılımımız :  </div></td>
+                        <td width="51%"><span>
+                          <span class="style20">
+                          <input type="radio" name="r_urunsec" id="r_urunsec" value="NETDADI" title="DESTEK İSTENEN ÜRÜN" />
+                          </span></span><span class="style17">NETDADI EV SÜRÜMÜ<br />
+                          <input type="radio" name="r_urunsec" id="r_urunsec" value="NETPATRON" title="DESTEK İSTENEN ÜRÜN" />
+                          NETPATRON NETWORK SÜRÜMÜ<br />
+                          <input type="radio" name="r_urunsec" id="r_urunsec" value="NETPATRONTIB" title="DESTEK İSTENEN ÜRÜN" />
+                          NETPATRON CAFE SÜRÜMÜ</span></td>
+                      </tr>
+                      
+                      <tr>
+                        <td width="49%" valign="middle" class="style16"><div align="right" class="style18"><b>Adınız ve Soyadınız :</b> </div></td>
+                        <td width="51%" valign="middle"><input name="r_First_Name" id = "r_First_Name" value="" title="ADINIZ VE SOYADINIZ" />
+                          <span class="style24">*                        </span></td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" class="style16"><div align="right" class="style18">
+                            <div align="right"><b>Telefonunuz : </b> </div>
+                        </div></td>
+                        <td valign="middle"><input name="Tel" id = "Tel" value="" title="TELEFONUNUZ" /></td>
+                      </tr>
+                      <tr>
+                        <td width="49%" valign="middle" class="style16"><div align="right" class="style18"><b>Cep Tel Numaranız :</b></div></td>
+                        <td width="51%" height="29" valign="middle"><input name="d_GSM" id = "d_GSM" value="" title="GSM" />                        </td>
+                      </tr>
+                      <tr>
+                        <td width="49%" valign="middle" class="style16"><div align="right" class="style18"><b>E-Mail Adresiniz </b> : </div></td>
+                        <td width="51%" height="23" valign="middle"><input name="re_Contact_Email" id = "re_Contact_Email" value="" title="E-MAIL ADRESİNİZ" />
+                          <span class="style24"><strong>                          *                        </strong></span></td>
+                      </tr>
+                      
+                      <tr>
+                        <td valign="middle" class="style17"><div align="right" class="style18"><b>Mesajınız :<br />
+                              <span class="style23">(Probleminizi Detalı bir şekilde yazınız)</span></b></div></td>
+                        <td><textarea name="r_Com" cols="22" rows="6" id="r_Com" title="MESAJINIZ"></textarea>
+                          <span class="style26">*</span></td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" class="style17"><div align="right"></div></td>
+                        <td valign="middle"><span class="formfield"><img src="http://www.webaynet.com/mailform/forms/formprocessorpro.php?captcha&amp;t=0" style="border: 1px solid silver;" alt="Captcha Image: you will need to recognize the text in it." /></span></td>
+                      </tr>
+                      <tr>
+                        <td valign="middle" class="style17"><div align="right"><b>Güvenlik Kodu : </b></div></td>
+                        <td valign="middle"><input id="r_captcha" size="0" name="r_captcha" title="Güvenlik Kodu" value="" />
+                          <span class="style24"><strong>*</strong></span></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">&nbsp;</td>
+                        <td><table border="0" cellpadding="0" cellspacing="2" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2" align="center">
+                            <tr>
+                              <td width="60%"><input type="SUBMIT" value="Formu Gönder" /></td>
+                            </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td valign="top">&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td width="3%">&nbsp;</td>
+                            <td width="94%"><span class="style19"><font size="1"><span class="style1">Not :</span> <span class="style1">(*) İşaretli  alanların doldurulması gerekmektedir. Size daha iyi bir hizmet sunabilmemiz için bu alanlara gireceğiniz bilgiler gereklidir. Teşekkür ederiz ... </span></font></span></td>
+                            <td width="3%">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                        </tr>
+                    </table>                    </td>
+                </tr>
+            </table></td>
+          </tr>
+        </table>
+      </form></td>
+    </tr>
+  </table>
+  </div>
+</body>
+  </html>    

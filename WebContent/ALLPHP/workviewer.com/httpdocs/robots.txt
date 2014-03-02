@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css/
+Disallow: /dil/
+Disallow: /font/
+Disallow: /js/
+Disallow: /plesk-stat/
+Disallow: /referanslar/

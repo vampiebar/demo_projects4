@@ -1,0 +1,36 @@
+To: "{#name|lower|capitalize#}" <{#email#}>
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: Multi Page Dependency Form - Demo 
+
+Dear {#name|lower|capitalize#},
+Here is information that you had filled in on Multi Page Dependency Form - Demo at Email-Form.com
+
+------------------------------------
+Time and Date of Submission: {#%DATE#}
+
+Unique Reference Number: {#%UNIQUE_REFERENCE#}
+
+Name: {#name|lower|capitalize#}
+Contact eMail: {#email#}
+Phone: {#Phone#}
+Department: {#department#}
+
+Question:
+{#question#}
+
+The form submited on {#%HTTP_REFERER#}
+IP address is {#%REMOTE_ADDR#}
+User Agent:
+{#%HTTP_USER_AGENT#}
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to have strong, long term and fruitful business relationships with you!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/order.html
+
+-- 
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by Web-Site-Scripts.com. http://web-site-scripts.com

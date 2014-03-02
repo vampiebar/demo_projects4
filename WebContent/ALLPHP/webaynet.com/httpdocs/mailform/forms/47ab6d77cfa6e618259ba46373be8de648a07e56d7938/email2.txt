@@ -1,0 +1,162 @@
+To: info@webaynet.com
+Bcc: bulentseker@gmail.com
+From: [re_Contact_Email]
+Format: html
+Subject: NETPATRON TİB SÜRÜMÜ SİP.FORMU HAVALE
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 11px;
+	font-weight: bold;
+}
+.style3 {
+	color: #000000;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style7 {font-size: 12px; font-weight: bold; }
+.style9 {color: #FF0000}
+.style10 {
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<span class="style9"><strong>TİB ONAYLI FİLTRE SATIŞI (BANKA HAVALESİ)</strong></span>
+<br>
+<table width="650" border="2" cellpadding="0" cellspacing="0" class="style3">
+   <tr>
+     <td><table width="100%" border="0" cellspacing="5" cellpadding="0">
+       <tr>
+         <td colspan="3"><table width="100%" border="0" cellspacing="5" cellpadding="0">
+           <tr>
+             <td width="156"><span class="style2">Gönderen Ip Adresi</span></td>
+             <td width="10"><div align="center" class="style3">:</div></td>
+             <td width="334"><span class="style7">[%REMOTE_ADDR]</span></td>
+           </tr>
+           
+           <tr>
+             <td><span class="style2">Gönderildigi Tarih</span></td>
+             <td><div align="center" class="style3">:</div></td>
+             <td><span class="style7">[%DATE]</span></td>
+           </tr>
+           
+           <tr>
+             <td><span class="style2">Gönderildigi Saat</span></td>
+             <td><div align="center" class="style3">:</div></td>
+             <td><span class="style7">[%TIME]</span></td>
+           </tr>
+         </table>           </td>
+       </tr>
+       <tr>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+       </tr>
+       <tr>
+         <td width="301" bgcolor="#E6E6E6"><strong>Havaleyi Yaptığı Banka</strong></td>
+         <td width="11" bgcolor="#E6E6E6">           <div align="center">:</div></td>
+         <td width="262" bgcolor="#E6E6E6"><span class="style9">[r_banka]</span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Dekont No yada Havaledeki İsim</strong></td>
+         <td><div align="center" class="style4">
+           <div align="center"><strong>:</strong></div>
+         </div></td>
+         <td><span class="style9"><strong>[DECONT]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Adı Soyadı</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_First_Name]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Cafe Adı</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_cafeadi]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Bilgisayar Sayısı</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[rd_pcadet]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Sabit İp Adresi</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_ip]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Telefon Numarası</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_tel]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Cep Numarası</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[gsm]</strong></span></td>
+       </tr>
+       
+       <tr>
+
+         <td bgcolor="#E6E6E6"><strong>E-mail Adresi</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[re_Contact_Email]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Vergi Dairesi</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_vdaire]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Vergi Numarası</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_vno]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Bulunduğu Şehir</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_sehir]</strong></span></td>
+       </tr>
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Adresi</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_adres]</strong></span></td>
+       </tr>
+       <tr>
+         <td><strong>Özel Mesajı</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[ozelmsg]</strong></span></td>
+       </tr>
+     </table></td>
+   </tr>
+</table>
+ <hr size="2" width="600" noshade align="left" color="#333333">
+<p class="style10">ALLAH BİN BEREKET VERSİN İNŞALLAH !</p>
+ <hr size="2" width="600" noshade align="left" color="#333333">
+</body>
+</html>

@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^anasayfa? index.php [NC,L]
+RewriteRule ^ozellikler? features.php [NC,L] 
+RewriteRule ^ekran-goruntuleri? screenshots.php [NC,L] 
+RewriteRule ^musterilerimiz? clients.php [NC,L] 
+RewriteRule ^indir? downloadtest.php [NC,L] 
+RewriteRule ^iletisim? iletisim.php [NC,L]  
+RewriteRule ^bayi-basvurusu? basvuru.php [NC,L]
+RewriteRule ^password? /login/forgotpass.php [NC,L]
+RewriteRule ^register? downloadtest.php [NC,L]

@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+<title>Multi Page Form with Multiple Fields Demo</title>
+</head>
+	<body>
+      <center>
+	  	  <p align="center"><b><font size="3">Multi Page Form with Multiple Fields Demo</font></b></p>
+				<form action="../fpp/index.php" method="post">						
+					<table id="Table1" class="form_table" width="600" border="0" cellspacing="5">
+						<tr align="left">
+							<td align="right">
+								Bodily Injury:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Bodily_Injury">
+									<option value="15,000/30,000" selected="selected">15,000/30,000</option>
+									<option value="20,000/40,000">20,000/40,000</option>
+									<option value="25,000/50,000">25,000/50,000</option>
+									<option value="30,000/60,000">30,000/60,000</option>
+									<option value="50,000/100,000">50,000/100,000</option>
+									<option value="100,000/300,000">100,000/300,000</option>
+									<option value="100,000/500,000">100,000/500,000</option>
+									<option value="250,000/500,000">250,000/500,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Property Damage:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Property_Damage">
+									<option value="5,000" selected="selected">5,000</option>
+									<option value="10,000">10,000</option>
+									<option value="15,000">15,000</option>
+									<option value="25,000">25,000</option>
+									<option value="50,000">50,000</option>
+									<option value="100,000">100,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Uninsured Motorist:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Uninsured_Motorist">
+									<option value="No Coverage" selected="selected">No Coverage</option>
+									<option value="15,000/30,000">15,000/30,000</option>
+									<option value="20,000/40,000">20,000/40,000</option>
+									<option value="25,000/50,000">25,000/50,000</option>
+									<option value="50,000/100,000">50,000/100,000</option>
+									<option value="100,000/300,000">100,000/300,000</option>
+									<option value="100,000/500,000">100,000/500,000</option>
+									<option value="250,000/500,000">250,000/500,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Uninsured Motorist Property Damage:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Uninsured_Motorist_Property_Damage">
+									<option value="None" selected="selected">None</option>
+									<option value="3,500">3,500</option>
+									<option value="Deductible Waiver ">Deductible Waiver </option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Underinsured Motorist:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Underinsured_Motorist">
+									<option value="No Coverage" selected="selected">No Coverage</option>
+									<option value="15,000/30,000">15,000/30,000</option>
+									<option value="25,000/50,000">25,000/50,000</option>
+									<option value="50,000/100,000">50,000/100,000</option>
+									<option value="100,000/300,000">100,000/300,000</option>
+									<option value="250,000/500,000">250,000/500,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Medical Payment:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Medical_Payment">
+									<option value="None" selected="selected">None</option>
+									<option value="500">500</option>
+									<option value="1,000">1,000</option>
+									<option value="2,000">2,000</option>
+									<option value="2,500">2,500</option>
+									<option value="5,000">5,000</option>
+									<option value="10,000">10,000</option>
+									<option value="15,000">15,000</option>
+									<option value="20,000">20,000</option>
+									<option value="25,000">25,000</option>
+									<option value="50,000">50,000</option>
+									<option value="100,000">100,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Personal Injury:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Personal_Injury">
+									<option value="None" selected="selected">None</option>
+									<option value="2,500">2,500</option>
+									<option value="5,000">5,000</option>
+									<option value="10,000">10,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Accidental Death Benefit:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Accidental_Death_Benefit">
+									<option value="None" selected="selected">None</option>
+									<option value="5,000">5,000</option>
+									<option value="10,000">10,000</option>
+									<option value="25,000">25,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Income Loss Benefit:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Income_Loss_Benefit">
+									<option value="None" selected="selected">None</option>
+									<option value="5,000">5,000</option>
+									<option value="15,000">15,000</option>
+									<option value="25,000">25,000</option>
+									<option value="50,000">50,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Funeral Expense:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Funeral_Expense">
+									<option value="None" selected="selected">None</option>
+									<option value="1,500">1,500</option>
+									<option value="2,500">2,500</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Comprehensible Deductible:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Comprehensible_Deductible">
+									<option value="None" selected="selected">None</option>
+									<option value="0">0</option>
+									<option value="50">50</option>
+									<option value="100">100</option>
+									<option value="250">250</option>
+									<option value="500">500</option>
+									<option value="1,000">1,000</option>
+									<option value="1,500">1,500</option>
+									<option value="2,000">2,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Collision Deductible:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Collision_Deductible">
+									<option value="None" selected="selected">None</option>
+									<option value="0">0</option>
+									<option value="50">50</option>
+									<option value="50">100</option>
+									<option value="250">250</option>
+									<option value="500">500</option>
+									<option value="1,000">1,000</option>
+									<option value="1,500">1,500</option>
+									<option value="2,000">2,000</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Vehicle Rental Coverage (Daily):
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Vehicle_Rental_Coverage">
+									<option value="None" selected="selected">None</option>
+									<option value="15">15</option>
+									<option value="20">20</option>
+									<option value="25">25</option>
+									<option value="30">30</option>
+									<option value="35">35</option>
+									<option value="Over 35">More than 35</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Vehicle Rental Reimbursement Deductible:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Vehicle_Rental_Reimbursement_Deductible">
+									<option value="None" selected="selected">None</option>
+									<option value="0">0</option>
+									<option value="15/450">15/450</option>
+									<option value="30/900">30/900</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Towing Optional $ Paid Per Claim:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Towing_Per_Claim">
+									<option value="None" selected="selected">None</option>
+									<option value="50">50</option>
+									<option value="75">75</option>
+									<option value="100">100</option>
+									<option value="Fair and Reasonable">Fair and Reasonable</option>
+								</select>
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Towing Deductible:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Towing_Deductible">
+									<option value="None" selected="selected">None</option>
+									<option value="25">25</option>
+									<option value="50">50 </option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<p style="text-align: center;">
+						<input type="submit" value="Continue" alt="Continue" name="submit" title="Continue" />
+						    &nbsp;
+						<input type="submit" name="fpp_back" value="Back">
+					</p>
+					<div align="center">
+						<p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+							Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+					</div>					
+				</form>
+      </center>
+	</body>
+</html>

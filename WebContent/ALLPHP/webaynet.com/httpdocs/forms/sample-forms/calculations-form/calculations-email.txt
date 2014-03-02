@@ -1,0 +1,44 @@
+To: "{#firstname|lower|capitalize#}" <{#email#}>
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: Calculations Form - Demo
+
+Dear {#name|lower|capitalize#},
+Here is information that you had filled in on Calculations Form - Demo at Email-Form.com
+
+------------------------------------
+Time and Date of Submission: {#%DATE#} Pacific Time
+
+Unique Reference Number: {#unique_reference_number#}
+
+Name: {#name|lower|capitalize#}
+Company Name: {#company-name#}
+Contact eMail: {#email#}
+
+Number divided by 2:
+{#Number#} / 2 = {# Number / 2 #}
+
+Add up numbers and multiply them by the tax rate:
+( {#NumberA#} + {#NumberB#} + {#NumberC#} ) * {#TaxNumber#} = {#( NumberA + NumberB + NumberC ) * TaxRate#}
+
+Using IF condition:
+ifcond(( {#Number1#} > {#Number2#} ), ( {#Number1#} + 10 ), ( {#Number2#} ))#}) = {#ifcond(( Number1 > Number2 ), ( Number1 + 10 ), ( Number2 ))#}
+
+The order amount of {#Quantity#} items is:
+${#ifcond (( Quantity >= 20 ), ( Quantity * 9.99 ), ( ifcond (( Quantity >= 10 ), ( Quantity * 12.95 ), ( ifcond (( Quantity >= 5 ), ( Quantity * 15.95 ), ( Quantity * 19.95 ) )))))#}
+
+Price per item for this amount is: 
+${#ifcond (( Quantity >= 20 ), ( 9.99 ), ( ifcond (( Quantity >= 10 ), ( 12.95 ), ( ifcond (( Quantity >= 5 ), ( 15.95 ), ( Quantity * 19.95 ) )))))#}
+
+The form submited on {#%HTTP_REFERER#}
+IP address is {#%REMOTE_ADDR#}
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to have strong, long term and fruitful business relationships with you!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/order.html
+
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by MitriDAT. http://www.mitridat.com

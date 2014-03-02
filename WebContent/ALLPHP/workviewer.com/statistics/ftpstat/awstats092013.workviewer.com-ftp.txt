@@ -1,0 +1,802 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.workviewer.com-ftp.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2014                
+POS_TIME 2685                
+POS_VISITOR 6264                
+POS_DAY 6809                
+POS_DOMAIN 3327                
+POS_LOGIN 3562                
+POS_ROBOT 3767                
+POS_WORMS 3933                
+POS_EMAILSENDER 4064                
+POS_EMAILRECEIVER 4207                
+POS_SESSION 7441                
+POS_SIDER 7637                
+POS_FILETYPES 4342                
+POS_DOWNLOADS 4796                
+POS_OS 4844                
+POS_BROWSER 4928                
+POS_SCREENSIZE 4997                
+POS_UNKNOWNREFERER 5071                
+POS_UNKNOWNREFERERBROWSER 5158                
+POS_ORIGIN 5240                
+POS_SEREFERRALS 5377                
+POS_PAGEREFS 5521                
+POS_SEARCHWORDS 5669                
+POS_KEYWORDS 5821                
+POS_MISC 2349                
+POS_ERRORS 5880                
+POS_CLUSTER 3418                
+POS_SIDER_404 5955                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001094229 1 0 9172921178169
+FirstTime 20130902094531
+LastTime 20130930185753
+LastUpdate 20131002030955 1 0 0 0 0
+TotalVisits 42                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 38 78 1124830 0 0 0
+10 912 1217 79392943 0 1 125
+11 371 793 21800880 0 2 250
+12 1314 1944 85362887 0 2 250
+13 369 587 12444627 0 1 125
+14 486 590 15442655 0 1 125
+15 523 859 79301895 0 1 125
+16 751 1033 83399845 0 1 125
+17 2322 3758 393492778 0 6 750
+18 1125 1700 102862197 0 2 250
+19 101 154 2097313 0 0 0
+20 68 68 803990 0 0 0
+21 440 685 78301678 0 1 125
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 8820 13466 955828518
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+workviewercom 8820 13466 955828518 20130930185753
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+unknown 18 2250 20130930174937 18
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 20
+css 598 29832048 0 0
+ttf 639 38263688 0 0
+woff 66 7747280 0 0
+txt 42 37428 0 0
+ini 1 3474 0 0
+php 5414 43607977 0 0
+html 2518 16210810 0 0
+xml 36 60516 0 0
+jpg 1126 92232567 0 0
+gz 18 5832 0 0
+eot 67 12131012 0 0
+png 1779 33486324 0 0
+pdf 24 13992168 0 0
+yml 11 539 0 0
+otf 18 1114128 0 0
+js 770 17121497 0 0
+Unknown 65 9993 0 0
+gif 194 386216 0 0
+svg 59 21630229 0 0
+exe 21 627954792 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+Unknown 13466 8820
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 1
+Unknown 13466 8820
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 0
+From1 8820 13466
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+151.250.149.65 3754 5209 430046943 20130922205939
+217.131.166.157 1364 2000 120425387 20130928180817
+212.252.152.235 1295 1831 42117598 20130927165134
+213.153.249.236 862 1140 82808234 20130924172401
+176.42.140.164 585 1420 162493849 20130906155455
+176.41.55.45 432 677 78207012 20130922211247
+78.190.235.88 319 531 18842462 20130930185753
+176.42.131.244 185 594 20183470 20130910110425
+91.93.225.100 14 21 276796 20130911112626
+176.42.130.239 10 43 426767 20130902095516
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20130902 15 48 448342 2
+20130903 83 213 7044584 1
+20130904 92 357 72923202 2
+20130905 149 345 70544230 3
+20130906 256 500 11960258 1
+20130909 95 305 10228076 1
+20130910 97 303 10139804 2
+20130911 7 7 92386 1
+20130916 431 455 4261723 2
+20130918 671 977 77172546 1
+20130919 950 1451 153230640 3
+20130920 631 905 78897390 2
+20130921 686 976 78702682 2
+20130922 817 1122 115988974 2
+20130923 175 208 2507075 2
+20130924 1124 1614 97449112 3
+20130925 535 817 23103360 2
+20130926 143 145 901941 3
+20130927 710 992 83699432 2
+20130928 834 1195 37690299 2
+20130930 319 531 18842462 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 25
+5mn-15mn 3
+30s-2mn 2
+15mn-30mn 4
+0s-30s 2
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 523
+/var/www/vhosts/workviewer.com/httpdocs/login/home.php 983 11121107 6 9
+/var/www/vhosts/workviewer.com/httpdocs/login/getwsrlist.php 314 2321137 1 2
+/var/www/vhosts/workviewer.com/httpdocs/users.php 158 1367075 1 5
+/var/www/vhosts/workviewer.com/httpdocs/login2/getdrives.php 148 426349 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/home.php 134 3592792 4 2
+/var/www/vhosts/workviewer.com/httpdocs/download.php 107 1475742 2 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getproclist.php 97 79658 0 0
+/var/www/vhosts/workviewer.com/httpdocs/webservis.php 79 114329 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getsuffixed.php 75 390969 1 1
+/var/www/vhosts/workviewer.com/httpdocs/login/changealias.php 73 41168 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/User_agent.php 12 126096 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/creating_drivers.html 12 44160 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/glyphicons-halflings-regular.woff 1 16448 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/it.php 22 203215 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/allowapp.php 8 3179 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_cache.php 12 52536 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_214.html 12 43512 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_203.html 12 61536 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/file_uploading.html 12 192036 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/glyphicons-halflings-regular.eot 1 14079 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mssql/mssql_forge.php 12 69504 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/FontAwesome.otf 1 61896 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/benchmark.html 12 93240 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysql/mysql_utility.php 12 55320 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Parser.php 12 53124 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font22.ttf 17 883932 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/imglib_lang.php 12 24132 0 0
+/var/www/vhosts/workviewer.com/httpdocs/infografik.html 18 19080 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/uyekayit.php 2 783 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/file_helper.html 12 96060 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/getting_started.html 12 47748 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/constants.php 13 20254 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font33.ttf 17 771596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/security_helper.php 12 32100 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getclients.php 9 4940 0 2
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/cubrid/cubrid_forge.php 12 84708 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrading.html 12 62712 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Form_validation.php 12 355128 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/ 12 48780 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/postgre/postgre_utility.php 12 22260 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getclientbigscreen.php 15 6739 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/user_agents.php 18 102228 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/pdo/pdo_forge.php 12 73140 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/css/untitled.html 2 618 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/download_helper.html 12 48444 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cache/Cache.php 12 56148 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Table.php 12 136428 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/cheatsheets.html 12 42984 0 0
+/var/www/vhosts/workviewer.com/httpdocs/untitled.html 5 1545 2 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getportnumber.php 6 2010 0 0
+/var/www/vhosts/workviewer.com/httpdocs/basvuru.php 26 472936 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/oci8/oci8_forge.php 12 67320 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Exceptions.php 12 56340 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/autoload.php 22 68232 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/security.html 12 73860 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/home2.php 37 871362 2 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_160.html 12 61704 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/blockinternettime.php 1 1139 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/credits.html 12 45540 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/ 12 76284 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getproclist.php 8 9956 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/untitled.html 14 4326 2 0
+/var/www/vhosts/workviewer.com/httpdocs/login/shutdown.php 12 5373 0 0
+/var/www/vhosts/workviewer.com/httpdocs/ 66 1425073 3 5
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlsrv/sqlsrv_forge.php 12 69516 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlsrv/sqlsrv_utility.php 12 23748 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/number_helper.html 12 49836 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/foreign_chars.php 12 21372 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/file_helper.php 12 136608 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Zip.php 12 121968 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/datetime.html 6 13740 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/uyekayit_view.php 25 27252 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysql/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cache/drivers/Cache_memcached.php 12 60348 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font6.ttf 17 138176 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/connecting.html 12 93180 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/zip.html 12 120120 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mssql/mssql_utility.php 12 23736 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_172.html 12 53472 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font5.ttf 17 763368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font19.ttf 17 559164 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_forge.php 12 89364 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/encryption.html 12 125436 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlite/sqlite_driver.php 12 168660 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/doc_style/ 12 43092 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/creating_libraries.html 12 134808 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getclientbigscreen.php 6 2754 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/cookie_helper.php 12 31092 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/odbc/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/routes.php 13 20059 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yandex_64dd5d2acda795f6.html 18 2898 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlsrv/sqlsrv_driver.php 12 162540 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Loader.php 12 366912 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/path_helper.php 12 21348 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_170.html 12 60924 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/pdo/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/oci8/oci8_result.php 12 53796 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/errors/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/untitled.html 3 927 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font27.ttf 17 771596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/cikis.php 18 1554 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/.htaccess 11 143 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font13.ttf 17 847076 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/caching.html 12 64740 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/blockapplication.php 4 5724 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/upload_lang.php 12 19428 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_211.html 12 50016 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/fontawesome-webfont.eot 17 635885 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/array_helper.html 12 79992 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font14.ttf 17 701896 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/fontello.ttf 13 7548320 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cache/drivers/Cache_apc.php 12 39684 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/javascript.html 12 161160 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font2.ttf 17 500684 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/websiterestrictions.html 37 24935 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Session.php 12 231192 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Utf8.php 12 43008 0 0
+/var/www/vhosts/workviewer.com/httpdocs/google00af420479c629cc.html 18 954 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/profiling.html 12 86460 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlite/sqlite_result.php 12 42588 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/pdo/pdo_utility.php 12 26844 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/untitled.html 3 927 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Trackback.php 12 143928 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/websiterestrictions.php 1 309 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/unit_testing.html 12 99492 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/inflector_helper.html 12 54252 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font34.ttf 17 771596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/blockpctime.php 10 10643 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/reserved_names.html 12 54852 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/blockpctime.php 1 1148 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Input.php 12 219888 0 0
+/var/www/vhosts/workviewer.com/httpdocs/config2.php 32 11153 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/sessions.html 12 201504 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_result.php 12 108204 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/email_helper.html 12 50652 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_152.html 12 53856 0 0
+/var/www/vhosts/workviewer.com/httpdocs/sitemap.html 18 54270 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/.gitignore 11 1826 3 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/language/english/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/database.php 13 41743 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/home2.php 6 153876 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font32.ttf 17 788596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/sp.php 20 188048 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Pagination.php 12 108636 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/errors.html 12 77244 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/xml_helper.php 12 21456 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/caching.html 12 99996 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cache/drivers/Cache_dummy.php 12 31872 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Ftp.php 12 150840 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/changelog.html 12 1406928 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/ftp.html 12 130476 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/news_section.html 12 121536 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/pagination.html 12 122172 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dilx.php 18 432 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/functions.php 14 9669 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/js/untitled.html 3 927 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/form_helper.php 12 261264 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/inflector_helper.php 12 64404 0 0
+/var/www/vhosts/workviewer.com/httpdocs/topbarlogin.html 25 121425 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/fontello.eot 13 7550504 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/ 29 173255 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font8.ttf 17 783088 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/allowurl.php 12 4822 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/alternative_php.html 12 69756 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/ch.php 21 169733 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getuserinfo.php 21 11071 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/errors/error_php.php 12 3456 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/toc.html 12 117984 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/resetctrlport.php 6 2064 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/routing.html 12 92712 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font21.ttf 17 586228 0 0
+/var/www/vhosts/workviewer.com/httpdocs/support.php 18 223686 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/license.html 12 68220 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/features.html 12 57192 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Migration.php 12 95916 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/cache/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/authority.php 19 9672 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/apprestrictions.html 36 45477 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font25.ttf 17 1404268 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font23.ttf 17 402628 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/form_validation.html 12 782352 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/profiler_lang.php 12 13404 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_141.html 12 63684 0 0
+/var/www/vhosts/workviewer.com/httpdocs/sendclientuserdata.php 18 12362 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Log.php 12 32352 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/requirements.html 12 38724 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font28.ttf 17 553928 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font20.ttf 17 611592 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Output.php 12 155220 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/cli.html 12 68844 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font4.ttf 17 903176 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/fr.php 21 208303 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/smiley_helper.php 12 77592 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_b11.html 12 65088 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/functions.php 8 5760 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/directory_helper.php 12 24744 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/config.php 8 1296 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/resetctrlport.php 12 4093 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/third_party/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/xmlrpc.html 12 326376 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/changeport.php 1 309 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_130.html 12 78108 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/loader.html 12 168060 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/output.html 12 96324 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/doctypes.php 13 14794 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/migration.php 13 16666 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/email.html 12 161388 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getctrlportnumber.php 12 3708 0 0
+/var/www/vhosts/workviewer.com/httpdocs/sendapp.php 23 47567 1 1
+/var/www/vhosts/workviewer.com/httpdocs/login/internettimerestrictions.html 1 685 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/number_lang.php 12 2988 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/glyphicons-halflings-regular.woff 8 131584 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font1.ttf 17 771596 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_133.html 12 54240 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/language.html 12 78732 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/alm.php 21 195222 1 0
+/var/www/vhosts/workviewer.com/httpdocs/application/setup_client.exe 11 327212312 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Typography.php 12 152640 0 0
+/var/www/vhosts/workviewer.com/httpdocs/js/untitled.html 5 1545 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/apprestrictions.html 5 6630 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/errors/error_general.php 12 13764 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Common.php 12 161004 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Controller.php 12 18804 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/oci8/oci8_driver.php 12 222540 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Image_lib.php 12 448092 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/uyekayit.php 21 5206 1 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_154.html 12 55380 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/path_helper.html 12 48552 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font16.ttf 17 771596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/allowinternettime.php 1 231 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Model.php 12 14280 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/static_pages.html 12 117696 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Security.php 12 264120 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/models.html 12 128184 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/environments.html 12 59292 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysqli/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/db_lang.php 12 27276 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/downloads.html 12 81624 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getsuffixed.php 30 289434 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil.php 18 5472 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/glyphicons-halflings-regular.ttf 20 590240 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_active_rec.php 12 515748 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/oci8/oci8_utility.php 12 23148 0 0
+/var/www/vhosts/workviewer.com/httpdocs/new.php 18 102312 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/core/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/fontello.ttf 6 3483840 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/odbc/odbc_driver.php 12 166728 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Javascript.php 12 241404 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/untitled.html 27 8343 2 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/migration.html 12 78420 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/fontawesome-webfont.eot 1 37405 1 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/blockinternettime.php 7 6960 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font3.ttf 17 429352 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font10.ttf 17 764864 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Lang.php 12 43584 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlite/sqlite_forge.php 12 75636 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/views.html 12 121020 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_213.html 12 43512 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getitrlist.php 27 340451 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cache/drivers/Cache_file.php 12 49356 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Router.php 12 148728 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/fontawesome-webfont.ttf 17 1344292 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/welcome_message.php 32 16063 0 1
+/var/www/vhosts/workviewer.com/httpdocs/font/font30.ttf 17 746232 0 0
+/var/www/vhosts/workviewer.com/httpdocs/application/setup_manager.exe 10 300742480 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_210.html 12 45804 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Benchmark.php 12 35388 0 0
+/var/www/vhosts/workviewer.com/httpdocs/config.php 25 11132 0 0
+/var/www/vhosts/workviewer.com/httpdocs/features.php 27 456326 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/migration_lang.php 12 8580 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/common_functions.html 12 67572 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/uri.html 12 108180 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/html_helper.php 12 105552 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font9.ttf 17 546856 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getclientscreen.php 7 3479 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/transactions.html 12 95076 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_120.html 12 42708 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Encrypt.php 12 138264 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/styleguide.html 12 305748 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/glyphicons-halflings-regular.woff 20 328960 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/FontAwesome.otf 17 1052232 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_driver.php 12 391788 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_163.html 12 46116 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getdrives.php 20 93811 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getctrlportnumber.php 6 1854 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/create_news_items.html 12 104124 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/config.php 12 153696 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_140.html 12 63276 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font15.ttf 17 629544 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/language_helper.html 12 46164 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Xmlrpc.php 12 402804 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/websiterestrictions.html 8 5440 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/form_helper.html 12 255132 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/cookie_helper.html 12 51948 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/cubrid/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysql/mysql_result.php 12 43500 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/hooks.html 12 140268 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Upload.php 12 330576 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_212.html 12 43512 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/typography_helper.php 12 26868 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/email_lang.php 12 20484 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/utilities.html 12 165888 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/text_helper.php 12 157608 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/internettimerestrictions.html 4 2350 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/.htaccess 11 143 0 0
+/var/www/vhosts/workviewer.com/httpdocs/clients.php 25 157528 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/helpers.html 12 72000 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/date_helper.html 12 183024 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Unit_test.php 12 98400 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/call_function.html 12 54912 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/URI.php 12 173316 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/blockurl.php 12 16104 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/security.html 12 75144 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getarlist.php 26 230607 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/string_helper.php 12 77196 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/examples.html 12 89808 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font12.ttf 17 590308 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/captcha_helper.php 12 74028 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/tr.php 28 274495 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/results.html 12 107352 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/glyphicons-halflings-regular.eot 21 295659 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font26.ttf 17 1018980 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/fonts/fontello.woff 13 4437784 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/text_helper.html 12 96480 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/models/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/oci8/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/at_a_glance.html 12 86880 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysqli/mysqli_driver.php 12 208908 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/postgre/postgre_forge.php 12 88200 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/allowapp.php 5 2050 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/config.php 26 4056 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysql/mysql_driver.php 12 208452 0 0
+/var/www/vhosts/workviewer.com/etc/php.ini 1 3474 1 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/language_helper.php 12 16908 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/CodeIgniter.php 12 136704 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysqli/mysqli_forge.php 12 73236 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/email_helper.php 12 17796 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/form_validation_lang.php 12 21828 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/libraries.html 12 49596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/fontawesome-webfont.woff 1 43572 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysqli/mysqli_utility.php 12 23808 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/errors/error_db.php 12 13872 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getsearched.php 4 29147 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/cikis.php 6 450 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_132.html 12 46260 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_131.html 12 47088 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/smileys.php 2 771 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/hooks.php 12 5976 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/smiley_helper.html 12 96120 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/welcome.php 31 23330 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/parser.html 12 126468 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/security_helper.html 12 54984 0 0
+/var/www/vhosts/workviewer.com/httpdocs/webservisoku.php 18 3376 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/libraries/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/table.html 12 172104 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/.travis.yml 11 539 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/appflow.html 12 48468 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getwsrlist.php 28 352581 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/odbc/odbc_utility.php 12 27120 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Email.php 12 575796 0 0
+/var/www/vhosts/workviewer.com/httpdocs/maillist.php 12 1645 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/postgre/postgre_result.php 12 41244 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/reboot.php 6 2676 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_201.html 12 54876 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_171.html 12 46368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Cart.php 12 180840 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font18.ttf 17 638384 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/cubrid/cubrid_driver.php 12 214704 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/fields.html 12 64584 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/config.html 12 120276 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/ancillary_classes.html 12 57588 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/fonts/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/url_helper.php 12 148320 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getfilterport.php 6 2046 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font17.ttf 17 480284 0 0
+/var/www/vhosts/workviewer.com/httpdocs/screenshots.php 24 156940 0 1
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/glyphicons-halflings-regular.ttf 1 29512 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/fontello.woff 6 2048208 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/errors/error_404.php 12 13920 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/odbc/odbc_forge.php 12 73404 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getclientscreen.php 21 9859 0 0
+/var/www/vhosts/workviewer.com/httpdocs/.htaccess 21 7738 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/pdo/pdo_result.php 12 41940 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/pdo/pdo_driver.php 12 211272 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Xmlrpcs.php 12 186624 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/controllers/uyekayit_controller.php 3 644 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/autoloader.html 12 49212 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mssql/mssql_driver.php 12 178032 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/captcha_helper.html 12 97008 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font29.ttf 17 771596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/configuration.html 12 112656 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/fontello.eot 6 3484848 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/quick_reference.html 12 36972 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/allowinternettime.php 4 1181 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/forge.html 12 218688 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/ 12 39804 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/en.php 21 179288 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/array_helper.php 12 30108 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/url_helper.html 12 150000 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/string_helper.html 12 91728 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/trackback.html 12 145416 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysqli/mysqli_result.php 12 43692 0 0
+/var/www/vhosts/workviewer.com/httpdocs/iletisim.php 26 220713 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/cache/.htaccess 11 143 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/conclusion.html 12 51012 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/pctimerestrictions.html 1 694 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/fontawesome-webfont.woff 17 740724 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/date_lang.php 12 38124 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mysql/mysql_forge.php 12 77292 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Calendar.php 12 152004 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/ 6 36894 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/controllers.html 12 182760 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/mvc.html 12 53880 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getfilterport.php 14 4744 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Hooks.php 12 56364 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_200.html 12 76920 0 0
+/var/www/vhosts/workviewer.com/httpdocs/dil/ar.php 21 209497 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Driver.php 12 64980 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlite/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Sha1.php 12 59940 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/download_helper.php 12 32964 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlsrv/sqlsrv_result.php 12 40992 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/javascript/Jquery.php 12 290316 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/cubrid/cubrid_result.php 12 54072 0 0
+/var/www/vhosts/workviewer.com/httpdocs/sendmanageruserdata.php 22 14860 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/fonts/texb.ttf 12 1725960 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getitrlist.php 1 13311 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/image_lib.html 12 301692 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getarlist.php 5 34615 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB_utility.php 12 117660 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getportnumber.php 19 6351 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/user_agent.html 12 102768 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getuserinfo.php 8 4260 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getclients.php 44 23980 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_162.html 12 51336 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/resetport.php 12 4027 0 0
+/var/www/vhosts/workviewer.com/httpdocs/footer.html 28 60832 1 2
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/doc_style/template.html 12 44820 0 0
+/var/www/vhosts/workviewer.com/httpdocs/sendmail.php 20 78980 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/xml_helper.html 12 43596 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/calendar.html 12 155616 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/cart.html 12 214212 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getpctrlist.php 1 13305 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/pctimerestrictions.html 4 2389 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/active_record.html 12 392148 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlite/sqlite_utility.php 12 25788 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/datetime.html 46 108311 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/mimes.php 12 53436 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/core_classes.html 12 85368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/reboot.php 12 5215 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/postgre/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/postgre/postgre_driver.php 12 186132 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_161.html 12 46104 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mssql/mssql_result.php 12 40476 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/sqlsrv/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/caching.html 12 115920 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/unit_test_lang.php 12 9696 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/directory_helper.html 12 74412 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/logs/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/hard_coded_pages.html 12 106008 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/shudown.php 2 765 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/html_helper.html 12 298080 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/helpers/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/helpers.html 12 107604 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/cubrid/cubrid_utility.php 12 34452 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/ 47 160662 0 1
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/calendar_lang.php 12 17244 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/smiley_view.php 2 780 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/changealias.php 7 3586 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/queries.html 12 86772 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/number_helper.php 12 22308 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/views/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/captcha.php 23 22128 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/hooks/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/troubleshooting.html 12 45972 0 0
+/var/www/vhosts/workviewer.com/httpdocs/yeni/fonts/fontawesome-webfont.ttf 1 79076 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/getsearched.php 4 29158 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/shutdown.php 6 2682 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/glyphicons-halflings-regular.ttf 8 236096 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/profiler.php 12 6768 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_150.html 12 76116 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/language/english/ftp_lang.php 12 15420 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/blockapplication.php 20 33172 1 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font24.ttf 17 851632 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/resetport.php 6 2028 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/overview/goals.html 12 56028 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/authority.php 6 3312 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/DB.php 12 50280 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/helpers/typography_helper.html 12 50496 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/managing_apps.html 12 68520 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/input.html 12 145356 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/application/config/smileys.php 13 42835 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/tutorial/ 12 56712 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/table_data.html 12 46404 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/core/Config.php 12 97884 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/getpctrlist.php 7 79128 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login/blockurl.php 19 21748 0 1
+/var/www/vhosts/workviewer.com/httpdocs/login2/fonts/glyphicons-halflings-regular.eot 8 112632 0 0
+/var/www/vhosts/workviewer.com/httpdocs/login2/allowurl.php 7 2870 1 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/odbc/odbc_result.php 12 55116 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/libraries/typography.html 12 82068 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/ 12 63036 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_202.html 12 50880 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/Profiler.php 12 231588 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/database/ 12 50244 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font11.ttf 17 933572 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/database/drivers/mssql/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/libraries/ 12 1368 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/installation/upgrade_153.html 12 46788 0 0
+/var/www/vhosts/workviewer.com/httpdocs/font/font7.ttf 17 538968 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/system/helpers/date_helper.php 12 155652 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/drivers.html 12 55848 0 0
+/var/www/vhosts/workviewer.com/httpdocs/codeigniter/user_guide/general/urls.html 12 76884 0 0
+END_SIDER

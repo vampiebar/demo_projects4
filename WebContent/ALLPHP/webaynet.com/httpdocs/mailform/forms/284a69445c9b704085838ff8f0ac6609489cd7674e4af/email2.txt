@@ -1,0 +1,150 @@
+To: info@webaynet.com
+Bcc: bulentseker@gmail.com
+From: [re_Contact_Email]
+Format: html
+Subject: NETPATRON TİB SÜRÜMÜ SİPARİŞ FORMU ([r_pccount] PC)
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 11px;
+	font-weight: bold;
+}
+.style3 {
+	color: #000000;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style7 {font-size: 12px; font-weight: bold; }
+.style9 {color: #FF0000}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<span class="style9"><strong>TİB ONAYLI FİLTRE SATIŞI (KREDİ KARTI)</strong></span><br>
+<table width="600" border="2" cellpadding="0" cellspacing="0" class="style3">
+   <tr>
+     <td><table width="100%" border="0" cellspacing="5" cellpadding="0">
+       <tr>
+         <td colspan="3"><table width="100%" border="0" cellspacing="5" cellpadding="0">
+           <tr>
+             <td width="156"><span class="style2">Gönderen Ip Adresi</span></td>
+             <td width="10"><div align="center" class="style3">:</div></td>
+             <td width="334"><span class="style7">[%REMOTE_ADDR]</span></td>
+           </tr>
+           
+           <tr>
+             <td><span class="style2">Gönderildigi Tarih</span></td>
+             <td><div align="center" class="style3">:</div></td>
+             <td><span class="style7">[%DATE]</span></td>
+           </tr>
+           
+           <tr>
+             <td><span class="style2">Gönderildigi Saat</span></td>
+             <td><div align="center" class="style3">:</div></td>
+             <td><span class="style7">[%TIME]</span></td>
+           </tr>
+         </table>         </td>
+       </tr>
+       <tr>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+       </tr>
+       <tr>
+         <td width="198" bgcolor="#E6E6E6"><span class="style7">Adı ve Soyadı</span></td>
+         <td width="16" bgcolor="#E6E6E6">           <div align="center">:</div></td>
+         <td width="360" bgcolor="#E6E6E6"><span class="style9">[r_First_Name]</span></td>
+       </tr>
+       
+       <tr>
+         <td><span class="style7">Cafe  Adı</span></td>
+         <td><div align="center" class="style4">
+           <div align="center"><strong>:</strong></div>
+         </div></td>
+         <td><span class="style9"><strong>[r_cafename]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><span class="style7">Sabit Ip Adresi</span></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[rw_sabitip]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><span class="style7">Bilgisayar Sayısı</span></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_pccount]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><span class="style7">Telefon Numarası</span></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_Tel]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Cep Telefonu</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[gsm]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>E-Mail Adresi</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[re_Contact_Email]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Vergi Dairesi</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_vdaire]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Vergi Numarası</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_vno]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Adresi</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[r_Com]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td bgcolor="#E6E6E6"><strong>Bulunduğu Şehir</strong></td>
+         <td bgcolor="#E6E6E6"><div align="center" class="style4"><strong>:</strong></div></td>
+         <td bgcolor="#E6E6E6"><span class="style9"><strong>[r_City]</strong></span></td>
+       </tr>
+       
+       <tr>
+         <td><strong>Özel Mesajı</strong></td>
+         <td><div align="center" class="style4"><strong>:</strong></div></td>
+         <td><span class="style9"><strong>[ozelmsg]</strong></span></td>
+       </tr>
+       
+     </table></td>
+   </tr>
+ </table>
+ <hr size="2" width="600" noshade align="left" color="#333333">
+ <p class="style9"><strong>ALLAH BİN BEREKET VERSİN İNŞALLAH !</strong></p>
+ <p><span class="style7">WEBAYNET YAZILIM<br>
+  www.webaynet.com</span><br>
+</p>
+<hr size="2" width="600" noshade align="left" color="#333333">
+<p>&nbsp; </p>
+</body>
+</html>

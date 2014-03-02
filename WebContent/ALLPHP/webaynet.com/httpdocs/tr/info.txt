@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: webaynet.com/tr
+site_owner: Webaynet.com
+address1: Ogretmenler Cad. Egitim Sok. No:3/B
+address2: Avcılar
+city: Istanbul
+state: TR
+country: Turkey
+postal_code: 34513
+phone_number:  902126953542
+display_email: info@webaynet.com
+site_name: 
+site_description: 

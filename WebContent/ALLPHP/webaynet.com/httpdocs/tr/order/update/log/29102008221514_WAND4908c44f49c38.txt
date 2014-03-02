@@ -1,0 +1,6 @@
+Order ID : WAND4908c44f49c38
+Order Type : WAND
+Customer Name : Bülent þeker
+SQL Actions : success
+Payment Date : 29-10-2008 22:15:14
+Error Codes : no_empty_key_data

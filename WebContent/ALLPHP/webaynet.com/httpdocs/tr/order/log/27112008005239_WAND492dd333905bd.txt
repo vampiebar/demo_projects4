@@ -1,0 +1,6 @@
+Order ID : WAND492dd333905bd
+Order Type : WAND
+Customer Name : ssdfsdf
+SQL Actions : failed
+Payment Date : 27-11-2008 00:52:39
+Error Codes : no_empty_key_data

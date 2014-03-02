@@ -1,0 +1,284 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.workviewer.com-https.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2016                
+POS_TIME 2687                
+POS_VISITOR 6385                
+POS_DAY 6860                
+POS_DOMAIN 3302                
+POS_LOGIN 3530                
+POS_ROBOT 3685                
+POS_WORMS 3891                
+POS_EMAILSENDER 4022                
+POS_EMAILRECEIVER 4165                
+POS_SESSION 7215                
+POS_SIDER 7372                
+POS_FILETYPES 4300                
+POS_DOWNLOADS 4487                
+POS_OS 4535                
+POS_BROWSER 4660                
+POS_SCREENSIZE 4851                
+POS_UNKNOWNREFERER 4925                
+POS_UNKNOWNREFERERBROWSER 5012                
+POS_ORIGIN 5094                
+POS_SEREFERRALS 5227                
+POS_PAGEREFS 5371                
+POS_SEARCHWORDS 5519                
+POS_KEYWORDS 5671                
+POS_MISC 2351                
+POS_ERRORS 5730                
+POS_CLUSTER 3386                
+POS_SIDER_404 5843                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140301035926 1 0 2888333657882
+FirstTime 20140201011138
+LastTime 20140228120520
+LastUpdate 20140302042038 1 0 0 0 0
+TotalVisits 18                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 30353
+1 1 1 30255 2 2 60612
+2 0 0 0 3 3 90936
+3 0 0 0 2 2 60771
+4 0 0 0 0 0 0
+5 0 0 0 3 3 63720
+6 0 0 0 2 2 31368
+7 1 1 30277 2 2 31368
+8 0 0 0 1 1 1015
+9 3 3 90729 1 1 1015
+10 2 2 60868 0 0 0
+11 2 2 59008 2 2 31368
+12 1 1 29504 2 2 52879
+13 2 2 60868 1 1 30418
+14 0 0 0 3 3 36418
+15 1 1 29553 10 10 22642
+16 8 42 1108127 1 2 30353
+17 0 0 0 1 1 1015
+18 3 3 90729 2 2 31368
+19 0 0 0 1 1 30353
+20 2 2 60868 4 4 36727
+21 9 9 271473 1 1 2039
+22 0 0 0 0 0 0
+23 3 3 90729 3 3 61721
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 38 72 2012988
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 22 667744 20140227185231 0
+netcraft 1 2039 20140208212725 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 35 963000 0 0
+css 3 126129 0 0
+png 21 525313 0 0
+jpg 5 178646 0 0
+js 5 134275 0 0
+Unknown 2 41632 0 0
+woff 1 43993 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+winxp 1 1
+macintosh 2 2
+winvista 5 5
+linux 10 10
+win7 54 20
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome28.0.1500.72 12 12
+firefox3.0.13 1 1
+chrome31.0.1650.63 3 3
+firefox25.0 2 2
+firefox24.0 2 2
+chrome32.0.1700.107 42 8
+firefox16.0 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 32
+From1 0 0
+From2 0 0
+From3 0 0
+From4 6 40
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+400 10 10150
+500 1 22526
+404 14 36000
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 12
+/msd/ 1 -
+/phppgadmin/ 1 -
+/admin/config.php 1 -
+/phpPgADmin/ 1 -
+/pma/ 1 -
+/phpMyAdmin/ 1 -
+/MySQLDumper/ 1 -
+/%70%68%70%70%61%74%68/%70%68%70 1 -
+/mysqldumper/ 1 -
+/phpmyadmin/ 1 -
+http://wujieliulan.com/mnews.htm 3 -
+/mysql/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+212.253.84.124 8 42 1108127 20140213165439
+129.10.115.241 6 6 182604 20140219132313
+88.198.150.60 6 6 181458 20140224215102
+78.46.198.70 6 6 181458 20140209181244
+129.10.115.56 4 4 121736 20140225212619
+54.196.194.15 4 4 118016 20140211115309
+173.255.224.18 1 1 30277 20140211070026
+71.182.235.90 1 1 30255 20140201011138
+54.198.204.164 1 1 29504 20140228120520
+199.19.111.210 1 1 29553 20140206152203
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20140201 1 1 30255 1
+20140202 3 3 90729 1
+20140204 2 2 60868 1
+20140206 1 1 29553 1
+20140209 3 3 90729 1
+20140210 2 2 59008 1
+20140211 3 3 89285 2
+20140212 2 2 60868 2
+20140213 8 42 1108127 1
+20140217 5 5 151597 3
+20140219 2 2 60868 1
+20140224 3 3 90729 1
+20140225 2 2 60868 1
+20140228 1 1 29504 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 17
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 32 962049 18 17
+/kayit.php 3 951 0 1
+/indir 2 41632 0 0
+/font/fontawesome-webfont.woff 1 43993 0 0
+END_SIDER

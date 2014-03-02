@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Calculations Form Demo</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<p align="center"><b><font size="3">Calculations Form Demo</font></b></p>
+<p align="center" class="attention"><b>Attention:</b> Please use your valid email address. <br>
+This demo will send processing results to the entered email.</p>
+
+<div align="center"><p><!-- FPP_ERROR --></p></div>
+<form name="Simple" method="post" action="../fpp/index.php" enctype="multipart/form-data">
+<input name="fpp_form" type="hidden" value="calculations-form">
+  <div align="center"> 
+    <table border="0" align="center" width="550">
+			<tr>
+			      <td colspan="3" align="center"><!-- FPP_ERROR --></td>
+		    </tr>
+			<tr align="center"> 
+				<td colspan="3"><b>Information: </b></td>
+			</tr>
+			<tr> 
+				<td align="right"><strong><font color="#FF0000">*</font>Name: </strong></td>
+				<td>&nbsp;</td>
+				<td>{#name|lower|capitalize#}</font></td>
+			</tr>
+			<tr> 
+				<td align="right"><strong>Company Name: </strong></td>
+				<td>&nbsp;</td>
+				<td>{#company-name#}</font></td>
+			</tr>
+			<tr> 
+				<td align="right"><strong><font color="#FF0000">*</font>Contact eMail: </strong></td>
+				<td>&nbsp;</td>
+				<td>{#email#}</td>
+			</tr>
+			<tr align="left"> 
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3"><strong>Number divided by 2:</strong></td>
+			</tr>
+			<tr> 
+				<td align="center" colspan="3">{#Number#} / 2 = {# Number / 2 #}</td>
+			</tr>
+			<tr> 
+				<td align="right" height="15">&nbsp;</td>
+				<td>&nbsp;</td>
+				<td height="15">&nbsp;</td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3"><strong>Add up numbers and 
+					multiply them by the tax rate:</strong></font></td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3">( {#NumberA#} + {#NumberB#} + {#NumberC#} ) * {#TaxRate#} = {# ( NumberA + NumberB + NumberC ) * TaxRate #}</td>
+			</tr>
+			<tr> 
+				<td align="right" height="13">&nbsp;</td>
+				<td>&nbsp;</td>
+				<td height="13">&nbsp;</td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3"><strong>Using IF condition: </strong></td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3">ifcond (( {#Number1#} > {#Number2#} ), ( {#Number1#} + 10 ), ( {#Number2#} )) = {#ifcond (( Number1 > Number2 ), ( Number1 + 10 ), ( Number2 ))#} </font></td>
+			</tr>
+			<tr align="left"> 
+				<td colspan="3">&nbsp;</td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3"><strong>The order amount of {#Quantity#} items is:</strong></td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3">${#ifcond (( Quantity >= 20 ), ( Quantity * 9.99 ), ( ifcond (( Quantity >= 10 ), ( Quantity * 12.95 ), ( ifcond (( Quantity >= 5 ), ( Quantity * 15.95 ), ( Quantity * 19.95 ) )))))#} </font></td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3"><strong>Price per item for this amount is:</strong></td>
+			</tr>
+			<tr align="center"> 
+				<td colspan="3">${#ifcond (( Quantity >= 20 ), ( 9.99 ), ( ifcond (( Quantity >= 10 ), ( 12.95 ), ( ifcond (( Quantity >= 5 ), ( 15.95 ), ( Quantity * 19.95 ) )))))#}</td>
+			</tr>
+			<tr align="left"> 
+				<td colspan="3">&nbsp;</td>
+			</tr>			
+			<tr align="left"> 
+				<td colspan="3">Please check entered data and if everything 
+					is OK press &quot;Submit&quot; button, else push back button of your web 
+					browser and edit incorrect fields.</td>
+			</tr>
+		</table>
+    <p><font size="2"> 
+      <input type="submit" name="Submit" value="SUBMIT">
+      <input type="submit" name="fpp_back" value="BACK &amp; EDIT">
+      </font></p>
+    <div align="center"> 
+    <p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+      Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+      </div>
+    <p>&nbsp; </p>
+  </div>
+</form>
+</body>
+</html>

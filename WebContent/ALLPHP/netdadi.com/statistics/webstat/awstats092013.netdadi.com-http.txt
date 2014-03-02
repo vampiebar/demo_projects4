@@ -1,0 +1,1031 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.netdadi.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2012                
+POS_TIME 2695                
+POS_VISITOR 26710               
+POS_DAY 36349               
+POS_DOMAIN 3564                
+POS_LOGIN 3797                
+POS_ROBOT 3952                
+POS_WORMS 4851                
+POS_EMAILSENDER 4982                
+POS_EMAILRECEIVER 5125                
+POS_SESSION 37125               
+POS_SIDER 37329               
+POS_FILETYPES 5260                
+POS_DOWNLOADS 5421                
+POS_OS 5538                
+POS_BROWSER 5783                
+POS_SCREENSIZE 6811                
+POS_UNKNOWNREFERER 6885                
+POS_UNKNOWNREFERERBROWSER 7672                
+POS_ORIGIN 8035                
+POS_SEREFERRALS 8179                
+POS_PAGEREFS 8366                
+POS_SEARCHWORDS 9426                
+POS_KEYWORDS 9717                
+POS_MISC 2357                
+POS_ERRORS 9895                
+POS_CLUSTER 3653                
+POS_SIDER_404 10027               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001000518 177 40772 9903896242804
+FirstTime 20130903110757
+LastTime 20130930211220
+LastUpdate 20131001044805 177 0 176 0 0
+TotalVisits 272                 
+TotalUnique 238                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 240                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 213 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 145 13015163 76 182 446773
+1 9 82 20861420 93 213 272874
+2 13 116 2988380 93 194 405048
+3 3 18 469798 51 117 249141
+4 3 29 658563 58 131 460941
+5 4 4 20551 70 141 233512
+6 4 11 320623 79 142 269869
+7 12 12 93485 111 173 4938825
+8 8 57 2144432 98 206 285110
+9 16 95 2382674 74 172 223072
+10 16 113 3750433 79 283 364278
+11 37 338 8198866 87 208 332469
+12 12 82 2469764 58 164 504923
+13 21 148 5239567 94 230 383588
+14 17 136 4957972 82 210 365793
+15 22 148 4226029 111 241 430939
+16 29 176 4818843 90 219 330263
+17 30 251 6576919 81 211 403390
+18 25 165 4503936 51 219 405996
+19 19 171 4170951 53 185 351503
+20 19 142 4494409 143 262 342357
+21 17 124 3324443 107 211 337557
+22 31 207 5504180 82 216 331533
+23 19 168 4622840 94 186 250233
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 400 2938 105181048
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+yandex 106 1041200 20130929154931 0
+googlebot 77 5348506 20130930201202 0
+bingbot 63 888691 20130930014528 0
+python 33 101637 20130911074623 0
+sogou 30 139580 20130930135944 0
+no_user_agent 26 129154 20130927152149 0
+baiduspider 26 242217 20130928220808 0
+msnbot\-media 15 478545 20130928064928 0
+mj12bot 9 41588 20130929083530 0
+spider 8 117685 20130926174936 0
+seznambot 1 5022 20130929170649 0
+bingpreview 1 675 20130913134258 0
+yeti 2 9970 20130924232935 0
+mail\.ru 1 4985 20130922133210 0
+ezoom 2 9932 20130925074206 0
+^mozilla\/4\.0$ 1 4985 20130904131844 0
+robot 4 19864 20130928040353 0
+surveybot 3 14955 20130923175947 0
+bot[\s_+:,\.\;\/\\-] 3 14898 20130925051105 0
+wget 4 1216 20130916131900 0
+nutch 1 4985 20130909030227 0
+crawl 6 30134 20130926231057 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+wmv 17 24500197 0 0
+php 398 3675893 0 0
+png 469 6453628 0 0
+html 2 596 0 0
+jpg 2052 70550734 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/tr/press/SKYTURK.wmv 10 1 19418327
+/tr/press/dosttv.wmv 8 0 9715048
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linuxandroid 17 3
+blackberry 1 1
+macosx6 4 4
+winlong 7 6
+winxp 815 113
+linuxubuntu 2 2
+linux 25 11
+win7 1641 197
+linuxcentos 8 1
+win2003 1 1
+win8 387 39
+Unknown 28 19
+macosx8 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 52
+chrome27.0.1453.94 8 1
+msie6.0 4 4
+chrome27.0.4.0 24 3
+firefox3.8 1 1
+chrome29.0.1547.57 8 1
+firefox3.6 5 5
+chrome29.0.1547.76 362 39
+android 9 2
+chrome12.0.742.91 3 2
+chrome28.0.1500.95 72 6
+chrome29.0.1547.62 48 6
+firefox4.0 1 1
+firefox18.0 2 2
+firefox24.0 28 5
+opera9.80 35 6
+msie8.0 429 60
+firefox13.0.1 8 1
+chrome27.2.0.0 8 1
+msie7.0 57 14
+firefox23.0 157 17
+chrome10.0.648.204 3 3
+msie9.0 228 23
+chrome29.0.1547.66 805 84
+Unknown 4 4
+chrome24.0.1312.52 1 1
+safari5.0.5 32 4
+blackberry 1 1
+chrome22.0.1207.1 4 4
+firefox21.0 9 2
+nsplayer 7 0
+chrome16.0.899.0 8 1
+firefox3.0.11 3 3
+chrome27.0.1453.110 24 3
+chrome28.0.1500.71 10 1
+firefox7.0.1 5 5
+opera9.25 1 1
+firefox2.0.0.11 2 2
+firefox1.0.7 1 1
+firefox25.0 4 4
+mozilla 27 17
+chrome26.0.1410.64 8 1
+firefox22.0 2 2
+firefox14.0.1 5 5
+msie10.0 325 33
+chrome25.0.1364.172 92 8
+firefox19.0 17 3
+chrome27.0.1453.116 8 1
+konqueror3.5 1 1
+chrome29.0.1547.72 8 1
+chrome21.0.1180.89 16 2
+chrome18.0.1025.152 1 1
+firefox3.6.13 8 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 11
+MacInroy_Privacy_Auditors._See_netdadi.com's_privacy_violation_report:_http://netdadi.com.macinroy.com/netdadi.com 20130927135450
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130923080439
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20130928111633
+Mozilla/5.0_(compatible) 20130906223201
+NSPlayer/12.00.9200.16437_WMFSDK/12.00.9200.16437 20130916140840
+NSPlayer/9.0.0.3250 20130910014619
+Mozilla/6.0_(compatible) 20130907111742
+NSPlayer/9.0.0.3250_WMFSDK/9.0 20130910014620
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20130911070038
+http_requester/0.1 20130910091649
+Mozilla/3.0_(compatible;_Indy_Library) 20130908234403
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+MacInroy_Privacy_Auditors._See_netdadi.com's_privacy_violation_report:_http://netdadi.com.macinroy.com/netdadi.com 20130927135450
+TulipChain/5.x_(http://ostermiller.org/tulipchain/)_Java/1.x.1_0x_(http://java.sun.com/)_Linux/2.4.17 20130922103554
+http_requester/0.1 20130910091649
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 120 127
+From1 0 0
+From2 137 137
+From3 69 99
+From4 74 2576
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 133 133
+search 1 1
+bing 2 2
+ask 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 17
+http://forum.donanimhaber.com/m_24264279/tm.htm 30 30
+http://forum.thgtr.com/ag-internet/agdaki-internet-trafigini-takip-etmek/ 17 17
+http://dreamonload.com 5 5
+http://www.govome.com/web 3 3
+http://www.serdarb.com/tools-programs/netdadi-internet-filtreleme-programi/ 2 2
+http://netdadi.co.macinroy.com/netdadi.com 2 2
+http://yandex.com.tr/yandsearch 2 2
+http://yandex.com.tr/clck/jsredir 1 1
+http://forum.donanimhaber.com/m_16929479/tm.htm 1 1
+http://www.yandex.com.tr/yandsearch 1 1
+http://translate.googleusercontent.com/translate_c 0 21
+http://snap.hotspotshield.com/view.php 1 1
+http://forum.thgtr.com/ag-internet/agdaki-internet-trafigini-takip-etmek/msg157066/ 1 1
+http://www.gezginler.net/indir/netdadi-home.html 1 1
+http://www.webaynet.com/tr/basindabiz.php 0 9
+http://www.turkhackteam.net/program-bolumu/923752-isinize-yarayacak-programlar.html 1 1
+http://www.gezginler.net/indir/netdadi-free.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+netdad%c4%b1 13
+net+dad%c4%b1 4
+netdad%c4%b1+ayarlar%c4%b1 3
+netdadi 3
+net+daddi 1
+netdai 1
+netdad%c4%b1%c3%bc 1
+netdadi+kokten+kaldirma 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+netdad%c4%b1 16
+net 5
+dad%c4%b1 4
+netdadi 4
+ayarlar%c4%b1 3
+kaldirma 1
+daddi 1
+kokten 1
+netdai 1
+netdad%c4%b1%c3%bc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 1150 256494
+206 13 90526
+301 4 2150
+404 2914 3608634
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 382
+/tr/images/freenedenbar.png 3 -
+/tr/images/screncapture/netpatron/anamenu_smal.png 2 -
+/TR/images/screncapture/netdadi3/programkisitlama.jpg 2 -
+/admin.php 2 -
+/tr/images/orderpageust.png 2 -
+/tr/images/netdfreeust.png 2 -
+/tr/NDHELP/GUVENLIMOD.html 4 -
+/tr/images/screentablealt_3.png 3 -
+/tr/images/sitekulsartbaslik.png 2 -
+/tr/images/screncapture/netpatron/suresinir.png 2 -
+/tr/freenetdadi.php 1 -
+/images/screncapture/netdadi/webreport.png 4 -
+/tr/images/intehar.jpg 2 -
+/images/ndinfobaslik.jpg 2 -
+/tr/orderpage.php 2 -
+/stop.jpg 420 http://www.haber7.com/
+/TR/product.php 2 -
+/images/alt.jpg 3 -
+/TR/images/netdfreealt.png 5 -
+/images/SKYTURKLOGO.jpg 2 -
+/TR/NDHELP/netdadikurulum.html 1 -
+/tr/images/screncapture/netdadi/progrest.png 2 -
+/download/netdadikur.exe 13 http://es.brothersoft.com/
+/tr/images/urun_netdadi.png 2 -
+/images/screncapture/netdadi/usercapture_smal.png 2 -
+/en/veriupddetay.html 1 -
+/tr/images/netpatronccozel.png 2 -
+/en/support.html 1 -
+/TR/ 2 -
+/tr/images/resformorta.png 2 -
+/tr/netdadiorder.php 1 -
+/tr/images/screentableust_3.png 2 -
+/tr/NDHELP/images/rpor.jpg 2 -
+/tr/images/orderpagenetpatron.png 2 -
+/tr/images/urunlarbaslik.png 3 -
+/en/yonadresdetay.html 1 -
+/tr/support.php 2 -
+/tr/nginfo.php 1 -
+/images/screncapture/netdadi/suresinir_smal.png 2 -
+/tr/download.php 1 -
+/wp-login.php 4 -
+/tr/goruntulukulkaydi.html 9 -
+/tr/images/screncapture/netpatron/userreport.png 2 -
+/TR/faq.php 1 -
+/tr/images/netdadiozel.png 3 -
+/tr/images/engellenensayfa.jpg 5 -
+/tr/images/netpatronozel.png 3 -
+/TR/about.php 1 -
+/tr/images/kumar.jpg 3 -
+/tr/images/urun_netdadifree.png 2 -
+/tr/images/screncapture/netdadi/webreport.png 2 -
+/TR/images/stopicerikmsg_smal.png 4 -
+/TR/images/screncapture/netdadi3/programkisitlama_small.jpg 2 -
+/en/guvalandetay.html 3 -
+/tr/images/satinal_a.jpg 2 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/download/NetDKur.exe 31 http://www.turkhackteam.net/program-bolumu/203481-iste-tum-programlar.html
+/BingSiteAuth.xml 5 -
+/images/screncapture/netdadi/downrest_smal.png 3 -
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 3 http://www.netdadi.com/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/images/dosttvlogo.jpg 3 -
+/images/icsayfa_menu.jpg 2 -
+/tr/images/screncapture/netdadi/suresinir.png 3 -
+/tr/images/screncapture/netdadi/webreport_small.png 2 -
+/editor/filemanager/connectors/asp/connector.asp 3 http://www.netdadi.com/editor/filemanager/connectors/asp/connector.asp
+/tr/images/screncapture/netdadi/filtersettings.png 2 -
+/images/surerest.png 3 -
+/tr/NDHELP/images/enalt.jpg 3 -
+/TR/altmenu.php 1 -
+/TR/sss/netpatron20sss.php 1 -
+/tr/images/screncapture/netpatron/usercapture.png 2 -
+/tr/images/screencapture_baslik.png 2 -
+/images/report.png 2 -
+/tr/images/tibonay2.png 2 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+/en/winrestdetay.html 1 -
+/tr/netpatronccorder.php 2 -
+/TR/images/icsayfaaltmenu.jpg 2 -
+/tr/images/screncapture/netpatron/progrest_smal.png 2 -
+/images/ortasol.jpg 4 -
+/tr/images/supportalt.png 2 -
+/images/yonparola.png 3 -
+/TR/hsipform.html 2 -
+/TR/images/OK.png 4 -
+/images/sreencapture.png 2 -
+/tr/netdfreeinfo.php 3 -
+/highslide/highslide.js 28 http://www.netdadi.com/tr/sreencapture.php
+/tr/images/screncapture/netpatron/progrest.png 2 -
+/images/screncapture/netdadi/usercapturereport.png 4 -
+/tr/images/screentableust_2.png 3 -
+/TR/support_2.asp 2 -
+/tr/style.css 396 http://www.netdadi.com/tr/
+/images/screncapture/netdadi/ayarlar.png 5 -
+/images/programrest.png 2 -
+/robots.txt 486 -
+/tr/support.asp 1 -
+/tr/images/netdadifiyat.png 2 -
+/tr/images/screentablealt_2.png 2 -
+/images/homeust.jpg 2 -
+/tr/NDHELP/images/yta.jpg 3 -
+/TR/images/stopicerikmsg.png 4 -
+/<a%20href='http://www.mircturkish.com'>download</a>/freeNetDKur.exe& 5 -
+/noexist_00af420479c629cc.html 2 -
+/tr/images/supportust.png 3 -
+/tr/images/supportbaslik.png 2 -
+/en/pad_file_EN.xml 269 -
+/tr/NDHELP/images/dfk.jpg 2 -
+/tr/images/screncapture/netdadi3/filterayar.jpg 8 http://www.netdadi.com/tr/sreencapture.php
+/TR/images/screncapture/netdadi3/ayarlar.jpg 2 -
+/tr/images/netpatronfiyat.png 3 -
+/<a%20href='http://www.webteyim.com'>download</a>/freeNetDKur.exe& 6 -
+/en/irtibatform.html 2 -
+/tr/images/orderptablealt.png 3 -
+/wordpress 1 http://netdadi.com/wordpress
+/images/kolkularayus.png 2 -
+/TR/netpatronorder.php 1 -
+/en/index.html 1 -
+/images/screncapturebaslik.jpg 2 -
+/tr/images/screncapture/netpatron/ayarlar.png 2 -
+/tr/images/screncapture/netdadi/suresinir_smal.png 3 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
+/images/menu.jpg 1 -
+/TR/images/stoptibmsg_smal.png 4 -
+/en/images/screen/NDmainmanu.jpg 32 -
+/en/downkisitdetay.html 2 -
+/tr/images/screncapture/netdadi/yontanadres.png 3 -
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 3 http://www.netdadi.com/fckeditor/editor/filemanager/connectors/asp/connector.asp
+/images/outoupdate.png 2 -
+/tr/images/screncapture/netpatron/npnetwork_smal.png 2 -
+/tr/images/screncapture/netpatron/suresinir_smal.png 2 -
+/tr/images/urunlerimiz_a.jpg 3 -
+/images/screncapture/netdadi/suresinir.png 3 -
+/tr/filterdetay.html 10 -
+/tr/images/screncapture/netdadi3/goruntuizleme.jpg 7 http://www.netdadi.com/tr/sreencapture.php
+/tr/images/orderpagenetpatroncc.png 2 -
+/TR/images/screncapture/netdadi3/downkisitlama_small.jpg 2 -
+/tr/NDHELP/uninstall.html 8 -
+/TR/images/screncapture/netdadi3/suresinirlamalari_small.jpg 2 -
+/tr/progkisitdetay.html 11 -
+/TR/images/screncapture/netdadi3/filterayar_small.jpg 2 -
+/tr/images/screncapture/netpatron/yontanadresler.png 3 -
+/TR/images/netpccsssbaslik.png 5 -
+/tr/NDHELP/images/bkss.jpg 3 -
+/drupal 1 http://netdadi.com/drupal
+/tr/netpatronccbankhavform.php 1 -
+/images/screncapture/netdadi/downrest.png 4 -
+/apple-touch-icon.png 4 -
+/tr/images/netdfreeinfo.png 2 -
+//fckeditor/editor/filemanager/connectors/php/connector.php 3 http://www.netdadi.com//fckeditor/editor/filemanager/connectors/php/connector.php
+/tr/about.php 6 -
+/tr/newreseller.php 1 -
+/tr/images/yukle_a.jpg 2 -
+/tr/images/screncapture/netdadi/kapatkaldir_smal.png 3 -
+/tr/NDHELP/images/ikss.jpg 3 -
+/tr/images/refaransbaslik.png 2 -
+/images/screncapture/netdadi/winrest_smal.png 2 -
+/tr/menu/altmenu.php 1 -
+/tr/images/netpsssustbaslik.png 2 -
+/joomla 1 http://netdadi.com/joomla
+/en/ 10 -
+/TR/images/screncapture/netdadi3/downkisitlama.jpg 2 -
+/tr/images/netdsipbaslik.png 3 -
+/tr/images/screncapture/netpatron/ayarlar_smal.png 2 -
+/tr/images/screncapture/netpatron/kapatveyakaldir_smal.png 3 -
+/tr/helpnd/index.html 5 http://www.netdadi.com/tr/ndinfo.php
+/tr/images/about_alttable_ust.png 2 -
+/tr/images/screncapture/netdadi/winrest.png 3 -
+/tr/images/ustorta_2.png 2 -
+/apple-touch-icon-precomposed.png 1 -
+/tr/images/ata.jpg 3 -
+/%c2%a02013-09-03%c2%a0 1 -
+/images/screncapture/netdadi/usercapturereport_smal.png 3 -
+/tr/images/orderpagenetdadi.png 2 -
+/tr/images/bayilerimiz_a.jpg 3 -
+/tr/product.php 4 -
+/tr/images/screncapture/netdadi3/downkisitlama.jpg 13 http://www.netdadi.com/tr/sreencapture.php
+/wp 1 http://netdadi.com/wp
+/tr/screencapture.php 3 -
+/tr/images/screncapture/netpatron/yontanadresler_smal.png 2 -
+/TR/ndinfo.php 1 -
+/images/mailimages/Mail2ust.jpg 1 -
+/helpnd/index.html 3 -
+/tr/images/MODEM.png 2 -
+/images/ndimages.jpg 2 -
+/%3Ca%20href= 3 -
+/components/index.html 1 -
+/images/icsayfa_ust.jpg 2 -
+/tr/images/screncapture/netpatron/downrest_smal.png 3 -
+/tr/images/screncapture/netdadi/ayarlar.png 3 -
+/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp
+/images/screncapture/netdadi/filtersettings.png 2 -
+/TR/images/sssbaslik.jpg 2 -
+/tr/referans.php 11 -
+/TR/images/sssaltbar.png 5 -
+/tr/netpatronccbankhav.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/php/connector.php 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/connectors/php/connector.php
+/tr/npinfo_tib.php 2 -
+/tr/images/screncapture/netdadi/filtersettings_smal.png 3 -
+/TR/images/screncapture/netdadi3/webreports.jpg 2 -
+/en/suresinirdetay.html 1 -
+/tr/NDHELP/index.html 7 -
+/tr/images/sssbaslik.png 3 -
+/code/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 3 http://www.netdadi.com/code/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+/tr/images/ustorta_1.png 3 -
+/tr/images/irtformorta.png 3 -
+/tr/images/screncapture/netdadi/ayarlar_smal.png 2 -
+/images/screncapture/netdadi/yontanadres_smal.png 2 -
+/press.php 4 -
+/tr/images/downnetpcc.png 2 -
+/tr/images/KUTU.jpg 6 -
+/blog 1 http://netdadi.com/blog
+/images/screncapture/netdadi/filtersettings_smal.png 2 -
+/download/freeNetDKur.exe 7 -
+/TR/netdfreeinfo.php 1 -
+/tr/images/screncapture/netdadi3/gkayitayarlari.jpg 5 http://www.netdadi.com/tr/sreencapture.php
+/tr/images/screncapture/netdadi/usercapture.png 3 -
+/tr/images/screncapture/netdadi3/webreports.jpg 5 http://www.netdadi.com/tr/sreencapture.php
+/tr/images/screncapture/netdadi/downrest_smal.png 3 -
+/tr/images/screncapture/netpatron/downrest.png 2 -
+/tr/images/screncapture/netdadi/progrest_smal.png 3 -
+/TR/images/screncapture/netdadi3/goruntuizleme.jpg 2 -
+/tr/images/orderptableust.png 2 -
+/tr/contact.php 2 -
+/images/freedadi.jpg 2 -
+/tr/images/baby.jpg 2 -
+/tr/images/irttableust.png 3 -
+/images/screncapture/netdadi/usercapture.png 3 -
+/tr/images/downnetdfree.png 2 -
+/cms/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 3 http://www.netdadi.com/cms/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+/tr/images/about_alttable_alt.png 3 -
+/TR/images/screncapture/netdadi3/suresinirlamalari.jpg 2 -
+/images/screncapture/netdadi/progrest_smal.png 3 -
+/tr/images/screncapture/netpatron/npnetwork_big.png 2 -
+/tr/images/screncapture/netdadi/usercapturereport_smal.png 3 -
+/tr/images/irtformalt.png 3 -
+/TR/images/screncapture/netdadi3/gkayitayarlari_small.jpg 2 -
+/tr/images/butonkredikarti.png 2 -
+/images/screncapture/netdadi/webreport_small.png 2 -
+http://www.netdadi.com/en/pad_file_EN.xml 5 -
+/TR/images/screncapture/netdadi3/filterayar.jpg 2 -
+/images/screncapture/netdadi/kapatkaldir.png 3 -
+/NetGSer.asmx 8 -
+/TR/images/incebar.png 4 -
+/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 3 http://www.netdadi.com/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+/tr/images/netpccsipbaslik.png 3 -
+/LiveSearchSiteAuth.xml 5 -
+/TR/sss/netpcc20sss.php 2 -
+/tr/images/screentablealt_1.png 3 -
+/tr/rapordetay.html 11 -
+/tr/images/urun_netpatron.png 1 -
+/tr/images/2yasinda.png 2 -
+/images/screncapture/netdadi/anamenu.png 3 -
+/en/contact.html 1 -
+/tr/images/screncapture/netdadi3/suresinirlamalari.jpg 6 http://www.netdadi.com/tr/sreencapture.php
+/tr/NDHELP/images/anasayfa.jpg 2 -
+/tr/images/cocuk.jpg 2 -
+/tr/NDHELP/images/sss.jpg 3 -
+/tr/images/screncapture/netdadi/yontanadres_smal.png 2 -
+/images/ONTOP.png 3 -
+/tr/sss/netpcc20sss.php 2 -
+/tr/altmenu2.php 2 -
+/en/filterdetay.html 2 -
+/<a%20href= 1 -
+/tr/images/screncapture/netdadi3/programkisitlama.jpg 7 http://www.netdadi.com/tr/sreencapture.php
+/en/nginfo.html 3 -
+/TR/images/screncapture/netdadi3/gkayitayarlari.jpg 2 -
+/tr/sss/netdadi20sss.php 1 -
+/tr/sss/netpatron20sss.php 15 -
+/administrator/index.php 5 -
+/tr/NDHELP/images/bu.jpg 3 -
+/images/otherproduct.jpg 4 -
+/TR/press.php 2 -
+/tr/images/butonbankhavale.png 3 -
+/tr/images/screncapture/netdadi/winrest_smal.png 2 -
+/tr/images/screncapture/netdadi/kapatkaldir.png 2 -
+/zw996qa06h5hgfnj.html 1 http://www.netdadi.com/
+/en/yasaluyari.html 1 -
+/images/screncapture/netdadi/progrest.png 3 -
+/tr/images/hakkimizda_a.jpg 2 -
+/TR/helpnd/index.html 1 -
+/tr/PrivacyPolicy.php 2 -
+/tr/NDHELP/netdadikurulum.swf 2 -
+/sitemap.xml 22 -
+/TR/netdadiorder.php 2 -
+/tr/images/indir.jpg 2 -
+/images/yontanadresler.png 2 -
+/tr/images/screncapture/netdadi/anamenu_smal.png 3 -
+/en/screencapture.html 2 -
+/en/images/netdadi_icon.jpg 79 http://70103.search-porn.com-about.com/
+/sreencapture.php 6 -
+/tr/suresinirdetay.html 11 -
+/tr/images/screncapture/netpatron/usercapturereport.png 2 -
+/images/winrest.png 3 -
+/tr/images/netdsssustbaslik.png 2 -
+/TR/images/screncapture/netdadi3/goruntuizleme_small.jpg 2 -
+/tr/images/iletisim_a.jpg 2 -
+/TR/filterdetay.html 2 -
+/%3Ca%20href='http:/www.mircturkish.com'%3Edownload%3C/a%3E/freeNetDKur.exe%E2%80%9D%3Eburaya%3C/a%3E%20tiklayiniz.%3C/p%3E%3Cp%3E%3Cfont%20color= 2 -
+/tr/NDHELP/images/ust.jpg 2 -
+/en/download.html 3 -
+/tr/NDHELP/images/parolaunut.jpg 3 -
+/images/screncapture/netdadi/anamenu_smal.png 3 -
+/images/screncapture/netdadi/ayarlar_smal.png 2 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 3 http://www.netdadi.com/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
+/faq.php 7 -
+/images/icsayfaaltmenu.jpg 2 -
+/images/screncapture/netdadi/yontanadres.png 3 -
+/tr/images/fuhus.jpg 2 -
+/tr/images/screncapture/netpatron/anamenu.png 2 -
+/tr/images/urun_netpatroncc.png 2 -
+/tr/NDHELP/images/dk.jpg 3 -
+/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 3 http://www.netdadi.com/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+/images/akilfiltre.png 2 -
+/tr/yonadresdetay.html 12 -
+/tr/images/screncapture/netpatron/filtersettings.png 2 -
+/tr/images/yasaluyaribaslik.png 3 -
+/images/screncapture/netdadi/kapatkaldir_smal.png 3 -
+/images/screncapture/netdadi/winrest.png 3 -
+/tr/NDHELP/images/uninstall.jpg 2 -
+/TR/images/screncapturebaslik.jpg 2 -
+/tr/images/resformalt.png 3 -
+/TR/images/stopytamsg_smal.png 4 -
+/tr/images/screncapture/netpatron/kapatveyakaldir.png 3 -
+/tr/images/irtibatformbaslik.png 3 -
+/tr/images/irtformorta2.png 3 -
+/tr/images/ustsag.png 2 -
+/tr/images/screncapture/netpatron/filtersettings_smal.png 2 -
+/en/rapordetay.html 2 -
+/tr/images/netdfreebaslik.png 2 -
+/tr/newresellerform.php 2 -
+/TR/images/stoptibmsg.png 6 -
+/tr/nginfo.html 2 -
+/wp-config.php 1 -
+/img/common/pdfm_box.jpg 1 -
+/tr/guvalandetay.html 12 -
+/tr/images/mustehcen.jpg 2 -
+/tr/images/screncapture/netdadi/downrest.png 3 -
+/TR/images/screncapture/netdadi3/ayarlar_small.jpg 2 -
+/tr/images/screentableust_1.png 2 -
+/tr/downkisitdetay.html 10 -
+/tr/index.php 1 -
+/tr/download.html 3 -
+/tr/images/netpsipbaslik.png 3 -
+/TR/images/yasaluyarialt.png 4 -
+/tr/images/ustsol.png 2 -
+/tr/images/resformbaslik.png 3 -
+/tr/images/screncapture/netdadi3/ayarlar.jpg 16 http://www.netdadi.com/tr/sreencapture.php
+/images/sssbaslik.jpg 2 -
+/highslide/graphics/zoomin.cur 31 http://www.netdadi.com/tr/sreencapture.php
+/tr/images/downnetp.png 3 -
+/tr/winrestdetay.html 12 -
+/tr/images/screncapture/netpatron/userreport_smal.png 2 -
+/TR/images/stopytamsg.png 4 -
+/tr/images/kutu_big.jpg 5 -
+/TR/sss/netdadi20sss.php 2 -
+/webalizer/usage_201309.html 1 http://NETDADI.COM/webalizer/usage_201309.html
+/highslide/graphics/ 1 -
+/tr/images/destek_a.jpg 2 -
+/tr/NDHELP/images/altust.jpg 2 -
+/tr/images/refustbaslik.png 2 -
+/tr/NDHELP/images/kc.jpg 3 -
+/tr/images/screncapture/netdadi/anamenu.png 2 -
+/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 3 http://www.netdadi.com/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+/tr/images/screncapture/netdadi/usercapture_smal.png 2 -
+/tr/images/screncapture/netpatron/usercapture_smal.png 2 -
+/tr/NDHELP/images/wfa.jpg 2 -
+/images/downlrest.png 2 -
+/tr/images/downust.png 2 -
+/TR/images/screncapture/netdadi3/webreports_small.jpg 2 -
+/TR/images/checkbox.png 4 -
+/cms/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 3 http://www.netdadi.com/cms/fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+/tr/NDHELP/images/pk.jpg 2 -
+/tr/images/downnetd.png 3 -
+/tr/images/screncapture/netdadi/usercapturereport.png 2 -
+/tr/buynow.html 18 -
+/en/buynow.html 7 -
+/tr/images/screncapture/netpatron/usercapturereport_smal.png 3 -
+/tr/NDHELP/netdadikurulum_preload.swf 2 -
+/tr/images/infomenu2.png 3 -
+/tr/NDHELP/images/kek.jpg 2 -
+/ndinfo.php 4 -
+/tr/NDHELP/netdadikurulum.html 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 240
+83.213.197.84 9 9 44865 20130911074240
+192.114.71.13 7 11 270161 20130906223209
+195.214.140.20 6 20 486737 20130903110821
+69.58.178.58 6 6 77969 20130911182709
+46.197.63.39 5 48 1008081 20130909171931
+193.43.252.252 5 5 24925 20130922161517
+208.88.226.73 5 5 1520 20130928051955
+88.249.242.238 5 47 1309047 20130929135939
+81.215.210.194 4 39 305630 20130909195014
+66.119.41.34 4 4 63050 20130919070646
+94.123.88.55 1 8 305631 20130925221903
+176.41.165.139 1 8 305630 20130915120438
+78.191.208.24 3 38 753394 20130910003736
+150.70.64.215 1 1 5023 20130907155517
+85.103.240.148 3 24 764810 20130906221513
+78.179.127.231 2 23 514792 20130913154610
+68.68.40.195 1 1 5023 20130922103554
+85.108.210.239 1 8 153548 20130925213555
+78.178.114.8 3 36 963880 20130903111807
+88.233.133.158 2 16 611264 20130916214401
+78.177.150.223 1 8 305630 20130918095413
+78.178.158.151 1 8 305630 20130917084912
+88.233.108.203 2 16 611262 20130917183658
+83.133.125.202 1 1 4985 20130915132814
+78.175.241.189 1 8 305630 20130911135535
+72.14.199.237 1 1 298 20130928111633
+85.107.243.30 1 8 305631 20130928115743
+150.70.97.124 1 1 4966 20130907155436
+46.196.218.99 2 23 392156 20130928233533
+78.185.177.92 1 23 400140 20130925235013
+176.43.194.254 1 8 305630 20130915122503
+212.174.172.197 1 8 305177 20130913151624
+88.248.254.195 2 16 305630 20130910215411
+84.44.7.210 1 8 305177 20130920135326
+216.177.129.105 3 38 751981 20130910192812
+208.76.50.67 1 8 305631 20130929023630
+85.105.216.125 1 8 305630 20130927082722
+78.181.42.68 2 23 581410 20130905223843
+78.163.86.46 1 8 305631 20130920165333
+95.7.197.192 1 8 305630 20130917150128
+88.243.65.10 1 8 305630 20130912154139
+176.43.201.36 1 8 305630 20130913103922
+131.107.0.115 1 1 5023 20130907210011
+78.179.172.87 3 38 753393 20130916231845
+212.253.51.59 1 8 305630 20130911101916
+88.242.227.215 3 17 481465 20130909131000
+78.165.166.183 1 9 316234 20130915004734
+66.249.81.224 3 3 15066 20130915185119
+88.233.44.25 1 9 159201 20130927033412
+78.165.22.63 1 8 305630 20130913202356
+85.100.198.139 1 8 305631 20130916171906
+95.7.58.10 1 8 305632 20130918100438
+78.170.61.160 2 16 459175 20130903121753
+88.238.30.68 4 41 790607 20130907201140
+85.96.0.41 1 8 305631 20130917235421
+88.233.194.135 2 18 480388 20130918012450
+88.242.103.232 1 8 305632 20130924144136
+88.243.6.242 3 31 697776 20130921223749
+82.192.74.7 3 3 14898 20130911070038
+59.95.238.184 1 8 305630 20130912131426
+88.250.161.57 4 32 1222519 20130913152455
+93.159.230.87 1 1 5023 20130910144051
+78.179.114.77 3 31 820424 20130903160209
+78.180.58.0 1 8 305630 20130916203451
+212.253.61.166 2 16 611259 20130909202549
+78.190.74.161 2 18 248690 20130924112217
+78.190.92.124 1 8 305631 20130930211220
+88.247.238.207 1 8 305630 20130910112506
+95.8.155.74 1 8 305630 20130921084449
+85.102.191.119 1 8 305631 20130928231256
+95.6.3.200 1 8 305631 20130919140911
+46.1.94.77 1 8 305631 20130912142352
+95.10.253.171 1 9 316235 20130914020907
+83.66.238.233 1 9 316234 20130914232720
+78.186.189.65 1 8 153548 20130927115048
+95.9.176.104 1 9 316235 20130926094859
+150.70.173.46 1 1 4966 20130907160322
+199.19.249.196 1 1 5023 20130908171012
+5.46.122.191 1 8 305630 20130912162113
+85.99.34.100 3 32 708381 20130908211225
+78.189.33.35 1 8 305630 20130906191152
+213.43.169.98 1 9 316235 20130921023233
+88.232.94.68 1 8 305632 20130920234047
+88.250.26.135 1 8 305631 20130907165228
+81.214.226.70 1 8 305630 20130903191449
+78.165.216.243 1 8 305630 20130914085448
+81.213.242.181 2 28 658259 20130914040630
+95.9.132.28 3 31 697773 20130911093545
+81.215.109.7 1 8 305631 20130911174421
+65.55.215.244 1 1 24113 20130914011616
+205.237.88.152 3 3 15066 20130917153107
+88.234.84.144 1 9 316235 20130912131414
+151.250.75.172 1 8 305630 20130904021443
+199.255.210.52 2 16 611261 20130916131903
+62.29.120.190 3 38 753396 20130928181802
+85.25.134.59 2 2 9932 20130927135450
+78.164.49.37 2 24 397801 20130924142418
+37.212.195.30 1 1 5023 20130903203520
+78.164.52.222 1 8 305631 20130904231935
+88.230.122.83 1 8 305631 20130916190458
+208.43.225.84 1 1 5022 20130923080439
+88.254.251.191 1 8 305630 20130929165810
+131.253.38.67 4 4 20092 20130927174513
+91.93.201.223 1 6 264228 20130930113157
+65.55.213.35 1 1 11629 20130911174106
+5.46.171.254 1 8 305630 20130904175636
+88.248.115.248 1 11 1224746 20130916135759
+46.99.47.69 1 1 5023 20130920104633
+88.254.251.250 1 11 5080223 20130907001250
+78.169.203.240 1 8 305631 20130909120107
+78.178.20.173 1 8 305629 20130919115836
+78.168.227.246 1 8 305631 20130915145801
+31.200.11.144 1 8 305630 20130924000304
+88.235.230.83 1 8 305629 20130918210809
+88.245.152.204 1 8 305630 20130911175036
+78.179.162.21 1 9 159200 20130919214508
+78.178.53.17 3 24 416260 20130921152516
+91.93.14.202 1 8 305630 20130911165904
+78.163.44.192 1 8 305632 20130914233818
+85.103.184.15 1 8 305630 20130929172645
+85.98.185.226 1 8 153548 20130906224135
+78.187.225.239 1 8 305630 20130919195446
+94.54.222.85 2 28 392149 20130930111548
+176.31.14.31 1 1 4985 20130922154146
+88.232.234.62 1 8 305631 20130919192924
+78.182.229.160 2 20 653678 20130916220612
+78.180.44.69 1 8 305629 20130906133719
+212.253.172.6 1 8 305631 20130922220213
+88.251.249.86 3 22 388368 20130910024206
+176.42.93.221 1 8 305631 20130916221957
+95.10.88.222 1 8 305630 20130917221209
+217.69.133.186 2 2 9932 20130922143517
+88.234.189.41 1 16 18925239 20130910014440
+85.102.5.5 1 8 305631 20130919101137
+1.162.238.35 1 1 4966 20130925183908
+81.214.63.78 2 21 809428 20130930141204
+95.9.170.85 2 16 459177 20130910135201
+74.115.3.171 2 16 611260 20130910192615
+78.180.182.211 2 28 658257 20130906114119
+88.234.167.148 3 24 611261 20130911121254
+88.226.200.143 3 38 753394 20130924160102
+176.33.130.24 2 16 611260 20130915164921
+92.44.222.232 1 9 159202 20130925001024
+212.253.135.248 1 8 305631 20130916122602
+46.229.170.197 1 1 4966 20130929224952
+176.42.240.185 1 8 305630 20130917141929
+78.182.188.172 3 36 963890 20130913215207
+88.249.44.146 1 8 305630 20130911200154
+88.232.59.145 1 8 305631 20130929173322
+78.188.203.136 3 38 753391 20130909172811
+141.196.67.73 1 8 305631 20130916013520
+176.42.140.164 1 8 305630 20130904082745
+88.242.108.201 1 8 305631 20130927022328
+131.253.24.32 1 1 10239 20130916103244
+212.253.86.225 0 7 300608 
+217.131.103.116 1 8 305631 20130915235436
+78.178.88.97 2 16 611260 20130916180615
+131.253.24.35 1 1 11630 20130911114800
+88.232.45.218 3 10 310845 20130908234403
+88.227.246.11 1 8 305631 20130920035300
+82.222.134.36 2 28 658252 20130905111018
+213.153.249.236 3 31 820423 20130924122423
+131.253.24.66 1 1 10239 20130917053400
+85.96.186.53 1 8 305631 20130920204950
+78.191.209.139 1 8 305631 20130914102156
+78.161.77.203 2 16 306642 20130916161356
+88.247.40.224 2 30 690782 20130914172847
+212.252.22.77 4 33 928950 20130916181231
+131.253.24.41 1 1 24113 20130914092959
+188.190.223.156 1 1 5023 20130903203452
+88.249.163.194 1 9 316235 20130911171512
+46.106.74.217 1 8 305631 20130906143107
+88.234.208.176 2 16 611261 20130919133007
+85.110.124.109 1 8 305631 20130906182121
+118.102.236.104 1 1 4966 20130910091649
+125.27.128.123 3 3 14898 20130926095545
+95.15.31.106 1 8 305629 20130919015617
+94.54.29.46 3 39 763994 20130917224217
+95.6.97.123 2 28 658250 20130927114912
+78.161.203.151 3 36 963881 20130918192409
+85.106.113.80 1 8 305630 20130908235810
+78.170.112.30 1 8 305631 20130906151802
+141.8.189.200 1 8 305177 20130903142617
+85.106.228.122 1 8 305630 20130903215753
+46.229.167.149 1 1 4966 20130908073731
+88.236.234.102 2 2 23261 20130924121553
+88.250.132.12 3 29 682370 20130928143138
+78.188.234.15 1 9 316236 20130911101758
+176.41.70.10 1 8 305631 20130923201220
+88.240.196.80 1 8 305631 20130908195143
+78.164.119.136 1 8 153549 20130916215742
+78.184.59.145 1 1 4966 20130905224508
+88.230.206.183 1 8 305631 20130930114600
+176.41.147.53 1 8 305630 20130919095823
+62.29.12.122 1 8 305632 20130916184422
+64.34.169.244 2 2 9932 20130924095959
+62.248.71.104 1 8 305631 20130929193014
+150.70.172.109 2 2 10046 20130910180004
+88.230.178.56 1 9 316235 20130913205539
+85.102.239.221 1 8 305631 20130929231334
+95.6.23.16 1 8 305630 20130927164104
+46.1.135.254 2 24 397809 20130904091958
+95.9.109.14 1 8 305630 20130904081130
+88.245.159.60 4 32 481464 20130921163253
+176.33.180.43 1 8 305630 20130911164420
+131.253.24.64 1 1 5023 20130926053231
+176.33.180.166 2 23 514794 20130914000400
+176.40.14.224 2 16 611260 20130912160036
+78.169.223.71 1 8 305631 20130914113336
+46.196.208.16 3 31 697782 20130930023700
+176.33.216.18 1 1 5023 20130909212540
+150.70.173.57 1 1 4966 20130910175629
+176.41.156.84 1 8 305630 20130914120252
+195.174.140.155 2 23 514790 20130912014237
+64.79.89.130 1 1 4966 20130921160525
+95.10.188.252 1 8 305630 20130917205536
+159.146.77.236 1 8 305630 20130912064623
+88.230.169.77 1 9 316235 20130903200341
+88.254.102.29 1 8 305630 20130910150209
+78.181.110.135 3 31 697792 20130906171312
+212.252.3.107 1 1 24056 20130925164948
+208.76.50.66 1 1 247 20130929023619
+91.93.223.22 2 17 469780 20130914111033
+88.198.17.4 1 1 4985 20130909201305
+78.178.201.132 1 8 305630 20130904081607
+88.224.184.182 1 8 305629 20130915003031
+144.76.42.76 1 1 5022 20130912193932
+212.253.130.5 4 44 1269520 20130926145524
+159.146.76.7 2 28 658251 20130905020702
+31.200.22.198 3 38 753399 20130921185708
+78.188.5.198 1 8 153547 20130926130001
+176.43.65.59 2 28 658250 20130919102936
+78.180.50.81 1 9 316235 20130903173229
+176.233.98.185 1 8 305631 20130917104705
+209.85.238.153 1 1 298 20130920071954
+213.153.156.128 1 8 305631 20130922182618
+176.43.253.170 0 2 41402 
+65.49.14.87 1 8 305631 20130906163925
+94.54.180.84 3 28 753363 20130910225433
+93.159.230.88 1 1 5023 20130924174641
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20130903 21 147 4289169 11
+20130904 11 89 2847873 9
+20130905 9 82 1912849 5
+20130906 24 150 4294918 13
+20130907 15 84 11549306 12
+20130908 14 64 1655716 10
+20130909 23 185 4091748 10
+20130910 27 231 23937264 18
+20130911 27 127 3600774 18
+20130912 11 89 2975458 9
+20130913 12 116 3476160 9
+20130914 19 160 4547790 15
+20130915 11 75 2771282 10
+20130916 26 223 7850852 18
+20130917 14 113 3529929 11
+20130918 8 78 2361160 5
+20130919 19 116 3641465 15
+20130920 7 42 1533023 7
+20130921 16 143 2975730 7
+20130922 10 24 651161 6
+20130923 3 10 310957 3
+20130924 16 131 2864820 9
+20130925 6 50 1047543 6
+20130926 7 29 795334 5
+20130927 9 71 1897879 8
+20130928 12 108 2439786 7
+20130929 13 97 3148044 10
+20130930 10 104 2816251 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 11
+0s-30s 227
+2mn-5mn 11
+30s-2mn 15
+15mn-30mn 2
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/tr/ 282 1345905 238 205
+/tr/ndinfo.php 45 1084850 6 28
+/tr/faq.php 42 913645 21 21
+/tr/sreencapture.php 25 290595 3 13
+/tr/press.php 4 40898 2 3
+/google00af420479c629cc.html 2 596 2 2
+END_SIDER

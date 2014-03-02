@@ -1,0 +1,6 @@
+Order ID : WANP4908c32b55a7f
+Order Type : WANP
+Customer Name : Bülent Þeker
+SQL Actions : failed
+Payment Date : 29-10-2008 22:10:22
+Error Codes : no_empty_key_data

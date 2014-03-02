@@ -1,0 +1,14 @@
+Sayýn %%NAME%%,
+
+Bu e-posta mesajý, bu e-posta adresiyle kaydedilmiþ taleplerin listesini içermektedir. Bulunan destek mesajý sayýsý : %%NUM%%
+
+%%LIST_TICKETS%%
+
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Lütfen bu e-posta mesajýný cevaplamayýn, yazdýðýnýz mesaj hiçbir yere ulaþmayacaktýr!
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

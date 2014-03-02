@@ -1,0 +1,6 @@
+Order ID : WANP496f4793273db
+Order Type : WANP
+Customer Name : Buðra Kaan KAVUÞTUK
+SQL Actions : failed
+Payment Date : 15-01-2009 16:26:32
+Error Codes : no_empty_key_data

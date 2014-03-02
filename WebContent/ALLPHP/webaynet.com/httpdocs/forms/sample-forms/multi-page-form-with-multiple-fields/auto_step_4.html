@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+<title>Multi Page Form with Multiple Fields Demo</title>
+</head>
+	<body>
+      <center>
+	  	  <p align="center"><b><font size="3">Multi Page Form with Multiple Fields Demo</font></b></p>
+				<form action="../fpp/index.php" method="post">			
+					<table border="0" cellspacing="5">
+						<tr align="left">
+							<td align="right">
+								Current Insurance Company:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<input type="text" name="Current_Insurance_Company" size="22" maxlength="30" />
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Policy Expiration Date:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<input type="text" name="Current_Expiration_Date" size="10" maxlength="30" />
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Current Premium:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<input type="text" name="Current_Premium" size="6" maxlength="30" />
+							</td>
+						</tr>
+						<tr align="left">
+							<td align="right">
+								Current Premium Term Due:
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<select name="Current_Premium_Term">
+									<option value="" selected="selected">Select</option>
+									<option value="Single">Monthly</option>
+									<option value="Married">Every 3 Months (4 Times Annually)</option>
+									<option value="Divorced">Every 4 Months (3 Times Annually)</option>
+									<option value="Widowed">Every 6 Months (2 Times Annually)</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<p style="text-align: center;">
+						<input type="submit" value="Continue" alt="Continue" name="submit" title="Continue" />
+						    &nbsp;
+						<input type="submit" name="fpp_back" value="Back">
+					</p>
+					<div align="center">
+						<p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+							Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+					</div>					
+				</form>
+      </center>
+	</body>
+</html>

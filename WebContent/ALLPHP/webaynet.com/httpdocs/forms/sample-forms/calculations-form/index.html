@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Calculations Form Demo</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<p align="center"><b><font size="3">Calculations Form Demo</font></b></p>
+<p align="center" class="attention"><b>Attention:</b> Please use your valid email address. This 
+  script will send the results of the processing to the entered email.</p>
+<form name="Simple" method="post" action="../fpp/index.php" enctype="multipart/form-data">
+<input name="fpp_form" type="hidden" value="calculations-form">
+  <p align="center"> 
+  </p>
+  <table border="0" align="center" width="550">
+    <tr>
+      <td colspan="3" align="center"><!-- FPP_ERROR --></td>
+    </tr>
+    <tr> 
+      <td align="right">&nbsp;</td>
+	  <td>&nbsp;</td>
+      <td><font color="#FF0000">*</font> - required fields</td>
+    </tr>
+    <tr> 
+      <td align="right">&nbsp;</td>
+	  <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="right" nowrap><font color="#FF0000">*</font>Name: </td>
+	  <td>&nbsp;</td>
+      <td><input type="text" name="name" maxlength="64" size="30" style='border: 1 outset rgb(50,50,50);'>
+        </td>
+    </tr>
+    <tr> 
+      <td align="right" nowrap>Company Name: </td>
+	  <td>&nbsp;</td>
+      <td><input type="text" name="company-name" maxlength="64" size="30" style='border: 1 outset rgb(50,50,50);'>
+        </td>
+    </tr>
+    <tr> 
+      <td align="right" nowrap><font color="#FF0000">*</font>Contact 
+        eMail: </td>
+		<td>&nbsp;</td>
+      <td><input type="text" name="email" size="30" maxlength="64" style='border: 1 outset rgb(50,50,50);'>
+        </td>
+    </tr>
+    <tr> 
+      <td align="right" colspan="3">&nbsp;</td>
+    </tr>
+    <tr align="center"> 
+      <td colspan="3">Number will be divided by 
+        2<br>
+        {# Number / 2 #}</td>
+    </tr>
+    <tr> 
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="right">Number: </td>
+	  <td>&nbsp;</td>
+      <td align="left"><input type="text" name="Number" size="20">
+        </td>
+    </tr>
+    <tr> 
+      <td align="right" colspan="3">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="center" colspan="3">Will add 
+        up numbers and multiply them by the tax rate<br>
+        {# ( NumberA + NumberB + NumberC ) * TaxRate #}</td>
+    </tr>
+    <tr> 
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+	  <td>&nbsp;</td>
+    </tr>
+    <tr> 
+      <td align="right">NumberA: </td>
+	  <td>&nbsp;</td>
+      <td align="left"><input type="text" name="NumberA" size="20">
+        </td>
+    </tr>
+    <tr> 
+      <td align="right">NumberB: </td>
+	  <td>&nbsp;</td>
+      <td align="left"><input type="text" name="NumberB" size="20">
+        </td>
+    </tr>
+    <tr> 
+      <td align="right">NumberC: </td>
+	  <td>&nbsp;</td>
+      <td align="left"><input type="text" name="NumberC" size="20">
+        </td>
+    </tr>
+    <tr> 
+      <td align="right">TaxRate: </td>
+	  <td>&nbsp;</td>
+      <td align="left"><input type="text" name="TaxRate" size="20">
+        </td>
+    </tr>
+    <tr> 
+		<td align="right" colspan="3">&nbsp;</td>
+	</tr>
+	<tr align="center"> 
+		<td colspan="3"> 
+			<p>	Conditional Function (ifcond Function).<br />
+			{#ifcond&nbsp;((&nbsp;expr1&nbsp;),&nbsp;(&nbsp;expr2&nbsp;),&nbsp;(&nbsp;expr3&nbsp;))#} <br />
+			 - this expression evaluates and prints result of expr2 if expr1 evaluates to TRUE, and expr3 if expr1 evaluates 
+			to FALSE. <br />
+			</p>
+			<p>
+			Please enter Number1 and Number2. For example if you will enter Number1 = 125 and Number2 = 100 will evaluates expression 
+			{#ifcond((&nbsp;Number1&nbsp;>&nbsp;Number2&nbsp;),&nbsp;(&nbsp;Number1&nbsp;+&nbsp;10&nbsp;),&nbsp;(&nbsp;Number2&nbsp;))#} and result will be 135</p>
+		</td>
+	</tr>
+	<tr> 
+		<td align="right">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr> 
+		<td align="right">Number1: </td>
+		<td>&nbsp;</td>
+		<td align="left"><input type="text" name="Number1" size="20"></td>
+	</tr>
+	<tr> 
+		<td align="right">Number2: </td>
+		<td>&nbsp;</td>
+		<td align="left"><input type="text" name="Number2" size="20"></td>
+	</tr>
+	<tr align="center"> 
+		<td colspan="3"> 
+			<p>	Ordering Cost Depending on the Size of the Order Quantity (using ifcond Function).<br />
+			Your product has set prices per item that go down whenever they reach a certain amount. <br />
+			1 or 4 items: $19.95 each <br />
+			5 or 9 items: $15.95 each <br />
+			10 to 19 items: $12.95 each <br />
+			>= 20 items: $9.99 each <br />
+			You want to calculate total ordering cost depending on the size of the order quantity.
+			<br />
+			</p>
+			<p>
+			Please enter order quantity.
+			{#ifcond((&nbsp;Number1&nbsp;>&nbsp;Number2&nbsp;),&nbsp;(&nbsp;Number1&nbsp;+&nbsp;10&nbsp;),&nbsp;(&nbsp;Number2&nbsp;))#} and result will be 135</p>
+		</td>
+	</tr>
+	<tr> 
+		<td align="right">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr> 
+		<td align="right">Quantity: </td>
+		<td>&nbsp;</td>
+		<td align="left"><input type="text" name="Quantity" size="20"></td>
+	</tr>
+	</table>
+  <div align="center"> 
+	<p><br>
+      <input type="submit" name="Submit" value="Preview">
+    </p>
+  </div>
+</form>
+<div align="center"> 
+    <p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+      Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+</div>
+</body>
+</html>

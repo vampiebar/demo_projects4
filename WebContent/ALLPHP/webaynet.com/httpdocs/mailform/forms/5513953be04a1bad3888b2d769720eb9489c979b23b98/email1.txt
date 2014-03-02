@@ -1,0 +1,122 @@
+To: info@webaynet.com
+Bcc: bulentseker@gmail.com
+From: [re_Email]
+Format: html
+Subject: WEBAYNET.COM İRTİBAT FORMU
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {
+	color: #000000;
+	font-weight: bold;
+}
+.style2 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.style4 {
+	font-size: 11px;
+	font-weight: bold;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="151"><strong>Adı Soyadı  </strong></td>
+    <td width="12"><div align="center" class="style1">:</div></td>
+    <td width="337"><span class="style2">[r_AdveSoyad]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center" class="style1"></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Firma Adı</strong></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style2">[FirmaAdi]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center" class="style1"></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Telefon</strong></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style2">[Tel]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center" class="style1"></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Email Adresi</strong></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style2">[re_Email]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Mesajı</strong></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style2">[rw_Mesaj]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="156"><span class="style4">Formu Gönderen Ip Adresi</span></td>
+    <td width="10"><div align="center" class="style1">:</div></td>
+    <td width="334"><span class="style3">[%REMOTE_ADDR]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center" class="style1"></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="style4">Formun Gönderildigi Tarih</span></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style3">[%DATE]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center" class="style1"></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="style4">Formun Gönderildigi Saat</span></td>
+    <td><div align="center" class="style1">:</div></td>
+    <td><span class="style3">[%TIME]</span></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

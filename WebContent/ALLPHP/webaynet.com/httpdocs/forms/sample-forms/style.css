@@ -1,0 +1,13 @@
+BODY, PRE, TD, LI, UL, OL, DL, P, FORM, INPUT, SELECT, TEXTAREA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.copyrights {
+	font-size: 10px;
+}
+
+.attention {
+	font-size: 11px;
+}

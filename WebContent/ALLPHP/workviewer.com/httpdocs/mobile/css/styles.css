@@ -1,0 +1,30 @@
+.panel ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.ui-panel-inner {
+	padding: 0;
+}
+.panel a:hover {
+	background-color: #95A5A6;
+}
+.screen{ width:100%; border:1px solid #ddd;}
+.inputError{ background-color:#C30; color:#fff; padding:10px 0px; display:none; border-radius:5px;}
+.newUserAlert {
+width: 100%;
+height: 40px;
+line-height: 20px;
+color: #fff;
+display: block;
+font-weight: bold;
+font-size: 16px;
+position: absolute;
+z-index: 999999;
+bottom: 0;
+left: 0;
+text-align: center;
+background-color: #39F;
+padding:10px 0px;
+display:none;
+}

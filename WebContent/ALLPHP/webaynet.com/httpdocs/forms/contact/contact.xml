@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="contact.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="480"
+ height="320"
+ bkcolor="0xFFFFFF"
+ transparent="f"
+ fontcolor="0x000000"
+ outlinecolor="0xC0C0C0"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false"
+ verifymessage="The E-Mail address you entered does not match !"
+ reqmessage="One or More Fields are Required"
+ invalidemailmsg="is an invalid address, please correct it."
+ transition="0"
+ autoresponseincluderesults="f"
+ autoresponseaddtotop="f"
+ usephp="true"
+ disableclicktoactiveprompt="true"
+ extensions="*.txt;*.gif;*.jpg;*.jpeg;*.zip;*.doc;*.png;*.pdf;*.rtf"
+>
+
+<hidden
+ name="subject"
+ value=""
+></hidden>
+
+<image
+ image="single-line.jpg"
+ x="100"
+ y="10"
+></image>
+
+<image
+ image="single-line.jpg"
+ x="239"
+ y="10"
+></image>
+
+<textinput
+ name="Ad"
+ x="100"
+ y="60"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ editable="true"
+>
+</textinput>
+
+<textinput
+ name="E Mail"
+ x="100"
+ y="90"
+ w="175"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ required="true"
+ emailbox="true"
+ editable="true"
+  restrict="email"
+>
+</textinput>
+
+<label
+ name="My Text 1"
+ x="60"
+ y="65"
+ w="33"
+ h="16"
+ text="Name"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 2"
+ x="62"
+ y="94"
+ w="31"
+ h="16"
+ text="Email"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<textarea
+ name="Mesaj"
+ x="100"
+ y="120"
+ w="348"
+ h="145"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ editable="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<label
+ name="My Text 3"
+ x="36"
+ y="124"
+ w="54"
+ h="16"
+ text="Comment"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0x808080"
+  fontsize="11"
+></label>
+
+<label
+ name="My Text 5"
+ x="97"
+ y="20"
+ w="170"
+ h="22"
+ text="Leave a Comment"
+ fontbold="bold"
+  fontname="Arial"
+  fontcolor="0x666699"
+  fontsize="19"
+></label>
+
+<label
+ name="My Text 6"
+ x="284"
+ y="92"
+ w="139"
+ h="16"
+ text="(will never be published)"
+ fontbold="bold"
+  fontname="Trebuchet MS"
+  fontcolor="0xC0C0C0"
+  fontsize="11"
+></label>
+
+<submitbutton
+ name="Upload File Button"
+ x="100"
+ y="272"
+ w="109"
+ h="27"
+ label="GÖNDER"
+ fontname="Arial"
+ fontcolor="0x000000"
+ fontbold="bold"
+  fontsize="12"
+></submitbutton>
+
+</form>

@@ -1,0 +1,30 @@
+To: "{#name|lower|capitalize#}" <{#email#}>
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: Multiple Output Form - Demo
+Attachment: {#%FORMFILE_CSV#}
+
+Dear {#name|lower|capitalize#},
+Here is information that you have filled in on Multiple Output Form - Demo at Email-Form.com
+
+------------------------------------
+Time and Date of Submission: {#%DATE#}
+
+Name:  {#name|lower|capitalize#}
+Email: {#email#}
+Gender: {#gender#}
+  	 
+Interests
+{#interests#}
+ 
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to see you as our valuable client!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/buy-now.html
+
+-- 
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by Web-Site-Scripts.com. http://web-site-scripts.com

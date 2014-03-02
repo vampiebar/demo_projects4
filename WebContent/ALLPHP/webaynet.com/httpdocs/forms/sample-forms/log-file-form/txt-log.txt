@@ -1,0 +1,16 @@
+../log-file-form/log-file-form-data.txt
+------------------------------------
+Time and Date of Submission: {#%DATE#}
+
+Unique Reference Number: {#%unique_reference#}
+
+Name: {#name|lower|capitalize#}
+Gender: {#gender#}
+Age: {#age#}
+Country: {#country#}
+
+The form submited on {#%HTTP_REFERER#}
+IP address is {#%REMOTE_ADDR#}
+User Agent:
+{#%HTTP_USER_AGENT#}
+------------------------------------

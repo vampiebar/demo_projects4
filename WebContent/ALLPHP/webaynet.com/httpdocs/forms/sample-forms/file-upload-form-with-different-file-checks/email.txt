@@ -1,0 +1,24 @@
+To: {#email#}
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: File Upload Form with Different File Checks Demo
+Attachment: {#msofficefile|file2zip#},{#image#},{#anyfile|file2zip#}
+
+Dear Client,
+Here is information that you had filled in on File Upload Form with Different File Checks Demo at Email-Form.com
+Check the attachements!
+
+------------------------------------
+Time and Date of the Submission: {#%DATE#}
+
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to have strong, long term and fruitful business relationships with you!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/order.html
+
+-- 
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by Web-Site-Scripts.com. http://web-site-scripts.com

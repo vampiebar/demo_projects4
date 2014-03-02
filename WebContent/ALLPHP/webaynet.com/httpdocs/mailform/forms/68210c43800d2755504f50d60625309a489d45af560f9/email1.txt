@@ -1,0 +1,179 @@
+To: [re_Contact_Email]
+From: WEBAYNET YAZILIM <info@webaynet.com>
+Format: html
+Subject: TEŞEKKÜRLER ! BAYİ BAŞVURU FORMUNUZ ULAŞTI ...
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {	font-size: 11px;
+	font-weight: bold;
+}
+.style3 {	color: #000000;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style7 {font-size: 12px; font-weight: bold; }
+.style8 {	color: #FF0000;
+	font-weight: bold;
+}
+.style9 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<p class="style2">İLGİNİZ İÇİN ÇOK TEŞEKKÜR EDERİZ.</p>
+<p><span class="style2">WEBAYNET YAZILIM BAYİ BAŞVURUSUNU YAPMIŞ BULUNUYORSUNUZ<br />
+EN KISA SÜREDE SİZE YANIT VERİLECEKTİR...</span></p>
+<p><span class="style2">BİZE İLETTİĞİNİZ BİLGİLER :</span></p>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><strong>Firma Adınız</strong></td>
+    <td><div align="center"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_Your_company_name]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="164"><span class="style7">Faaliyet Alanınız</span></td>
+    <td width="10"><div align="center" class="style3">:</div></td>
+    <td width="331"><span class="style8">[r_faaliyet]</span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><span class="style7">T.Sic.No. veya T.C.No</span></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_ticno]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><span class="style7">Firmadaki Göreviniz</span></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_First_Name]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><span class="style7">E-Mail Adresiniz</span></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[re_Contact_Email]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><span class="style7">Adınız Soyadınız</span></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_yetkili]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Telefonunuz</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[rc_Tel]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Faks Numaranız</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[c_Fax]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Cep Telefonunuz</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[c_gsm]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Vergi Daireniz</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_vdaire]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Vergi Numaranız</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_vno]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Bulunduğunuz Şehir</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_City]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><span class="style4"></span></div></td>
+    <td><span class="style9"></span></td>
+  </tr>
+  <tr>
+    <td><strong>Adresiniz</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[r_Adres]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>Özel Mesajınız</strong></td>
+    <td><div align="center" class="style4"><strong>:</strong></div></td>
+    <td><span class="style9"><strong>[ozelmsg]</strong></span></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p><strong>Saygılarımızla ...</strong></p>
+<p class="style7">WEBAYNET YAZILIM<br />
+www.webaynet.com</p>
+</body>
+</html>

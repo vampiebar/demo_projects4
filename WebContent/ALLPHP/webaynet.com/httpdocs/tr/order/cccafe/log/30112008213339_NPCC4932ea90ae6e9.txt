@@ -1,0 +1,7 @@
+Order ID : NPCC4932ea90ae6e9
+Order Type : WACC
+Customer Name : dfgsdfg
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 30-11-2008 21:33:39
+Error Codes : empty_query_data

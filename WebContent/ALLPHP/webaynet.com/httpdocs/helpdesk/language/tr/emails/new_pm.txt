@@ -1,0 +1,19 @@
+Merhaba,
+
+%%NAME%% kullanýcýsýndan aþaðýda detaylarý yazýlý bir özel mesaj aldýnýz :
+
+%%SUBJECT%%
+
+Özel mesajýnýzý görebilmek için aþaðýdaki linke týklayabilirsiniz :
+%%TRACK_URL%%
+
+Profilinizdeki bildirim seçeneklerini her zaman istediðiniz þekilde deðiþtirebilirsiniz.
+
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Bu e-posta mesajýný cevaplamayýn, çünkü mesajýnýz yerine ulaþmayacaktýr. Ýrtibat için aþaðýdaki linkleri kullanabilirsiniz!
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

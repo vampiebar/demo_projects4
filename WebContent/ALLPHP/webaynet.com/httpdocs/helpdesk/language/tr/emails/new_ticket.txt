@@ -1,0 +1,18 @@
+Sayýn %%NAME%%,
+
+"%%SUBJECT%%" konulu destek talebiniz sistemimize kaydedildi. Yönetim ekibimiz genellikle 24 saat içerisinde destek taleplerini cevaplamaktadýr.
+
+Talep Takip Numaranýz : %%TRACK_ID%%
+
+Talebinizin Durumunu Buradan takip Edebilirsiniz :
+%%TRACK_URL%%
+
+Yöneticilerimizden herhangi biri talebinizi cevaplandýrýdýðýnda e-posta yolu ile bilgilendirileceksiniz.
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Bu e-posta mesajýný cevaplamayýn, çünkü mesajýnýz bize ulaþmayacaktýr. Ýrtibat için aþaðýdaki linkleri kullanabilirsiniz!
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

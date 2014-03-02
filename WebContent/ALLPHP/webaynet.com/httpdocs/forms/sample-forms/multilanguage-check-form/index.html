@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Multilanguage check form Demo</title>
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<p align="center"><b><font size="3">Multilanguage check form Demo</font></b></p>
+<p align="center" class="attention"><b>Attention:</b> Please use your valid email address. <br>
+This demo will send processing results to the entered email.</p>
+<form name="Simple" method="post" action="../fpp/index.php" enctype="multipart/form-data">
+  <input type="hidden" name="fpp_form" value="multilanguage-check-form">
+  <table border="0" align="center">
+    <tr>
+      <td colspan="3" align="center"><!-- FPP_ERROR --></td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><font color="#FF0000">*</font> - required fields </td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>First Name: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="firstname" maxlength="64" size="45">      </td>
+    </tr>
+    <tr>
+      <td align="right">Last Name: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="lastname" maxlength="64" size="45">      </td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>Contact Email: </td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="email" size="45" maxlength="64">      </td>
+    </tr>
+    <tr>
+      <td align="right"><font color="#FF0000"></font>Country: </td>
+      <td>&nbsp;</td>
+      <td><select name="country" id="country">
+        <option value="" selected>Please select</option>
+        <option value="USA">USA</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="Germany">Germany</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Italy">Italy</option>
+        <option value="Spain">Spain</option>
+        <option value="Norway">Norway</option>
+        <option value="New Zeland">New Zeland</option>
+        <option value="Mexico">Mexico</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Denmark">Denmark</option>
+        <option value="France">France</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Israel">Israel</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Ireland">Ireland</option>
+        <option value="Austria">Austria</option>
+        <option value="Japan">Japan</option>
+        <option value="Poland">Poland</option>
+        <option value="Taiwan">Taiwan</option>
+        <option value="Other">Other</option>
+      </select>
+	  </td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>    
+    <tr>
+      <td align="right"><font color="#FF0000">*</font>Subject:</td>
+      <td>&nbsp;</td>
+      <td><input type="text" name="subject" size="45" maxlength="128">      </td>
+    </tr>
+    <tr>
+      <td align="right">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr align="left">
+      <td colspan="3"><font color="#FF0000">*</font>Comment:</td>
+    </tr>
+    <tr align="left">
+      <td colspan="3"><textarea name="comment" rows="10" cols="62" wrap="VIRTUAL"></textarea></td>
+    </tr>
+  </table>
+  <div align="center">
+    <p><font size="2"><br>
+      <input type="submit" name="Submit" value="PREVIEW">
+      </font></p>
+    <p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+      Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+  </div>
+</form>
+</body>
+</html>

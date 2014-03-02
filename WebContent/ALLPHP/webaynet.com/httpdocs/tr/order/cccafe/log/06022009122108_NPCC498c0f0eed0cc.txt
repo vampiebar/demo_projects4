@@ -1,0 +1,7 @@
+Order ID : NPCC498c0f0eed0cc
+Order Type : WACC
+Customer Name : MEHTAP KÖK
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 06-02-2009 12:21:08
+Error Codes : no_empty_key_data

@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link href="../style.css" rel="stylesheet" type="text/css" media="all"/>
+<title>Multi Page Form with Multiple Fields Demo</title>
+</head>
+	<body>
+      <center>
+	  	  <p align="center"><b><font size="3">Multi Page Form with Multiple Fields Demo</font></b></p>
+				<form action="../fpp/index.php" method="post">	
+
+					<p>
+						<table border="0" cellspacing="5">
+							<tr>
+								<td colspan="1" align="right">
+									<strong>Vehicle</strong>
+								</td>								
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Full Name of Primary Driver:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Driver" size="25" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Year:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Year" size="5" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Make:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Make" size="25" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Model:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Model" size="25" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Vehicle Identification Number (VIN):
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_VIN" size="25" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Number of Doors:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Doors" size="5" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									4-Wheel Drive:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="radio" name="Vehicle_4W" value="Yes" />&nbsp;Yes
+									<input type="radio" name="Vehicle_4W" value="No" />&nbsp;No
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Anti-lock Brakes:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="radio" name="Vehicle_Antilock" value="Yes" />&nbsp;Yes
+									<input type="radio" name="Vehicle_Antilock" value="No" />&nbsp;No
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Airbag Type:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<select name="Vehicle_Airbag_Type">
+										<option value="" selected="selected">Select</option>										
+										<option value="Dual">Dual (Driver and Front passenger)</option>
+										<option value="Dual and Side">Dual and Side Air Bags</option>
+										<option value="Driver Only">Driver seat only</option>
+										<option value="None">None</option>
+									</select>
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Vehicle Ownership:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="radio" name="Vehicle_Ownership" value="Own" />&nbsp;Own
+									<input type="radio" name="Vehicle_Ownership" value="Rent" />&nbsp;Rent
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Primary Use of Vehicle:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<select name="Vehicle_Primary_Use">
+										<option value="" selected="selected">Select</option>										
+										<option value="Work">Work</option>
+										<option value="Business">Recreation</option>
+										<option value="Business">Business</option>
+									</select>
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Miles Driven to Work Daily (One Way):
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Work_Miles_Daily" size="5" maxlength="30" />
+								</td>
+							</tr>
+							<tr align="left">
+								<td align="right">
+									Average Miles Driven Per Year:
+								</td>
+							<td>&nbsp;</td>
+								<td>
+									<input type="text" name="Vehicle_Miles_Per_Year" size="5" maxlength="30" />
+								</td>
+							</tr>
+						</table>
+					</p>
+	
+					<p style="text-align: center;">
+						<input type="submit" value="Continue" alt="Continue" name="submit" title="Continue" /> 
+						&nbsp;
+						<input type="submit" name="fpp_back" value="Back">
+					</p>
+					<div align="center">
+						<p align="center" class="copyrights">&copy; 2000-2008 <a href="http://www.email-form.com" target="_blank">Email-Form.com</a> All Rights reserved.<br>
+							Powered by <a href="http://www.web-site-scripts.com" target="_blank">Web-Site-Scripts.com</a></p>
+					</div>					
+				</form>
+      </center>
+   </body>
+</html>

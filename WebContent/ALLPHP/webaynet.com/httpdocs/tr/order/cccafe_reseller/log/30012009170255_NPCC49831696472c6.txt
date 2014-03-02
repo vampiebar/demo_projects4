@@ -1,0 +1,7 @@
+Order ID : NPCC49831696472c6
+Order Type : WACC
+Customer Name : hasan atabay
+TIB SQL Actions : success
+SQL Actions : failed
+Payment Date : 30-01-2009 17:02:55
+Error Codes : no_empty_key_data

@@ -1,0 +1,434 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.secpasoft.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2014                
+POS_TIME 2691                
+POS_VISITOR 9527                
+POS_DAY 11635               
+POS_DOMAIN 3520                
+POS_LOGIN 3752                
+POS_ROBOT 3907                
+POS_WORMS 4490                
+POS_EMAILSENDER 4621                
+POS_EMAILRECEIVER 4764                
+POS_SESSION 12331               
+POS_SIDER 12528               
+POS_FILETYPES 4899                
+POS_DOWNLOADS 5127                
+POS_OS 5175                
+POS_BROWSER 5376                
+POS_SCREENSIZE 5809                
+POS_UNKNOWNREFERER 5883                
+POS_UNKNOWNREFERERBROWSER 6070                
+POS_ORIGIN 6252                
+POS_SEREFERRALS 6393                
+POS_PAGEREFS 6562                
+POS_SEARCHWORDS 6802                
+POS_KEYWORDS 7005                
+POS_MISC 2355                
+POS_ERRORS 7115                
+POS_CLUSTER 3608                
+POS_SIDER_404 7247                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001022953 43 8891 9497757397882
+FirstTime 20130901053855
+LastTime 20130929180727
+LastUpdate 20131001044904 43 0 42 0 0
+TotalVisits 83                  
+TotalUnique 47                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 52                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 49 49 6664 18 48 728764
+1 22 22 2992 26 56 1016922
+2 19 40 491532 14 22 260769
+3 2 2 20930 12 19 237934
+4 8 29 589840 17 40 557562
+5 1 1 136 23 67 798237
+6 11 60 1339543 85 114 993893
+7 1 1 10465 16 34 409528
+8 25 25 13729 32 61 716855
+9 32 345 1998224 20 71 380663
+10 89 927 5860540 115 352 529203
+11 74 1036 4409705 68 134 377537
+12 100 823 5848913 51 145 1043876
+13 100 575 8620419 29 153 921795
+14 127 717 2573970 46 123 356830
+15 52 202 2296875 24 66 566647
+16 62 335 3003208 20 110 775491
+17 65 234 2650517 22 66 315245
+18 31 240 3924689 16 59 616417
+19 8 47 546595 19 56 715271
+20 31 31 14545 51 114 1915361
+21 30 51 550704 19 71 979433
+22 13 86 2011657 23 61 616147
+23 3 3 11816 27 44 360930
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 955 5881 46798208
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 442 9626245 20130929035227 0
+yandex 148 2298078 20130930043416 0
+bingbot 116 2242258 20130930191416 0
+ia_archiver 17 301467 20130910225712 0
+msnbot\-media 15 251713 20130926192542 0
+no_user_agent 4 12254 20130905085133 0
+bot[\s_+:,\.\;\/\\-] 3 34575 20130925072604 0
+surveybot 2 23088 20130924212836 0
+spider 1 11525 20130925102303 0
+^java\/[0-9] 1 11582 20130911095107 0
+facebook 1 11582 20130913160206 0
+netcraft 1 11503 20130909183459 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 125 906298 0 0
+css 1173 6933006 0 0
+png 1805 7693634 0 0
+jpg 638 12202165 0 0
+js 1284 6108222 0 0
+woff 47 623387 0 0
+Unknown 783 12201594 0 0
+gif 26 129902 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+blackberry 1 1
+winxp 318 18
+linux 3 3
+win7 4537 401
+win2003 6 3
+win8 389 42
+linuxdebian 1 1
+Unknown 465 465
+macosx8 77 17
+macosx7 84 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+msie6.0 2 2
+blackberry 1 1
+chrome23.0.1271.64 2 2
+chrome21.0.1180.75 2 2
+chrome29.0.1547.76 113 5
+chrome28.0.1500.95 74 12
+chrome29.0.1547.62 3120 270
+epiphany 1 1
+opera9.80 175 5
+msie8.0 124 3
+firefox1.0.7 1 1
+safari6.0.5 1 1
+msie7.0 95 18
+firefox22.0 4 4
+firefox14.0.1 1 1
+firefox23.0 85 12
+chrome25.0.1364.172 664 43
+firefox3.6.12 30 2
+chrome29.0.1547.66 921 105
+Unknown 465 465
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Google_Analytics_Snippet_Validator 20130904122527
+Apache_(internal_dummy_connection) 20130903101909
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Google_Analytics_Snippet_Validator 20130904122527
+Apache_(internal_dummy_connection) 20130903101909
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 532 536
+From1 0 0
+From2 25 25
+From3 3 3
+From4 395 5317
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+baidu 11 11
+yandex 14 14
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.forexunion.net 1 1
+https://www.facebook.com 1 1
+http://www1.delta-search.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+secpasoft.com 8
+www.secpasoft.com 5
+secpayazilim 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+secpasoft.com 8
+www.secpasoft.com 5
+secpayazilim 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 247 109518
+206 25 252784
+400 22 26690
+404 764 966448
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 45
+/drupal 1 http://secpasoft.com/drupal
+/robots.txt 184 -
+/apple-touch-icon.png 4 -
+/deneme/img/England.png 20 http://www.secpasoft.com/homepage
+/deneme/js/bootstrap.min.js 8 http://www.secpasoft.com/about
+/satinal 8 -
+/wp-includes/js/tinymce/wp-mce-help.php 1 -
+/workviewer 1 http://www.secpasoft.com/homepage
+/deneme/js/prettify.js 8 http://www.secpasoft.com/about
+/hakkimizda 10 http://www.secpasoft.com/homepage
+/urunlerimiz 7 -
+/deneme/css/da-slider.css 8 http://www.secpasoft.com/about
+/basvuru.php 1 -
+/joomla 1 http://secpasoft.com/joomla
+/deneme/img/Germany.png 20 http://www.secpasoft.com/homepage
+/wordpress 1 http://secpasoft.com/wordpress
+/blog 1 http://secpasoft.com/blog
+/deneme/img/workviewer.png 7 http://www.secpasoft.com/
+/deneme/img/Turkey.png 20 http://www.secpasoft.com/homepage
+/deneme/img/ps_neutral.png 2 http://www.secpasoft.com/homepage
+/iletisim.php 1 -
+/deneme/img/kidsviewer.png 7 http://www.secpasoft.com/
+/apple-touch-icon-precomposed.png 2 -
+/musterilerimiz 7 -
+/screenshots.php 1 -
+/deneme/img/360x300_readycafe.png 7 http://www.secpasoft.com/
+/js/jquery.min.map 108 http://www.secpasoft.com/buy
+/deneme/js/jquery.cslider.js 7 http://www.secpasoft.com/
+/test/img/visa-backside.png 140 http://www.secpasoft.com/buy
+/deneme/img/logo.png 8 http://www.secpasoft.com/about
+/mail 17 -
+/deneme/css/bootstrap.min.css 8 http://www.secpasoft.com/about
+/wp 1 http://secpasoft.com/wp
+/anasayfa 14 http://www.secpasoft.com/buy
+/features.php 1 -
+/deneme/css/font-awesome-ie7.min.css 8 http://www.secpasoft.com/about
+/deneme 1 -
+/deneme/css/styles.css 8 http://www.secpasoft.com/about
+/images/arrows.png 60 http://secpasoft.com/homepage
+/wp-login.php 2 http://SECPASOFT.COM/wp-login.php
+/deneme/js/modernizr.js 8 http://www.secpasoft.com/about
+/deneme/css/font-awesome.min.css 8 http://www.secpasoft.com/about
+/deneme/js/jquery.js 8 http://www.secpasoft.com/about
+/iletisim 11 -
+/deneme/css/bootstrap-responsive.min.css 8 http://www.secpasoft.com/about
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 52
+159.253.136.24 464 464 63104 20130903101909
+176.42.140.164 370 4011 22008606 20130906181225
+91.93.225.100 19 202 1755628 20130911131231
+46.2.215.198 12 85 2001192 20130913224240
+88.233.19.54 8 119 2403156 20130913160240
+62.244.218.122 7 103 2006592 20130920160641
+95.108.177.203 6 29 623236 20130919132246
+217.131.185.95 5 28 1038930 20130914183930
+212.252.152.235 5 130 1895829 20130925102113
+37.57.133.179 3 3 34451 20130925065918
+80.90.174.154 1 1 10465 20130903081147
+88.227.119.100 2 23 535450 20130914191556
+193.110.112.160 1 1 11582 20130908141218
+220.128.232.157 1 1 10465 20130901074349
+176.102.18.246 1 1 11582 20130908141208
+176.31.14.31 1 1 11544 20130927123306
+95.28.28.246 3 45 1071663 20130928141823
+160.75.192.50 0 1 10053 
+5.255.233.137 3 24 529573 20130919124132
+46.188.52.219 2 188 3100392 20130915183516
+38.100.21.62 3 6 165613 20130909144418
+49.159.169.40 1 1 10465 20130903045648
+78.190.235.88 0 18 492919 
+89.178.183.24 2 44 1157118 20130922115933
+96.227.124.37 1 1 11544 20130923234503
+178.137.194.211 1 1 11582 20130908141108
+60.210.187.129 1 1 10465 20130901134149
+106.51.198.52 1 1 10465 20130901093636
+66.249.83.73 1 1 11568 20130904122527
+217.131.166.157 0 18 0 
+114.143.177.6 1 1 10465 20130902142241
+88.233.25.122 3 26 960238 20130929180727
+66.197.135.254 1 1 11523 20130904160839
+50.16.36.247 1 1 11582 20130923213050
+78.191.94.61 2 23 535450 20130905214421
+54.212.0.212 1 1 11525 20130918111218
+151.250.149.65 0 36 0 
+78.186.198.105 2 23 535450 20130919154327
+42.228.5.130 1 1 10465 20130902035331
+176.192.165.206 2 30 714442 20130922112426
+98.126.68.106 1 1 10465 20130902030014
+85.30.249.21 2 44 978168 20130916021231
+107.22.84.18 1 1 10879 20130924104119
+95.28.164.120 2 44 1157118 20130928152451
+117.194.213.120 1 1 10465 20130902191034
+213.153.249.236 0 18 0 
+69.58.178.57 2 2 23050 20130920065644
+182.180.83.47 1 1 10465 20130902204237
+117.198.91.22 1 1 10465 20130901220832
+131.253.24.36 1 12 356468 20130922130758
+187.165.13.5 1 1 11582 20130908141135
+176.42.131.244 3 60 402711 20130910133829
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20130901 177 177 65388 9
+20130902 246 246 85101 13
+20130903 244 2704 11135890 6
+20130904 78 447 5183740 5
+20130905 71 518 5127490 4
+20130906 33 419 1147757 3
+20130908 4 4 46328 4
+20130909 3 24 165613 1
+20130910 9 76 591800 2
+20130911 14 127 1578042 2
+20130912 0 14 0 0
+20130913 20 218 4404348 2
+20130914 7 65 1574380 2
+20130915 3 210 3589476 3
+20130916 1 40 489084 1
+20130917 0 18 0 0
+20130918 1 1 11525 1
+20130919 15 160 3320819 5
+20130920 5 21 397082 3
+20130922 5 86 2228028 5
+20130923 2 20 23126 2
+20130924 1 1 10879 1
+20130925 7 132 1918777 2
+20130927 1 1 11544 1
+20130928 5 107 2228781 5
+20130929 3 27 970291 1
+20130930 0 18 492919 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 10
+5mn-15mn 3
+30s-2mn 4
+15mn-30mn 3
+0s-30s 57
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+* 464 63104 15 15
+/buy 146 10099079 7 8
+/ 64 720207 31 16
+/homepage 60 697043 2 6
+/font/fontawesome-webfont.woff 47 623387 0 5
+/products 31 312126 4 5
+/about 27 293725 7 8
+/choosecity.php 26 13529 0 0
+/contact 23 256114 2 2
+/clients 16 260333 0 1
+/bank.php 8 1845 0 0
+/clients.php 2 32602 2 2
+/satis.php 12 2690 0 1
+/download 11 111347 0 0
+/workviewer 5 108723 0 1
+http://www.baidu.com/ 11 115115 11 11
+/download.php 2 20310 2 2
+END_SIDER

@@ -1,0 +1,6 @@
+Order ID : WAND4908b5171c01e
+Order Type : WAND
+Customer Name : Nail DURU
+SQL Actions : failed
+Payment Date : 29-10-2008 21:10:18
+Error Codes : no_empty_key_data

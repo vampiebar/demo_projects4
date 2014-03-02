@@ -1,0 +1,127 @@
+To: info@webaynet.com
+Bcc: bulentseker@gmail.com
+From: [re_Contact_Email]
+Format: html
+Subject: WEBAYNET.COM DESTEK FORMU
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 11px;
+	font-weight: bold;
+}
+.style3 {
+	color: #000000;
+	font-weight: bold;
+}
+.style4 {color: #000000}
+.style7 {font-size: 12px; font-weight: bold; }
+.style8 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style9 {color: #FF0000}
+.style10 {font-size: 12px; font-weight: bold; color: #FF0000; }
+-->
+</style>
+</head>
+
+<body>
+ <p class="style2"><span class="style2">SİTEDEN </span>GELEN DESTEK FORMU</p>
+ <table width="500" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="156"><span class="style2">Formu Gönderen Ip Adresi</span></td>
+     <td width="10"><div align="center" class="style3">:</div></td>
+     <td width="334"><span class="style10">[%REMOTE_ADDR]</span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center" class="style3"></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style2">Gönderildigi Tarih</span></td>
+     <td><div align="center" class="style3">:</div></td>
+     <td><span class="style10">[%DATE]</span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center" class="style3"></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style2">Gönderildigi Saat</span></td>
+     <td><div align="center" class="style3">:</div></td>
+     <td><span class="style10">[%TIME]</span></td>
+   </tr>
+ </table>
+ <br>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+     <td width="181"><span class="style7">Destek Talep Edilen Ürün</span></td>
+     <td width="15"><div align="center" class="style3">:</div></td>
+     <td width="754"><span class="style8">[r_urunsec]</span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Adı Soyadı</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[r_First_Name]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Telefon Numarası</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[Tel]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Cep Telefonu</span></td>
+     <td>&nbsp;</td>
+     <td><span class="style9"><strong>[d_GSM]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+   <tr>
+     <td><span class="style7">E-Mail Adresi</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[re_Contact_Email]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td><div align="center"><span class="style4"></span></div></td>
+     <td><span class="style9"></span></td>
+   </tr>
+   <tr>
+     <td><span class="style7">Mesajı</span></td>
+     <td><div align="center" class="style4"><strong>:</strong></div></td>
+     <td><span class="style9"><strong>[r_Com]</strong></span></td>
+   </tr>
+   <tr>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+   </tr>
+ </table>
+ <p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#datetimepicker1,#datetimepicker2').datetimepicker({
+                   format:"yyyy-MM-dd hh:mm:ss"
+                });
+	$(document).on("click",".bringthemall",function(){
+		var baslangic = $("#baslangic").val();
+		var bitis = $("#bitis").val();
+		baslangic2 = baslangic.split(' ').join('T');
+		bitis2 = bitis.split(' ').join('T');
+		baslangic3 = new Date(baslangic2);
+		bitis3 = new Date(bitis2);
+		baslangic4 = baslangic3.getTime()/1000; 
+		bitis4 = bitis3.getTime()/1000;
+		console.log(baslangic+" "+bitis);
+		if(baslangic4>bitis4){
+			$(".tarihuyari").fadeIn();
+			}
+		});
+	})
+</script>
+<div class="row">
+        	<div class="col-lg-8">
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+              <h3 class="panel-title">Ekran Görüntüsü</h3>
+              </div>
+              <div class="panel-body" style="height:215px;">
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="panel panel-warning">
+              <div class="panel-heading">
+              <h3 class="panel-title">Kayıtlı Ekranları İzleme</h3>
+              </div>
+              <div class="panel-body">
+              <div class="alert alert-danger gizle tarihuyari">
+              	<p>Başlangıç Tarihi Bitiş Tarihinden Küçük Olmalıdır.</p>
+              </div>
+                <div class="form-group">
+                <p>Başlangıç Tarihi ve Saati</p>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' id="baslangic" class="form-control" data-format="yyyy-MM-dd hh:mm:ss" />
+                    <span class="input-group-addon"><span class="icon-calendar"></span>
+                    </span>
+                </div>
+            	</div>
+                <div class="form-group">
+                <p>Bitiş Tarihi ve Saati</p>
+                <div class='input-group date' id='datetimepicker2'>
+                    <input type='text' id="bitis" class="form-control" data-format="yyyy-MM-dd hh:mm:ss" />
+                    <span class="input-group-addon"><span class="icon-calendar"></span>
+                    </span>
+                </div>
+            	</div>
+                <button class="btn btn-danger bringthemall">Görüntüleri Getir</button>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>

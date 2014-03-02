@@ -1,0 +1,6 @@
+Order ID : WAND496fb087b090f
+Order Type : WAND
+Customer Name : mustafa güler
+SQL Actions : failed
+Payment Date : 15-01-2009 23:54:18
+Error Codes : no_empty_key_data

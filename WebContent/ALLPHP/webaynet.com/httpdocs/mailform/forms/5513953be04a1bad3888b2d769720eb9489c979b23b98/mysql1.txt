@@ -1,0 +1,1 @@
+INSERT INTO user1_2 (`f0`,`f1`,`f2`,`f3`,`f4`, ip, referer, date, time) VALUES ('[r_AdveSoyad]','[FirmaAdi]','[re_Email]','[]','[rw_Mesaj]', '[%REMOTE_ADDR]', '[%HTTP_REFERER]', '[%DATE]', '[%TIME]');

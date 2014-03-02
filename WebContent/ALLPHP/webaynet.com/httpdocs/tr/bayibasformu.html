@@ -1,0 +1,264 @@
+<HTML>
+<HEAD>
+<TITLE>NETDADI &lt;&lt;  &gt;&gt;</TITLE>
+<meta http-equiv="Page-Enter" content="blendTrans(duration=.5)">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK HREF="style2.css" TYPE="text/css" REL="stylesheet"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+a:link {
+	color: #929292;
+}
+body {
+	background-image: bayibasformu.html;
+}
+.style16 {color: #353535}
+.style19 {font-family: Tahoma, Arial; font-size: 11px; color: #353535; }
+.style9 {font-family: Tahoma, Arial; font-size: 11px; color: #7B7067; }
+.style20 {
+	color: #5F5F5F;
+	font-weight: bold;
+}
+.style22 {color: #353535; font-weight: bold; }
+.style23 {color: #FF0000}
+-->
+</style>
+<SCRIPT LANGUAGE = "JavaScript">
+	function isFilled(str){ return (str != ""); }
+	function isEmail(string) { return (string.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)||(string==''); }
+ 	function isDigital(str)	{ return(parseFloat(str,10)==(str*1)); }
+ 	function isCurrency(val) { 	var re = /^(\$?\d+\$?|\$?\d+\.\d+\$?)$/; return (re.test(val)); }
+		function ValidForm(form) {
+		var field, i;
+		var req = new Array(12);
+		var email = new Array(1);
+		var digits = new Array(0);
+		var currs = new Array(3);
+		req[0] = "r_Your_company_name";
+		req[3] = "r_faaliyet";
+		req[1] = "r_ticno";
+		req[2] = "r_First_Name";
+		req[5] = "re_Contact_Email";
+		req[4] = "r_yetkili";
+		req[6] = "rc_Tel";
+		req[8] = "r_vdaire";
+		req[9] = "r_vno";
+		req[7] = "r_City";
+		req[10] = "r_Adres";
+		req[11] = "r_captcha";
+		email[0] = "re_Contact_Email";
+		currs[0] = "rc_Tel";
+
+		for (i=0;i<12;i++)	{
+			var field = document.getElementById(req[i]);
+			if ((field.type == 'checkbox')||(field.type == 'radio'))
+			{
+				var field = document.getElementsByName(req[i]);
+				var chk = false;
+				for(l=0;l<field.length;l++)
+				{
+					if (field[l].checked) chk = true;
+				}
+				if (!chk) {alert("Field '" + field[0].title + "' is required to be checked correctly before successful submission."); return false; break;}
+			}
+			else
+			{
+			if (!isFilled(field.value))	{
+				alert("Yanlış Giriş  '" + field.title + "' GİRİLMESİ ZORUNLU ALANLARI BOŞ BIRAKMAYINIZ.");
+				field.focus();
+				return false;
+				break;
+			}}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(email[i]);
+			if (!isEmail(field.value)) {
+				alert("GEÇERSİZ MAİL GİRDİSİ '" + field.title + "' LÜTFEN GEÇERLİ BİR MAİL BİLGİSİ GİRİNİZ. BÜYÜK HARFLE DE GİRMEYİNİZ.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(digits[i]);
+			if (!isDigital(field.value)) {
+				alert("Bu alanı Yanlış Girdiniz  " + field.title + " Bu alanın numaralardan oluşması gerekiyor.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<3;i++)	{
+			var field = document.getElementById(currs[i]);
+			if (!isCurrency(field.value)) {
+				alert("Field " + field.title + " is required to be filled in only with digits (0-9) a decimal point, or a dollar sign before successful submission.");
+				field.focus();
+				return false;
+				break;
+			}}
+		return true; }
+		
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 rightmargin="0" bottommargin="0">
+<center>
+  <table width="600" border="0" cellpadding="0" cellspacing="0">
+    
+    <tr>
+      <td><div align="center">
+        <div align="center">
+          <FORM ACTION="http://www.webaynet.com/mailform/forms/formprocessorpro.php" METHOD="POST" ENCTYPE="multipart/form-data" onSubmit="return ValidForm(this);">
+<INPUT TYPE="hidden" NAME="___form_id_" VALUE="68210c43800d2755504f50d60625309a489d45af560f9">
+            <table width="599"  border="0" cellspacing="1" cellpadding="1">
+              <tr align="left" valign="bottom">
+                <td colspan="4" scope="row">&nbsp;</td>
+              </tr>
+              <tr align="left" valign="top">
+                <td colspan="4" scope="row"><div align="center" class="style16">LÜTFEN AŞAĞIDAKİ BİLGİLERİ DOĞRU VE EKSİKSİZ GİRİNİZ, BURADA VERDİĞİNİZ BİLGİLER DOĞRULTUSUNDA DEĞERLENDİRME YAPILACAK VE SİZİNLE İRTİBATA GEÇİLECEKTİR ! </div></td>
+              </tr>
+              <tr align="left" valign="top">
+                <td width="28%" scope="row">&nbsp;</td>
+                <td width="24%">&nbsp;</td>
+                <td width="24%">&nbsp;</td>
+                <td width="24%">&nbsp;</td>
+              </tr>
+              <tr align="left" valign="top">
+                <td colspan="4" scope="row"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="39%" align="right" valign="bottom" class="style19" scope="row"><strong>FİRMA UNVAN </strong></td>
+                    <td width="2%" align="center" valign="bottom"><strong>:</strong></td>
+                    <td width="59%"><span class="style16">
+                      <input class="style9" name="r_Your_company_name" id = "r_Your_company_name" value="" title="FİRMA İSMİNİZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>Ticari Sicil No /T.C. Kimlik No</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style16">
+                      <input class="style9" name="r_ticno" id = "r_ticno" value="" title="TİCARİ SİCİL NO VEYA T.C. NO" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>ADINIZ SOYADINIZ </strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style16">
+                      <input class="style9" name="r_yetkili" id = "r_yetkili" value="" title="ADINIZ VE SOYADINIZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>E-MAİL ADRESİNİZ </strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style16">
+                      <input class="style9" name="re_Contact_Email" id = "re_Contact_Email" value="" title="E-MAIL ADRESİNİZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>FİRMADAKİ GÖREVİNİZ </strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style16">
+                      <input class="style9" name="r_First_Name" id = "r_First_Name" value="" title="FİRMADAKİ GÖREVİNİZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>FAALİYET ALANINIZ </strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style16">
+                      <input class="style9" name="r_faaliyet" id = "r_faaliyet" value="" title="FAALİYET ALANINIZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>TELEFON</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="rc_Tel" id = "rc_Tel" value="" title="TELEFONUNUZ" autocomplete="off">
+                      * </span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>FAKS</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="c_Fax" id = "c_Fax" value="" title="Fax" autocomplete="off">
+                      </span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>ŞEHİR</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="r_City" id = "r_City" value="" title="BULUNDUĞUNUZ ŞEHİR" autocomplete="off">
+                      * </span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>CEP TEL</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="c_gsm" id = "c_gsm" value="" title="gsm" autocomplete="off">
+                      </span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>VERGİ DAİRENİZ</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="r_vdaire" id = "r_vdaire" value="" title="VERGİ DAİRENİZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>VERGİ NUMARANIZ</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <input class="style9" name="r_vno" id = "r_vno" value="" title="VERGİ NUMARANIZ" autocomplete="off">
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>ADRESİNİZ</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <textarea cols="63" rows="5" class="style19" id="r_Adres" name="r_Adres" title="ADRESİNİZ"></textarea>
+                      *</span></td>
+                    </tr>
+                  <tr>
+                    <td align="right"><span class="style19"><strong>ÖZEL MESAJ BIRAKMAK İSTERSENİZ</strong></span></td>
+                    <td align="center"><strong>:</strong></td>
+                    <td><span class="style19">
+                      <textarea cols="63" rows="5" class="style19" name="ozelmsg" id="ozelmsg" title="ozelmsg"></textarea>
+                      </span></td>
+                    </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><span class="style19"><img src="http://www.webaynet.com/mailform/forms/formprocessorpro.php?captcha&t=0" style="border: 1px solid silver;" alt="Captcha Image: you will need to recognize the text in it."></span></td>
+                    </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td><div><span class="style19"><strong>GÜVENLİK KODU</strong></span></div>
+                      <span class="style19">
+                        <input class="style9" id="r_captcha" size="0" name="r_captcha" title="GÜVENLİK KODU" value="" autocomplete="off">
+                        *</span></td>
+                    </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td align="left"><div> <span class="style19">
+                      <input type="SUBMIT" class="style9" value="Formu Gönder  >>">
+                      </span></div></td>
+                    </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    </tr>
+                  <tr>
+                    <td colspan="3"><span class="style19">(*) Lütfen bu işaretin olduğu alanları mutlaka doldurunuz. Sizinle kolay bir şekilde irtibat kurabilmemiz için bu gereklidir. </span></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr align="left" valign="top">
+                <td colspan="4" scope="row">&nbsp;</td>
+              </tr>
+              </table>
+          </form>
+        </div>
+      </div></td>
+    </tr>
+  </table>
+</center>
+</BODY>
+  </HTML>    

@@ -1,0 +1,6 @@
+Order ID : WAND4908420f2070d
+Order Type : WAND
+Customer Name : Bülent þeker
+SQL Actions : success
+Payment Date : 29-10-2008 12:59:30
+Error Codes : none

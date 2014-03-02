@@ -1,0 +1,2 @@
+../log-file-form/log-file-form-data.csv
+"{#name|lower|capitalize#}";{#gender#};{#age#};{#country#};{#%DATE#};{#%unique_reference#};{#%REMOTE_ADDR#};{#%HTTP_USER_AGENT#};

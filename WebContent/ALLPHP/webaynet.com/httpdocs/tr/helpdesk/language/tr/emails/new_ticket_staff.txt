@@ -1,0 +1,22 @@
+Merhaba,
+
+Yeni bir destek talebi kaydedildi. Talep Detaylarý Aþaðýdadýr :
+
+Talep Konusu : %%SUBJECT%%
+Takip Numarasý : %%TRACK_ID%%
+
+Talebi Buradan Yönetebilirsiniz :
+%%TRACK_URL%%
+
+
+*BU E-POSTA MESAJINI CEVAPLAMAYIN*
+Bu e-posta mesajý destek sistemimiz tarafýndan otomatik olarak gönderilmiþtir. Bu e-posta mesajýný cevaplamayýn, çünkü mesajýnýz müþteriye ulaþmayacaktýr.
+
+
+Profilinizdeki bildirim seçeneklerini her zaman istediðiniz þekilde deðiþtirebilirsiniz.
+
+
+Saygýlarýmýzla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

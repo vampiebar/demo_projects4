@@ -1,0 +1,453 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.workviewer.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2688                
+POS_VISITOR 8459                
+POS_DAY 12785               
+POS_DOMAIN 3288                
+POS_LOGIN 3521                
+POS_ROBOT 3676                
+POS_WORMS 4030                
+POS_EMAILSENDER 4161                
+POS_EMAILRECEIVER 4304                
+POS_SESSION 12873               
+POS_SIDER 13073               
+POS_FILETYPES 4439                
+POS_DOWNLOADS 4699                
+POS_OS 4747                
+POS_BROWSER 4927                
+POS_SCREENSIZE 5554                
+POS_UNKNOWNREFERER 5628                
+POS_UNKNOWNREFERERBROWSER 5895                
+POS_ORIGIN 5977                
+POS_SEREFERRALS 6119                
+POS_PAGEREFS 6276                
+POS_SEARCHWORDS 7228                
+POS_KEYWORDS 7695                
+POS_MISC 2352                
+POS_ERRORS 7936                
+POS_CLUSTER 3377                
+POS_SIDER_404 8062                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130901051223 2 165 9411844058793
+FirstTime 20130831110222
+LastTime 20130831203008
+LastUpdate 20130902033445 2 0 1 0 0
+TotalVisits 106                 
+TotalUnique 104                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 104                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 22 425 8433780 4 6 21070
+12 6 86 1442306 0 1 0
+13 6 67 1547103 0 2 226070
+14 2 30 734957 0 1 0
+15 5 67 1624661 1 3 26708
+16 57 625 76228857 5 59 4059995
+17 46 520 71427796 0 30 13937
+18 65 832 21487766 2 33 302212
+19 20 251 36120263 1 9 34921
+20 16 189 4470114 1 5 1657
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 245 3092 223517603
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+discovery 30 699452 20130831165600 0
+bingbot 4 45374 20130831190348 2
+msnbot\-media 2 6795 20130831194645 1
+bot[\s_+:,\.\;\/\\-] 2 778 20130831204754 2
+no_user_agent 1 335 20130831165706 0
+googlebot 1 427 20130831192152 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 325 11566188 0 0
+eot 6 226374 0 0
+png 1883 27770539 0 0
+ttf 29 2286090 0 0
+woff 48 2008413 0 0
+php 154 3848620 0 0
+js 250 9509710 0 0
+jpg 380 17718668 0 0
+exe 8 148536478 0 0
+gif 9 46523 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 389 33
+linuxandroid 1294 107
+winunknown 30 3
+winxp 175 12
+winlong 30 2
+win8 246 15
+Unknown 57 3
+win7 871 70
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome27.0.1453.94 1 1
+chrome29.0.1547.57 308 20
+chrome18.0.1025.308 66 5
+android 888 75
+chrome18.0.1025.166 30 2
+sonyericsson 49 5
+vodafone 48 3
+chrome29.0.1547.59 61 5
+chrome28.0.1500.94 29 1
+samsung 30 2
+chrome28.0.1500.95 30 2
+lg\- 29 2
+chrome29.0.1547.62 496 30
+safari6.0 99 10
+chrome26.0.1410.58 25 1
+opera9.80 28 1
+iphone 100 8
+chrome28.0.1500.72 28 2
+chrome26.0.1410.64 30 2
+msie7.0 29 2
+chrome25.0.1364.172 163 17
+firefox23.0 87 6
+msie10.0 88 7
+safari4.0.4 66 5
+firefox6.0 4 4
+safari5.1 116 9
+msie9.0 87 9
+chrome27.0.1453.116 30 2
+chrome25.0.1364.169 39 6
+safari 8 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(Android;_Mobile;_rv:23.0)_Gecko/23.0_Firefox/23.0 20130831190132
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/30.3793;_U;_tr)_Presto/2.8.119_Version/11.10 20130831183347
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 72 72
+From1 1 1
+From2 10 10
+From3 54 457
+From4 108 2552
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 19
+http://googleads.g.doubleclick.net/pagead/ads 26 26
+http://159.253.136.27 7 280
+http://159.253.136.27/iletisim.php 2 5
+http://www.gezginler.net/indir/i/13521/ 2 2
+http://159.253.136.27/features.php 2 32
+http://www.gezginler.net/indir/i/8784/ 2 2
+http://www.gezginler.net/indir/i/8889/ 1 1
+http://m.tamindir.com 1 1
+http://www.gezginler.net/indir/i/3040/ 1 1
+http://www.tomshardware.co.uk/forum/377477-33-vision-engine-control-center 1 1
+http://159.253.136.27/clients.php 1 50
+http://www.gezginler.net/indir/i/17731/ 1 1
+http://www.gezginler.net/indir/i/18228/ 1 1
+http://www.gezginler.net/indir/i/756/ 1 1
+http://159.253.136.27/screenshots.php 1 42
+http://www.govome.com/web 1 1
+http://www.gezginler.net/indir/i/406/ 1 1
+http://159.253.136.27/css/site.css 1 8
+http://www.gezginler.net/indir/i/1621/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+bilgisayar+izleme+program%c4%b1 1
+bilgisayardan+cep+telefonu+takip 1
+pc+takip+program%c4%b1 1
+bilgisayar+takip+program%c4%b1 1
+stok+takip+program%c4%b1 1
+flow+chart+stok+takip+prg.+icin 1
+oteller+i%c3%a7in+internet+takip+program%c4%b1 1
+telefon+takip+program%c4%b1 1
+uzaktan+pc+takip 1
+casus+takip+program%c4%b1 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 19
+takip 9
+program%c4%b1 7
+bilgisayar 2
+pc 2
+stok 2
+i%c3%a7in 1
+chart 1
+icin 1
+telefon 1
+prg. 1
+casus 1
+flow 1
+cep 1
+internet 1
+telefonu 1
+bilgisayardan 1
+uzaktan 1
+izleme 1
+oteller 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 4 21070
+206 8 3843421
+500 2 42420
+404 21 26498
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/apple-touch-icon-precomposed.png 11 -
+/test/php/test.php 1 -
+/apple-touch-icon.png 9 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 104
+217.131.102.205 21 424 7751020 20130831125304
+78.184.89.48 8 64 1282045 20130831161257
+46.1.162.174 6 39 31047146 20130831173444
+178.247.53.141 6 39 989445 20130831200858
+88.233.120.188 6 39 59937594 20130831162618
+78.189.16.232 5 40 1235728 20130831180900
+78.180.216.245 5 51 1010523 20130831165854
+88.254.176.66 4 36 29825631 20130831172849
+31.200.25.42 4 37 847651 20130831132708
+81.215.80.135 4 69 4943515 20130831165328
+85.106.235.92 2 29 729299 20130831170656
+178.240.26.163 2 29 729299 20130831170406
+46.1.161.158 3 48 989788 20130831164746
+194.54.54.237 2 30 699452 20130831161758
+88.254.73.243 2 29 689276 20130831170319
+149.0.76.119 1 6 190235 20130831172912
+188.38.29.187 2 30 519254 20130831183916
+78.174.125.232 2 30 699452 20130831180707
+176.234.35.73 1 6 175254 20130831191547
+188.57.103.34 2 30 699452 20130831192649
+88.242.194.69 3 26 434548 20130831180414
+5.46.108.39 2 28 489737 20130831174122
+88.249.209.239 2 30 699452 20130831164516
+95.173.238.5 3 31 762434 20130831161846
+176.40.171.161 2 30 699452 20130831180659
+176.219.135.28 2 30 699466 20130831201619
+5.46.38.195 2 30 699452 20130831170338
+95.8.12.42 2 30 734957 20130831185826
+78.173.56.199 1 6 240893 20130831174958
+85.104.33.200 1 6 235634 20130831161656
+176.219.222.22 2 30 699452 20130831131637
+46.155.170.13 1 8 240765 20130831170402
+5.46.134.90 2 29 689284 20130831185413
+93.159.230.14 1 1 30074574 20130831190347
+176.217.82.151 2 30 699451 20130831193431
+85.107.121.107 2 29 729299 20130831180817
+95.14.255.226 1 1 27479 20130831163033
+88.230.163.190 1 6 241233 20130831185329
+95.14.112.14 2 29 729299 20130831183309
+88.247.147.136 1 29 655575 20130831202419
+78.170.173.107 1 25 486582 20130831165350
+212.253.186.116 2 24 501193 20130831175857
+94.54.160.103 1 6 241234 20130831183832
+78.160.135.160 2 30 699452 20130831202319
+78.164.32.163 2 30 734957 20130831171153
+78.178.147.227 2 30 536299 20130831163209
+188.38.102.70 2 30 699464 20130831161959
+149.0.108.74 1 4 145351 20130831164459
+66.249.84.152 1 1 27272 20130831181347
+88.231.94.168 2 30 699452 20130831202524
+176.217.110.92 1 6 241234 20130831171347
+188.56.132.186 2 30 699452 20130831184759
+78.177.176.170 2 29 729299 20130831181210
+92.44.210.46 2 30 699452 20130831182305
+66.249.81.120 1 1 10522 20130831110222
+82.145.217.0 1 28 651557 20130831183346
+78.181.12.96 2 28 676675 20130831165408
+109.228.197.11 3 30 756720 20130831191857
+5.26.65.123 2 30 699458 20130831165526
+78.166.105.15 1 5 124521 20130831172658
+195.174.105.248 2 30 734957 20130831170132
+5.26.146.80 2 30 699452 20130831172901
+88.242.239.157 2 30 734957 20130831145822
+88.254.37.158 3 36 855682 20130831191019
+176.40.67.142 2 29 695422 20130831190132
+85.98.220.109 2 29 689276 20130831181733
+141.8.189.195 3 9 142032 20130831164127
+78.177.242.178 2 29 729299 20130831185315
+212.156.78.102 1 1 27478 20130831185745
+78.190.6.177 1 2 28713 20130831152705
+188.57.107.59 4 37 847666 20130831163205
+95.13.38.208 2 30 699452 20130831200705
+78.173.216.53 2 18 346252 20130831180738
+85.100.179.114 2 30 699452 20130831170509
+88.228.53.233 3 30 733153 20130831181708
+176.219.143.192 2 30 470756 20130831163153
+88.238.59.244 2 30 699464 20130831183942
+46.197.52.241 2 30 733271 20130831185530
+78.190.234.38 2 30 699464 20130831175313
+95.9.142.116 2 29 729299 20130831191036
+31.177.200.152 2 16 689473 20130831182344
+95.13.93.208 3 57 2408343 20130831183240
+88.235.72.183 2 26 622151 20130831184959
+66.249.83.224 2 2 54544 20130831203008
+81.215.109.166 2 29 695424 20130831164317
+178.243.80.35 2 30 699469 20130831152850
+31.200.115.163 2 29 729299 20130831182435
+81.214.55.75 2 30 699464 20130831184209
+176.240.78.239 2 27 506327 20130831174144
+185.14.174.243 2 26 715640 20130831122802
+62.29.52.148 1 6 240893 20130831152741
+85.102.100.92 2 30 734957 20130831190026
+88.248.15.177 2 30 697766 20130831183741
+78.185.123.48 2 30 699452 20130831181812
+78.181.36.92 2 30 699452 20130831192512
+176.236.47.126 1 29 655586 20130831154711
+95.13.20.74 2 30 734957 20130831172909
+78.191.49.114 2 30 699452 20130831120749
+46.221.0.87 1 6 241233 20130831182308
+94.122.150.85 2 30 699452 20130831113718
+85.104.169.0 3 31 726987 20130831172410
+5.229.9.59 1 6 241232 20130831182108
+24.133.110.23 1 6 241234 20130831161107
+212.98.206.194 3 36 855678 20130831181921
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20130831 245 3092 223517603 106
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 3
+0s-30s 88
+2mn-5mn 4
+30s-2mn 9
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 127 3473170 104 35
+/font/fontawesome-webfont.woff 48 2008413 0 37
+/font/fontawesome-webfont.ttf 29 2286090 0 24
+/download.php 13 164862 1 3
+/font/fontawesome-webfont.eot 6 226374 0 3
+/screenshots.php 5 71878 0 2
+/application/setup_manager.exe 5 90426930 1 1
+/features.php 3 63904 0 0
+/application/setup_client.exe 3 58109548 0 1
+/iletisim.php 3 40139 0 0
+/clients.php 2 34378 0 0
+/sendmail.php 1 289 0 0
+END_SIDER

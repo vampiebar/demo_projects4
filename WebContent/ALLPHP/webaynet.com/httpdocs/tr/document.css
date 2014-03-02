@@ -1,0 +1,77 @@
+.newsbg {
+	background-image: document.css;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+a:link{
+	color: #016C8F;
+	text-decoration:none;
+	font-weight: bold;
+}
+a:visited{
+color: #016C8F;
+text-decoration:none;
+	font-weight: bold;
+}
+a:hover{
+	color:black;
+	text-decoration:underline;
+		background-color: #B3E1F0;
+	font-weight: bold;
+}
+.newslink {
+font-family: Tahoma, Arial; 
+font-size: 11px; 
+color: #FFFFFF;
+	font-weight: normal; }
+.newslink:link{
+	color:#ffffff;
+	font-weight: normal;
+}
+
+.menus {
+	font-family: "Small Fonts", Tahoma;
+	font-size: 8px;
+	color: #000000;
+}
+.altyazi 
+{
+font-family: Tahoma, Arial; 
+font-size: 11px; 
+color: #FFFFFF; 
+}
+
+.menuust {
+	font-family: "Small Fonts", Tahoma;
+	font-size: 9px;
+	color: #029AC3;
+}
+.menuust:link {
+	text-decoration:none;
+font-weight: normal;
+}
+.menuust:visited {
+	text-decoration:none;
+font-weight: normal;
+}
+.menuust:hover {
+	text-decoration:underline;
+font-weight: normal;
+background-color: #ffffff;
+}
+.inputsitesearch {
+	font-family: Tahoma, Arial;
+	font-size: 10px;
+	color: #00A0C6;
+	text-decoration: none;
+	width: 74px;
+	border: 1px solid #57C0E0;
+}
+.bgcontactus {
+	background-image: document.css;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.el {
+	cursor: hand;
+}

@@ -1,0 +1,6 @@
+Order ID : WAND495922a88ec90
+Order Type : WAND
+Customer Name : zöhre berk
+SQL Actions : failed
+Payment Date : 29-12-2008 21:19:19
+Error Codes : empty_query_data

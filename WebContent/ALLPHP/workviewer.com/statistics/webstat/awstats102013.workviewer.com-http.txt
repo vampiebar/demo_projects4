@@ -1,0 +1,3994 @@
+AWSTATS DATA FILE 7.1.1 (build 1.989)
+# If you remove this file, all statistics for date 201310 will be lost/reset.
+# Last config file used to build this data file was /usr/local/psa/etc/awstats/awstats.workviewer.com-http.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2015                
+POS_TIME 2704                
+POS_VISITOR 66464               
+POS_DAY 134400              
+POS_DOMAIN 3853                
+POS_LOGIN 4094                
+POS_ROBOT 4249                
+POS_WORMS 5599                
+POS_EMAILSENDER 5730                
+POS_EMAILRECEIVER 5873                
+POS_SESSION 135498              
+POS_SIDER 135717              
+POS_FILETYPES 6008                
+POS_DOWNLOADS 6380                
+POS_OS 6428                
+POS_BROWSER 6827                
+POS_SCREENSIZE 9071                
+POS_UNKNOWNREFERER 9145                
+POS_UNKNOWNREFERERBROWSER 10138               
+POS_ORIGIN 10732               
+POS_SEREFERRALS 10890               
+POS_PAGEREFS 11116               
+POS_SEARCHWORDS 15960               
+POS_KEYWORDS 46650               
+POS_MISC 2368                
+POS_ERRORS 56289               
+POS_CLUSTER 3950                
+POS_SIDER_404 56484               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131101002607 18396 4988459 9264575474918
+FirstTime 20131001001103
+LastTime 20131031220044
+LastUpdate 20131101032411 18396 0 18395 0 0
+TotalVisits 2325                
+TotalUnique 1601                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1647                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2135 5296 455461057 268 521 11174383
+1 7774 10830 651651316 187 546 92620536
+2 9902 12878 1604164216 259 881 166776429
+3 21997 27040 3644939201 390 823 105253216
+4 23831 26057 1760333036 6707 7100 13758549
+5 4380 5427 790982294 254 344 36423438
+6 14276 15878 1849808309 231 314 23051815
+7 28186 30272 3556414734 311 437 101546009
+8 26317 32533 3367060730 262 464 13078634
+9 19989 23826 3375343242 307 494 315398636
+10 63525 71010 12510289789 560 1039 304942089
+11 55804 62175 11356851818 429 781 189511205
+12 53856 61037 10576168483 362 649 129144961
+13 71152 76964 12533973209 499 797 140703273
+14 64272 71509 9606163451 527 789 133556004
+15 44748 54354 6869709150 838 1106 232444151
+16 44688 51617 7732414468 632 898 200342738
+17 42265 48251 7197471903 562 854 179980254
+18 21521 25756 2479190750 584 815 134454937
+19 9276 13631 1171707354 373 660 125318533
+20 3969 6759 531516786 231 450 37862220
+21 1946 3877 234359810 134 250 34355076
+22 2919 4376 167713571 143 396 37964828
+23 1615 2717 166082565 185 427 47974939
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 640343 744070 104189771242
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 32
+bot[\s_+:,\.\;\/\\-] 719 23777309 20131030155523 4
+msnbot 501 72030340 20131031103836 63
+googlebot 385 405157581 20131031230102 72
+no_user_agent 231 6615592 20131031231135 6
+yandex 213 3595209 20131030031808 57
+msnbot\-media 202 4417658 20131031223643 128
+bingbot 165 1889357 20131031164056 64
+bingpreview 145 4270946 20131030200742 0
+baiduspider 117 3238017 20131031185924 3
+ezoom 100 634480 20131031183553 71
+spider 1 427 20131024113704 1
+seznambot 12 194180 20131031082433 5
+[\s_+:,\.\;\/\\-]bot 6 79332 20131030031148 3
+^java\/[0-9] 42 1026369 20131030220331 0
+curl 5 113842 20131028170315 0
+phantom 80 2260285 20131027191340 0
+proximic 2 854 20131031174246 2
+facebook 10 572319 20131024131809 0
+surveybot 4 57582 20131020083820 2
+^mozilla\/5\.0$ 1 28349 20131004123551 0
+turnitinbot 2 28750 20131011105845 1
+w3c_validator 1 28402 20131008060304 0
+crawl 25 513222 20131028210057 2
+nutch 33 471958 20131028024114 14
+ia_archiver 50 405618 20131022013748 21
+libwww 4 50725 20131024203315 0
+feedfetcher\-google 4 15678 20131001122551 0
+unknown 31 11676 20131030142021 31
+robot 6 30233 20131029064745 5
+archive\.org_bot 7 377458 20131030041222 4
+mj12bot 65 1296327 20131028033636 7
+netcraft 11 115719 20131011225135 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+eot 556 28989927 0 0
+css 19420 233569765 0 0
+png 52063 830236367 0 0
+ttf 47 8768996 0 0
+woff 3064 105422255 0 0
+php 633911 93567900434 0 0
+html 498 758990 0 0
+xml 8 8216 0 0
+js 19278 226177153 0 0
+jpg 12706 823457742 0 0
+Unknown 1737 34706258 0 0
+svg 1 198140 0 0
+exe 530 8328032881 0 0
+gif 251 1544118 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 22
+linuxandroid 6556 4547
+winlong 1509 151
+macosx6 1 1
+winxp 91873 74237
+win2000 9 3
+symbian 34 4
+winvista 1473 1118
+winunknown 1 1
+win2003 62 6
+j2me 1 1
+macosx9 38 3
+win8 188145 172220
+macosx7 234 18
+winnt 739 421
+linuxubuntu 46 46
+macosx5 2 2
+linux 477 76
+win7 441363 380367
+winme 2 2
+macosx 10910 6813
+Unknown 268 259
+macosx8 327 47
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 106
+chrome15.0.874.102 36 2
+msie6.0 570 472
+chrome18.0.1025.308 72 20
+firefox26.0 33 2
+chrome30.0.1599.92 930 788
+safari4.0.5 1 1
+firefox18.0 34 3
+firefox4.0 1 1
+safari5.0 36 2
+chrome23.0.1271.95 824 730
+firefox2.0.0.13 4 4
+safari5.0.2 1 1
+chrome5.0.307.7 14 14
+chrome28.0.1500.72 730 452
+opera9.20 2 2
+chrome16.0.897.0 1 1
+msie8.0 7035 1585
+firefox18.1 1 1
+msie7.0 2590 606
+firefox23.0 426 44
+chrome30.0.1599.82 3548 2832
+chrome16.0.912.15 28 2
+opera9.64 1 1
+chrome29.0.1547.66 442 35
+chrome15.0.874.5 61 4
+netscape 1 1
+chrome9.0.597.98 33 2
+chrome8.0.552.215 35 2
+firefox21.0 450 205
+safari6.0 525 181
+firefox2.0.0.6 1 1
+firefox7.0.1 6 6
+firefox12.0 28085 24919
+chrome30.0.1599.69 208735 177562
+safari6.0.5 228 20
+firefox3.5.5 887 714
+mozilla 1064 556
+chrome4.0.249.11 115 12
+firefox25.0 195 36
+chrome26.0.1410.64 209 21
+firefox14.0.1 105 17
+firefox2.0.0.17 1 1
+chrome17.0.963.65 64 12
+chrome30.0.1567.0 44 4
+firefox3.6.3 5 5
+firefox19.0 130 19
+chrome25.0.1364.97 34 2
+firefox10.0.2 33 2
+safari 7979 5497
+chrome29.0.1547.72 345 250
+safari7.0 1869 900
+firefox20.0 1 1
+chrome21.0.1180.90 2 2
+chrome29.0.1547.57 71 5
+firefox4.0.1 33 2
+chrome29.0.1547.76 261965 250048
+android 1614 651
+firefox7.0 69 18
+chrome12.0.742.91 34 29
+chrome28.0.1500.95 447 43
+firefox9.0 1 1
+minefield 6 0
+firefox24.0 20823 15536
+opera9.80 162 9
+iphone 461 234
+chrome25.0.1362.0 1 1
+firefox0.10.1 1 1
+firefox2.0.0.9 1 1
+firefox16.0 66 17
+chrome30.0.1599.66 3853 305
+chrome26.0.1410.43 144 20
+msie9.0 2546 264
+Unknown 135 135
+chrome24.0.1312.52 2 2
+chrome30.0.1599.101 134079 122933
+firefox11.0 1 1
+chrome5.0.375.55 1 1
+chrome11.0.696.68 36 2
+firefox17.0 51 4
+chrome21.0.1180.75 3 3
+chrome14.0.835.186 68 4
+chrome18.0.1025.166 47 6
+vodafone 33 2
+chrome31.0.1650.4 36 2
+firefox3.6.16 45 45
+firefox3.0.11 2 2
+chrome27.0.1453.110 289 231
+chrome28.0.1500.71 28 28
+chrome22.0.1229.95 72 4
+safari2.0.1 34 4
+safari5.1.7 39 4
+chrome16.0.912.75 47 5
+firefox22.0 212 14
+chrome25.0.1364.172 26353 21513
+msie10.0 21071 9593
+firefox6.0 16 16
+safari5.1 73 5
+chrome12.0.742.9 36 2
+firefox3.6.12 100 7
+chrome31.0.1650.2 34 2
+chrome31.0.1650.16 88 3
+firebird 1 1
+chrome27.0.1453.116 119 16
+firefox3.5 8 2
+firefox3.6.8 9 9
+firefox3.6.13 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+MacInroy_Privacy_Auditors._See_ns.netdadi.com's_privacy_violation_report:_http://ns.netdadi.com.macinroy.com/ns.netdadi.com 20131014072338
+Mozilla 20131001045609
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20131027065702
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20131024111150
+Mozilla/5.0_(compatible) 20131031004050
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20131016184508
+Go_1.1_package_http 20131026174536
+xmlset_roodkcableoj28840ybtide 20131016184946
+Mozilla/6.0_(compatible) 20131031004050
+M 20131030155822
+MacInroy_Privacy_Auditors._See_workviewer.com's_privacy_violation_report:_http://workviewer.com.macinroy.com/workviewer.com 20131003052945
+Mozilla/5.0_(Mobile;_Nexus_10;_rv:18.1)_Gecko/18.1_Firefox/18.1 20131004103212
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20131030173402
+Mozilla/3.0_(compatible;_Indy_Library) 20131007130128
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+xmlset_roodkcableoj28840ybtide 20131016184946
+MacInroy_Privacy_Auditors._See_ns.netdadi.com's_privacy_violation_report:_http://ns.netdadi.com.macinroy.com/ns.netdadi.com 20131014072338
+M 20131030155822
+MacInroy_Privacy_Auditors._See_workviewer.com's_privacy_violation_report:_http://workviewer.com.macinroy.com/workviewer.com 20131003052945
+Web-sniffer.me/1.0.0_(_http://web-sniffer.me/) 20131030173402
+masscan/1.0_(https://github.com/robertdavidgraham/masscan) 20131016184508
+Go_1.1_package_http 20131026174536
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5039 5458
+From1 1 1
+From2 1652 1652
+From3 2955 3235
+From4 630696 733724
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+google 1543 1543
+search 10 10
+baidu 70 70
+bing 2 2
+yandex 9 9
+ask 17 17
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 91
+http://www.youtube.com/embed/ksRTO8cNM_g 2543 2543
+http://www.facebook.com/plugins/like.php 50 50
+http://cnn.com 29 29
+http://www.secpayazilim.com/workviewer 28 28
+http://www.haberturk.com 27 27
+http://www.secpayazilim.com/indir 26 26
+http://www.youtube.com 26 26
+http://www.facebook.com/plugins/likebox.php 24 24
+http://www.facebook.com 20 20
+http://www.cozumpark.com/forums/thread/399474.aspx 18 18
+http://internethaber.com 2 2
+http://onurgultekin.com 2 2
+http://a433.com/delivery/intsetcookie.php 1 1
+http://paste.org/54009 1 1
+http://era-fashion.com/2013/05/27/Tulisa-slips-into-heels-for-bikini-party-in-Marbella/ 1 1
+http://logo.com.tr 1 1
+http://www.cozumpark.com/forums/400260/ShowThread.aspx 1 1
+http://anchorfree.us/news/ 2 2
+http://m.facebook.com/l.php 2 2
+http://www.viewbix.com/frame/5a6573b7-723f-42fd-8f1e-071db3f6abcd 1 1
+http://tr.alhea.com/ego.tr2/search/web 1 1
+http://us-mg6.mail.yahoo.com/neo/launch 3 3
+http://www.onurgultekin.com 1 1
+http://www.hurriyet.com.tr 3 3
+http://headlinesblog.info/2011/11/06/heather-e-schwartz-inspires-young-girls-to-serve-their-nation/ 1 1
+http://bugarin.info/2013/07/22/The-African-Children-s-Choir-Joined-By-The-Lone-Bellow-More/ 1 1
+http://www.internethaber.com 4 4
+http://www.govome.com/web/ 1 1
+http://www.webaynet.com/tr/ 2 2
+http://bugarin.info/2013/06/25/Starz-Greenlights-Ronald-D-Moore-Produced-Adaptation-of-Outlander-Series/ 1 1
+https://m.facebook.com/home.php 1 1
+http://www.hurriyet.com.tr/anasayfa/ 3 3
+http://headlinesblog.info/2012/04/05/orbiting-space-station-snaps-its-one-millionth-photo/ 1 1
+http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi 1 1
+https://m.facebook.com 1 1
+http://great-finances.info/2013/07/08/Le-Tour-conquers-economic-mountains/ 1 1
+http://ns.netdadi.macinroy.com/ns.netdadi.com 1 1
+http://www.cnn.com 4 4
+http://www.facebook.com/l.php 5 5
+http://tr.alhea.com/web/filtre%20programi%20indir 1 1
+http://www.cozumpark.com/forums/thread/400538.aspx 1 1
+http://danik.info/avg-2011-antivirus-fre/ 1 1
+http://www.us-forex.net/2011/11/03/rand-jumps-after-ecb-cut-rates-forex-news/ 1 1
+http://tags.bluekai.com/site/15439 1 1
+http://www.safehomepage.com/web/ 1 1
+http://haberturk.com 9 9
+http://www.secpayazilim.com/login/stats.php 0 279
+http://www.facebook.com/plugins/recommendations.php 1 1
+http://www.cozumpark.com/forums/thread/396830.aspx 3 3
+http://www.yandex.com.tr/clck/jsredir 3 3
+http://ntkernel.com 2 2
+http://localhost:8080/js/jsonpexample/D18C4186D2466A307464FF436C084CCA.cache.html 3 3
+http://yandex.com.tr/clck/jsredir 3 3
+http://vergomos.com/hosting.html 2 2
+http://agediscriminationlawyers.info/the-kingdom-of-childhood-explores-a-darker-side-of-life 1 1
+https://www.facebook.com 8 8
+http://www.us-forex.us/2011/07/new-zealand-ocr-unchanged-at-2-5-percent/ 1 1
+http://facebook.com 16 16
+http://www.us-forex.net/2011/09/23/eurusd-euro-has-stabilized-after-collapse/ 1 1
+http://www.facebook.com/plugins/activity.php 12 12
+http://twitter.com 2 2
+http://www.cozumpark.com/forums/thread/399612.aspx 1 1
+http://era-fashion.com/2013/06/06/Grey-Rihanna-Knot-Front-Thigh-Split-Skirt/ 1 1
+http://www.springer.com 1 1
+http://159.253.136.27 2 2
+http://www.viewbix.com/v/Wokrkviewer/5a6573b7-723f-42fd-8f1e-071db3f6abcd 1 1
+http://danik.info/vulnerability_in_wordpress/ 1 1
+http://www.govome.com/web 8 8
+http://agediscriminationlawyers.info/japanese-yen-to-benefit-from-risk-aversion-boj-on-tap 1 1
+http://www.cetabilgi.com/urun/work-viewer-kontrol-ve-izleme/126/ 0 1
+http://www.desktopgate.com 1 1
+http://www.cnn.com/WORLD/ 1 1
+http://localhost:8080/js/jsonpexample/1B849B743807C2982D8E2136262D44FC.cache.html 3 3
+http://www.ausergrubhof.info 1 1
+http://agediscriminationlawyers.info/berlusconi-says-hes-resigning-for-good-of-italy 1 1
+http://bugarin.info/2013/06/22/Anna-Kendrick-In-Talks-To-Join-Into-The-Woods/ 1 1
+http://danik.info/isklyuchenie-rubrik-s-glavnoj-stranicy/ 1 1
+http://www.secpayazilim.com/anasayfa 1 1
+http://www.localmoxie.com/new1.php 1 1
+http://www.us-forex.us/2012/04/britain-back-in-recession/ 1 1
+http://workviewer.macinroy.com/workviewer.com 1 1
+http://great-finances.info/2013/09/12/Apple-s-shares-fall-on-new-launches/ 1 1
+http://vergomos.com 1 1
+http://great-finances.info/2013/08/15/Blockbusters-boost-Cineworld-takings/ 1 1
+http://www.us-forex.net/2009/06/17/investor-daily-retail-stocks-on-sale/ 1 1
+http://www.us-forex.us/2012/03/gbpusd-bear-threat-halts-medium-term-bullish-momentum/ 1 1
+http://era-fashion.com/2013/09/10/Khloe-Kardashian-steps-out-with-her-sister-Kourtney/ 1 1
+http://youtube.com 2 2
+http://www.website-unavailable.com/main 1 1
+http://www.200please.com/speed/workviewer.com 2 2
+http://headlinesblog.info/2011/10/12/new-confucianism-in-china/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 732
+www.workviewer.com 39
+bilgisayar+takip+program%c4%b1 38
+a%c4%9fdaki+bilgisayarlar%c4%b1+izleme 33
+filtre+program%c4%b1 19
+workviewer 16
+bilgisayar+izleme+program%c4%b1 15
+pc+takip+program%c4%b1 14
+site+engelleme+program%c4%b1 13
+telefon+takip+program%c4%b1 12
+workviewer.com 11
+site+engelleyici+program 1
+m%c3%bc%c5%9fteri+takip+program%c4%b1 1
+twitter+kar%c5%9f%c4%b1l%c4%b1kl%c4%b1+takip+le%c5%9ftirme+program%c4%b1 1
+internetden+pc+izleme 1
+numara+takip+program%c4%b1 2
+eskihisar+top%c3%a7ular+canl%c4%b1+kamera+izleme+ekran%c4%b1 1
+iphone+uzaktan+kamera+izleme+pc+i%c3%a7in 1
+%c3%a7al%c4%b1nan+bilgisayar%c4%b1+takip 1
+workwiever.com 1
+a%c4%9f+izleme+program%c4%b1 1
+%c3%bccretsiz+internet+k%c4%b1s%c4%b1tlama+program%c4%b1 1
+%c5%9e%c3%96f%c3%96r+tak%c4%b0p+programi 1
+k%c3%b6t%c3%bc+siteler+engelleme+program%c4%b1 1
+%c3%bccretsiz+pc+takip+program%c4%b1+t%c3%bcrk%c3%a7e 2
+armada+bilgisayar+garanti+takip 1
+bilgisayara+s%c4%b1zma+webcamdan+izleme 2
+elektronik+ortamda+enjeksiyon+takip+program%c4%b1 1
+bilgisayar+takip+etme 1
+bilgisayar+kamera+ile+g%c3%b6r%c3%bcnt%c3%bcleri+izleme+program%c4%b1 1
+pc+uzaktan+kontrol 3
+bilgisayar+laboratuar%c4%b1+izleme+%c3%a7izelgesi 1
+bilgisayar+ekran+takip+program%c4%b1 1
+bilgisayardaki+videolar%c4%b1+televizyonda+izleme 1
+network+te+pc+izleme 1
+ortam+takibi+bilgisayar 1
+apple+takip+program%c4%b1 2
+g%c3%bcvenlik+kameras%c4%b1n%c4%b1+ba%c5%9fka+pc+den+izleme 1
+cep+telefonu+takip+program%c4%b1+iphone 1
+ar%c4%b1za+takip+program%c4%b1 1
+cartoon+network+izle 5
+gps+takip+etme+program%c4%b1 1
+ofis+takip+programlar%c4%b1 2
+ba%c5%9fka+bir+bilgisayar%c4%b1+takip+etmek 2
+veresiye+takip+programlar%c4%b1 1
+otob%c3%bcs+takip+program%c4%b1 1
+a%c4%9fdaki+bilgisayarlar%c4%b1+izleme+programs%c4%b1z 2
+trabzon+lazio+pc+izleme 1
+ba%c5%9fka+pc+nin+ekran%c4%b1n%c4%b1+izleme 1
+spector+pro+t%c3%bcrk%c3%a7e 1
+en+h%c4%b1zl%c4%b1+uzaktan+kontrol+pro%c4%9fram%c4%b1 1
+kars%c4%b1daki+pc+takip+etme 1
+i%c5%9f+sa%c4%9fl%c4%b1%c4%9f%c4%b1+ve+g%c3%bcvenli%c4%9fi+kay%c4%b1t+takip+ve+izleme+program%c4%b1 1
+bilgisayar+da+%c3%b6n+izleme+yok 1
+a%c4%9f+%c3%bcst%c3%bcnden+filitre+program%c4%b1 1
+cep+telefonu+numaras%c4%b1ndan+sinyal+takibi+program%c4%b1 2
+serverdan+site+engelleme 1
+muhabbet+ku%c5%9fu+%c3%bcretim+takip+program%c4%b1 1
+fen+i%c5%9fleri+yevmiye+takip+program%c4%b1+indir 1
+interneti+engelleme+program%c4%b1 1
+gizlice+bilgisayar+izleme 1
+girdi+%c3%a7%c4%b1kt%c4%b1+takip+program%c4%b1 1
+site+engelleme+program%c4%b1+profesyonel 1
+ak%c4%b1ll%c4%b1+telefonlar%c4%b1+takip+program%c4%b1 1
+yibo+ambar+takip+program%c4%b1 1
+avenir+bilgisayardan+kay%c4%b1t+izleme+program%c4%b1 1
+toshiba+pc+izleme 1
+c%23+stok+takip+program%c4%b1+yap%c4%b1m%c4%b1 1
+bilgisayarda+%c3%a7ocuklar%c4%b1+takip+etme+program%c4%b1 1
+facebook+takip%c3%a7i+artt%c4%b1rma+program%c4%b1 1
+personel+mevcudu+takip+program%c4%b1 1
+elektronik+par%c3%a7a+takip+program%c4%b1+yapmak+istiyorum 1
+internete+girince+terbiyesiz+%c5%9feyleri+engelleme+program%c4%b1 1
+takip+haz%c4%b1rlama+program%c4%b1 1
+spector+pro+6.0+indir 3
+numara+takip+etme+program%c4%b1+indir 3
+fatura+takip+program%c4%b1 3
+%c3%bccretsiz+telefon+takip+program%c4%b1+indir 2
+hp+garantiye+verilen+bilgisayari+tak%c4%b0p+etme 1
+bilgisayar+filtre+program%c4%b1+lisansl%c4%b1 3
+yedek+par%c3%a7a+takip+program%c4%b1 1
+spector+pro 2
+alemizim+ekran%c4%b1+izle 2
+karsi+taraftak%c4%b0+pc+%c4%b0zleme 1
+sim+kart+takip+program%c4%b1 1
+cep+telefon+takip+program%c4%b1+indir 1
+bilgisayar+takip+programi+neden+coker 1
+netz+a%c4%9f+izleme+program%c4%b1+free 1
+ba%c5%9fka+pc+takip+etme 1
+%c5%9firket+bilgisayar%c4%b1+izleme 1
+bilgisayarda+kamera+izleme+program%c4%b1 1
+kendi+bilgisayar%c4%b1m%c4%b1+takip+etmek+istiyorum 1
+gps+takip+program%c4%b1 1
+uzaktan+pc+izleme+program%c4%b1 1
+bilgisayar+takip+program%c4%b1+nas%c4%b1l+anla%c5%9f%c4%b1l%c4%b1r 2
+networkde+olan+bilgisayarlar%c4%b1+izleme 1
+bilgisayar+s%c4%b1n%c4%b1f%c4%b1ndaki+bilgisayarlar%c4%b1+izlemek 1
+internetten+oyunlar%c4%b1+engelleme 1
+iddaa+takip+program%c4%b1 1
+filtreleme+programlar%c4%b1 1
+spector+pro+t%c3%bcrk%c3%a7e+indir 2
+personel+devam+takip+prgoram%c4%b1 3
+internet+cafe+i%c3%a7in+filtre+program%c4%b1 1
+bilgisayar+ne+yap%c4%b1lm%c4%b1%c5%9f+izleme+program%c4%b1+indir 1
+%c3%a7ocuk+takip+program%c4%b1 4
+bilgisayar+takip+program%c4%b1+indir+t%c3%bcrk%c3%a7e 1
+bilgisayarlar%c4%b1+uzaktan+kontrol+program%c4%b1 3
+i%c5%9fyeri+bilgisayar+takip 3
+bilgisayar+izleme+program%c4%b1+full 5
+pc+den+kamera+izleme+program%c4%b1 1
+i%c5%9fyeri+pc+takip 2
+a%c4%9f+%c3%bczerinden+personel+izleme+program%c4%b1 1
+barkot+takip+program%c4%b1 1
+internet+sitesi+engelleme+program%c4%b1 2
+uzak+bilgisayar%c4%b1+izleme 4
+hasta+ila%c3%a7+takib+pro%c4%9erami 1
+takip%c3%a7i+artt%c4%b1rma+program%c4%b1 2
+lojistik+takip+program%c4%b1 1
+online+pc+izleme+program%c4%b1 1
+hasta+takip+program%c4%b1+%c3%bccretsiz 1
+bilgisayarda+mp4+izleme+program%c4%b1 1
+wireless+takip+program%c4%b1 3
+su+saya%c3%a7+saati+takip+program%c4%b1+ayl%c4%b1k 1
+canl%c4%b1+borsa+takip+program%c4%b1 1
+uzaktan+pc+kontrol+etme 1
+ev+bilgisayar%c4%b1n%c4%b1+i%c5%9ften+gizlice+izleme 1
+%c3%a7ocu%c4%9fumun+pc+sini+takip+etme 1
+personel+takip+program%c4%b1+indir+%c3%bccretsiz 1
+free+sms+takip+program%c4%b1+2013 1
+bilgisayar+ge%c3%a7mi%c5%9fi+takip+program%c4%b1 1
+multi+casus+bilgisayar+takip+yaz%c4%b1l%c4%b1m%c4%b1 1
+bir+bilgisayar%c4%b1+uzaktan+izleme 2
+bilgisayardaki+filmleri+tabletten+izlemek 1
+kuran%c4%b1+kerim+takip+etmek+program%c4%b1 3
+internetini+k%c4%b1s%c4%b1tlama+pro%c4%9fram%c4%b1 3
+kablosuz+a%c4%9fdaki+bilgisayarlar%c4%b1+izleme 1
+internet+eri%c5%9fimi+engelleme 1
+%c3%bccretsiz+bilgisayar+izleme+pro%c4%9fram%c4%b1 2
+foto%c4%9fraf+filtreleme+programlar%c4%b1 1
+pc+takip 1
+i%c5%9f+bankas%c4%b1+kredi+kart%c4%b1+hesap+takip+program%c4%b1 1
+bilgisayar+izleme 4
+ara%c3%a7+takip+program%c4%b1+access 1
+vatan+bilgisayar+sipari%c5%9f+takibi 1
+twitter+takip%c3%a7i+artt%c4%b1rma+program%c4%b1+2013+t%c3%bcrk%c3%a7e+indir 1
+uzaktaki+bilgisayar%c4%b1+kontrol+etme+program%c4%b1 1
+i%c5%9fyeri+filtre+program%c4%b1 1
+web+filtreleme+programlar%c4%b1 3
+bilgi+i%c5%9flem+b%c3%bct%c3%a7e+takip+program%c4%b1 2
+gizli+bilgisayar+takip 2
+pornografik+siteleri+engelleme 2
+nmss+bilgisayardan+izle 2
+a%c4%9fa+ba%c4%9fl%c4%b1+bilgisayarlar%c4%b1+izleme 7
+cep+telefonu+takip+sistemi+pro%c4%9fram%c4%b1 1
+e+mail+takip+program%c4%b1 1
+g%c3%bcvenli+interneti+engelleme 1
+u%c3%a7ak+bileti+takip+program%c4%b1 3
+web+sitesi+engelleme+program%c4%b1 1
+bilgisyar+izleme 1
+doktor+takip+program%c4%b1 1
+pc+tak%c4%b0p+yazilim 1
+depo+takip+program%c4%b1+indir+gezginler 1
+alt%c4%b1n+piyasas%c4%b1+takip+program%c4%b1 1
+tekstil+takip+program%c4%b1 1
+kolay+teknik+servis+takip+program%c4%b1+excel 2
+bilgisayarlar%c4%b1+izleme 2
+ba%c5%9fka+bilgisayar+izleme+program%c4%b1 1
+bilgisaray+takibi+iptali 1
+ba%c5%9fka+bir+bilgisayar%c4%b1+izleme 3
+filtre+k%c4%b1rma+program%c4%b1 3
+site+engellemek 1
+bilgisayar+ekran%c4%b1ndan+tv+izleme 2
+5651+yasas%c4%b1 1
+bilgisayar%c4%b1+izleme+program%c4%b1 1
+kasa+takip+program%c4%b1 1
+gizli+pc+takip 1
+eczane+hasta+takip+program%c4%b1 1
+internet+filtre+programlar%c4%b1 1
+telefona+takip+program%c4%b1 1
+a%c4%9fdaki+pc+leri+izleme 1
+internet+takip+programlar%c4%b1 1
+facebook+engelleme+kald%c4%b1rma+program%c4%b1 1
+uzaktan+bilgisaya+izleme 1
+kendi+bilgisayar%c4%b1m%c4%b1+izleme 1
+t%c4%b1r+karnesi+takip+program%c4%b1 1
+bilgisayar+takip+program%c4%b1+full+indir 1
+bilgisayar+takip+program%c4%b1+%c3%bccretsiz 5
+polis+sinyal+takip+program%c4%b1+indir 1
+%c3%a7ocu%c4%9fumu+ba%c5%9fka+bilgisayarda+izleme 1
+teki+bilgisayarlari+izleme 1
+ip+numaras%c4%b1ndan+pc+izleme 2
+cep+telefonu+sinyal+takip+program%c4%b1+indir 1
+takip+sistemi+program%c4%b1+indir 2
+a%c4%9f+izleme+yaz%c4%b1l%c4%b1mlar%c4%b1 3
+t%c3%bcp+takip+program%c4%b1 1
+siparis+takip+program%c4%b1 1
+web+filtre+program%c4%b1 2
+uzaktaki+pc+yi+kontrol+etme 1
+imei+takip+program%c4%b1 2
+kar%c5%9f%c4%b1daki+kabul+etmeden+bilgisayar+izleme 1
+bilgisayar+izleme+program%c4%b1+nas%c4%b1l+anla%c5%9f%c4%b1l%c4%b1r 8
+wireless+dan+ba%c5%9fka+bilgisayarlara+ba%c4%9flanma+takip+etme+program%c4%b1 1
+kurban+kesim+takip+pro%c4%9fram%c4%b1 1
+fatura+takip+program%c4%b1+t%c3%bcrk%c3%a7e+indir 1
+bilgisayardan+ara%c3%a7+takip 1
+bilgisayar+izleme+program%c4%b1+indir 1
+bilgisayardan+gsm+takip+indir 1
+pc+izleme+program%c4%b1 6
+uzaktan+bilgisayar+monit%c3%b6r+izleme 2
+internet+%c3%bczerinden+bulunmay%c4%b1+engelleme 1
+spector+pro+bilgisayar+takip+program%c4%b1 1
+agent+takip+program%c4%b1 2
+bilgisayar+izleme+ve+g%c3%b6zetleme+program%c4%b1 1
+u%c3%a7ak+takip+program%c4%b1+indir 1
+sevgilinizin+bilgisayar%c4%b1n%c4%b1+izlemek 1
+ebeveyn+bilgisayar+takip 3
+bilgisayar+takip+yaz%c4%b1l%c4%b1m%c4%b1 1
+bilgisayar+takip+net+uzaktakip 1
+pc+takip+etmek+program%c4%b1 2
+paradise+profesyonel+bilgisayar+takip+ve+kontrol+program%c4%b1 2
+ttnete+bagli+pc+izleme 2
+ba%c5%9fka+bilgisayar%c4%b1n+ekran%c4%b1n%c4%b1+izleme 1
+uzak+pc+kontrol+yaz%c4%b1l%c4%b1m%c4%b1 1
+internetteki+reklamlar%c4%b1+engelleme+program%c4%b1 3
+bilgisayar+kameras%c4%b1n%c4%b1+izleme 1
+bilg%c4%b1sayar%c4%b1+kulan%c4%b1c%c4%b1dan+baskas%c4%b1+nas%c4%b1l+tak%c4%b1p+eder 1
+b%c4%b0lg%c4%b0sayar+tak%c4%b0p 1
+pazarlama+m%c3%bc%c5%9fteri+takip+program%c4%b1 2
+b%c4%b0lg%c4%b0sayar+ne+zaman+nereye+g%c4%b0rd%c4%b0%c4%9e%c4%b0n%c4%b0+nasil+takip+ederiz 1
+sigorta+m%c3%bc%c5%9fteri+takip+program%c4%b1 1
+maa%c5%9f+avans+takip+program%c4%b1 1
+ayn%c4%b1+internetteki+bilgisayar%c4%b1+izleme+programs%c4%b1z 1
+pc+deki+takip+program%c4%b1 1
+bilgisayar+gizli+takip+program%c4%b1 2
+personel+takip+program%c4%b1+excel 2
+alacak+verecek+takip+program%c4%b1 2
+bilgisayarlar%c4%b1+a%c4%9fda+izleme+ve+y%c3%b6netme+program%c4%b1 1
+bilgisa+yar+takip+program%c4%b1+nas%c4%b1l+kald%c4%b1r%c4%b1l%c4%b1r 1
+kamera+takip+program%c4%b1+full+indir 1
+bir+bilgisayara+cd+tak%c4%b1p+izleme 1
+a%c4%9f+izleme+ve+kontrol+programlar%c4%b1 6
+bilgisayar+uzaktan+izleme+program%c4%b1+indir 1
+a%c4%9f+trafik+izleme+program%c4%b1 2
+internet+cafe+filtre+program%c4%b1 1
+telefon+takip+program%c4%b1+indir 3
+a%c4%9f+bilgisayarlar%c4%b1n%c4%b1+izleme 5
+gqw.donesection.net+sitesini+engelleme 1
+real+d+3d+bilgisayarda+izleme 1
+mezun+takip+program%c4%b1 1
+portf%c3%b6y+takip+program%c4%b1 1
+ucrets%c4%b1z+emlak+tak%c4%b1p+program%c4%b1 1
+kitap+takip+program%c4%b1+3.2+full 1
+bilgisayardan+sinyal+takibi 1
+a%c4%9fdaki+bilgisayarlar%c4%b1+izleme+program%c4%b1+%c3%bccretsiz 1
+a%c4%9f+trafi%c4%9fi+izleme 1
+spector+puro 1
+mazot+takip+program%c4%b1 1
+bilgisayar+filtre+program%c4%b1 2
+uydu+takip+program%c4%b1 2
+aktif+reaktif+kapasitif+tak%c4%b0p+program%c4%b1+indir 1
+bilgisayara+y%c3%bcklenen+kimin+ne+yapt%c4%b1%c4%9f%c4%b1n%c4%b1+izleme+program%c4%b1 1
+internet+reklamlar%c4%b1n%c4%b1+engelleme 4
+2013+son+s%c3%bcr%c3%bcm+m%c3%bc%c5%9fteri+takip+program%c4%b1+%c3%bccretsiz+s%c3%bcr%c3%bcm 1
+internet+cafe+masa+takip+program%c4%b1 1
+excelde+personel+takip+program%c4%b1 1
+bilgisayar+online+takip 1
+bilgisayar%c4%b1+takip+eden+program 2
+ger%c3%a7ek+zamanl%c4%b1+pc+takip+program%c4%b1 2
+ev+a%c4%9fdaki+bilgisayar%c4%b1n+ekran%c4%b1n%c4%b1+izleme 1
+bilgisayar%c4%b1m%c4%b1n+takibi 1
+internet+filtreleme 4
+uzaktan+bilgisayar+izleme 2
+windows+7+bilgisayar+takip 2
+bilgisayar+tekniker+ve+teknisyen+i%c5%9f+al%c4%b1mlar%c4%b1n%c4%b1+takip+eden+gruplar 1
+mesa+g%c3%bcvenlik+uzaktan+izleme+program%c4%b1 1
+sak%c4%b1ncal%c4%b1+sitelerin+engellenmesi 1
+%c3%b6%c4%9frenci+bilgisayar%c4%b1+takip 1
+bilgisayar+takip+program%c4%b1+indir 4
+okul+laboratuvar+bilgisayar+takip 1
+site+y%c3%b6netimi+engelleme+kald%c4%b1rma+program%c4%b1 1
+bilgisayar+dan+tv+izleme+baglant%c4%b1l%c4%b1+kablo 1
+uzaktaki+bilgisayar%c4%b1+izleme 1
+https+%2f%2fgrumpph1.pc...iz.com20%2f%2fsec.php 1
+a%c4%9f%c4%b1ndaki+bilgisayar%c4%b1+izleme 2
+bilgisayardan+internet+kullan%c4%b1m%c4%b1n%c4%b1+takip+etme 1
+sevgilime+gelen+mesajlar+pc+den+takip 1
+tel+numaras%c4%b1+sinyal+takibi+program%c4%b1 1
+%c4%b0nterfiltre+program 1
+ku%c5%9e+tak%c4%b0p+programi 1
+telefonu+takip+etme+program%c4%b1 1
+puln%c4%b0x+b%c4%b0lg%c4%b0sayardan+%c4%b0zlemek 1
+bilgisayardan+fabrikadaki+kameralar%c4%b1+izlemek 1
+deneme+takip+program%c4%b1 1
+arvento+ara%c3%a7+takip+sistemi+program%c4%b1n%c4%b1+indir 1
+bilgisayar+filtre+pro%c4%9fram%c4%b1 1
+internet+giri%c5%9fini+engelleyici+programlar 1
+twitter+takip%c3%a7i+programlar%c4%b1 1
+h%c4%b1kv%c4%b1s%c4%b1on+pc+izleme 1
+vatan+bilgisayar+cihaz+takibi 2
+uzaktaki+olan+pc+yi+kontrol+etme 1
+mobil+takip+program%c4%b1 2
+007+bilgisayar+takip 1
+i%c5%9fyerindeki+bilgisayarlar%c4%b1n+ekran%c4%b1n%c4%b1+izleme 2
+ipad+takip+program%c4%b1 1
+pc+takip+program%c4%b1+free 6
+u%c3%a7ak+takip+program%c4%b1 1
+kota+takip+program%c4%b1 2
+masa%c3%bcst%c3%bc+takip+program%c4%b1 3
+e%c5%9fimin+bilgisayar%c4%b1n%c4%b1+izlemek+istiyorum 3
+www.n-top+bilgisar+tak%c4%b1p+program%c4%b1 2
+galaksi+s3+m%c4%b0n%c4%b0+tlfnumu+bilgisayardan+takip 3
+cep+takip+programlar%c4%b1 1
+bilgisayardan+kay%c4%b1t+cihaz%c4%b1n%c4%b1+izleme 2
+gezginler+personel+takip+program%c4%b1 1
+a%c4%9f+kablosu+tak%c4%b1l%c4%b1+de%c4%9filken+bilgisayar+ekran%c4%b1n%c4%b1+izleme 3
+pc+takip+sistemi 1
+gps+bilgisayar+takibi 1
+i%c5%9fyerinde+engellenmesi+gereken+siteler 1
+i%c5%9f+makinesi+takip+program%c4%b1 1
+u%c3%a7ak+bilet+takip+program%c4%b1 1
+mesaj+takip+program%c4%b1+indir 1
+telefon+sinyal+takip+program%c4%b1 2
+internette+engel+kald%c4%b1rma 2
+filtreleme+program%c4%b1 2
+%c4%b0nternet+kafede+masa+%c3%9cst%c3%9cnde+%c4%b0zlenmey%c4%b0+engelleme 1
+gps+takip+program%c4%b1+bilgisayarda 1
+%c4%b1p+numaras%c4%b1+ile+bilgisayar+izleme 1
+internete+eri%c5%9fimin+engellenmesi 1
+rent+a+car+takip+program%c4%b1 1
+internet+filtreleme+program 1
+yerden+u%c3%a7ak+takip+program%c4%b1+indir 2
+uzak+masa%c3%bcst%c3%bc+takip+paneli+indir 2
+uzaktan+kontrol+programlar%c4%b1 2
+kay%c4%b1t+cihaz%c4%b1n%c4%b1+bilgisayar+%c3%bczerinden+tek+ekranda+izleme+sini+nas%c4%b1l+yapabilirim%3f 1
+watchguard+ile+istemci+ekran%c4%b1n%c4%b1+izleme 1
+a%c4%9f+takip+program%c4%b1 2
+network+takip+envanter+program%c4%b1 1
+uzak+bilgisayar%c4%b1+kontrol+etme+program%c4%b1 1
+uzaktan+bilgisayar+kontrol+etme+program%c4%b1 1
+ag+izleme+program%c4%b1 2
+%c3%bccretsiz+telefon+takip+pragram%c4%b1 1
+uzak+bilgisayar+ram+durumunu+izleme 1
+uzakdan+bilgisayar+izleme+ve+y%c3%96netme+program%c4%b1 2
+bilgisayar+takibi 1
+sinyal+takibi+program%c4%b1 1
+personel+servis+takip+program%c4%b1 1
+pc+ni+izle+canl%c4%b1 1
+%c3%a7ocu%c4%9funuzu+cep+telefonundan+bilgisayar+ile+takip 1
+network+y%c3%b6netim+programlar%c4%b1 1
+personel+maa%c5%9f+takip+program%c4%b1+excel 2
+site+engelleme+nas%c4%b1l+yap%c4%b1l%c4%b1r 1
+yol+takip+program%c4%b1 2
+uzaktam+pc+izleme+kaydetme 2
+bilgisayar+takip+program%c4%b1+t%c3%bcrk%c3%a7e 1
+bir+program%c4%b1n+internete+ba%c4%9flanmas%c4%b1n%c4%b1+engelleme 1
+uzaktan+bilgisayar+ekran+izleme 1
+wireless+ba%c4%9flanan+bilgisayarlar%c4%b1+izleme 1
+bilgisayarda+cd+izleme 1
+zimmet+takip+program%c4%b1 1
+%c3%b6denek+takip+program%c4%b1+kullan%c4%b1c%c4%b1+formlar%c4%b1 2
+pc+tak%c4%b0p+profosyonel 1
+izin+takip+program%c4%b1 1
+vatan+bilgisayar+%c3%bcr%c3%bcn+takibi 2
+bilgisayar%c4%b1n%c4%b1z%c4%b1+kimler+takip+edebilir 1
+bilgisayardan+cep+telefonu+takip+etme 5
+hakarimde+pc+takip 1
+evrak+takip+program%c4%b1 1
+tesbit+edilemeyen+bilgisayar+izleme 1
+telefondan+uzaktan+bilgisayar+monit%c3%b6r+izleme+program%c4%b1 2
+ip+kontrol+ve+takip+etme+program%c4%b1 1
+full+s%c3%bcr%c3%bcm+pc+izleme+programlar%c4%b1 1
+kasko+takip+program%c4%b1 1
+b%c4%b0lg%c4%b0sayar+kullanici+tak%c4%b0p+etme 2
+ayn%c4%b1+a%c4%9fa+ba%c4%9flanm%c4%b1%c5%9f+bilgisayar%c4%b1+izleme 1
+network+izleme+program%c4%b1 4
+hope+bor%c3%87lu+tak%c4%b0p+programi 1
+5651+nolu+%c4%b0nternet+yasasinin+anlami 1
+sinyal+takip+program%c4%b1+indir 2
+bilgisayardan+cep+navigasyonu+takip 1
+internet+bankac%c4%b1l%c4%b1%c4%9f%c4%b1+engellenmesi 1
+visual+basic+%c3%b6%c4%9frenci+takip+program%c4%b1 1
+en+iyi+android+uzaktan+kontrol+program%c4%b1 1
+bilgisayar+takip+interneti+k%c4%b1s%c4%b1tlama+pro%c4%9fram%c4%b1 3
+twitter+takip%c3%a7i+artt%c4%b1rma+program%c4%b1+t%c3%bcrk%c3%a7e 1
+ntap+pc+takip 4
+personel+takip+sistemi+program%c4%b1 1
+bilgisayar+uzaktan+takip 1
+bilgisayar%c4%b1+uzaktan+takip+etme 1
+dava+dosya+takip+program%c4%b1 1
+yasak+site+engelleme+program%c4%b1 1
+site+engelleme+program 1
+bilgisayardan+kamera+izleme 4
+telefon+takip+etme+program%c4%b1 1
+bilgisayar%c4%b1m%c4%b1+takip+edicek+program 1
+sinyal+takip+program%c4%b1 1
+telefondan+takip+program%c4%b1 1
+bir+bilgisayardan+ba%c5%9fka+bilgisayar%c4%b1+izleme 1
+pc+izleme 1
+pc+yi+uzaktan+kontrol+etme+program%c4%b1 2
+hasta+kay%c4%b1t+ve+takip+program%c4%b1 1
+rekvision+kay%c4%b1t+cihaz%c4%b1+networkten+izleme+program%c4%b1 2
+keyboard+takip+program%c4%b1 1
+yasak+siteleri+engelleme+program%c4%b1 1
+internet+a%c4%9f%c4%b1ma+ba%c4%9flananlar%c4%b1+engelleme 1
+bilgisyara+filtre+program%c4%b1 1
+pc+den+telefon+takip+etme+program%c4%b1 1
+moday%c4%b1+takip+program%c4%b1 1
+im+takip+purogram%c4%b1 1
+istemedi%c4%9fimiz+siteleri+engelleme 1
+5651+kanun 1
+bilgisayarda+yap%c4%b1lanlar%c4%b1+takip+etme 1
+monit%c3%b6r+izleme+program%c4%b1 2
+pc+i%c3%a7in+avenir+g%c3%bcvenlik+kameras%c4%b1+izleme+program%c4%b1 1
+t%c3%bcm+site+engelleme+kald%c4%b1rma+program%c4%b1 1
+beyaz+e%c5%9fya+servis+takip+program%c4%b1 1
+personel+izleme+program%c4%b1 2
+3d+filmleri+bilgisayarda+izleme 1
+uzak+bilgisayar+takip+program%c4%b1 1
+bilgisayar+takip+sistemi 1
+su+ar%c4%b1tma+takip+program%c4%b1 1
+bilgisayar+ebeveyn+takip+program%c4%b1 1
+%c3%bccretsiz+bilgisayar%c4%b1m%c4%b1+tak%c4%b1p+ettirme 1
+telefonumu+bilgisayardan+izleme 1
+kar%c5%9f%c4%b1+pc+yi+izleme+program%c4%b1+indir 1
+maa%c5%9f+takip+program%c4%b1+indir 2
+bilgisayar+takip+program%c4%b1d%c4%b1r 2
+digit%c3%bcrk+bilgisayardan+izleme 1
+borsa+takip+program%c4%b1 1
+casus+bilgisayar+takip 1
+bilgisayar+uzaktan+izleme 1
+canl%c4%b1+pc+ni+izleme 1
+%c3%bcretim+takip+program%c4%b1 1
+pc+kaynak+izleme+program%c4%b1+indir 1
+gebelik+takip+program%c4%b1 1
+%c5%9firket+i%c3%a7i+bilgisayar+takibi 1
+s%c3%bcre+takip+programlar%c4%b1 1
+teknik+servis+takip+program%c4%b1 2
+pc+den+nereye+girdi%c4%9fini+takip+etme 1
+agdaki+pc+leri+izleme 1
+bilgisayardan+cep+telefonu+sinyal+takibi 2
+bilgisayardan+sms+takip+etme 1
+a%c4%9f+%c3%bczerinden+di%c4%9fer+bilgisayar%c4%b1+izleme 3
+kurye+takip+program%c4%b1 1
+dentaline+hasta+takip+program%c4%b1 1
+hava+yollar%c4%b1+takip+program%c4%b1 1
+telefonumu+pc+tak%c4%b1p+sarj+ediyorum+bilgisayardan+nas%c4%b1l+bakabilirim 1
+bilgisayarlarda+t.%c4%b0.b.+taraf%c4%b1ndan+onaylanm%c4%b1%c5%9f+filtre+program%c4%b1 1
+007+bilgisayar+takip+full 1
+bilgisayartakip.net 5
+keylogger+ile+kar%c5%9f%c4%b1+bilgisayar%c4%b1+izleme 1
+takip+programlar%c4%b1 2
+desktopgate+full+download 1
+access+microsoft+office+bant+takip+program%c4%b1 1
+%c3%a7iftliklerde+yem+takip+program%c4%b1 1
+cep+telefonu+takip+programlar%c4%b1 1
+i%c5%9f+emri+ve+i%c5%9f+takip+program%c4%b1 2
+bilgisayarlar%c4%b1+izleme+program%c4%b1 2
+hurda+tak%c4%b1p+program%c4%b1 4
+kamera+kayd%c4%b1n%c4%b1+bilgisayardan+izleme 1
+odeme+tak%c4%b1p+program%c4%b1 4
+bilgisayarda+g%c3%bcnl%c3%bck+yap%c4%b1lanlar%c4%b1+takip+etmek 1
+site+giri%c5%9fi+engelleme+program%c4%b1 1
+ba%c5%9fka+bir+pcye+ba%c4%9flan%c4%b1p+onu+takip+etme 1
+bilgisayar+donan%c4%b1m+takip+program%c4%b1 1
+internet+engelleme+kald%c4%b1rma 2
+007+uzak+masa%c3%bcst%c3%bc+takip+paneli 1
+3d+filmleri+bilgisayarda+izleme+program%c4%b1 1
+%c3%9ccrets%c4%b0z+bilgisayar+ekran+g%c3%b6r%c3%bcnt%c3%bclerini+tek+bir+ekranda+izleyebilmek 1
+facebook+takip+etme+program%c4%b1 1
+ba%c5%9fka+bilgisayar%c4%b1n+kameras%c4%b1n%c4%b1+izleme 1
+%c3%a7al%c4%b1%c5%9fanlar%c4%b1n+bilgisayarlar%c4%b1n%c4%b1+izleme 2
+uzaktan+bilgisayar+izleme+program%c4%b1 2
+sevgiliyi+pc+%c3%bczerinde+takip+etme+program%c4%b1 1
+a%c4%9fda+modem+%c3%bczerinden+bilgisayar+takip+etme 2
+bitdefenderle+bilgisayar%c4%b1+kontrol+izleme 1
+c%23+stok+takip+program%c4%b1 2
+ki%c5%9fi+takip+etme+program%c4%b1 1
+camerayi+pc+den+izleme 1
+magnet+i%c5%9f+takip+program%c4%b1+full+download 1
+%c3%b6%c4%9frenci+takip+program%c4%b1+indir 1
+bilgisayarda+site+engelleme+program%c4%b1 1
+f%c4%b1ltre+p%c4%b1rogram%c4%b1 2
+internet+sitesi+engel+kald%c4%b1rma 1
+telefondan+bilgisayar+takip 1
+dentaline+hasta+takip+program%c4%b1+di%c4%9fer+bilgisayara+kopyalama 1
+bilgisayar+ve+internet+oyunlar%c4%b1+yasaklama+program%c4%b1 1
+kablosuz+bilgisayarlar%c4%b1+takip+program%c4%b1 1
+personel+izin+takip+program%c4%b1+%c3%bccretsiz 1
+ntap+kurulu+bilgisayar+takibi 1
+cep+telefonu+takip+etme+program%c4%b1 2
+bilgisayar%c4%b1+gizlice+takip+etmek 1
+siteye+giri%c5%9f+engelleme+program%c4%b1 2
+pc+izleme+programlar%c4%b1 4
+desktopgate+alternatifi+program 3
+ofis+internet+engelleme+programlar%c4%b1 1
+sentinel+bilgisayar+takip+programi+full 3
+cari+takip+program%c4%b1 3
+pc+takip+et+2013 1
+personel+takip+program%c4%b1 1
+uzaktan+pc+kontrol 2
+tam+s%c3%bcr%c3%bcm+pc+takip+program%c4%b1 1
+b%c4%b1lg%c4%b1sayar+tak%c4%b1p+programlar%c4%b1 1
+bilgisayar+%c3%b6%c4%9freniyorum+izle 1
+yasakl%c4%b1+siteleri+engelleme+program%c4%b1+indir 1
+cep+tel+takip+program%c4%b1 1
+pc+de+ge%c3%a7mi%c5%9fi+izleme+program%c4%b1 1
+bilgisayarlar%c4%b1n+ekran%c4%b1n%c4%b1+takip+etmek+i%c3%a7in+program 1
+bilgisayar+kameras%c4%b1n%c4%b1+telefondan+izleme 1
+d%c3%bczenli+takip+destekli+ders+%c3%a7al%c4%b1%c5%9fma+program%c4%b1 1
+cartoon+network+rex+izle+2012 1
+servis+takip+program%c4%b1 2
+a%c4%9f+izleme+engelleme+program%c4%b1 4
+tnb+bilgisayar+%c3%bcr%c3%bcn+takip 1
+a%c4%9f+%c3%bczerindeki+bilgisayarlar%c4%b1+izleme 1
+bilgisayardan+telefon+takip+etme 1
+facebook+engelleme+programlar%c4%b1 3
+fotokopi+kopya+ba%c5%9f%c4%b1+takip+program%c4%b1 1
+uzaktan+bilgisayara+ba%c4%9flanarak+kamera+izleme+program%c4%b1 1
+whatsapptaki+mesajlar%c4%b1+ba%c5%9fka+bir+bilgisayardan+takip+edilebilir+mi 1
+pc+takip+program%c4%b1+t%c3%bcrk%c3%a7e 2
+kamera+takip+program%c4%b1 2
+gizli+bilgisayar+izleme 3
+alt%c4%b1n+takip+program%c4%b1 2
+cep+tak%c4%b1p+program%c4%b1+indir 1
+a%c4%9f+%c3%bczerinde+bilgisayar+izleme 1
+facebook+engelleme+program%c4%b1 2
+acceste+%c3%b6%c4%9frenci+takip+program%c4%b1+yapma 1
+siteleri+engelleme+program%c4%b1 1
+a%c4%9f+%c3%bczerinden+ba%c5%9fka+bilgisayar%c4%b1+takip+etmek 1
+uzaktan+pc+kontrol+programlar%c4%b1 2
+pc+%c4%b1zleme 1
+%c3%bccretsiz+bilgisayar+izleme+programlar%c4%b1 1
+diyetisyen+hasta+takip+program%c4%b1 1
+fbi+takip+program%c4%b1 1
+cep+telefonu+gps+takip+program%c4%b1 1
+en+g%c3%bcvenilir+filtre+program%c4%b1 1
+bilgisayarda+ajanda+takibi 1
+kalibrasyon+takip+programi+fiyat 3
+internet+engelleme+program%c4%b1+xp 1
+%c3%bccretsiz+kuyumcluk+takip+program%c4%b1 1
+ihale+takip+programlar%c4%b1 1
+spector+pro+keylogger+indir 1
+g%c3%bcvenlik+kameras%c4%b1n%c4%b1+bilgisayardan+izleme 1
+a%c4%9fa+ba%c4%9fl%c4%b1+bilgisayarlar%c4%b1+izleme+program%c4%b1 2
+uzaktan+bilgisayar+nas%c4%b1l+takip+edilir 1
+network+ag+izleme+program%c4%b1+ile+%c4%b1p+adresleri+yer+tespit+etme 1
+uzaktan+bilgisayar%c4%b1+izleme+program%c4%b1+ikinci+el+sahibinden 2
+senet+takip+program%c4%b1+excel 1
+pc+sini+izleme+torojan+g%c3%b6nderme+kar%c5%9f%c4%b1+pc+ye 1
+cep+telefonu+takip+ve+izleme+program%c4%b1 1
+bilgisayardan+takip+program%c4%b1 1
+site+engelleme 2
+internet+filtreleme+program%c4%b1 3
+teklif+takip+program%c4%b1 1
+b%c4%b0lg%c4%b0sayardan+uzaktan+g%c4%b0zl%c4%b0+kamera+%c4%b0zleme 1
+hukuk+b%c3%bcrosu+i%c3%a7in+i%c5%9f+takip+program%c4%b1 1
+cep+telefonu+takip+program%c4%b1 7
+yasakl%c4%b1+sitelere+giri%c5%9fi+engelleme+program%c4%b1+indir 1
+takip+program%c4%b1+varm%c4%b1 1
+telefon+numaras%c4%b1+takip+program%c4%b1 1
+site+engelleme+program%c4%b1+%c3%9ccretl%c4%b0 1
+hasta+s%c4%b1ra+takip+program%c4%b1 1
+desktopgate 4
+bilgisayar+takip+program%c4%b1+%c3%bccretsiz+2012+indir 2
+personel+takip+sistemi+program%c4%b1+full+indir 1
+caatunet+v%c3%b6rk+izle 1
+basit+stok+takip+program%c4%b1 1
+ayn%c4%b1+ag+%c3%bczerindeki+bilgisayar%c4%b1+takip+etme+nas%c4%b1l+olur 3
+dosya+takip+program%c4%b1 1
+pc+den+3d+izleme+program%c4%b1 1
+internet+sitelerini+engellemeprogram%c4%b1 1
+chrome+de+engelleyecek+filtre+program%c4%b1 2
+thy+u%c3%a7ak+takip+program%c4%b1 1
+bilgisayar+dan+kocan%c4%b1n+telefonunu+takip+etmek 1
+uzaktan+kontrol+program%c4%b1+indir 1
+resimli+personel+takip+program%c4%b1 1
+veri+takip+program%c4%b1 1
+bilgisayardan+%c5%9fifreli+kanallar%c4%b1+izleme+program%c4%b1 1
+ekmek+f%c4%b1r%c4%b1nlar%c4%b1+i%c3%a7in+takip+program 1
+i%c5%9f+takibi+yapan+bilgisayar+programlar%c4%b1 1
+apart+takip+program%c4%b1 1
+uzaktan+bilgisayar+takibi+online+site 1
+pc+den+telefon+takip+etme 2
+pc+den+numara+takip+etme 1
+arena+bilgisayar+ar%c4%b1za+takip 1
+uzaktan+bilgisayar+kontrol+program%c4%b1 2
+internet+takip+program%c4%b1 4
+network+trafik+izleme 6
+ekran+izleme+program%c4%b1 7
+gizli+bilgisayar+izleme+program%c4%b1 1
+b%c4%b0lg%c4%b0sayar+da+%c3%96n+%c4%b0zleme+kisa+yol+tu%c5%9eu 1
+pc+takip+programlar%c4%b1 3
+icra+takip+etme+program%c4%b1+indir 1
+at%c4%b1ksu+uzaktan+izleme+sistemi 1
+arena+bilgisayar+garanti+takibi 1
+dvr+izleme+program%c4%b1+pc 1
+site+engelleme+kald%c4%b1rma+program%c4%b1 1
+kullan%c4%b1c%c4%b1+baz%c4%b1nda+filtreleme+program%c4%b1 2
+site+engel+koyma 1
+php+bilgisayar+takip+programlar%c4%b1 1
+ger%c3%a7ek+3d+g%c3%b6zl%c3%bckle+bilgisayardan+izleme 1
+tamindir+filtreleme+program%c4%b1o 2
+en+g%c3%bczel+kuran+okuma+takip+program%c4%b1 1
+%c5%9firket+e-posta+takip+program%c4%b1 1
+ara%c3%a7+giri%c5%9f+%c3%a7%c4%b1k%c4%b1%c5%9f+takip+program%c4%b1 1
+face+sayfas%c4%b1n%c4%b1+smjlar%c4%b1na+engelem+program%c4%b1 2
+www.workwiever.com 1
+employee+monitoring+lan 1
+telefonu+usb+ile+bilgisayara+tak%c4%b1p+nas%c4%b1l+foto+atacaks%c4%b1n 1
+kameras%c4%b1+bilgisayar+dan+izleme 1
+filtre+program%c4%b1+indir 1
+vatan+bilgisayar+kampanya+takip 1
+%c3%b6%c4%9frenci+devam+takip+program%c4%b1 1
+ki%c5%9fisel+harcama+takip+program%c4%b1 1
+a%c4%9fdaki+di%c4%9fer+bilgisayarlar%c4%b1+izleme 3
+pastane+takip+program%c4%b1 1
+cinsel+siteleri+engelleme 1
+site+giri%c5%9f+engelleme+program%c4%b1+kald%c4%b1rma 1
+internet+k%c4%b1s%c4%b1tlama+program%c4%b1 5
+%c3%bccretsiz+cari+hesap+takip+program%c4%b1 1
+macbook+takip+program%c4%b1 1
+bilgisayar+takip+program%c4%b1+%c4%b1nd%c4%b1r 1
+uzakdaki+pc+izleme+programlar%c4%b1 1
+iki+kay%c4%b1t+cihaz%c4%b1n%c4%b1+tek+ekranda+izleme 1
+ba%c5%9fka+bilgisayari+kameras%c4%b1n%c4%b1+izleme 1
+filtre+kald%c4%b1rma+program%c4%b1 3
+iphone+takip+etme+program%c4%b1 1
+yay%c4%b1n+takip+program%c4%b1 1
+ba%c5%9fkas%c4%b1n%c4%b1n+pc+yi+takip+etme 2
+ba%c5%9fka+pc+izleme+program%c4%b1 1
+internete+%c3%a7%c4%b1k%c4%b1%c5%9f%c4%b1+engellemek 1
+%c3%bccretsiz+cep+telefonu+takip+program%c4%b1 1
+site+engelleme+program%c4%b1+program 1
+bilgisayardan+telefon+takip+sistemi 1
+bilgisayara+takip+program%c4%b1 1
+internete+giri%c5%9fi+engelleme+program%c4%b1 1
+007+bilgisayar+takip+t%c3%bcrkce 1
+firma+takip+program%c4%b1 1
+ip+adresinden+pc+izleme 1
+kurulumsuz+a%c4%9fdaki+pcleri+izleme 1
+a%c4%9fdaki+bilgisayarlar%c4%b1n+durumunu+online+izle 1
+bilgisayara+tv+izleme+kanal%c4%b1+program%c4%b1+indir 1
+internet+engelleme+program%c4%b1 1
+kar%c5%9f%c4%b1+pc+izleme+program%c4%b1 1
+ayn%c4%b1+a%c4%9fdaki+bilgisayar%c4%b1+izleme+sitesi 1
+csharp+ile+stok+takip+program%c4%b1+a%c3%a7%c4%b1k+kaynak+kodlu 1
+%c3%bccretsiz+bilgisayar+izleme+program%c4%b1 1
+bilgisayar+takip 5
+cocuklar%c4%b1n%c4%b1z%c4%b1+gps+ile+tak%c4%b1p+etme+program%c4%b1 1
+smart+pc+takip 1
+ba%c5%9fka+bilgisayar%c4%b1+takip+etme 1
+m%c3%bc%c5%9fteri+takip+program%c4%b1+full 5
+profesyonel+%c3%bccretli+pc+izleme 2
+sigorta+takip+program%c4%b1 2
+a%c4%9fdaki+pc+leri+izleme+program%c4%b1 1
+cartoon+network+canl%c4%b1+izle 1
+ba%c5%9fka+bir+bilgisayar%c4%b1n+kameras%c4%b1n%c4%b1+izleme 1
+trojan+bilgisayar+izleme+indir+%c3%bccretsiz 1
+a%c4%9f+izleme+programlar%c4%b1 3
+gemi+takip+program%c4%b1 1
+k%c3%b6t%c3%bc+i%c3%a7erikli+siteleri+engelleme+program%c4%b1 1
+bilgisayar+yedek+takip+ediliyor+program 1
+web+sitesi+engelleme+program%c4%b1+indir 1
+ge%c3%a7i%c5%9f+takip+program%c4%b1 1
+twitter+takip%c3%a7i+program%c4%b1+2013 1
+kartonnetb%c3%b6rt+izle 1
+uzaktan+kamera+izleme 3
+yeni+%c3%a7%c4%b1kan+a%c4%9f+izleme+programlar%c4%b1 2
+kay%c4%b1p+e%c5%9fya+takip+program%c4%b1 1
+cep+telefonu+takip+program%c4%b1+indir 2
+real+time+g%c3%b6r%c3%bcnt%c3%bc+ekran+izleme 6
+a%c4%9fdaki+bilgisayar%c4%b1n+kameras%c4%b1n%c4%b1+izleme 1
+kendi+bilgisayar%c4%b1+izleme+program%c4%b1 1
+masraf+takip+program%c4%b1 1
+paradise+profesyonel+bilgisayar+takip+ve+kontrol+program%c4%b1+indir 2
+takip+program%c4%b1 4
+uzaktan+bilgisayar%c4%b1+kontrol+etme+program%c4%b1+%c3%b6zellikleri 1
+okullarda+pc+takip+program%c4%b1 1
+klima+servis+takip+program%c4%b1 1
+uzaktan+ekran+izleme+programlar%c4%b1 2
+ayn%c4%b1+a%c4%9fdaki+bilgisayar%c4%b1+izleme 8
+bilgisayarda+yap%c4%b1lanlar%c4%b1+izleme+program%c4%b1 1
+gelir+gider+takip+program%c4%b1 2
+di%c4%9fer+odadaki+pcyi+izleme 1
+di%c4%9fer+monit%c3%b6r%c3%bc+izleyen+program 1
+plaka+takip+program%c4%b1 4
+bilgisayar+uzaktan+kamera+ile+izleme 1
+i%c5%9f+takip+program%c4%b1 5
+bilgisayara+kurulab%c4%b1lecek+k%c4%b1s%c4%b1+tak%c4%b1p+s%c4%b1stem%c4%b1 1
+personel+maa%c5%9f+takip+program%c4%b1+%c3%bccretsiz 4
+uzaktan+bilgisayar+ekran%c4%b1+izleme 1
+dvr+dan+bilgisayardan+izleme 1
+bilgisayar%c4%b1n+uzaktan+takip+edildi%c4%9fini+nas%c4%b1l+%c3%b6%c4%9frenebilirim 1
+bilgisayardan+jmk+kamera+izleme+program%c4%b1 2
+ag+da+di%c4%9fer+bilgisayarlar%c4%b1+izleme 1
+pc+gps+takip+program%c4%b1 1
+playstation+cafe+takip+program%c4%b1 1
+bilgisayardan+telefon+takibi 7
+wireless+a%c4%9f%c4%b1ndaki+bilgisayarlar%c4%b1+izleme 1
+balitech+bilgisayar+izleme 2
+dvr+kart+bilgisayardan+izleme 1
+ahmet+bulut+bilgisayar+iz 1
+bilgisayarda+merkezi+takip+birimi 3
+bilgisayar%c4%b1n+internete+girmesini+engelleme 2
+bilgisayar+oyunlar%c4%b1+izle 1
+sadece+telefon+numaras%c4%b1+tak%c4%b1p+etme+program%c4%b1+%c4%b1nd%c4%b1r 2
+telefon+numaras%c4%b1+takip+etme+program%c4%b1+indir 3
+pc+uzaktan+izleme 1
+depo+takip+program%c4%b1+indir 1
+uzaktan+gizli+pc+kontrol 1
+bilgisayar%c4%b1n+takip+edildi%c4%9fi+nas%c4%b1l+anla%c5%9f%c4%b1l%c4%b1r 1
+telefondan+pc+izleme 1
+en+iyi+filtre+program%c4%b1 2
+kamera+sisteminde+bilgisayarda+izleme+program%c4%b1 1
+bilgisayar+takibi+keyloger 1
+kablosuz+a%c4%9f+izleme+program%c4%b1 1
+bilgisayar+giren+ki%c5%9fi+takip+etme+pogram%c4%b1 1
+bilgisayardan+telefon+takip+program%c4%b1 2
+vardiya+takip+program%c4%b1 1
+%c3%bccretsiz+bilgisayar+takip+program%c4%b1 1
+kira+takip+program%c4%b1 2
+g%c3%bcvenlik+takip+programlar%c4%b1 1
+ekran+takip+program%c4%b1 1
+htc+cep+telefonu+takip+etme+program%c4%b1+indir 1
+bilgisayardan+cep+telefonu+takip 3
+xtreme+takip+program%c4%b1 3
+fatura+takip+program%c4%b1+indir 1
+bilgisayar+programlar%c4%b1+sayesinde+a%c4%9fa+ba%c4%9fl%c4%b1+ki%c5%9filerin+ne+yapt%c4%b1klar%c4%b1n%c4%b1n+izlenmesi 1
+telefondan+bilgisayar+izleme 1
+face+girme+engelleme+program%c4%b1+ad%c4%b1 1
+bilgisayarda+izleme+program%c4%b1+varm%c4%b1 2
+a%c4%9fdaki+bilgisayar%c4%b1+izleme 2
+network+s%c4%b0stem+devreye+alma+ve+ariza+tak%c4%b0p 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 755
+program%c4%b1 662
+takip 547
+izleme 352
+bilgisayar 230
+pc 129
+engelleme 80
+indir 72
+etme 65
+bilgisayarlar%c4%b1 64
+uzaktan 58
+ariza 2
+edildi%c4%9fi 1
+sigorta 3
+ne 4
+yapt%c4%b1klar%c4%b1n%c4%b1n 1
+ekmek 1
+barkot 1
+y%c3%bcklenen 1
+kabul 1
+takib 1
+tel 2
+bileti 3
+puln%c4%b0x 1
+eri%c5%9fimi 1
+yem 1
+i%c3%a7i 1
+workwiever.com 1
+ba%c5%9fkas%c4%b1n%c4%b1n 2
+bor%c3%87lu 1
+kendi 3
+www.workviewer.com 39
+excelde 1
+https 1
+bilgisayara 10
+kurulumsuz 1
+firma 1
+g%c3%bcvenli%c4%9fi 1
+kameralar%c4%b1 1
+mi 1
+ebeveyn 4
+yapabilirim%3f 1
+access 2
+yap%c4%b1m%c4%b1 1
+ekran%c4%b1n%c4%b1 10
+bilet 1
+%c4%b0nterfiltre 1
+bilgisayardan 54
+magnet 1
+personel 24
+%c5%9fifreli 1
+moday%c4%b1 1
+filitre 1
+ve 25
+mevcudu 1
+network 23
+a 1
+windows 2
+k%c3%b6t%c3%bc 2
+gizli 10
+armada 1
+klima 1
+resimli 1
+u%c3%a7ak 9
+profesyonel 7
+yapan 1
+engelleyecek 2
+deki 1
+g%c3%b6r%c3%bcnt%c3%bcleri 1
+visual 1
+b%c4%b1lg%c4%b1sayar 1
+taraf%c4%b1ndan 1
+a%c4%9fa 11
+kafede 1
+foto%c4%9fraf 1
+ederiz 1
+ucrets%c4%b1z 1
+tnb 1
+a%c4%9fdaki 57
+mesajlar 1
+ortam 1
+edilemeyen 1
+g%c3%b6r%c3%bcnt%c3%bclerini 1
+ekran 19
+sisteminde 1
+odeme 4
+yapt%c4%b1%c4%9f%c4%b1n%c4%b1 1
+ba%c4%9flan%c4%b1p 1
+007 4
+kuyumcluk 1
+telefonumu 2
+%c3%a7al%c4%b1nan 1
+girdi%c4%9fini 1
+kar%c5%9f%c4%b1daki 1
+kullan%c4%b1m%c4%b1n%c4%b1 1
+ayl%c4%b1k 1
+ba%c4%9flanmas%c4%b1n%c4%b1 1
+f%c4%b1r%c4%b1nlar%c4%b1 1
+k%c4%b1rma 3
+enjeksiyon 1
+kurban 1
+piyasas%c4%b1 1
+kameras%c4%b1 2
+yaz%c4%b1l%c4%b1mlar%c4%b1 3
+engellemek 2
+basit 1
+lojistik 1
+camerayi 1
+gereken 1
+www.n-top 2
+i%c3%a7in 6
+imei 2
+sentinel 3
+bilgisayarlar%c4%b1n%c4%b1 7
+sa%c4%9fl%c4%b1%c4%9f%c4%b1 1
+serverdan 1
+arvento 1
+s%c4%b0stem 2
+ag 7
+ba%c4%9flananlar%c4%b1 1
+lazio 1
+tek 3
+programlar%c4%b1 54
+gelir 2
+dava 1
+fatura 5
+%2f%2fgrumpph1.pc...iz.com20%2f%2fsec.php 1
+pro%c4%9erami 1
+videolar%c4%b1 1
+kanal%c4%b1 1
+c%23 3
+programi 10
+yeni 2
+%c4%b1p 2
+birimi 3
+ar%c4%b1tma 1
+cocuklar%c4%b1n%c4%b1z%c4%b1 1
+siteye 2
+ba%c4%9flanan 1
+yasasinin 1
+sevgilime 1
+bilg%c4%b1sayar%c4%b1 1
+kay%c4%b1t 9
+neden 1
+%c4%b1nd%c4%b1r 3
+i%c5%9flem 2
+destekli 1
+kablo 1
+giri%c5%9f 4
+edildi%c4%9fini 1
+uzak 11
+polis 1
+izlemek 7
+verilen 1
+plaka 4
+kablosuz 3
+kay%c4%b1p 1
+depo 2
+mesaj 1
+kurulab%c4%b1lecek 1
+istemci 1
+zaman 1
+devreye 2
+kopyalama 1
+kald%c4%b1rma 13
+netz 1
+elektronik 2
+s3 3
+prgoram%c4%b1 3
+bilgisayarlar%c4%b1n 4
+alt%c4%b1n 3
+f%c4%b1ltre 2
+internette 2
+bilgisar 2
+%c3%bcr%c3%bcn 3
+de 3
+bankac%c4%b1l%c4%b1%c4%9f%c4%b1 1
+ders 1
+i%c5%9ften 1
+reaktif 1
+%c5%9e%c3%96f%c3%96r 1
+internetden 1
+tesbit 1
+ara%c3%a7 4
+h%c4%b1kv%c4%b1s%c4%b1on 1
+kerim 3
+ba%c5%9f%c4%b1 1
+zamanl%c4%b1 2
+bir 14
+yasaklama 1
+s%c4%b1ra 1
+ge%c3%a7mi%c5%9fi 2
+pastane 1
+numara 6
+kesim 1
+edebilir 1
+gruplar 1
+trafi%c4%9fi 1
+%c3%a7izelgesi 1
+telefonlar%c4%b1 1
+kayd%c4%b1n%c4%b1 1
+i%c5%9fyerinde 1
+%c3%bczerinde 2
+kimin 1
+teknik 4
+chrome 2
+giri%c5%9fi 3
+da 3
+y%c3%b6netimi 1
+durumunu 2
+kalibrasyon 3
+a%c4%9f%c4%b1ma 1
+terbiyesiz 1
+y%c3%96netme 2
+sini 3
+ihale 1
+2012 3
+alternatifi 3
+g%c3%bcvenlik 5
+kartonnetb%c3%b6rt 1
+kitap 1
+hesap 2
+internetteki 4
+sahibinden 2
+karnesi 1
+telefonunu 1
+kar%c5%9f%c4%b1 4
+foto 1
+monitoring 1
+donan%c4%b1m 1
+v%c3%b6rk 1
+numaras%c4%b1ndan 4
+sitelere 1
+eder 1
+ikinci 2
+download 2
+cihaz 2
+cihaz%c4%b1 2
+iddaa 1
+hurda 4
+portf%c3%b6y 1
+yibo 1
+sadece 2
+pcleri 1
+program%c4%b1n%c4%b1 1
+bagli 2
+ku%c5%9e 1
+muhabbet 1
+s%c4%b1n%c4%b1f%c4%b1ndaki 1
+trojan 1
+hp 1
+evrak 1
+baskas%c4%b1 1
+online 4
+sarj 1
+%c3%a7%c4%b1kan 2
+i%c3%a7erikli 1
+cartoon 7
+i%c5%9fyeri 6
+kablosu 3
+bilgi 2
+teknisyen 1
+android 1
+varm%c4%b1 3
+fbi 1
+s%c3%bcr%c3%bcm 4
+edicek 1
+anla%c5%9f%c4%b1l%c4%b1r 11
+g%c4%b0zl%c4%b0 1
+masa%c3%bcst%c3%bc 6
+devam 4
+a%c4%9f%c4%b1ndaki 3
+kameras%c4%b1n%c4%b1 8
+kampanya 1
+e%c5%9fya 2
+t%c3%bcm 1
+kart 2
+programlar 1
+t%c4%b1r 1
+rent 1
+pro%c4%9fram%c4%b1 12
+edilebilir 1
+casus 2
+whatsapptaki 1
+free 8
+smart 1
+engel 4
+%c3%a7al%c4%b1%c5%9fma 1
+ger%c3%a7ek 3
+%c3%a7%c4%b1k%c4%b1%c5%9f%c4%b1 1
+networkten 2
+baz%c4%b1nda 2
+istemedi%c4%9fimiz 1
+sitelerin 1
+kar%c5%9f%c4%b1l%c4%b1kl%c4%b1 1
+ajanda 1
+7 2
+aktif 1
+puro 1
+takip%c3%a7i 7
+ar%c4%b1za 2
+sayesinde 1
+program%c4%b1d%c4%b1r 2
+2013 5
+e-posta 1
+tak%c4%b0p 12
+dosya 2
+gizlice 3
+laboratuvar 1
+zimmet 1
+trafik 8
+hava 1
+a%c4%9f 42
+vatan 6
+veri 1
+kald%c4%b1r%c4%b1l%c4%b1r 1
+gps 7
+avenir 2
+teklif 1
+ip 4
+diyetisyen 1
+keylogger 2
+face 3
+web 7
+ba%c4%9flanm%c4%b1%c5%9f 1
+jmk 2
+etmek 13
+real 7
+beyaz 1
+purogram%c4%b1 1
+olan 2
+wireless 6
+monit%c3%b6r 6
+%c3%bcretim 2
+den 10
+xp 1
+eden 3
+giri%c5%9fini 1
+agent 2
+engelleyici 2
+al%c4%b1mlar%c4%b1n%c4%b1 1
+dan 5
+ahmet 1
+yar 1
+a%c3%a7%c4%b1k 1
+bilgisayarlara 1
+ipad 1
+s%c4%b1zma 2
+nas%c4%b1l 22
+iyi 3
+hakarimde 1
+iz 1
+balitech 2
+kart%c4%b1 1
+yok 1
+%c3%b6%c4%9frenebilirim 1
+g%c3%b6nderme 1
+excel 7
+%c3%bczerindeki 4
+formlar%c4%b1 2
+htc 1
+tam 1
+macbook 1
+%c3%bccretli 2
+h%c4%b1zl%c4%b1 1
+pogram%c4%b1 1
+olur 3
+t.%c4%b0.b. 1
+fen 1
+5651 3
+kolay 2
+%c3%a7ocuklar%c4%b1 1
+ambar 1
+girince 1
+merkezi 3
+dentaline 2
+alacak 2
+sipari%c5%9f 1
+adresleri 1
+bilgisayar%c4%b1 52
+sitesini 1
+el 2
+emlak 1
+karsi 1
+3d 5
+ad%c4%b1 1
+ofis 3
+mesa 1
+cafe 4
+kars%c4%b1daki 1
+izin 2
+program 15
+yay%c4%b1n 1
+okul 1
+g%c3%b6zl%c3%bckle 1
+yollar%c4%b1 1
+e 1
+3.2 1
+garantiye 1
+gelen 1
+t%c3%bcrkce 1
+torojan 1
+programs%c4%b1z 3
+%c4%b0nternet 2
+toshiba 1
+i%c5%9f 16
+par%c3%a7a 2
+time 6
+bilgisayarlarda 1
+ttnete 2
+kota 2
+kira 2
+onu 1
+microsoft 1
+caatunet 1
+%c3%9ccrets%c4%b0z 1
+rex 1
+kullanici 2
+cari 4
+thy 1
+pragram%c4%b1 1
+t%c3%bcrk%c3%a7e 12
+istiyorum 5
+networkde 1
+di%c4%9fer 10
+trabzon 1
+oyunlar%c4%b1 3
+b%c3%bct%c3%a7e 2
+son 1
+%c3%bcst%c3%bcnden 1
+uzaktam 2
+odadaki 1
+sevgilinizin 1
+nasil 1
+yevmiye 1
+cihaz%c4%b1n%c4%b1 4
+iphone 3
+internet 43
+smjlar%c4%b1na 2
+engellemeprogram%c4%b1 1
+veresiye 1
+etmeden 1
+yol 3
+kaydetme 2
+izleyebilmek 1
+ortamda 1
+reklamlar%c4%b1 3
+saya%c3%a7 1
+bakabilirim 1
+twitter 5
+6.0 3
+kulan%c4%b1c%c4%b1dan 1
+telefonundan 1
+%c3%a7al%c4%b1%c5%9fanlar%c4%b1n 2
+ila%c3%a7 1
+kaynak 2
+tv 4
+mazot 1
+%c3%b6denek 2
+makinesi 1
+cd 2
+car 1
+bilgisayartakip.net 5
+%c4%b0zlenmey%c4%b0 1
+onaylanm%c4%b1%c5%9f 1
+uzakdaki 1
+%c3%bczerinden 9
+interneti 5
+%c4%b0zleme 3
+watchguard 1
+garanti 2
+d 1
+modem 2
+i%c5%9fyerindeki 2
+uzaktaki 4
+siteleri 8
+adresinden 1
+telefondan 7
+gqw.donesection.net 1
+playstation 1
+%c4%b0zlemek 1
+gsm 1
+gemi 1
+b%c3%bcrosu 1
+s%c3%bcre 1
+kanallar%c4%b1 1
+haz%c4%b1rlama 1
+k%c4%b1s%c4%b1 1
+apart 1
+%c3%a7%c4%b1kt%c4%b1 1
+kamera 22
+usb 1
+tespit 1
+program%c4%b1o 2
+%c3%a7%c4%b1k%c4%b1%c5%9f 1
+telefon 42
+iptali 1
+ku%c5%9fu 1
+g%c3%bcvenli 1
+girme 1
+nereye 2
+ntap 5
+bilgisayar%c4%b1m%c4%b1 4
+%c3%a7ocuk 4
+spector 11
+le%c5%9ftirme 1
+telefona 1
+bilgisayar%c4%b1m%c4%b1n 1
+lisansl%c4%b1 3
+profosyonel 1
+kasa 1
+d%c3%bczenli 1
+yapmak 1
+p%c4%b1rogram%c4%b1 2
+yapma 1
+kuran%c4%b1 3
+kasko 1
+nolu 1
+sim 1
+tekniker 1
+top%c3%a7ular 1
+saati 1
+e%c5%9fimin 3
+servis 9
+g%c3%bcvenilir 1
+bankas%c4%b1 1
+g%c3%bczel 1
+php 1
+bilgisayardaki 2
+xtreme 3
+otob%c3%bcs 1
+acceste 1
+pcye 1
+%c5%9firket 3
+navigasyonu 1
+hasta 8
+lan 1
+et 1
+doktor 1
+eskihisar 1
+yasak 2
+im 1
+pazarlama 2
+sinyal 14
+t%c3%bcp 1
+mobil 2
+en 6
+bitdefenderle 1
+pro 10
+yap%c4%b1l%c4%b1r 1
+emri 2
+agdaki 1
+%c3%b6n 1
+y%c3%b6netim 1
+mesajlar%c4%b1 1
+fotokopi 1
+kullan%c4%b1c%c4%b1 4
+galaksi 3
+anlami 1
+ayn%c4%b1 14
+gider 2
+apple 2
+filmleri 3
+ba%c4%9fl%c4%b1 10
+ekran%c4%b1ndan 2
+ba%c5%9fka 21
+edilir 1
+sak%c4%b1ncal%c4%b1 1
+csharp 1
+izle 17
+koyma 1
+rekvision 2
+g%c3%bcnl%c3%bck 1
+ettirme 1
+artt%c4%b1rma 5
+%c3%bccretsiz 32
+verecek 2
+internetten 1
+desktopgate 8
+taraftak%c4%b0 1
+facebook 8
+monit%c3%b6r%c3%bc 1
+m%c3%bc%c5%9fteri 10
+%c3%9cst%c3%9cnde 1
+tamindir 2
+%c3%b6%c4%9freniyorum 1
+sms 2
+leri 3
+hope 1
+digit%c3%bcrk 1
+%c3%a7ocu%c4%9fumun 1
+izlenmesi 1
+arena 2
+fiyat 3
+%c3%96n 1
+masraf 1
+stok 5
+siparis 1
+alemizim 2
+kontrol 40
+k%c4%b1s%c4%b1tlama 12
+tekstil 1
+bilgisaya 1
+gezginler 2
+pcyi 1
+tu%c5%9eu 1
+sevgiliyi 1
+%c3%a7iftliklerde 1
+uzaktakip 1
+ekranda 3
+yer 1
+%c5%9feyleri 1
+kapasitif 1
+i%c5%9fleri 1
+bulut 1
+tak%c4%b1p 22
+www.workwiever.com 1
+webcamdan 2
+bant 1
+mezun 1
+kuran 1
+ki%c5%9filerin 1
+full 21
+nin 1
+kimler 1
+eczane 1
+maa%c5%9f 9
+giren 1
+okuma 1
+yasakl%c4%b1 2
+bilgisyara 1
+m%c4%b0n%c4%b0 3
+yi 7
+g%c3%b6r%c3%bcnt%c3%bc 6
+yedek 2
+bilgisayarlari 1
+yap%c4%b1lm%c4%b1%c5%9f 1
+kurulu 1
+bilgisayar%c4%b1n%c4%b1 5
+yazilim 1
+bilgisyar 1
+takibi 31
+eri%c5%9fimin 1
+ge%c3%a7i%c5%9f 1
+at%c4%b1ksu 1
+ye 1
+gebelik 1
+harcama 1
+yaz%c4%b1l%c4%b1m%c4%b1 3
+bulunmay%c4%b1 1
+office 1
+bilgisayarda 20
+ekran%c4%b1 4
+hukuk 1
+sitesi 6
+coker 1
+kisa 1
+ki%c5%9fi 2
+sistemi 10
+ile 10
+kurye 1
+keyloger 1
+su 2
+kopya 1
+yap%c4%b1lanlar%c4%b1 3
+bilgisayar%c4%b1n%c4%b1z%c4%b1 1
+sayfas%c4%b1n%c4%b1 2
+reklamlar%c4%b1n%c4%b1 4
+kredi 1
+uzakdan 2
+ba%c4%9flanarak 1
+%c3%a7ocu%c4%9fumu 1
+bilgisayari 2
+envanter 1
+dvr 3
+ki%c5%9fisel 1
+laboratuar%c4%b1 1
+paradise 4
+a%c4%9fda 3
+kocan%c4%b1n 1
+ram 1
+canl%c4%b1 5
+%c3%a7ocu%c4%9funuzu 1
+tlfnumu 3
+paneli 3
+senet 1
+kanun 1
+ediliyor 1
+mp4 1
+filtre 45
+employee 1
+ni 2
+siteler 2
+g%c3%b6zetleme 1
+bilgisa 1
+televizyonda 1
+tak%c4%b1l%c4%b1 3
+site 32
+internetini 3
+icra 1
+engellenmesi 4
+borsa 2
+g%c4%b0rd%c4%b0%c4%9e%c4%b0n%c4%b0 1
+engelem 2
+workviewer.com 11
+kodlu 1
+net 1
+avans 1
+bilgisayar%c4%b1n 9
+girmesini 2
+cinsel 1
+pornografik 2
+b%c4%b0lg%c4%b0sayar 5
+ak%c4%b1ll%c4%b1 1
+okullarda 1
+nmss 2
+telefonu 33
+%c3%b6zellikleri 1
+%c3%b6%c4%9frenci 5
+sitelerini 1
+ediyorum 1
+filtreleme 19
+workviewer 16
+numaras%c4%b1 8
+deneme 1
+yasas%c4%b1 1
+de%c4%9filken 3
+basic 1
+tabletten 1
+%c4%b1zleme 1
+bilgisaray 1
+atacaks%c4%b1n 1
+program%c4%b1n 1
+iki 1
+ev 2
+fabrikadaki 1
+cep 37
+mail 1
+ba%c4%9flanma 1
+s%c4%b1stem%c4%b1 1
+keyboard 1
+alma 2
+y%c3%b6netme 1
+%c3%9ccretl%c4%b0 1
+te 1
+izleyen 1
+vardiya 1
+internete 7
+teki 1
+baglant%c4%b1l%c4%b1 1
+masa 2
+b%c4%b0lg%c4%b0sayardan 2
+uydu 2
+yerden 2
+girdi 1
+multi 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1 1210
+206 1081 2048918045
+400 39 25280
+302 1440 5276663
+414 1 490
+500 4275 210122706
+404 7881 9962941
+301 43 23724
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 184
+/forums/install/upgrade.php 2 -
+/_fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/admin.php 5 -
+/build/uncompressed/modules/modal.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/dropdown.css 5 http://workviewer.com/semantic/deneme.html
+/css/img/arrow_down.png 3 -
+/css/img/camera_skins.png 3 -
+/semantic/javascript/library/waypoints.js 25 http://workviewer.com/semantic/deneme.html
+/login2/undefined.html 7 http://workviewer.com/login2/home.php
+/invoker/JMXInvokerServlet 2 -
+/forum/install/upgrade.php 2 -
+/administrator/components/com_maianmedia/charts/js/README.txt 1 -
+/favicon.loc 1 -
+/build/uncompressed/modules/behavior/api.js 5 http://workviewer.com/semantic/deneme.html
+/wp-content/themes/ 1 -
+http://safebrowsing.clients.google.com/safebrowsing/downloads 1 -
+/build/uncompressed/views/feed.css 5 http://workviewer.com/semantic/deneme.html
+/stylesheets/semantic.css 25 http://workviewer.com/semantic/deneme.html
+/xmlrpc.php 1 -
+/build/uncompressed/modules/behavior/state.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/collections/table.css 5 http://workviewer.com/semantic/deneme.html
+/css/font/fontawesome-webfont.ttf 3 -
+/roundcube/README 1 -
+/' 1 -
+/core/install/upgrade.php 1 -
+/build/uncompressed/elements/loader.css 5 http://workviewer.com/semantic/deneme.html
+/mob 1 -
+/img/footermod-bg.png),%20-webkit-linear-gradient(top,%20rgb(71,%2074,%2080),%20rgb(15,%2022,%2026) 1 http://www.workviewer.com/
+/register 13 -
+/webmail/README 1 -
+/build/uncompressed/elements/header.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/elements/label.css 5 http://workviewer.com/semantic/deneme.html
+/%70%68%70%70%61%74%68/%70%68%70 4 -
+/blog/wp-content/themes/ 1 -
+/javascript/library/ace/ace.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/collections/grid.css 5 http://workviewer.com/semantic/deneme.html
+/HNAP1/ 1 http://159.253.136.27/
+/javascript/library/history.js 5 http://workviewer.com/semantic/deneme.html
+/semantic/javascript/library/history.js 25 http://workviewer.com/semantic/deneme.html
+/javascript/library/waypoints.js 5 http://workviewer.com/semantic/deneme.html
+/undefined 1 http://www.workviewer.com/
+/administrator/ 1 -
+/MuraProxy.cfc 2 -
+/phpMyAdmin/scripts/setup.php 3 -
+/js/).html(n.highlighter(r)),t[0]}),t.first().addClass( 1 -
+/build/uncompressed/modules/dropdown.js 5 http://workviewer.com/semantic/deneme.html
+/wp-login.php 14 -
+/apple-touch-icon-72x72-precomposed.png 1 -
+/build/uncompressed/modules/dimmer.js 5 http://workviewer.com/semantic/deneme.html
+/mobil 1 -
+/mail/README 1 -
+/css/font/fontawesome-webfont.woff 3 -
+http://clients1.google.com/ocsp 12 -
+/screenshot.php 1 -
+/cgi-bin/php 1 -
+/mobile/login/authority.php 2 http://workviewer.com/mobile/
+/).html( 1 -
+/build/uncompressed/views/comment.css 5 http://workviewer.com/semantic/deneme.html
+/bayi-basvuru 1 -
+/index.html 1 -
+/forum/core/install/upgrade.php 1 -
+/wp-admin 2 -
+/js/)[this.options.html 1 -
+/css/img/footermod-bg.png 3 -
+/build/uncompressed/elements/progress.css 5 http://workviewer.com/semantic/deneme.html
+/stats/usage_201309.html 1 http://WORKVIEWER.COM/stats/usage_201309.html
+/css/img/logo.png 3 -
+/zabbix/httpmon.php 1 -
+/build/uncompressed/modules/checkbox.css 5 http://workviewer.com/semantic/deneme.html
+/crossdomain.xml 1 -
+/defaultsite 2 -
+/apple-touch-icon-72x72.png 1 -
+/build/uncompressed/modules/rating.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/views/list.css 5 http://workviewer.com/semantic/deneme.html
+/semantic/javascript/library/ace/ace.js 25 http://workviewer.com/semantic/deneme.html
+/administrator/index.php 6 -
+/mobi 1 -
+/build/uncompressed/modules/transition.js 5 http://workviewer.com/semantic/deneme.html
+/roundcubemail/README 1 -
+/robots.txt/.php 1 -
+/js/!=typeof 1 -
+/FCKeditor2/editor/filemanager/browser/default/connectors/test.html 1 -
+/mobile/js/jquery.mobile-1.3.2.min.map 113 http://workviewer.com/mobile/
+/build/uncompressed/modules/checkbox.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/collections/message.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/rating.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/dimmer.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/elements/input.css 5 http://workviewer.com/semantic/deneme.html
+/login/images/gradient.png 1 -
+/build/uncompressed/elements/step.css 5 http://workviewer.com/semantic/deneme.html
+/editor/FCKeditor/editor/dialog/fck_about.html 22 http://www.workviewer.com/editor/FCKeditor/editor/dialog/fck_about.html
+/login2/applywindriverrule.php 1 http://workviewer.com/login2/home.php
+/forum/ 1 -
+/admin/login.php 1 -
+/semantic/javascript/library/easing.js 25 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/elements/segment.css 5 http://workviewer.com/semantic/deneme.html
+/FCKeditor1/editor/filemanager/browser/default/connectors/test.html 1 -
+/admin/index.php 1 -
+//www.youtube.com/embed/ksRTO8cNM_g 8 -
+/.git/config 1 -
+/login/undefined.html 1 http://workviewer.com/login/home.php
+/editor/dialog/fck_about.html 22 http://www.workviewer.com/editor/dialog/fck_about.html
+/browserconfig.xml 2 -
+/build/uncompressed/elements/divider.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/elements/basic.icon.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/views/item.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/popup.js 5 http://workviewer.com/semantic/deneme.html
+/phpmyadmin/ 1 -
+/build/uncompressed/views/statistic.css 5 http://workviewer.com/semantic/deneme.html
+/bitrix/admin/index.php 1 -
+/m 2 -
+/javascript/library/easing.js 5 http://workviewer.com/semantic/deneme.html
+/$$avast-webshield$$/image001.png 62 http://www.facebook.com/plugins/like.php
+/apple-touch-icon-120x120.png 1 -
+/javascript/library/jquery.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/modal.js 5 http://workviewer.com/semantic/deneme.html
+/login2/getwinrlist.php 2 http://workviewer.com/login2/home.php
+/myadmin/scripts/setup.php 2 -
+/password 5 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/build/uncompressed/modules/tab.css 5 http://workviewer.com/semantic/deneme.html
+/www.youtube.com/embed/waYx4aQeiik 17 -
+/img/workviewerbg.jpg/.php 1 -
+/cgi-bin/php.cgi 1 -
+/www.youtube.com/embed/ksRTO8cNM_g 36 -
+/build/uncompressed/modules/accordion.js 5 http://workviewer.com/semantic/deneme.html
+/FCKeditor/editor/dialog/fck_about.html 22 http://www.workviewer.com/FCKeditor/editor/dialog/fck_about.html
+/build/uncompressed/modules/transition.css 5 http://workviewer.com/semantic/deneme.html
+/wp-content/w3tc/dbcache/ 1 http://caloundrasharks.com/wp-content/w3tc/dbcache/
+/javascript/library/tablesort.js 5 http://workviewer.com/semantic/deneme.html
+/apple-touch-icon.png 14 -
+/sid.818 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 3 -
+/build/uncompressed/modules/shape.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/tab.js 5 http://workviewer.com/semantic/deneme.html
+/web-console/Invoker 1 -
+/build/uncompressed/modules/sidebar.js 5 http://workviewer.com/semantic/deneme.html
+/css/font/fontawesome-webfont.svg 3 -
+/js/),this.$menu.html(t),this},next:function(t){var 1 -
+/cgi-bin/php5 1 -
+/invoker/EJBInvokerServlet/ 2 -
+/MyAdmin/scripts/setup.php 3 -
+/cgi-bin/php4 1 -
+/admin/FCKeditor/editor/dialog/fck_about.html 22 http://www.workviewer.com/admin/FCKeditor/editor/dialog/fck_about.html
+/editor/editor/dialog/fck_about.html 22 http://www.workviewer.com/editor/editor/dialog/fck_about.html
+/phpmyadmin/scripts/setup.php 3 -
+/build/uncompressed/collections/menu.css 5 http://workviewer.com/semantic/deneme.html
+/css/img/secpa_color.png 3 -
+/blog/ 1 http://WORKVIEWER.COM/blog/
+/build/uncompressed/modules/accordion.css 5 http://workviewer.com/semantic/deneme.html
+/install/upgrade.php 2 -
+/build/uncompressed/modules/reveal.css 5 http://workviewer.com/semantic/deneme.html
+/user/soapCaller.bs 2 -
+/manage/FCKeditor/editor/dialog/fck_about.html 22 http://www.workviewer.com/manage/FCKeditor/editor/dialog/fck_about.html
+/cgi-bin/php-cgi 1 -
+/apple-touch-icon-precomposed.png 17 -
+/build/uncompressed/elements/icon.css 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/collections/breadcrumb.css 5 http://workviewer.com/semantic/deneme.html
+/user/ 1 -
+http://www.daydaydata.com/proxy.txt 2 -
+/test 9 -
+/build/uncompressed/collections/form.css 5 http://workviewer.com/semantic/deneme.html
+/css/img/bg.png 3 -
+/status 3 -
+/js/jquery.min.map 195 http://workviewer.com/indir
+/mobile/resetport.php 6560 http://workviewer.com/mobile/home.php
+/build/uncompressed/elements/image.css 5 http://workviewer.com/semantic/deneme.html
+/favicon.ico/.php 1 -
+/semantic/javascript/library/jquery.js 23 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/modules/popup.css 5 http://workviewer.com/semantic/deneme.html
+/pma/scripts/setup.php 2 -
+/dowloadtest.php 2 -
+http://init.zopim.com/register 11 http://cdn.zopim.com/swf/ZClientController2.swf
+/manager/html 35 -
+/forums/core/install/upgrade.php 1 -
+/FCK/editor/dialog/fck_about.html 21 http://www.workviewer.com/FCK/editor/dialog/fck_about.html
+//www.youtube.com/embed/waYx4aQeiik 2 -
+/build/uncompressed/modules/sidebar.css 5 http://workviewer.com/semantic/deneme.html
+/README 1 -
+/mo 1 -
+/build/uncompressed/modules/shape.js 5 http://workviewer.com/semantic/deneme.html
+/build/uncompressed/elements/button.css 5 http://workviewer.com/semantic/deneme.html
+/semantic/javascript/library/tablesort.js 25 http://workviewer.com/semantic/deneme.html
+/rc/README 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1647
+217.131.168.115 96587 98067 17266066812 20131004110532
+217.131.166.163 92906 100413 17116575401 20131009161409
+151.250.73.65 58356 60363 13404919139 20131002143401
+78.188.28.205 37838 38890 3413516433 20131021110708
+176.42.29.179 37716 39892 6515635201 20131010192043
+217.131.132.11 28479 29518 2736332316 20131030071941
+82.222.189.162 28319 28725 2570472659 20131030093402
+91.93.211.6 27143 32057 3523010006 20131028044249
+78.189.139.7 22289 23757 3694967966 20131028123538
+151.250.51.100 20810 21421 3799810111 20131004151535
+78.184.148.254 4 37 976009 20131005210746
+88.252.110.218 2 33 916734 20131016010728
+78.190.254.122 337 631 98675828 20131008142729
+150.70.172.200 1 1 28361 20131018120022
+202.46.52.36 1 1 28402 20131022195326
+78.187.36.50 2 36 928751 20131004142552
+176.42.160.199 2 36 928779 20131006005700
+78.181.123.89 7 48 31186151 20131005120237
+85.105.110.159 10 78 63823400 20131001093945
+85.104.238.186 2 36 928785 20131008113450
+95.8.167.130 2 35 924723 20131004105132
+94.123.232.141 5 45 24428566 20131011172540
+85.103.175.176 2 36 928785 20131007201649
+88.229.69.55 2 35 918609 20131007145325
+78.164.85.116 2 34 920762 20131012190557
+95.14.6.155 2 34 953419 20131009010425
+88.245.208.83 310 425 2138708 20131012005604
+78.185.240.80 3 43 1061745 20131008153956
+78.120.236.236 83 83 1608485 20131015171605
+88.250.114.159 40 168 82163767 20131025090544
+88.242.179.128 2 33 916734 20131014200409
+92.45.184.128 2 36 928785 20131007214456
+95.9.44.85 5 25 876381 20131004211429
+88.245.223.108 2443 2609 84610198 20131014114955
+85.108.232.199 4 56 1544817 20131013203830
+150.70.173.45 31 34 1253222 20131011171533
+176.54.140.79 140 183 9279379 20131024073632
+92.45.89.182 2 35 918281 20131007140949
+88.242.196.77 2 34 920762 20131009163418
+88.244.86.131 2 36 928785 20131007133409
+78.184.114.49 27 313 133523118 20131004110255
+78.185.137.23 2 36 928751 20131003145157
+216.218.254.24 0 2 19067 
+176.219.132.2 0 3 43291 
+88.250.102.154 2 35 924752 20131007103742
+46.40.3.42 4 68 1840868 20131009214825
+83.4.158.182 2 34 920434 20131030073704
+78.190.220.21 2073 2797 381414414 20131007231626
+194.27.202.183 2 34 920762 20131012205434
+78.182.230.56 2 36 928779 20131005125607
+88.250.192.217 7 117 5232836 20131007155512
+78.181.25.12 2 30 836799 20131005041721
+118.232.245.129 1 1 28509 20131004074820
+88.234.94.47 6 47 31162253 20131007195957
+88.235.44.198 14 205 7289903 20131005175105
+85.102.204.239 2 35 918281 20131008142355
+176.42.14.138 2 35 918609 20131008082342
+46.221.193.146 6 6 1180 20131014151240
+88.247.111.78 12 64 1884521 20131020165911
+176.33.86.210 3 53 4148845 20131006134622
+94.20.201.14 2 33 880792 20131026202146
+95.14.220.254 2 34 920760 20131015173952
+204.155.149.27 45 45 925378 20131030184600
+202.46.60.12 1 1 28368 20131004134817
+46.196.110.164 7 50 1238933 20131001133441
+95.10.228.63 2 34 920762 20131014144347
+78.184.178.239 2 36 928779 20131005160814
+78.180.76.160 2 34 920434 20131023041642
+88.248.245.63 4 70 947307 20131004185006
+78.181.63.124 6 194 3337307 20131023150406
+81.213.63.249 6 48 5988332 20131004092407
+88.255.219.174 10 52 8663995 20131008095738
+78.190.50.4 5 47 32093094 20131005204528
+88.242.199.148 2 33 910586 20131015171101
+78.164.157.68 6 47 31165247 20131005092840
+150.70.173.52 30 33 220511 20131023112030
+94.28.187.210 1 1 28543 20131009122107
+178.168.77.35 7 7 198427 20131023024939
+66.249.83.224 7 232 6140025 20131016100709
+78.185.50.118 2 36 928779 20131004211921
+195.175.86.42 2 36 928779 20131004161642
+176.40.114.203 2 36 928785 20131007202532
+146.185.165.110 1 1 28440 20131026030115
+65.55.215.244 1 8 249761 20131001141317
+94.55.190.126 2 34 918300 20131009005124
+173.227.230.236 1 1 28377 20131006013123
+95.12.101.207 9 99 4127016 20131011191407
+95.6.57.47 9 51 7720023 20131007160536
+123.201.82.250 1 1 28543 20131009090939
+88.198.227.103 1 1 28327 20131003154702
+78.173.37.239 3 36 947306 20131004170727
+88.227.32.149 1 28 679301 20131004233150
+78.171.224.44 2 33 910586 20131010005535
+85.100.103.195 2 34 918300 20131009001413
+95.14.142.148 3 57 1524113 20131005110536
+88.235.53.207 3 51 4140828 20131013202655
+115.69.240.9 1 1 28543 20131016162401
+23.27.12.97 2 33 909095 20131012192007
+88.250.114.246 2 34 920762 20131010143021
+85.106.135.99 2 36 928779 20131004190235
+59.99.184.232 1 1 28543 20131018173530
+178.245.163.69 3 35 949472 20131016103950
+95.7.232.170 2 34 920762 20131013143648
+150.70.97.125 22 24 389578 20131029070346
+88.247.21.98 310 441 34184175 20131009131546
+37.200.65.208 1 1 28377 20131007023645
+78.187.90.231 7 46 31173181 20131009140849
+78.190.253.38 4 93 1522941 20131002145816
+88.229.25.231 5 78 4848744 20131010013606
+88.244.105.66 2 36 928779 20131006115049
+81.214.67.139 2 34 920762 20131012122028
+78.189.108.190 10 119 33022809 20131008154316
+88.232.83.74 2 34 920762 20131014141615
+85.103.78.178 2 36 928779 20131006140259
+31.223.68.222 2 36 928779 20131006160822
+182.73.243.2 1 1 28440 20131030003619
+5.27.120.238 5 47 32093071 20131004000824
+88.230.22.80 2 34 920762 20131012134053
+66.249.83.49 1 1 28440 20131013100518
+88.238.138.204 2 36 928785 20131007172253
+88.229.20.207 5 44 31129095 20131012114346
+74.217.148.78 1 1 61320 20131005114441
+92.45.26.161 2 36 928751 20131003135555
+88.243.65.36 13 76 3884925 20131031190514
+150.70.75.157 1 1 6898272 20131001144745
+151.250.194.16 2 34 920762 20131011161248
+88.238.31.124 4 37 953455 20131005204535
+176.43.69.151 7 48 4952966 20131008160037
+78.168.83.153 2 34 920762 20131016004342
+74.117.177.167 3 3 85320 20131030082616
+82.222.120.195 2 36 28640 20131005120145
+78.190.246.176 4415 5382 652199508 20131030032739
+78.166.229.149 4 114 2786604 20131004170814
+88.250.201.83 258 424 23272645 20131030112514
+209.126.230.72 2 2 56722 20131016184946
+85.108.246.187 2 36 928785 20131008004054
+91.93.202.30 4 65 1327927 20131007095214
+150.70.64.213 1 1 28327 20131002111211
+188.3.86.127 2 34 920762 20131012152734
+176.42.255.207 1 1 28519 20131001022749
+151.250.18.131 2 33 910586 20131011101458
+88.245.26.49 5 47 32092768 20131005140419
+88.244.100.144 2 34 920761 20131013134740
+88.249.47.168 3 35 949472 20131010105606
+81.213.226.9 4 45 1090979 20131007142326
+176.54.128.142 4 52 4161923 20131027134729
+95.6.36.213 4 74 4740524 20131004152103
+85.105.248.27 2 34 918300 20131009082015
+78.184.118.218 748 932 79391516 20131026040202
+95.9.151.131 4 45 1087482 20131007214821
+212.174.132.10 4 42 1081864 20131024090037
+93.159.230.89 3 11 371033 20131031071051
+176.88.156.164 85 252 3375615 20131030085754
+91.93.244.193 2 33 910586 20131012215755
+88.249.28.115 2 36 928751 20131003115324
+78.188.91.88 4 52 4167081 20131009121511
+216.218.254.10 1 10 105301 20131024163705
+85.97.14.207 1 27 576536 20131014203524
+88.254.65.27 2 36 928785 20131008020336
+217.131.129.202 4 54 4177312 20131007165305
+123.125.71.73 0 1 2905 
+119.63.193.132 1 1 28402 20131011035159
+123.125.71.116 0 1 92903 
+88.250.129.110 2 2 28972 20131023003210
+207.189.121.44 6 6 135727 20131005221636
+78.188.194.86 5 45 2034825 20131031060314
+78.165.135.208 2 34 920762 20131014141331
+78.186.183.49 5 53 4198327 20131012191523
+88.252.4.161 3 45 2072845 20131003202147
+176.42.86.80 2 33 910586 20131014171241
+85.96.45.81 124 176 1826214 20131028102212
+85.101.73.15 1 1 6330 20131008180845
+95.0.213.10 2 35 918603 20131006190551
+176.240.56.187 6 62 2018832 20131005092715
+88.231.193.99 2 35 918609 20131008121847
+64.34.169.244 2 2 56732 20131021050534
+31.200.51.183 2 34 920762 20131013045831
+78.186.204.44 1 1 28543 20131008113710
+212.156.63.186 2 34 920762 20131011084143
+85.106.1.104 2 36 928779 20131007085915
+88.238.68.126 2 34 920762 20131009211131
+150.70.173.59 28 29 47505 20131014120326
+88.234.200.206 2 36 928751 20131003183412
+31.200.98.218 4 46 31136851 20131003234802
+95.15.15.15 2 33 916734 20131012204157
+88.255.159.114 2 36 928751 20131004134900
+176.33.97.72 2 33 913962 20131009102652
+150.70.97.116 14 15 124251 20131012110821
+88.232.72.18 4 65 1052099 20131004001249
+213.194.85.98 4 62 2513216 20131011114732
+176.219.163.131 1 17 291637 20131010181955
+81.215.173.9 5 40 1068702 20131009122755
+199.101.132.162 1 1 28440 20131021090512
+176.40.58.204 2 36 928779 20131005124652
+111.192.83.27 1 1 28509 20131001221100
+81.215.162.164 2 35 918609 20131007123302
+85.96.162.148 1 1 7023 20131030135055
+78.168.118.138 2 36 928779 20131005201113
+78.168.110.145 1 1 21495 20131022071139
+184.105.144.2 0 3 40684 
+78.188.68.222 2 34 920762 20131014100511
+188.118.212.10 1 1 28361 20131022134309
+78.178.171.248 2 35 918605 20131006151011
+67.208.112.24 1 1 28440 20131028061010
+81.213.74.214 2 34 920762 20131013001315
+78.184.69.124 211 256 33102017 20131028140933
+88.234.246.251 2 34 920762 20131013130513
+78.190.223.73 2 34 920762 20131015032013
+78.162.54.113 3 3 86286 20131005122336
+88.229.94.126 2 34 920762 20131014140650
+192.237.206.228 1 1 28383 20131010014229
+78.165.152.89 7 117 2904527 20131014033141
+212.253.113.160 2 36 928785 20131007191148
+88.245.27.14 528 641 2142199 20131011020819
+88.244.109.154 2 34 920762 20131012012121
+162.243.141.28 1 1 28383 20131031123818
+88.227.173.117 2 35 918603 20131004193515
+69.58.178.58 11 11 223973 20131019031625
+88.238.148.41 130 466 2354109 20131022064125
+188.3.7.227 2 33 910588 20131012195046
+150.70.97.119 22 27 197864 20131012184039
+88.247.221.21 3 62 2210685 20131005123752
+150.70.75.36 45 57 1395946 20131029070458
+88.250.113.213 255 296 127991872 20131008151822
+95.15.22.10 6 63 35315663 20131005145626
+88.249.71.159 10 130 5395883 20131014093548
+150.70.173.50 38 43 463589 20131011172042
+192.95.18.229 1 1 28361 20131028011824
+198.211.117.220 20 32 561639 20131022072803
+88.249.107.20 3 51 4140506 20131024061717
+88.225.171.186 2 30 878278 20131009122724
+79.123.138.101 4 46 1091512 20131007204230
+88.254.190.172 2 36 928779 20131005155720
+85.101.22.153 2 36 928779 20131005203757
+78.183.120.202 4 38 986103 20131003131053
+66.249.85.34 8 262 7004771 20131021034035
+78.170.104.112 5 47 32093596 20131008143641
+92.44.209.55 5 54 4196075 20131006010241
+5.46.119.179 3 51 762601 20131018082209
+78.191.78.41 2 36 938172 20131013150121
+88.238.145.146 100 254 1207524 20131022094724
+88.229.186.9 2 36 836345 20131005164117
+78.175.39.75 2 33 914272 20131009135301
+78.160.30.69 2 34 920762 20131013154548
+78.183.197.225 4 36 991290 20131030181917
+78.164.52.122 3 51 4140844 20131014185714
+78.179.43.252 5 46 31136540 20131004205118
+88.245.220.98 405 405 102334 20131010221038
+202.46.62.94 1 1 28402 20131011135144
+78.172.249.92 4 44 31126902 20131009134202
+81.213.44.103 2 36 928779 20131006154818
+85.103.177.238 15 57 1328392 20131006195119
+216.218.254.27 0 1 0 
+111.253.137.202 1 1 28416 20131001150241
+216.9.35.59 2 34 917972 20131009025357
+212.253.133.225 3 52 4138660 20131003174436
+78.181.215.245 2 34 920762 20131012184239
+88.229.217.20 2 35 918603 20131005002335
+78.161.210.213 5 44 1111746 20131013200036
+78.182.156.140 8 62 3608121 20131005175309
+95.70.129.58 2 34 920762 20131016042244
+151.250.128.164 2816 3500 285420254 20131014141959
+78.167.6.83 2 36 928751 20131003222847
+212.253.115.164 3 53 4148867 20131007111812
+198.211.99.110 11 17 309567 20131012053601
+88.252.197.127 1 1 28575 20131014133057
+178.168.77.34 10 10 283762 20131023025251
+88.247.193.210 6 92 4267639 20131012160340
+78.189.108.88 14 55 62606295 20131007130148
+199.19.249.196 2 2 66498 20131014123422
+78.183.181.134 2 34 920762 20131015185809
+123.125.71.105 0 1 2905 
+199.217.119.4 13 13 368939 20131030173402
+88.250.223.221 2 36 928779 20131005160048
+119.63.193.194 1 1 28402 20131020095359
+94.123.238.132 1 10 268276 20131007214937
+212.174.225.76 5 44 1101440 20131011113735
+78.167.111.240 3 37 957502 20131005174859
+85.104.172.123 3 37 957483 20131006180344
+213.43.8.51 4 37 976011 20131007102521
+88.253.41.181 5 47 11394105 20131006141018
+107.22.67.105 1 1 28434 20131004204310
+81.214.32.211 2 34 920762 20131011172304
+176.42.246.202 1 7 262482 20131005135934
+88.245.23.78 87 336 36366759 20131005233837
+85.100.5.88 2 36 928779 20131004200642
+176.88.144.233 509 621 58114337 20131016185707
+92.45.59.74 2 33 910586 20131010133805
+78.185.8.209 2 34 920762 20131016004935
+208.88.224.203 5 5 142166 20131028135511
+54.229.122.253 1 1 28396 20131004192913
+94.54.145.80 6 108 4807288 20131007132437
+78.188.188.141 8 92 4810316 20131007121826
+178.243.215.186 2 36 928751 20131003170951
+88.249.204.142 2 34 920762 20131016015334
+95.15.44.47 2 34 920762 20131013001511
+131.253.26.255 1 4 182193 20131007234701
+208.43.225.84 4 4 77748 20131015195456
+212.175.159.90 9 130 5077566 20131031040813
+78.188.59.118 2 35 918609 20131007141231
+78.187.129.124 3 53 4148832 20131004092000
+94.121.2.144 4 44 1142071 20131012202910
+150.70.97.96 19 22 222002 20131031045221
+88.245.10.214 7560 7837 79528235 20131008075120
+88.247.213.230 25 202 97059083 20131030160953
+78.171.71.151 2 34 920762 20131010165600
+150.70.172.111 66 74 6144441 20131020181410
+41.110.208.135 6 48 20293126 20131005153129
+81.214.142.105 3 50 4130676 20131011162736
+88.234.210.4 7 46 31178686 20131018203930
+85.108.171.115 6 47 29083367 20131002204914
+220.132.40.252 1 1 28543 20131013121331
+213.74.231.54 2 36 928785 20131007173722
+78.168.44.45 1 1 21493 20131011174512
+202.46.55.56 1 1 28402 20131013115803
+78.189.213.27 1 1 14486 20131027103551
+37.187.56.98 2 8 280046 20131011005119
+46.154.254.13 6 79 1108998 20131004155739
+188.56.7.160 4 43 1083032 20131015230622
+93.159.230.90 3 11 371033 20131031081829
+96.41.146.211 1 1 28383 20131014224734
+78.183.146.48 2 36 928779 20131006180853
+78.177.10.2 4 52 4169559 20131013155217
+88.252.83.204 2 34 920762 20131013135204
+176.88.132.113 13 37 157867 20131020233724
+78.171.28.234 4 58 1551106 20131006233942
+176.43.14.55 5 124 5290309 20131003152611
+78.187.143.43 2 35 918609 20131007134050
+213.155.126.9 2 34 920772 20131011143752
+78.188.72.70 2 35 918603 20131005190928
+176.42.68.208 2 33 910586 20131014094500
+78.186.33.30 2 24 715990 20131009120503
+88.249.25.12 29 157 73123495 20131007125822
+78.178.140.35 4 60 1044149 20131012160334
+5.46.137.241 11 57 62281094 20131002220133
+216.218.254.20 1 2 29233 20131024163957
+78.184.142.188 2 36 928779 20131006172112
+212.156.218.155 2 36 928751 20131003171917
+88.240.58.234 2 34 918300 20131009134741
+78.176.82.132 6 59 4305692 20131012173650
+95.70.246.19 2 34 920762 20131010011407
+65.55.213.46 2 8 264706 20131022121051
+78.172.67.35 2 34 920762 20131010025956
+81.215.161.93 2 35 918613 20131006190350
+176.40.214.217 2 36 928785 20131008141430
+88.250.177.36 67 423 71236415 20131009155818
+95.9.252.39 17 255 6725627 20131005121127
+95.6.90.243 11 130 2850566 20131006212810
+88.236.54.188 2 35 924749 20131005175750
+78.187.82.24 3 36 947306 20131004163352
+46.196.120.171 5 47 1119713 20131007102748
+88.241.172.176 2 34 920762 20131013183423
+66.249.84.152 11 356 9609564 20131022152958
+82.222.199.91 2 36 928785 20131007164344
+5.46.165.61 111 175 12811201 20131030041224
+88.228.185.114 2 35 103177 20131001181137
+78.187.179.243 2 33 910258 20131030134926
+88.225.233.101 16 133 70306484 20131010143817
+117.199.113.227 1 1 28543 20131019001319
+78.183.116.246 6 47 1387982 20131008124101
+176.219.128.155 0 3 43291 
+78.168.116.95 2 36 928785 20131008141126
+78.179.69.110 2 34 920762 20131013152457
+91.79.51.51 1 1 22744996 20131002205555
+78.184.18.246 2 2 56821 20131029154743
+78.189.35.253 4 45 1081335 20131008110230
+150.70.173.49 26 28 9082740 20131016214829
+150.70.97.123 21 25 211767 20131011171743
+94.123.233.202 2 34 918300 20131009125648
+113.204.166.2 1 1 28543 20131031220044
+78.164.128.180 6 56 4234971 20131006152249
+176.40.88.213 2 35 924757 20131007211007
+78.168.164.233 3 35 1000144 20131010110743
+114.26.174.211 1 1 28543 20131014160656
+85.110.125.225 2 36 928779 20131006161830
+95.7.101.34 2 34 920762 20131011190400
+78.181.14.206 3 73 4705234 20131006015245
+85.104.78.27 2 34 920762 20131014172715
+159.146.2.141 3 50 4136822 20131014145836
+88.242.127.81 2 35 918575 20131004112211
+88.236.139.120 2 19 332980 20131004011617
+94.54.159.154 8 86 35911817 20131006200916
+83.66.207.7 2 33 914272 20131009101644
+94.120.211.200 2 28 858397 20131015132801
+178.243.212.50 4 57 1542262 20131004133107
+125.119.188.148 1 1 28440 20131011123539
+176.219.164.233 74 83 15003803 20131031133438
+95.9.176.80 0 10 202310 
+88.251.255.172 2 35 918609 20131008121111
+78.178.199.130 2 36 928779 20131005225334
+5.25.163.53 2 27 866324 20131008111742
+150.70.97.114 18 20 351495 20131011171823
+88.240.64.100 2 36 928785 20131007113551
+78.173.87.120 6 77 4794946 20131005083833
+95.10.12.130 0 1 273028 
+78.185.43.24 2 36 928779 20131007013317
+88.245.160.95 2 36 928779 20131005122558
+119.63.193.130 2 2 56770 20131021215040
+216.218.254.7 0 1 0 
+78.170.4.230 2 35 918575 20131004112255
+78.188.170.199 0 1 223793 
+78.166.249.135 2 34 920762 20131012145443
+88.234.244.146 3 59 1815447 20131006131429
+78.188.88.177 2 34 918300 20131009100955
+81.215.206.253 2 28 392556 20131012140802
+78.168.99.81 2 34 918300 20131009005655
+46.2.193.123 2 33 916406 20131011190114
+95.7.2.131 2 35 918603 20131005180432
+194.27.149.94 3 34 930657 20131005153720
+78.176.17.198 8 76 4819520 20131013204854
+95.5.62.230 2 35 924751 20131004173447
+88.229.38.45 2 36 928779 20131006154014
+85.105.170.101 9108 9696 702197455 20131012183950
+78.173.175.87 6 129 4929799 20131001001250
+85.108.50.238 3 35 949472 20131012150405
+88.245.1.162 1 7 147753 20131010204505
+88.229.112.236 2 36 928751 20131003120556
+88.246.181.105 1 14 333955 20131003174108
+78.170.127.210 4 33 31431498 20131007165343
+78.189.11.222 12 139 5541687 20131009130646
+178.245.135.53 2 34 920762 20131013105606
+150.70.97.40 8 8 44361 20131011165246
+192.95.22.19 1 1 28440 20131019052100
+85.106.98.106 6 73 2879362 20131008001652
+83.66.167.222 2 35 918611 20131008111343
+176.240.59.157 3 53 4148839 20131004214540
+88.238.223.244 19 126 4049428 20131017173714
+95.5.35.250 2 34 920762 20131012125643
+208.80.194.127 1 1 28361 20131010144941
+31.200.113.157 2 36 928751 20131004002006
+78.187.84.200 17 99 93429627 20131005194816
+78.180.184.219 2 36 928779 20131004150544
+78.166.181.31 2 36 928785 20131007142923
+83.66.208.188 2 34 920762 20131013013507
+46.1.1.85 2 36 928779 20131005170401
+91.192.97.122 1 1 28543 20131018131627
+78.187.20.24 3 44 1058777 20131008135800
+78.187.75.153 5 44 31119387 20131010163626
+85.105.76.14 0 1 213216 
+88.255.50.69 4 57 1548518 20131003155649
+78.164.63.80 4 32 30474776 20131005121459
+78.175.186.216 9 49 62215314 20131009074626
+213.43.197.170 3 34 939296 20131014004403
+85.105.102.160 4 68 1840868 20131011120539
+150.70.97.117 20 21 7564113 20131021101413
+66.119.41.34 1 1 28470 20131002232424
+78.172.134.183 2 36 928779 20131007091929
+78.170.121.247 2 34 906736 20131012135921
+88.249.195.159 2 36 928791 20131008144334
+176.219.170.26 92 129 1181885 20131019153930
+88.228.104.222 6 48 31166282 20131007194619
+78.175.232.139 2 34 920762 20131012153734
+217.174.232.11 3 57 1941559 20131011152802
+85.101.19.111 13 39 73608414 20131031094212
+117.219.67.94 1 1 28543 20131028021231
+88.230.224.114 5 105 2095019 20131023062247
+171.67.216.94 2 2 56754 20131006040807
+82.222.202.63 1 1 20884 20131006123235
+78.172.169.246 2 34 920762 20131012014701
+216.218.254.28 0 4 139789 
+150.70.97.76 1 1 326 20131001143616
+88.228.142.82 2 35 924751 20131005191258
+88.254.69.236 1 1 20925 20131006120553
+176.88.137.42 130 370 2044827 20131022042950
+78.188.60.21 2 33 910258 20131009161223
+200.205.95.10 1 1 28416 20131001014410
+150.70.97.120 15 17 52933 20131011172439
+81.213.255.131 2 34 918300 20131009130939
+88.243.64.169 8 130 5382941 20131005193952
+88.252.218.220 2 35 924751 20131004163505
+78.184.195.59 7 42 1043319 20131011065510
+88.252.31.85 2 35 918603 20131005020522
+92.45.186.177 2 33 916734 20131010005645
+150.70.64.211 47 54 970985 20131031153013
+88.235.198.224 4 73 4741521 20131005001455
+78.172.223.195 2 34 920762 20131010100632
+94.122.186.35 2 35 918605 20131005124516
+213.153.251.89 4 57 1548476 20131003175037
+78.184.70.150 0 21 0 
+46.105.59.74 2 2 632 20131021211919
+88.230.104.23 6 52 32482061 20131014124109
+141.8.189.193 0 7 0 
+78.161.172.198 10 49 9360531 20131011185727
+212.156.80.234 11 52 62499189 20131007114037
+85.99.177.65 2 36 928779 20131004183039
+95.14.173.72 6 46 2423957 20131012123156
+212.156.96.186 2 34 920762 20131011112226
+5.164.110.140 3 42 1178766 20131001202746
+54.224.147.38 3 3 78294 20131014095253
+95.12.117.211 2 34 920762 20131012202429
+88.225.171.150 2 35 918609 20131007153641
+78.184.36.177 224 1007 7110457 20131024163515
+88.254.248.227 2 34 920762 20131013000223
+65.49.14.11 2 33 910582 20131010093925
+94.122.39.113 2 33 910586 20131013175913
+37.155.36.234 3 36 947253 20131004001441
+78.188.176.234 6 104 2769198 20131011175233
+78.191.87.245 2 36 928785 20131007152514
+213.43.73.24 2 26 468676 20131004185746
+150.70.173.40 30 32 12748 20131011171927
+216.218.254.21 0 2 0 
+188.40.45.80 1 1 28406 20131004012851
+178.240.32.64 107 234 1527888 20131023041428
+83.66.255.212 7 62 4234307 20131003201616
+217.131.176.40 1 2 28440 20131023033712
+150.70.97.98 19 22 360819 20131013010610
+188.119.45.145 3 67 4168660 20131009121224
+66.249.85.181 1 1 28440 20131010120251
+176.216.28.158 112 212 2413063 20131012165328
+212.253.62.48 6 99 65259045 20131023043530
+78.189.122.5 2 35 918619 20131007154434
+78.174.157.166 2 25 495931 20131015140135
+88.245.178.51 3 36 988062 20131001111157
+88.243.230.166 2 36 928779 20131006135846
+176.54.209.246 2 33 911731 20131025232226
+176.219.174.248 87 96 256602 20131027050821
+176.54.195.129 2 34 919161 20131009144825
+95.10.144.124 2 34 918300 20131009113327
+71.254.156.7 1 1 28361 20131025005745
+85.107.39.239 6 48 32121805 20131005175519
+66.171.229.140 1 1 3569320 20131022010043
+46.197.102.64 2 33 916734 20131013031408
+88.224.61.21 6 46 15016831 20131009120516
+88.224.202.40 7 48 1228807 20131005125038
+88.245.83.83 2 35 918575 20131003114109
+31.200.106.180 2 34 920762 20131015225145
+150.70.173.38 1 1 28383 20131024095228
+78.188.203.133 13 124 13140489 20131011160044
+123.125.71.81 0 1 15679 
+184.105.146.7 0 2 27631 
+94.122.46.148 4 34 949958 20131008201522
+78.165.228.235 3 36 947307 20131006095143
+78.177.41.157 2 36 928785 20131007213840
+117.221.128.106 1 1 28543 20131017090847
+5.14.110.123 2 35 924751 20131006151121
+81.214.63.8 182 258 11605196 20131012165155
+95.10.125.254 2 36 928779 20131005203322
+117.247.8.192 1 1 28543 20131019081258
+81.214.72.106 2 34 920762 20131012190030
+46.229.170.197 1 1 28383 20131023035642
+78.187.41.170 4 51 4156168 20131013003824
+78.189.132.136 4 68 1835352 20131014174125
+78.186.130.234 2 36 928751 20131004134104
+88.250.92.199 16 98 96731743 20131007164250
+78.171.192.67 2 35 918603 20131005134255
+195.244.59.146 1 1 28256 20131001151405
+81.214.220.145 2 36 928785 20131007130817
+94.120.252.50 2 34 920762 20131012140323
+78.173.235.175 4 72 1857512 20131007223351
+176.54.59.201 288 328 20567237 20131004225248
+85.98.123.84 2 34 920762 20131012040116
+78.179.4.106 1 28 770324 20131006171214
+188.56.132.124 2 36 928751 20131004101502
+176.216.167.145 251 273 38945451 20131010180008
+78.163.84.138 13 105 66423632 20131008105057
+216.218.254.19 0 1 800 
+78.165.35.195 2 33 910586 20131013151112
+85.108.19.27 6 63 34360026 20131007020015
+81.213.113.137 2 34 920762 20131015161124
+78.162.135.14 2 36 928779 20131005064423
+85.105.164.243 2 35 924757 20131007193352
+114.39.1.177 1 1 28543 20131018002717
+92.44.137.127 2 33 910586 20131013143155
+78.166.207.180 5 46 5656292 20131005161035
+178.240.80.167 855 1630 84672352 20131014174118
+78.175.203.78 4 60 1535244 20131031022932
+95.9.191.136 3 51 4140850 20131012190249
+81.215.93.71 3 34 937878 20131009152430
+54.219.143.173 1 1 28402 20131028183317
+88.252.97.41 2 34 920762 20131013120725
+78.186.201.36 2 34 920762 20131010162924
+88.245.31.119 2346 3067 174168654 20131007154438
+81.213.201.63 4 44 1083563 20131015172911
+212.98.212.197 23 100 66241340 20131008162445
+88.249.222.121 2 36 928779 20131006195544
+46.197.243.196 2 36 928785 20131008005129
+88.253.19.190 4 59 4263048 20131005155507
+92.45.26.5 2 34 920762 20131011105939
+88.245.9.24 9 24 702228 20131010204649
+82.222.196.88 4 46 2547585 20131005141045
+85.108.246.232 5 47 1727551 20131004153457
+78.161.95.232 2 36 928785 20131007165235
+150.70.173.47 15 19 118319 20131011171618
+194.27.49.199 6 48 36860276 20131004172021
+95.9.138.166 1 20 407094 20131013161404
+91.230.41.41 1 1 28383 20131012113047
+88.230.219.224 2 28 382647 20131013164939
+78.174.237.119 15 94 32758369 20131012192425
+150.70.75.32 3 3 85083 20131021101415
+95.7.237.157 2 33 910258 20131026134117
+88.227.183.98 7 73 4690605 20131010144557
+150.70.173.57 37 39 132374 20131011180533
+95.14.69.106 2 36 928751 20131003154343
+88.235.67.254 2 36 928779 20131006151638
+5.46.159.170 2 31 890921 20131026062438
+88.248.101.96 17 216 5748598 20131005134359
+94.120.151.10 3 35 919454 20131010085408
+88.233.85.106 2 34 920762 20131014141704
+95.14.191.136 4 44 1083565 20131011141138
+88.245.29.134 84 129 10598709 20131001192201
+192.241.251.172 1 1 28383 20131021101331
+24.53.42.105 1 1 28349 20131004103212
+194.27.229.20 9 151 7587306 20131008112000
+176.54.197.10 20 72 1915921 20131014134408
+95.9.91.179 2 33 916412 20131023014320
+150.70.97.112 12 12 338393 20131011171607
+198.211.102.42 31 49 871785 20131031011650
+78.163.168.205 2 34 920762 20131015015400
+176.33.253.205 3 34 938640 20131031174301
+176.33.164.164 4 62 2237727 20131006003716
+78.177.115.155 4 41 1069797 20131009110340
+85.98.160.20 9 49 62203365 20131012012016
+95.5.110.84 5 46 1535596 20131009161517
+62.29.20.246 6 46 5523162 20131013000825
+85.98.122.121 13 156 3883026 20131011122254
+78.161.168.46 2 33 916734 20131015091026
+78.182.213.101 3 51 4140500 20131014181352
+85.104.109.116 7 93 2087568 20131009202331
+151.250.240.99 3 6 6803 20131002192642
+92.45.130.22 2 36 928785 20131007170819
+78.184.75.254 2 36 928751 20131003174304
+108.59.1.238 1 1 28383 20131009235402
+92.45.192.75 1 1 28704 20131026120516
+176.54.148.81 40 100 397335 20131015105555
+150.70.172.209 62 75 2176892 20131024093618
+78.165.65.142 2 36 928779 20131006183443
+31.193.21.252 1 1 28549 20131008175228
+78.190.30.102 2 36 963898 20131005213047
+192.241.143.178 2 33 916410 20131026160617
+78.168.25.173 1 1 21494 20131014175509
+88.250.64.187 4 44 31129428 20131013165812
+92.44.190.199 1 27 661343 20131009165105
+85.96.250.116 3 37 957426 20131003144827
+78.164.142.217 2 34 920761 20131015161217
+88.252.182.2 8 50 2083283 20131006192002
+96.227.124.37 1 1 28402 20131017124452
+88.252.66.46 2 36 854698 20131007122238
+78.178.55.213 2 36 928751 20131003133400
+78.186.114.156 6 47 22075361 20131012110206
+88.252.109.67 1 1 28541 20131002110619
+78.189.20.41 2 34 920762 20131013143142
+78.186.19.13 2 36 928751 20131003160001
+188.56.22.117 5 111 4822024 20131007020321
+150.70.97.115 27 31 101980 20131026115328
+88.245.33.137 132 161 1759029 20131014195123
+164.100.1.213 1 1 28543 20131014124204
+78.189.194.183 1 22 419194 20131004100502
+95.9.202.4 3 57 1941554 20131021030740
+88.238.160.64 1 1 21417 20131015093404
+78.161.153.122 2 36 928751 20131003213945
+88.248.110.85 11 76 91657387 20131029061705
+95.6.18.27 2 33 910586 20131010090802
+184.105.144.10 0 2 13783 
+88.229.229.99 2 2 57536 20131008140118
+88.245.2.35 2864 3003 250580565 20131012141746
+85.108.243.29 1 27 1565322 20131004153706
+174.129.159.121 2 2 51379 20131005030332
+95.65.175.230 4 45 31136349 20131006203528
+78.186.165.248 5 45 1086348 20131011091855
+85.108.147.21 2 34 920762 20131015223639
+88.253.246.62 2 34 920762 20131010214520
+78.190.225.175 4515 4531 542342713 20131031083906
+176.33.233.152 2 35 918609 20131008025320
+212.156.27.126 3 58 1943060 20131025114437
+88.250.93.207 2 34 920762 20131012122434
+78.186.22.181 6 63 34338840 20131003123415
+92.45.57.84 2 33 910586 20131011173224
+212.174.55.10 2 34 918300 20131009130131
+176.41.243.164 2 34 920761 20131013015049
+78.161.231.119 3 80 4098290 20131010161530
+78.190.241.71 2 36 928779 20131005225400
+178.245.25.62 2 36 928779 20131006034124
+78.184.85.208 0 35 858600 
+23.22.149.33 1 1 28440 20131015032743
+88.226.202.149 1 1 21495 20131012174638
+85.99.200.95 2 34 920762 20131015205513
+78.186.44.209 10 130 33702456 20131004172857
+109.169.70.175 1 1 28440 20131013201202
+94.23.202.64 5 20 700194 20131028041514
+88.249.28.134 2 33 914272 20131009133926
+88.253.241.160 3 35 949472 20131014182641
+78.169.22.39 2 33 916738 20131012102920
+88.232.233.34 4 44 1090450 20131007152158
+88.245.24.199 49 163 4245655 20131004150301
+69.22.184.26 3 34 994852 20131012191853
+95.13.77.8 2 36 928779 20131005134300
+88.246.119.175 5 75 4792808 20131005174511
+92.45.19.190 1 7 264621 20131024093230
+78.187.155.155 4 41 1072279 20131010152639
+78.161.36.45 9 65 4372584 20131008123517
+88.245.14.212 1502 1531 126224746 20131012101714
+78.188.228.161 18 69 1719965 20131014164033
+178.233.157.203 1 26 636665 20131004100432
+88.232.193.117 2 34 920762 20131015184356
+92.45.230.242 8 49 62810141 20131006131005
+88.229.173.20 3 35 949144 20131011001613
+212.156.150.70 2 35 924429 20131008083756
+212.253.67.20 3 90 1509407 20131005155319
+92.44.78.90 60 135 36714738 20131005020456
+78.160.84.54 2 34 920762 20131013052104
+150.70.173.42 38 40 331215 20131011180326
+85.108.5.1 4 52 4169559 20131014030550
+78.182.66.145 2 36 928785 20131007130633
+85.105.108.99 19 62 1674500 20131003120459
+176.40.245.164 4 69 3577911 20131024045252
+88.250.54.77 3 61 2209015 20131008112620
+31.223.45.106 2 34 920762 20131014142438
+46.2.212.90 7 84 25548055 20131006154504
+88.250.90.59 954 1279 146918665 20131012162530
+117.203.202.95 1 1 28543 20131024024906
+95.9.96.204 2 2 57086 20131025201347
+188.3.98.112 8 49 34121403 20131003124221
+78.181.42.163 10 146 3593881 20131010232918
+78.168.222.51 2 36 928751 20131003121355
+91.196.95.18 1 1 28440 20131007184315
+88.233.24.41 8 49 1189528 20131005122454
+37.123.16.18 2 34 876780 20131013212253
+78.191.210.188 2 34 920762 20131014023754
+23.31.147.43 1 1 28434 20131007071548
+78.164.6.24 2 36 928779 20131005175416
+85.102.4.144 2 36 928781 20131008101700
+202.46.54.111 1 1 28402 20131010135027
+212.156.83.30 2 36 928785 20131008152525
+78.188.106.37 2 36 928779 20131005174852
+54.229.177.153 1 1 28402 20131015174053
+88.245.236.198 2 34 920376 20131017195301
+184.105.144.4 0 3 8020 
+150.70.97.127 19 23 116872 20131031152839
+213.194.115.190 4599 5194 202509621 20131031101924
+178.233.184.191 1 10 292086 20131004100431
+88.250.48.102 2 36 928785 20131007165744
+88.253.52.109 2 36 928778 20131005122104
+141.196.20.142 2 34 920762 20131016013837
+78.168.15.213 1 1 21494 20131023071205
+117.212.165.77 1 1 28543 20131022042405
+46.197.59.241 2 36 897352 20131006162118
+78.183.27.154 2 36 928779 20131006114021
+77.93.214.5 2 2 56766 20131030191849
+212.156.31.18 2 33 876136 20131010133834
+88.227.215.91 2 36 928779 20131005110110
+78.174.34.247 2 36 928785 20131007163427
+213.43.87.179 2 35 918603 20131005071355
+184.105.144.7 1 11 325615 20131024163758
+80.231.29.105 2 34 920434 20131018170814
+94.123.245.158 2 34 920762 20131010002854
+88.227.225.43 2 33 916737 20131012031438
+88.255.14.6 3 43 1054856 20131011151917
+1.161.136.190 1 1 28543 20131014181009
+78.173.20.178 3 37 993000 20131007181416
+78.161.33.35 2 36 928751 20131004115314
+78.172.143.209 2 34 920762 20131010123542
+88.254.169.5 3 53 4148845 20131005124918
+78.161.123.40 2 36 928785 20131008140833
+109.228.203.235 2 34 920762 20131011175609
+151.250.143.54 13510 15411 1169656138 20131022100827
+89.74.232.237 1 1 28440 20131009224820
+5.46.120.68 2 34 920762 20131011172039
+88.252.189.61 2 34 920762 20131015173423
+78.165.243.200 3 36 947306 20131005134641
+150.70.173.55 25 27 198474 20131017004318
+216.218.254.17 0 1 0 
+188.3.210.139 1 7 262454 20131003105920
+85.104.34.156 2 33 908124 20131009125954
+212.253.15.53 3 31 865159 20131007223238
+131.253.26.235 0 3 79963 
+85.101.73.231 2 2 421341 20131027161447
+184.73.245.208 2 35 923053 20131001235950
+88.229.1.95 2 36 928779 20131005001428
+78.182.194.123 2 36 928779 20131004192042
+31.145.7.2 4 43 1070198 20131009102442
+92.45.62.242 2 34 920762 20131011114823
+78.189.187.148 2 34 920762 20131010185342
+95.173.253.11 2 34 920762 20131011152440
+188.57.186.126 3 35 97449 20131024064035
+184.105.146.9 0 3 15936 
+65.49.14.55 3 26 712448 20131005180020
+193.255.213.56 2 35 779773 20131007144457
+200.148.54.208 1 1 28537 20131007044603
+105.129.16.89 1 1 28543 20131028124556
+212.174.9.186 3 53 4148861 20131007152929
+94.120.55.27 5 52 4173408 20131014144533
+88.224.178.238 2 34 920762 20131015200757
+85.101.127.183 2 36 928779 20131006130509
+78.169.31.186 2 36 928785 20131008020409
+95.14.103.79 5 47 32093095 20131007005751
+176.33.153.192 2 9 57224 20131003162433
+95.9.243.167 2 36 928779 20131005155830
+65.49.14.160 2 33 788595 20131010145302
+212.156.89.238 9 48 62200118 20131011164332
+88.229.79.81 5 82 2348426 20131013115005
+81.213.238.29 2 34 920762 20131012183857
+88.229.61.12 2 36 928779 20131005051937
+95.14.197.241 4 58 1969707 20131018091707
+213.153.244.171 8 133 5461849 20131008022259
+78.164.197.117 2 33 916734 20131013144455
+212.57.29.122 2 35 916637 20131004180248
+182.48.207.214 1 1 28543 20131008071101
+188.3.127.238 3 60 2087613 20131007101037
+88.229.91.125 2 34 920762 20131010113631
+88.240.158.163 14 179 67471302 20131006112511
+78.182.173.244 2 34 920762 20131011002438
+82.222.133.64 2 34 920762 20131013120351
+78.181.126.217 2 34 920762 20131012063245
+78.190.30.232 2 33 876202 20131011172010
+81.214.112.79 2 34 918539 20131009143227
+85.102.43.196 2 33 910586 20131010020431
+88.246.95.240 1 22 594718 20131003174111
+109.11.156.247 69 69 1482618 20131009000522
+88.248.57.118 180 232 32271989 20131012164959
+85.110.126.31 3 37 957495 20131007163038
+207.189.121.41 2 2 56754 20131005230237
+117.202.30.208 1 1 28543 20131009134809
+176.33.104.153 2 27 392024 20131012074110
+176.88.133.190 62 138 824725 20131025053156
+85.108.227.233 2 35 918603 20131006084440
+46.196.234.166 3 88 1500682 20131024131853
+88.253.107.111 4 116 3266073 20131007163655
+78.180.230.164 2 35 918603 20131005015223
+78.161.241.244 2 36 928779 20131004153449
+151.250.138.178 19766 20926 3925613268 20131029103341
+78.191.38.24 5 41 1041722 20131030081145
+81.213.40.54 2 35 924723 20131004044800
+88.234.176.132 2 27 814152 20131006094645
+150.70.75.158 1 1 7250136 20131002110013
+184.105.144.5 0 2 65830 
+81.213.155.154 6 73 33807673 20131007192134
+188.3.215.3 2 36 928785 20131007194406
+176.216.246.220 140 210 10694872 20131004214138
+77.253.209.136 2 35 924757 20131007154308
+94.120.178.18 6 48 32114002 20131005023346
+150.70.97.124 15 18 158433 20131024043800
+95.7.47.160 2 34 920762 20131012191529
+151.250.195.231 9 64 35337846 20131015011007
+151.250.70.1 4 27 31297625 20131007235720
+208.43.225.85 9 9 159310 20131027065702
+85.102.170.215 2 36 928789 20131007223403
+78.188.136.11 6344 9394 808037501 20131031050333
+78.168.169.154 2 34 920762 20131011201414
+88.245.102.156 2 36 928785 20131007171601
+198.211.105.73 21 33 590642 20131027123030
+123.168.8.242 1 1 28509 20131001232238
+78.190.253.39 6 48 32121803 20131006105558
+79.113.236.161 3 38 1013417 20131026160555
+88.248.127.222 2 35 918603 20131007103654
+78.191.122.62 3 35 949484 20131014195627
+54.200.117.98 1 1 28402 20131028195529
+94.120.95.82 2 33 916734 20131015140035
+88.245.250.36 260 284 24898984 20131001200326
+85.102.32.186 3 43 1052328 20131009123703
+95.14.92.114 6 106 1875018 20131001221748
+88.249.40.231 10 136 5476296 20131001121138
+198.211.104.25 21 33 591349 20131029062731
+88.236.219.251 2 36 964284 20131006183818
+195.175.81.226 2 33 910508 20131010085832
+95.14.89.104 2 34 920762 20131014111701
+78.177.63.85 2 34 920762 20131012073211
+176.33.233.251 3 37 957485 20131003165056
+176.219.174.229 44 90 4955700 20131025080046
+195.175.74.234 2 34 918852 20131012162016
+78.177.57.197 2 36 928779 20131006104600
+72.14.199.224 2 2 726 20131024111150
+89.178.54.54 1 1 31030541 20131005080648
+150.70.97.113 20 23 140513 20131011172524
+78.184.23.7 4 44 1083565 20131014163225
+88.225.218.153 2 35 918575 20131004110817
+150.70.172.110 8 8 44361 20131011165212
+94.121.101.68 30 139 66246164 20131003151935
+88.231.185.24 2 36 928751 20131003122330
+94.123.228.174 3 3 85262 20131019220017
+78.171.188.160 5 53 4190934 20131013144527
+176.42.45.225 2 34 920762 20131012180226
+78.181.52.186 21 263 8541232 20131013011850
+78.168.251.67 4 55 1540133 20131031070131
+95.24.117.106 3 40 1173347 20131022083858
+78.189.26.92 5 78 4847605 20131015215946
+1.161.164.245 1 1 28537 20131004165412
+85.105.191.187 2 33 910596 20131012123910
+88.252.39.86 1 7 262488 20131009094017
+5.47.92.92 6 48 1132810 20131006001524
+78.190.235.88 20 149 35122185 20131002111218
+78.187.127.248 2 35 858115 20131004164236
+212.156.82.38 2 36 928785 20131008091718
+117.192.167.165 1 1 28543 20131022091053
+88.236.122.158 10 89 63214747 20131012143950
+88.226.135.211 2 36 928779 20131006102016
+88.236.236.163 5 75 4804744 20131008193126
+78.190.14.217 2 36 928779 20131006192051
+85.108.142.233 2 35 918605 20131006181000
+94.55.46.249 9 53 31347764 20131014025126
+95.14.183.141 2 34 920762 20131015021419
+88.243.199.165 4 54 4177549 20131004190103
+184.106.234.43 1 1 28543 20131010181623
+193.140.32.1 2 36 928785 20131008024123
+78.173.138.203 2 35 918603 20131006014756
+218.22.71.130 1 1 28543 20131010095634
+88.249.46.73 2 34 920762 20131012124739
+184.105.146.4 0 1 132130 
+92.44.124.237 4 44 31129364 20131010152654
+78.165.5.221 17 103 133582241 20131024030440
+78.123.94.147 72 72 1483642 20131015201411
+198.199.66.41 10 16 281126 20131015162852
+81.214.87.209 4 110 2101709 20131008111834
+81.215.175.30 3 41 1053725 20131011101655
+85.105.251.251 4 37 947587 20131005164658
+151.250.129.9 3559 3585 829015723 20131004115006
+88.249.40.11 2 34 920434 20131031011202
+123.125.71.117 0 1 92903 
+95.15.178.181 2 33 916734 20131011103559
+85.25.134.59 2 2 56732 20131014072338
+78.189.222.189 0 1 213216 
+88.238.147.121 4 60 1301954 20131029070948
+78.179.30.71 2 33 916734 20131013115201
+94.121.254.217 2 34 920761 20131010060012
+85.97.48.170 2 36 928779 20131006113646
+188.119.16.251 3 45 2480253 20131014225639
+78.179.227.20 2 35 924757 20131007161912
+123.237.229.90 1 1 28537 20131005125443
+88.231.84.91 2 36 928779 20131006182603
+88.248.137.89 2 33 907796 20131008204007
+78.179.136.50 3 41 1077249 20131010214735
+78.165.203.194 2 34 920762 20131012191018
+74.217.148.77 1 1 31030598 20131005035159
+117.217.48.23 1 1 28543 20131024054322
+88.229.53.246 5 44 31116925 20131009132754
+176.42.243.86 2 36 928779 20131006101624
+78.187.177.88 2 34 920762 20131016090837
+78.169.242.70 2 36 928785 20131007111647
+83.66.117.250 2 36 928785 20131007194134
+216.218.254.25 0 1 13783 
+95.9.157.191 2 33 910586 20131010094440
+88.238.19.118 5 47 32093105 20131005174010
+81.213.44.50 5 47 31137074 20131006022053
+151.250.129.32 18 136 4563569 20131029034814
+78.187.158.158 22 268 65592931 20131011101114
+78.186.12.63 2 34 920762 20131013164706
+216.218.254.6 0 1 0 
+88.228.200.69 2 34 920762 20131012204331
+81.213.163.144 2 36 928779 20131006002927
+85.102.155.236 2 36 928779 20131006104101
+198.199.64.129 10 16 281782 20131025185217
+85.102.6.164 2 34 905284 20131011095424
+176.54.232.97 96 118 6303655 20131009213454
+88.254.9.52 2 36 928785 20131007183043
+88.253.169.103 2 36 928779 20131006141946
+85.105.46.133 6 59 4200886 20131014091737
+212.156.43.226 2 36 928751 20131004105738
+216.218.254.26 1 6 263352 20131024164049
+78.164.118.170 8 48 4450121 20131014161504
+217.131.87.9 4 58 1552828 20131007134919
+92.45.81.244 5 46 32089242 20131007172557
+78.189.142.18 1464 1853 240359362 20131008154108
+92.45.156.234 2 31 400760 20131007215733
+78.165.59.44 2 36 928779 20131005133555
+78.177.193.192 2 33 910588 20131014142701
+176.216.45.59 391 434 67402996 20131028143410
+150.70.173.44 33 36 719954 20131011180517
+78.189.75.238 5 114 4663437 20131005085050
+109.228.223.73 2 36 928785 20131007164935
+78.183.100.121 10 87 7217960 20131005104924
+46.106.96.9 1 7 128421 20131002215355
+85.104.88.1 6 77 4862160 20131016012123
+78.183.105.183 2 36 928779 20131004204219
+78.184.114.159 2 34 920434 20131025130429
+78.168.240.105 1 1 21495 20131024071228
+78.181.57.10 1 4 28406 20131001192217
+78.190.240.40 2428 2484 429374117 20131004181256
+95.9.116.155 24 166 7709580 20131022071347
+212.253.44.36 5 53 4190928 20131013001237
+176.40.200.6 6 45 3347361 20131010113423
+78.178.153.224 2 36 928779 20131005192703
+5.9.120.209 1 1 28383 20131024122846
+211.21.61.147 1 1 28543 20131017195156
+88.245.47.248 586 812 95904099 20131017222009
+150.70.173.48 28 30 739479 20131011172323
+176.217.129.212 2 35 918603 20131004154234
+78.171.227.141 5 46 31136541 20131006140906
+88.226.186.203 2 36 928785 20131008003636
+94.120.10.44 2 36 928779 20131005014250
+176.40.28.111 2 35 924751 20131005103420
+176.40.133.35 0 13 36608 
+78.186.139.177 7 65 2469075 20131026030458
+209.126.230.71 2 2 56722 20131016184508
+176.40.204.40 2 34 920762 20131010200832
+217.195.201.243 3 51 4140844 20131011121219
+78.162.114.88 2 30 492967 20131013110232
+88.255.91.190 2 35 924673 20131007105201
+78.161.58.27 7 49 9258673 20131005143822
+150.70.75.38 1 1 28361 20131024043831
+88.233.16.209 2 35 917148 20131003115957
+88.252.180.200 2 36 928779 20131006210243
+202.39.236.209 1 1 28543 20131011072440
+94.120.76.225 11 74 32193999 20131010153152
+66.249.82.224 14 334 68915696 20131020182349
+78.187.25.114 2 34 920762 20131014122542
+176.42.62.68 5 38 830518 20131005140708
+78.190.195.157 144 358 14837405 20131016194830
+171.207.161.114 1 1 28543 20131008033057
+88.231.202.76 2 32 824574 20131015074547
+78.177.103.105 2 36 928793 20131006195029
+188.40.115.199 1 1 28440 20131021142442
+150.70.172.204 55 70 934616 20131025043626
+176.40.198.181 2 33 90753 20131014102539
+78.163.127.191 2 34 918300 20131009122042
+78.190.209.199 12 55 377031 20131020112013
+78.171.60.154 7 47 62210211 20131014102022
+88.245.178.65 2 36 928779 20131005014732
+31.44.207.42 6 66 1714501 20131007115024
+88.238.135.18 49 94 2177857 20131017153903
+150.70.173.51 23 24 298643 20131011172133
+150.70.173.53 27 30 157901 20131025041934
+88.224.28.137 2 36 928785 20131008014403
+85.98.197.95 2 36 928779 20131005005829
+91.93.78.236 5 47 13297024 20131003153248
+85.100.105.92 4 75 4744858 20131007025951
+5.164.73.48 2 8 299552 20131008173536
+151.237.83.225 2 36 928785 20131008101549
+176.33.77.213 3 51 4140850 20131016072153
+81.214.106.207 2 36 928779 20131004230741
+78.163.41.53 6 47 63119665 20131005145414
+95.0.201.2 14 14 400836 20131002111710
+159.20.91.237 2 33 916734 20131011131139
+88.235.227.148 6 130 5406584 20131012153017
+78.188.18.31 4 68 1841491 20131010085459
+78.172.18.68 6 75 4767814 20131003120302
+182.114.247.237 1 1 28543 20131011202411
+78.176.98.151 2 36 928751 20131004044910
+212.156.65.182 3 45 1062278 20131003173022
+88.242.50.190 2 33 636679 20131018095451
+85.96.1.217 2 36 928779 20131004145640
+95.15.8.44 2 34 920762 20131010005440
+88.235.93.236 2 33 910586 20131009163837
+176.33.221.42 6 82 4881067 20131008143149
+208.88.226.73 6 6 2238 20131025180143
+78.166.60.149 2 36 928785 20131007171655
+46.1.164.75 2 35 924751 20131006165034
+95.26.10.108 2 8 302008 20131029063814
+176.40.175.221 1 1 20885 20131003232626
+88.245.55.173 18 90 2581457 20131020192110
+46.65.55.43 1 1 28383 20131009070930
+78.176.10.197 2 29 754160 20131013121458
+88.247.245.49 4 73 4741542 20131004151132
+70.39.185.60 3 48 1229429 20131016092917
+176.41.219.208 2 36 928779 20131006195803
+88.229.44.13 2 35 918603 20131005103001
+46.196.25.155 11 140 66563968 20131007112857
+184.105.146.6 0 6 180885 
+85.102.147.194 815 1276 69739149 20131012211154
+81.213.41.216 2 34 920762 20131010142620
+85.108.157.171 2 34 920762 20131010143635
+78.191.170.175 16 70 1617540 20131005162933
+5.47.128.97 1 6 235344 20131012195430
+46.2.45.161 4 30 30457351 20131014112358
+85.104.6.120 3 51 4140506 20131028090807
+78.172.34.228 2 34 920762 20131015110308
+89.147.205.146 2 33 910586 20131011103547
+88.228.175.160 2 33 910586 20131011225051
+78.161.41.60 2 34 920762 20131011121143
+78.168.230.227 6 46 31158335 20131011115829
+117.200.32.70 1 1 28543 20131018093806
+88.242.237.17 3 37 3484405 20131022092402
+88.243.22.123 3 53 4148860 20131007102152
+78.182.62.100 2 35 918247 20131002011134
+88.247.43.63 2 34 920762 20131013172301
+150.70.64.193 46 59 6971788 20131026115545
+95.26.159.180 1 32 868877 20131008213048
+85.96.33.237 1 7 7023 20131031102245
+78.181.58.252 2 33 910586 20131010163423
+188.119.6.209 2 36 882809 20131004161846
+178.240.164.180 753 864 102224449 20131022084901
+216.218.254.11 0 2 27631 
+78.187.173.98 2 34 920762 20131010125210
+150.70.97.122 23 24 29513 20131011171832
+88.242.198.222 3 35 947029 20131009121533
+162.243.39.35 1 1 28440 20131030024301
+78.171.142.171 4 64 2461836 20131006152243
+78.190.79.92 2 36 928779 20131006143424
+88.238.189.151 9 20 1102025 20131025054905
+88.250.57.64 2 33 910586 20131010111924
+88.247.193.164 2 34 920762 20131013225527
+178.243.147.55 2 34 876776 20131013200550
+95.7.135.112 7 74 4797628 20131014000411
+5.46.141.3 0 2 0 
+46.30.176.1 2 34 920762 20131009160749
+81.215.136.78 2 36 928785 20131007170501
+78.189.22.93 15 222 7914393 20131023073327
+78.186.184.152 11 93 1271238 20131007165422
+78.188.192.48 17 114 67534902 20131004173352
+85.102.125.153 10 85 4970374 20131004205705
+212.253.82.8 18838 18973 2274765468 20131008151559
+78.190.32.31 2 36 928785 20131007114613
+92.44.163.71 5 118 2954147 20131011084840
+88.232.69.77 2 36 928785 20131007145000
+88.247.50.163 2 36 928779 20131005152239
+78.187.189.101 2 33 910586 20131013142427
+212.253.231.75 1 28 830978 20131011161122
+81.213.40.14 2 28 646785 20131008011012
+85.101.212.134 3 43 1061242 20131005181151
+31.145.22.154 2 37 1170639 20131001151255
+184.105.144.3 0 2 65594 
+78.187.194.156 14 137 5003447 20131010160544
+95.9.47.8 9 131 9016270 20131013144528
+216.218.254.12 1 1 28361 20131024163950
+212.252.63.108 5 45 1861091 20131024022939
+78.188.59.73 2 34 920762 20131013124145
+78.184.21.125 3 37 784828 20131006133717
+78.180.63.7 2 34 920762 20131014032538
+88.247.21.96 226 517 71878329 20131009122801
+176.40.33.208 0 1 0 
+88.231.232.156 2 36 928779 20131006140326
+176.54.170.148 0 6 0 
+78.169.230.101 2 34 920762 20131011114610
+151.250.196.26 5 73 4751922 20131006174440
+188.138.84.140 1 1 28402 20131021013830
+94.122.42.37 5 72 4752519 20131015141907
+5.47.184.235 2 35 695972 20131001024321
+78.188.31.216 3 36 947307 20131006131349
+176.219.90.200 4 56 1530265 20131012214539
+176.54.241.219 212 285 17629317 20131007222504
+85.110.218.14 2 36 928785 20131008120519
+78.176.68.168 2 35 918613 20131006223753
+37.155.18.13 2 36 928779 20131005203824
+212.174.172.145 8 129 5409578 20131023010758
+88.245.10.11 478 499 1476022 20131013121114
+88.241.186.33 2 36 928779 20131006125700
+78.189.19.105 4 41 1050469 20131007165239
+78.165.0.49 3040 3146 352026172 20131002181207
+176.14.10.246 1 32 871339 20131029061307
+94.122.169.103 2 34 920762 20131012162027
+176.33.71.48 4 38 986187 20131004175006
+78.187.72.174 2 34 920762 20131011150026
+78.170.174.209 2 34 920762 20131011155701
+88.245.246.194 217 217 56964 20131010224718
+81.214.229.213 6 62 4302818 20131004141435
+78.187.38.112 1 1 28543 20131021124915
+88.231.110.219 4 59 2196976 20131009190513
+78.186.161.109 2 34 919180 20131009145635
+78.173.86.122 5 45 6219926 20131009003633
+94.123.237.107 4 73 3406952 20131031182244
+176.33.171.180 8 155 34606601 20131014102623
+88.251.227.241 2 36 928750 20131004084913
+150.70.97.97 33 35 472553 20131025042010
+85.97.70.9 7 74 2918513 20131011191647
+92.45.26.205 5 46 31127397 20131007153131
+78.186.48.59 317 421 92923227 20131001184411
+117.212.21.73 1 1 28543 20131010185718
+78.187.43.139 2 33 910586 20131011161711
+81.213.43.131 3 41 1051266 20131009122726
+94.122.25.85 2 35 918575 20131004032636
+78.180.235.75 1 30 668520 20131013182009
+217.69.133.186 1 1 28377 20131006201015
+94.55.210.11 2 27 391694 20131011221357
+78.168.123.52 1 1 21494 20131013174729
+78.160.159.157 2 33 910258 20131029181908
+151.250.155.47 2 35 924751 20131006174705
+78.190.61.34 2 36 928779 20131006182446
+81.213.111.77 4 31 31426445 20131003153253
+82.222.121.115 6 69 2127830 20131014001201
+88.229.165.70 4 35 965543 20131009103320
+78.166.221.166 2 36 928751 20131003120046
+78.186.96.62 2 35 918621 20131008084813
+198.211.102.105 10 16 281783 20131024013159
+151.250.217.141 1 1 28638 20131001203309
+176.42.232.196 6 75 3508492 20131011105748
+81.213.53.65 2 29 800220 20131016101041
+212.156.45.114 4 46 31136849 20131004103907
+95.9.158.48 1 1 28543 20131029030026
+176.42.152.157 23 103 124515457 20131009031330
+88.233.113.120 2 36 928779 20131004205111
+85.108.97.211 2 33 910586 20131011211722
+109.199.239.223 2 34 920434 20131013213332
+78.186.141.85 381 722 97535070 20131001133049
+212.156.174.58 2 33 916734 20131011114803
+24.133.61.213 2 36 928751 20131003170639
+46.197.85.96 2 36 928779 20131005144633
+78.179.138.88 5 47 32093097 20131006171157
+46.197.116.17 2 34 920762 20131012155234
+88.225.224.14 17 205 67297166 20131028085440
+213.248.134.163 14 142 66637700 20131007165952
+36.248.161.146 2 2 56880 20131020085214
+88.230.131.96 2 36 928751 20131003194010
+193.243.207.122 2 33 910586 20131012110451
+46.19.136.212 2 2 56688 20131013033438
+78.183.102.75 2 34 920762 20131015001802
+220.225.239.97 1 1 28543 20131010093700
+81.214.124.92 5 45 31184517 20131009152546
+78.170.118.142 2 36 928751 20131003154948
+176.41.146.102 3 37 957427 20131003141943
+202.46.50.13 1 1 28402 20131008035221
+92.44.60.178 2 2 57086 20131030022048
+150.70.173.41 29 31 53290 20131024093319
+95.10.5.106 5 47 32093097 20131007004519
+59.92.111.162 2 35 924433 20131008121522
+78.167.51.137 2 36 911855 20131007132214
+78.185.18.103 4562 4617 394963853 20131028200644
+31.223.99.128 1 1 28768 20131009005942
+78.187.49.193 4 51 4071417 20131014124144
+88.255.185.130 6 78 1210446 20131010173656
+88.247.154.137 2 36 928779 20131004162911
+85.106.195.151 2 34 920762 20131013002623
+195.175.209.22 2 34 920762 20131011160511
+88.225.81.112 2 36 928785 20131007113542
+78.187.53.176 2 35 924751 20131004151146
+176.42.183.250 1 7 213825 20131025033428
+176.54.10.232 558 630 77939818 20131008123323
+178.168.77.36 10 10 283567 20131023031123
+78.182.172.223 3 35 949472 20131013091250
+212.252.63.100 375 481 93748166 20131010110044
+78.181.123.179 9 59 4299012 20131005153942
+188.64.10.120 2 36 928451 20131006103551
+212.156.153.62 1 1 28734 20131003114757
+95.12.170.38 2 33 908134 20131009131628
+88.232.18.169 7 49 1163018 20131008145356
+59.90.208.222 1 1 28543 20131015210117
+85.98.131.11 19 225 8916844 20131005003942
+178.245.140.57 5 32 61519515 20131029074029
+176.41.54.131 4 38 985676 20131007164731
+95.9.239.210 2 34 920762 20131014155609
+198.27.69.229 4 4 113754 20131025175652
+78.186.70.152 2 36 928779 20131004154226
+78.164.165.177 2 36 928779 20131004181659
+88.254.13.213 2 36 928330 20131001020542
+88.230.176.115 2 34 28440 20131030032600
+78.178.179.84 5 53 4190933 20131013074007
+78.161.111.120 2 36 928779 20131004173436
+78.170.174.63 2 36 928751 20131004122642
+151.250.194.90 4 46 1062499 20131005113339
+64.124.203.73 1 1 36689550 20131030235858
+88.247.108.86 18 125 34237272 20131007081412
+134.147.203.128 3 37 992277 20131004010143
+88.233.146.81 2 34 920762 20131015174928
+88.232.107.208 8 49 2308726 20131003150936
+188.57.216.176 200 228 18035143 20131024071923
+78.189.32.110 2 35 918275 20131004193456
+91.123.195.136 2 2 56561 20131002130026
+94.120.156.255 6 82 4873975 20131011003103
+88.249.59.209 2 35 918603 20131004155420
+176.43.26.76 3 35 949472 20131010182747
+66.249.81.68 216 285 35176454 20131031104245
+88.224.56.129 2 33 910596 20131013150211
+85.101.2.10 2 36 928779 20131006165033
+78.186.36.167 18 145 94096359 20131025083138
+150.70.97.99 24 24 98101 20131027083002
+54.200.208.161 1 1 28402 20131023043837
+115.187.89.45 1 1 28543 20131024010137
+85.96.50.245 14 169 66977853 20131005115324
+78.186.204.76 2 33 916734 20131010152417
+212.156.249.82 2 35 924751 20131006073936
+176.219.171.11 8 48 1161881 20131003222127
+150.70.173.56 24 26 473855 20131011171131
+62.29.89.74 2 34 920762 20131010001002
+212.252.146.64 7130 11601 770340306 20131031044713
+88.245.46.180 799 1074 70933916 20131006200126
+151.250.194.89 1 1 30074574 20131005113340
+85.102.175.181 12 67 4536417 20131012122948
+95.15.17.196 4 42 1499553 20131027065942
+46.1.193.163 2 34 920762 20131013203526
+212.156.163.64 2 35 918603 20131004173116
+111.242.109.81 1 1 28509 20131002153201
+88.245.195.243 2 34 920762 20131014104925
+78.177.16.14 2 35 918247 20131001203353
+218.80.215.132 1 1 28537 20131006190110
+208.94.233.142 4 4 113760 20131031174649
+78.168.186.253 2 35 924723 20131003124230
+88.245.58.88 694 787 23062704 20131010140817
+78.179.126.106 1 3 76516 20131004192159
+31.170.235.58 2 34 920762 20131009180523
+217.131.221.52 1 1 20885 20131005105909
+78.183.211.177 1 1 28730 20131007131553
+178.243.193.175 2 34 920762 20131013150641
+209.107.208.134 2 35 923450 20131006153905
+184.105.146.8 1 3 29641 20131024163736
+78.186.147.222 1 27 699093 20131003132829
+95.10.194.214 5 47 31137576 20131007144028
+88.232.217.134 3 53 4148489 20131003143004
+88.246.178.207 2 36 928785 20131008121743
+78.161.31.26 2 33 916734 20131015120950
+109.175.97.4 1 1 28509 20131003203809
+213.43.160.100 2 36 928751 20131004013853
+85.98.210.110 2 36 928751 20131004143033
+78.188.203.151 2 36 928751 20131003131954
+88.248.108.103 24 131 1869373 20131002104604
+78.168.197.48 2 34 920762 20131014002907
+88.252.142.161 5 46 31133044 20131007001525
+88.245.210.49 18 66 169578 20131006213121
+88.240.151.220 2 34 920762 20131014161613
+78.175.185.160 2 34 920762 20131011190824
+78.162.11.68 2 34 920762 20131011084126
+81.215.229.156 3 3 85629 20131017061217
+95.9.129.60 2 36 928751 20131004110321
+82.222.151.142 2 36 928779 20131005101400
+212.156.175.186 7 102 4386549 20131011102700
+150.70.173.46 34 35 187344 20131011171917
+85.103.133.2 2 36 928779 20131006181828
+150.70.172.104 75 83 6859469 20131017004812
+85.106.147.169 2 8 291256 20131007215609
+208.113.98.152 1 1 28383 20131027191334
+78.181.9.235 61 205 35667636 20131028124513
+95.10.62.66 2 34 920762 20131015130044
+78.188.88.178 4871 5228 958698854 20131031042003
+176.240.216.7 6 47 42119087 20131009142558
+92.45.167.203 2 34 90632 20131010105433
+79.123.156.20 2 35 918609 20131007162023
+89.71.218.191 4 4 113760 20131021145415
+95.5.51.102 4 43 1083034 20131014195923
+95.15.225.207 1 7 205821 20131003131626
+92.44.133.132 2 34 918300 20131009040232
+216.218.254.29 0 1 0 
+78.189.107.17 5 60 4285102 20131013151555
+78.167.59.77 2 35 924751 20131004155516
+88.248.56.192 2 34 920434 20131025041720
+78.181.196.88 1 30 719357 20131005002215
+85.97.255.145 1 15 661827 20131007005104
+176.33.231.205 2 34 920762 20131014151107
+85.102.119.43 1 1 36689550 20131025042211
+176.219.166.94 304 350 20074703 20131023022633
+95.9.242.149 2 34 918300 20131009102558
+195.214.150.138 8 85 4929354 20131003135921
+176.237.98.43 3 88 1498220 20131008210253
+78.161.6.193 2 36 928779 20131004204912
+193.255.54.203 2 34 920684 20131011143702
+111.180.148.244 1 1 28537 20131005214938
+78.172.117.73 2 28 388728 20131017152728
+78.191.23.61 6 64 4399290 20131003145720
+92.45.144.106 2 33 910258 20131018204626
+94.54.36.180 10 52 34294088 20131004194559
+88.251.12.12 2 36 928785 20131008160000
+85.106.82.231 3 90 1509027 20131007170948
+81.213.76.39 2 33 908124 20131009125835
+212.156.215.116 2 36 928779 20131004153128
+185.3.56.2 2 33 910586 20131009165249
+88.245.37.87 1031 1235 97229234 20131001165721
+81.214.71.147 2 33 910605 20131010163738
+61.224.192.219 1 1 28543 20131018035559
+88.252.224.190 5 47 31137076 20131005160935
+78.175.114.67 9 87 34970625 20131003105225
+85.101.124.245 2 34 920434 20131026125947
+87.98.250.106 1 1 28543 20131021222607
+209.190.1.131 115 115 117853298 20131030155822
+88.251.140.154 2 35 924751 20131006175727
+88.245.161.226 2 34 920762 20131012181731
+78.162.94.133 5 75 4756036 20131005191344
+88.225.53.52 2 35 918609 20131007140453
+85.103.21.4 4 38 985026 20131023085134
+95.70.165.104 4 52 4169558 20131010202915
+85.106.154.6 2 35 918611 20131007160533
+95.7.207.103 5 76 3887106 20131005141833
+78.174.195.157 4 62 1648816 20131025084711
+78.177.75.158 3 52 4144811 20131004195031
+88.247.138.249 3 35 949472 20131010111657
+95.70.221.49 2 33 910606 20131012232951
+85.98.216.253 2 36 928779 20131006192612
+212.253.119.184 1 20 0 20131030102022
+78.185.203.139 3 59 2201013 20131012011229
+117.217.86.79 1 1 28543 20131029050819
+212.252.1.240 4 44 1083567 20131015005602
+95.0.200.229 13 80 62487585 20131003105818
+151.250.202.198 2 33 910586 20131014005038
+88.245.19.240 2 36 928779 20131004222920
+85.96.254.32 2 36 928785 20131007195509
+5.46.184.75 2 33 910586 20131013190241
+88.229.186.93 2 33 916734 20131011155531
+88.250.226.120 2 34 920762 20131010013614
+27.38.135.222 1 1 28537 20131007055521
+217.131.142.97 1 1 20885 20131002192018
+212.156.67.74 8 93 5199448 20131015001245
+88.248.53.197 1 1 36689550 20131030055420
+92.45.69.108 2 33 910586 20131014123422
+88.229.193.48 3 37 923996 20131004001116
+88.247.245.109 2 34 917972 20131009122801
+202.46.50.71 1 1 28402 20131018135023
+88.247.194.48 2 34 920762 20131011164812
+141.8.189.196 2 36 926763 20131008141740
+88.245.109.194 2 34 920762 20131014031337
+78.170.229.32 4 68 1841524 20131015215750
+208.105.0.198 1 1 28543 20131008121032
+88.234.190.124 10 65 34452233 20131012063629
+78.163.21.220 2 33 916734 20131013225532
+198.199.66.173 11 17 309567 20131013231225
+78.187.236.232 3 41 1053726 20131011075939
+88.245.105.244 16 132 33330722 20131010120801
+88.254.77.223 2 30 400501 20131008134320
+81.213.236.145 2 36 928785 20131008104531
+78.160.132.107 2 34 920762 20131013150114
+193.255.64.2 6 125 5311215 20131004101857
+88.255.220.90 2 34 911877 20131011010716
+46.196.167.140 1 8 207376 20131005135342
+95.9.66.251 2 33 908124 20131009110149
+88.235.186.190 2 34 920762 20131014152149
+88.255.229.114 5 45 14977547 20131010092752
+178.233.47.201 3 43 1051603 20131004185202
+82.222.227.137 6 128 5325541 20131008121346
+88.254.65.205 2 36 928785 20131007220413
+94.120.147.75 2 34 920762 20131010012910
+117.205.64.168 1 1 28416 20131001074143
+212.175.110.253 3 36 947377 20131008150706
+94.122.165.66 2 36 928629 20131002150050
+176.40.69.210 2 34 920434 20131024114252
+88.254.13.197 2 34 920762 20131012172123
+150.70.97.121 24 27 837851 20131012184108
+78.161.8.76 2 33 910586 20131012144638
+37.155.152.239 5 46 11735725 20131004192226
+216.218.254.5 0 1 0 
+78.163.187.156 2 36 928779 20131005203440
+88.250.125.35 2 35 924757 20131008140541
+202.46.49.75 1 1 28396 20131005195257
+94.54.133.97 2 34 917075 20131015205702
+88.245.45.227 26 26 84217 20131001192822
+88.250.48.55 1 13 367235 20131007160920
+150.70.172.232 2 2 15037480 20131001172502
+176.54.139.161 1 1 7023 20131029072318
+176.40.125.156 1 1 28509 20131001203416
+218.91.154.195 1 1 28543 20131010194719
+89.185.228.154 2 2 56766 20131030191848
+176.43.77.167 2 36 928779 20131006144317
+88.224.219.52 4 61 1980208 20131003165946
+78.174.59.120 2 35 918603 20131006140937
+176.42.69.95 11 94 63248097 20131005130602
+95.8.178.176 2 35 924751 20131005022331
+78.171.162.29 2 36 928779 20131006010616
+78.161.1.167 2 34 920762 20131013142849
+212.252.155.239 10620 10819 1622077531 20131031105134
+176.33.117.15 3 66 3947003 20131015180600
+82.222.124.142 2 36 28519 20131001013048
+46.4.48.68 1 1 28440 20131010111842
+151.250.212.241 2 36 928751 20131003152233
+88.228.185.13 2 34 920762 20131013201522
+88.232.62.177 2 36 928785 20131007214130
+150.70.173.43 26 27 8789688 20131020181220
+78.187.171.233 2 36 928779 20131004171451
+98.124.175.86 2 42 997357 20131022010007
+78.178.255.91 5 60 1987346 20131009114727
+85.101.44.105 2 35 924723 20131003165204
+78.174.77.82 4 43 1083036 20131012155551
+78.171.177.194 3 44 1061772 20131005220513
+46.2.41.248 2 34 920434 20131027122422
+132.239.95.32 2 36 928451 20131004174716
+88.249.249.179 2 36 928423 20131004083525
+85.101.111.205 11 50 2285293 20131016005844
+213.248.132.131 2 34 920762 20131010193455
+88.236.225.191 2 36 928779 20131006134623
+46.196.20.112 2 35 761584 20131007135209
+176.33.232.22 7 135 5480622 20131007101804
+176.42.179.7 2 34 920762 20131010204736
+94.122.173.144 2 35 924751 20131005161122
+85.97.63.36 10 88 66007795 20131005201046
+95.9.155.142 2 35 878442 20131005111724
+78.187.140.144 3 43 1061745 20131007190622
+66.171.229.84 6 59 1085206 20131022010039
+162.243.138.121 1 1 28440 20131029235817
+176.219.136.239 4 86 3210997 20131001183039
+88.224.255.64 2 35 924751 20131004184339
+88.252.51.73 4 61 2217085 20131012004024
+198.105.253.12 1 1 28383 20131026174536
+46.1.16.105 2 35 924723 20131004093434
+150.70.64.214 2 2 56722 20131031045223
+193.255.54.205 2 34 920684 20131009225511
+78.173.45.24 2 34 920762 20131010033358
+85.102.57.56 2 34 920762 20131012134355
+198.211.110.246 10 16 281128 20131017095251
+150.70.173.54 31 33 231032 20131018115525
+41.66.35.44 3 36 952369 20131007105149
+78.182.2.205 2 36 928779 20131004194442
+46.1.193.59 2 35 918603 20131006174449
+85.105.79.145 3 62 2380371 20131009152149
+78.178.182.130 2 34 920762 20131016021405
+88.238.228.124 2 35 918609 20131008001137
+78.168.11.137 2 36 926757 20131006142240
+95.10.130.150 8 49 43115524 20131004164802
+122.20.151.114 1 13 280735 20131012114943
+78.167.14.145 8 64 4407872 20131008135141
+198.211.108.79 21 33 589002 20131001211833
+88.229.74.149 2 35 924751 20131004165255
+123.125.71.80 0 1 15679 
+85.110.11.123 6 61 4295870 20131004095455
+85.103.218.18 2 36 928785 20131007155240
+117.205.171.146 1 1 28543 20131010091808
+78.189.35.99 12 207 40244930 20131009124226
+78.181.193.62 2 36 928785 20131007162148
+88.245.172.52 2 36 928779 20131005192247
+78.190.223.30 966 1298 148653495 20131010174951
+46.2.37.126 2 35 918609 20131008120207
+150.70.97.126 17 18 99376 20131012184122
+5.149.96.40 1 1 28440 20131027042606
+78.186.56.207 23 60 1780350 20131011180441
+88.229.18.220 8 49 31283907 20131004191319
+50.57.120.161 2 34 920434 20131021221304
+78.189.87.81 2 35 918609 20131008151635
+88.254.81.195 2 36 928779 20131006142029
+85.98.196.161 2 34 920762 20131010181338
+85.98.38.27 2 34 920762 20131012194626
+150.70.75.167 8 8 226863 20131029071235
+88.225.30.208 2 34 918300 20131009120118
+78.181.101.185 11802 12103 957956752 20131023092458
+88.235.252.250 2 36 928451 20131006204131
+95.9.233.72 5 54 3924837 20131006130214
+88.249.52.253 2 28 653364 20131006165337
+85.100.108.185 2 26 381520 20131028064654
+95.10.234.230 5 47 5302317 20131003231844
+88.247.110.216 4 42 1082506 20131014151826
+199.223.208.245 1 1 316 20131006181922
+88.245.227.191 2 35 918603 20131006124807
+81.214.125.86 8 56 4246665 20131014181325
+88.249.198.243 4 54 4177558 20131005023856
+88.229.43.39 6 46 2465803 20131010020826
+78.184.113.94 2 36 928779 20131005125721
+95.9.163.61 2 35 918603 20131005164748
+78.174.51.41 2 34 920762 20131012012523
+88.240.161.203 2 35 918603 20131005194839
+176.216.1.78 0 6 0 
+88.246.153.65 2 39 1259794 20131006014403
+85.110.147.102 7 47 32128602 20131014115433
+78.169.222.165 2 36 928751 20131004112219
+95.14.228.6 2 36 928779 20131006013503
+78.170.250.228 2 34 920762 20131010202008
+88.248.191.145 8 88 32177250 20131002134845
+78.168.32.98 5 46 31136539 20131004170502
+78.166.213.160 1 7 262488 20131008103345
+78.168.164.163 2 34 955881 20131010203828
+78.181.48.210 4 53 4167393 20131005101135
+81.215.167.93 2 36 928785 20131007124041
+95.0.16.51 5 44 31119395 20131010003033
+78.186.56.79 2 36 928751 20131003122630
+81.215.149.204 6 120 3493909 20131006012536
+176.41.172.39 2 35 924761 20131008154659
+88.254.191.116 4 67 2387071 20131002102358
+119.63.193.131 4 4 113574 20131022195359
+88.238.109.218 19 73 3744635 20131008232508
+83.66.40.137 1 28 835929 20131007195717
+78.165.227.75 7 82 9968694 20131011113729
+85.102.126.225 9 51 62217424 20131004130929
+95.10.92.241 2 36 928783 20131008110243
+129.10.115.241 8 8 227216 20131028233220
+78.181.118.216 3 53 4148867 20131007152421
+176.41.205.142 2 35 918607 20131004162610
+78.181.7.2 2 34 917972 20131008213929
+78.166.138.240 2 35 924757 20131008141237
+85.98.85.244 2 36 928779 20131004154349
+66.249.81.30 14 14 398125 20131026044556
+82.222.211.235 15 119 5040315 20131015134700
+92.196.75.137 1 1 28313 20131001045609
+94.120.180.170 2 34 920762 20131014151359
+78.164.155.199 2 33 910258 20131009233245
+1.172.3.60 1 1 28543 20131029092608
+88.225.243.25 2 33 916737 20131011144049
+94.54.33.193 7 49 1528207 20131005204451
+88.247.78.253 3 51 4140506 20131026082508
+78.188.33.99 5 45 1246628 20131021013722
+78.189.219.135 2 36 928779 20131006193201
+216.218.254.8 0 2 13856 
+94.54.112.131 2 33 916406 20131022161312
+216.218.254.23 0 1 0 
+88.229.148.199 2 35 924757 20131007210612
+198.199.65.166 10 16 281059 20131010120614
+62.219.8.231 113 131 3350596 20131031004050
+204.118.31.2 2 2 56880 20131012204254
+78.184.90.235 0 32 0 
+95.9.122.160 2 34 920762 20131014103018
+94.121.71.228 22 155 71924092 20131007182146
+129.10.115.56 2 2 56792 20131006114246
+88.151.196.188 3 45 1071523 20131007132647
+78.191.245.216 51 135 4166237 20131001193050
+80.65.174.175 2 36 928779 20131007065701
+78.166.198.10 2 36 928779 20131004193250
+212.252.161.34 2 36 928779 20131005213631
+88.244.71.219 2 36 928778 20131005115355
+67.202.54.129 1 1 28402 20131021064440
+78.166.72.146 2 25 540152 20131014122202
+88.250.4.126 2 36 928751 20131004140857
+88.254.20.190 2 35 918609 20131007174043
+46.1.3.250 8 82 1726244 20131007112456
+81.213.149.234 4 44 1090455 20131007163649
+150.70.75.160 1 1 4895688 20131001142951
+92.44.78.160 2 33 916406 20131023133820
+95.6.95.211 17 94 10477628 20131007184449
+88.245.8.238 1756 1945 139749951 20131009150627
+81.213.234.30 2 34 920762 20131012153444
+192.241.136.192 2 35 924399 20131002231848
+88.245.213.213 733 797 47780369 20131010210251
+5.25.18.83 12 161 35848937 20131004182506
+184.173.121.49 3 3 79829 20131030142102
+88.229.89.245 3 35 949472 20131013162438
+88.232.36.10 2 34 918300 20131009122658
+179.190.141.68 1 1 28543 20131009183702
+176.42.63.164 4 46 1406426 20131006110834
+78.187.9.247 2 36 928751 20131004123958
+88.255.171.82 5 73 4763321 20131026094211
+180.107.4.229 1 1 28537 20131007034336
+78.162.133.184 2 35 924723 20131003113402
+78.161.108.191 2 35 846590 20131005203807
+78.181.24.4 5 36 995531 20131014130306
+88.235.48.243 5 46 32088742 20131005165014
+78.178.167.110 3 53 4148861 20131006214224
+95.26.147.183 1 32 871339 20131022161037
+81.215.33.86 2 34 864201 20131004010338
+88.236.235.6 4 53 4173514 20131006191813
+150.70.173.58 25 28 364917 20131011171128
+94.55.34.162 2 34 920762 20131016080346
+202.46.50.18 1 1 28402 20131023035001
+46.197.33.187 20 195 39854595 20131023041533
+88.249.26.161 2 35 918603 20131006175806
+151.250.107.210 8492 9313 1506977539 20131004181551
+150.70.75.212 11 11 312173 20131031050316
+88.251.179.188 5 45 31127100 20131009043032
+212.156.70.114 2 35 918609 20131008151841
+78.171.155.247 2 36 928751 20131004142110
+88.248.170.108 8 78 1181425 20131014212905
+88.247.27.177 2 35 918575 20131003141238
+78.189.52.12 2 36 928751 20131003161632
+88.254.205.40 3 61 2209026 20131006121817
+85.108.146.222 2 36 926757 20131006131407
+114.247.111.18 1 1 28537 20131006115939
+95.10.239.226 2 34 920762 20131013163158
+88.224.196.37 2 33 910586 20131013160846
+150.70.75.31 27 43 1036653 20131025041925
+119.63.193.196 2 2 56804 20131012035050
+95.6.59.153 2 35 918609 20131008101738
+178.240.43.99 2 34 513064 20131009085036
+74.217.148.76 1 1 31030598 20131005050604
+95.9.147.189 2 33 916734 20131011103409
+95.14.62.215 2 34 955881 20131012220459
+78.185.144.241 2 36 928779 20131006122057
+198.211.107.216 10 16 281128 20131019032813
+78.184.95.64 25 45 1360760 20131017113334
+5.47.188.76 2 36 928779 20131005163057
+78.171.159.219 5 45 32085584 20131010170336
+85.101.76.123 1 34 28440 20131008212226
+151.250.90.195 2 34 920762 20131011162630
+54.202.142.61 1 1 28383 20131026200713
+88.247.162.4 2 35 918584 20131004100850
+94.121.193.44 2 33 910586 20131014134625
+176.219.163.203 193 263 12241527 20131014150141
+49.238.46.209 1 1 28543 20131012102613
+95.9.138.101 2 34 920434 20131027043915
+37.155.185.230 9 62 4384488 20131013183100
+88.251.187.67 2 36 928785 20131007195251
+46.188.47.240 1 1 31030541 20131001171915
+188.57.19.61 4 72 1857582 20131006181238
+95.15.52.221 2 35 918578 20131004100849
+88.229.2.218 2 36 928785 20131008001339
+65.55.213.38 1 8 206679 20131031055638
+150.70.97.118 26 29 300237 20131011172318
+85.107.124.105 3 55 1515774 20131012220829
+85.108.13.9 2 36 928751 20131004094529
+176.216.155.59 272 372 22302179 20131011233057
+212.253.152.228 2 36 928779 20131006170735
+94.123.50.97 4 72 4732502 20131012222857
+217.131.208.27 2 34 920762 20131013134149
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20131001 46144 49563 10681622756 132
+20131002 52392 54927 9549700197 59
+20131003 61202 65118 11288123267 100
+20131004 62536 69921 11340251841 172
+20131005 1728 8038 1240236230 154
+20131006 1164 5892 563035319 127
+20131007 53569 62844 10719220729 177
+20131008 62098 68682 9560914957 116
+20131009 51554 61686 6107670095 176
+20131010 46853 51296 8169516526 114
+20131011 8720 12989 863831385 199
+20131012 11565 16308 1568789097 117
+20131013 1809 4809 217991863 95
+20131014 4218 8133 585732088 93
+20131015 801 2383 133652961 53
+20131016 540 1237 74430961 31
+20131017 724 1250 106700693 22
+20131018 628 1340 39878084 18
+20131019 609 922 57321219 19
+20131020 252 1119 79362227 19
+20131021 20685 23198 2173724284 34
+20131022 4165 5794 327677439 36
+20131023 2580 4140 376183432 37
+20131024 37331 39786 3178497487 39
+20131025 4416 8370 719030399 31
+20131026 1505 2120 189298876 20
+20131027 599 925 113136622 16
+20131028 19489 21339 3243799126 28
+20131029 19622 21392 3930015524 24
+20131030 41640 48219 4550193272 35
+20131031 19205 20330 2440232286 32
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 152
+5mn-15mn 163
+0s-30s 1494
+15mn-30mn 100
+2mn-5mn 149
+30s-2mn 206
+30mn-1h 61
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 119
+/login/getclientscreen.php 403086 66507199425 25 60
+/login2/getclientscreen.php 125481 26482793138 0 1
+/login/getclients.php 63372 19853678 156 236
+/ 6386 179582400 1697 576
+/login/getfilterport.php 5203 1235198 6 6
+/login/getportnumber.php 5203 1235014 4 5
+/login2/getclients.php 4540 1263425 0 0
+/login/getuserinfo.php 4488 1072372 2 5
+/login/home.php 3127 224222801 5 3
+/login2/getportnumber.php 1709 376404 0 0
+/login/fonts/fontello.woff 1419 50445216 4 12
+/login2/authority.php 55 20207 0 0
+/login2/fonts/glyphicons-halflings-regular.woff 6 16753 0 0
+/login2/shutdown.php 1 217 0 0
+/login/blockapplication.php 16 10774 0 0
+/sendapp.php 1 355 0 0
+/sendclientuserdata.php 153 30034 0 8
+/login2/websiterestrictions.html 6 4905 0 0
+/login2/applywindriverrule.php 7 1704 0 0
+/login2/blockpctime.php 1 454 0 0
+/login2/getpctrlist.php 8 119170 0 0
+/login2/reboot.php 4 872 0 0
+/login/blockurl.php 60 17801 0 0
+/font/fontawesome-webfont.woff 1432 48320077 31 598
+/login/getwinrlist.php 50 771294 1 0
+/login2/datetime.html 38 71558 0 0
+/indir 659 13982398 40 68
+/login2/home.php 709 45152931 0 0
+/login2/resetctrlport.php 33 7168 0 0
+/login2/pctimerestrictions.html 2 1990 0 0
+http://ocsp.verisign.com/ 2 57116 2 2
+/login2/windowsrestrictions.html 31 34208 0 0
+/basvuru.php 2 45668 0 0
+/login2/cancelwinrule.php 26 8449 0 0
+/login2/getfilterport.php 1677 369158 0 0
+/sendmanageruserdata.php 266 52247 1 5
+/download.php 56 1198379 23 2
+/iletisim.php 3 40258 1 1
+/login/shutdown.php 25 8399 0 0
+/kayit.php 50 21866 1 1
+/login2/getitrlist.php 6 89869 0 0
+/font/fontawesome-webfont.ttf 29 2272044 0 11
+/screenshots.php 29 418741 2 3
+/musterilerimiz 153 2696672 2 12
+/webservis.php 6 280376 0 0
+/login2/fonts/fontello.eot 17 2324536 0 0
+/login/updateinformation.php 16 3968 0 0
+/login/allowpctime.php 22 7933 0 0
+/mobile/ 131 288633 3 1
+/sendmail.php 7 2020 0 1
+/application/setup_client.exe 203 3990911432 12 70
+/login/apprestrictions.html 66 73267 0 0
+/login2/getwsrlist.php 16 273879 0 0
+/login2/resetport.php 185 40163 0 0
+/users.php 127 44737484 16 14
+/login2/getwinrlist.php 232 2331041 0 0
+/login/getwsrlist.php 180 3033607 1 0
+/login/fonts/fontello.ttf 18 6496952 2 3
+/login/resetctrlport.php 319 97212 0 0
+/login/ 1084 7030750 84 98
+/login2/blockurl.php 5 980 0 0
+/semantic/fonts/icons.woff 16 43877 0 0
+/login2/blockapplication.php 6 3596 0 0
+/login/applywinrule.php 4 1058 0 0
+/iletisim 118 1580144 16 22
+/login/getsearched.php 124 5860153 0 0
+/login/reboot.php 17 5756 0 0
+/login/resetport.php 1388 425359 4 3
+/login/websiterestrictions.html 70 55930 0 0
+/login2/applywinrule.php 29 5876 0 0
+/login2/getarlist.php 76 394143 0 0
+/downloadtest.php 222 3321383 1 0
+/login2/fonts/fontello.woff 183 6491825 0 0
+/login2/changealias.php 11 4118 0 0
+/login/blockinternettime.php 7 1783 0 0
+/login/allowinternettime.php 11 2566 0 0
+/login/windowsrestrictions.html 36 26058 0 0
+/login/fonts/fontello.eot 126 14708576 3 4
+/login2/getproclist.php 41 847670 0 0
+/mobile/home.php 199 2749961 0 2
+/application/setup_client_wan.exe 7 221451300 5 3
+/login/getpctrlist.php 104 1617555 0 0
+/login/getproclist.php 287 6991099 2 0
+http://www.baidu.com/ 70 1997383 70 70
+/login/pctimerestrictions.html 30 21891 0 0
+/ozellikler 279 5878261 14 58
+/login2/ 77 494954 4 3
+/login/getarlist.php 107 525148 0 0
+/login/blockpctime.php 13 7094 0 0
+/login/getitrlist.php 72 1122404 0 0
+/font/fontawesome-webfont.eot 403 11841591 11 166
+/login2/getuserinfo.php 1450 330542 0 0
+/login2/getdrives.php 70 1348510 0 0
+/login2/apprestrictions.html 17 16282 0 0
+/login/allowurl.php 50 10491 0 1
+/login/internettimerestrictions.html 20 17749 0 0
+/google00af420479c629cc.html 1 353 1 1
+/login/forgotpassword.php 12 4046 0 0
+/login2/allowapp.php 6 1176 0 0
+/login/changealias.php 56 26636 1 0
+/clients.php 24 422741 0 1
+/login2/getsearched.php 130 7442894 0 0
+/ekran-goruntuleri 285 4099292 16 60
+/bayi-basvurusu 71 1623219 3 13
+/login/allowapp.php 19 5231 0 0
+/login/cancelwinrule.php 8 3741 0 0
+/login/authority.php 730 262035 36 5
+/application/setup_manager.exe 320 4115670149 8 62
+/login/getdrives.php 104 1968609 0 0
+/login2/internettimerestrictions.html 5 1972 0 0
+/captcha.php 17 53300 0 4
+/anasayfa 172 4846272 6 15
+/features.php 203 4236001 2 28
+/login/fonts/glyphicons-halflings-regular.woff 3 16753 0 0
+/login2/allowurl.php 2 390 0 0
+/login/datetime.html 5 2742 0 0
+/login/fonts/glyphicons-halflings-regular.eot 10 115224 0 0
+/semantic/build/uncompressed/fonts/icons.woff 5 87754 0 0
+/semantic/deneme.html 171 430085 1 2
+END_SIDER

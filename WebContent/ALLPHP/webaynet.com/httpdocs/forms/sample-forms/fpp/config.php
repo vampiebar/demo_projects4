@@ -1,0 +1,183 @@
+<?php header('Location: index.php'); ?>
+/* GLOBAL FPP SETTINGS - BEGIN. THESE SETTINGS ARE APPLIED TO ALL FORMS! */
+fpp_key = 21232f297a57a5a743894a0e4a801fc3
+date_format = H:m d/m/y
+captcha_length = 5
+
+
+/* GLOBAL FPP SETTINGS - END */
+
+
+
+/* FORMs' configurations. [form_name] - Declares form name and its settings below. */
+
+#Simple Contact Form with Preview
+[simple-contact-form-with-preview]
+page = ../simple-contact-form-with-preview/index.html
+page = ../simple-contact-form-with-preview/preview.html
+page = ../simple-contact-form-with-preview/thank-you.html
+email = ../simple-contact-form-with-preview/email.txt
+email = ../simple-contact-form-with-preview/email.html
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), comment (Comment)
+email_fields = email (Contact Email)
+
+#Multiple Output Form Demo
+[multiple_output_form]
+page = ../multiple-output-form/index.html
+page = ../multiple-output-form/preview.html
+page = ../multiple-output-form/thank-you.html
+
+email = ../multiple-output-form/email{#generate#}{#zipped#}.txt
+
+required_fields = name (Name), email (Email)
+email_fields = email (Contact Email)
+
+#Form with File Access
+[form-with-file-access]
+page = ../form-with-file-access/index.html
+file = attachments/file.test
+
+required_fields = name (Name), email (Email), email2 (Repeat Email)
+email_fields = email (Email), email2 (Repeat Email)
+same_fields = email (Email), email2 (Repeat Email)
+
+
+#simple-contact-form-with-csv
+[simple-contact-form-with-csv]
+page = ../simple-contact-form-with-csv/index.html
+page = ../simple-contact-form-with-csv/thank-you.html
+email = ../simple-contact-form-with-csv/email.txt
+
+log_file = ../simple-contact-form-with-csv/log.txt
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), gender (Gender)
+email_fields = email (Contact Email)
+
+
+#File Upload Form with Different File Checks Demo
+[file-upload-form-with-different-file-checks]
+page = ../file-upload-form-with-different-file-checks/index.html
+page = ../file-upload-form-with-different-file-checks/thank-you.html
+
+email = ../file-upload-form-with-different-file-checks/email.txt
+
+required_fields = email (Email)
+email_fields = email (Email)
+
+image_file_fields = image (Uploaded Image File)
+msoffice_file_fields = msofficefile (Uploaded MS Office File)
+
+allowed_files = {#filetypes#}
+file_filter_fields = anyfile (Uploaded Other File )
+
+#Multilanguage check form
+[multilanguage-check-form]
+
+page = ../multilanguage-check-form/index.html
+page = ../multilanguage-check-form/preview.html
+page = ../multilanguage-check-form/thank-you.html
+email = ../multilanguage-check-form/email.html
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), comment (Comment)
+email_fields = email (Contact Email)
+
+
+#Multi Page Dependency Form
+[multi_page_dependency]
+
+page = ../multi-page-dependency/index.html
+page = ../multi-page-dependency/{#department#}.html
+page = ../multi-page-dependency/thank-you.html
+
+email = ../multi-page-dependency/{#department#}-email.txt
+#email = ../multi-page-dependency/auto.txt
+
+required_fields = name (Name), email (Contact Email), department (Department)
+email_fields = email (Contact Email)
+
+#Calculations Form
+[calculations-form]
+
+page = ../calculations-form/index.html
+page = ../calculations-form/preview.html
+page = ../calculations-form/thank-you.html
+
+email = ../calculations-form/calculations-email.txt
+
+int_fields = Number, NumberA, NumberB, NumberC, TaxRate, Number1, Number2, Quantity
+
+#Unique Submissions Form
+[unique-submissions-form]
+page = ../unique-submissions-form/index.html
+page = ../unique-submissions-form/thank-you.html
+email = ../unique-submissions-form/email.txt
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), comment (Comment)
+email_fields = email (Contact Email)
+
+#2 per hour
+unique_submits = 2, 1H
+
+#Log File Form
+[log_file_form]
+
+page = ../log-file-form/index.html
+page = ../log-file-form/thank-you.html
+
+#email = ../log-file-form/email.txt
+
+log_file = ../log-file-form/txt-log.txt
+log_file = ../log-file-form/csv-log.txt
+
+required_fields = name (Name), gender (Gender), age (Age), country (Country)
+int_fields = age
+#email_fields = email (Contact Email)
+
+#Form with Custom Error Messages
+[custom-error-messages-form]
+page = ../form-with-custom-error-messages/index.html
+page = ../form-with-custom-error-messages/thank-you.html
+email = ../form-with-custom-error-messages/email.txt
+
+error_block_begin = <ul type="circle">
+error_msg_begin = <li><i>
+error_msg_end = </i></li>
+error_block_end = </ul>
+error_field_style = border: solid 1px blue; background: #FFFFAA;
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), comment (Comment)
+email_fields = email (Contact Email)
+
+#Auto Generated Email Or Ready Form in 5 Minutes
+[auto-form]
+page = ../autogenerated-form/index.html 
+page = ../autogenerated-form/thank-you.html
+autogen_email = {#email#}
+
+required_fields = firstname (First Name), email (Contact Email), subject (Subject), comment (Comment)
+email_fields = email (Contact Email)
+captcha_field = mycaptcha (Text from image bellow)
+
+
+#Multi Page Form with Multiple Fields Demo
+[multi-page-form-with-multiple-fields]
+
+page = ../multi-page-form-with-multiple-fields/index.html
+page = ../multi-page-form-with-multiple-fields/auto_step_2.html
+page = ../multi-page-form-with-multiple-fields/auto_step_3.html
+page = ../multi-page-form-with-multiple-fields/auto_step_4.html
+page = ../multi-page-form-with-multiple-fields/auto_step_5.html
+page = ../multi-page-form-with-multiple-fields/auto_preview.html
+page = ../multi-page-form-with-multiple-fields/thank-you.html
+
+email = ../multi-page-form-with-multiple-fields/email.txt
+
+required_fields = First_Name (First Name), Last_Name (Last Name), Birthdate (Birthdate), Marital_Status (Marital Status), Street_Address (Street Address), City (City), State (State), Zip_Code (Zip Code), Home_Phone (Home Phone), Email (Email Address), Credit_Score (Rate Your Credit)
+email_fields = Email (Email Address)
+date_fields = Birthdate (Birthdate), Driver_Birthdate (Birthdate), Current_Expiration_Date (Policy Expiration Date)
+ssn_fields = Social_Security_Number (Social Security Number)
+zip_fields = Zip_Code (Zip Code)
+int_fields = Driver_Years_Licensed (Number of Years Licensed), Driver_Major_Violations (Number of Major Violations), Driver_Minor_Violations (Number of Minor Violations), Driver_Accidents_Charged (Number of accidents charged), Driver_Accidents_Not_Charged (Number of accidents not charged), Vehicle_Doors (Number of Doors), Vehicle_Work_Miles_Daily (Miles Driven to Work Daily), Vehicle_Miles_Per_Year (Average Miles Driven Per Year)
+vin_fields = Vehicle_VIN (Vehicle Identification Number)
+year_fields = Vehicle_Year (Year)

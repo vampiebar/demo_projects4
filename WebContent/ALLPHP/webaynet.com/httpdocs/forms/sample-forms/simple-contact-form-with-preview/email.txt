@@ -1,0 +1,38 @@
+To: "{#firstname|lower|capitalize#} {#lastname|lower|capitalize#}" <{#email#}>
+From: "Web-Site-Scripts" <info@email-form.com>
+Subject: Simple Contact Form with Preview - Demo
+
+Dear {#firstname|lower|capitalize#} {#lastname|lower|capitalize#},
+Here is information that you have filled in on Simple Contact Form with Preview - Demo at Email-Form.com
+
+------------------------------------
+Time and Date of Submission: {#%DATE#}
+
+Unique Reference Number: {#%unique_reference#}
+
+First Name: {#firstname|lower|capitalize#}
+Last Name: {#lastname|lower|capitalize#}
+Contact Email: {#email#}
+
+Subject:
+{#subject#}
+
+Comment:
+{#comment#}
+
+The form submited at {#%HTTP_REFERER#}
+IP address is {#%REMOTE_ADDR#}
+User Agent:
+{#%HTTP_USER_AGENT#}
+------------------------------------
+
+We are sure you will enjoy with our product and quality of our services. We hope to see you as our valuable client!
+
+Clicks on the link below to order this product:
+http://www.email-form.com/buy-now.html
+
+-- 
+Regards,
+Email-Form.com - Team
+http://www.email-form.com :: mailto:info@email-form.com
+Powered by Web-Site-Scripts.com. http://web-site-scripts.com
